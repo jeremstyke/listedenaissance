@@ -3,7 +3,8 @@ import os, json, html, re, shutil, sys
 from urllib.parse import quote_plus
 sys.path.insert(0, os.path.dirname(__file__))
 from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
-from extra5 import EXTRA
+from extra6 import EXTRA
+from longtail import PRINTLIST
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
@@ -43,6 +44,15 @@ META = {
   'comment-choisir-son-siege-auto-bebe/': ('🚗', 'peche'),
   'liste-de-naissance-allaitement/': ('🍼', 'lilas'),
   'liste-de-naissance-originale/': ('✨', 'miel'),
+  'reduction-liste-de-naissance-amazon-ne-fonctionne-pas/': ('🔧', 'peche'),
+  'code-liste15-amazon/': ('🏷️', 'miel'),
+  'liste-de-naissance-minimaliste/': ('🌿', 'menthe'),
+  'liste-de-naissance-a-imprimer/': ('🖨️', 'ciel'),
+  'materiel-bebe-chez-les-grands-parents/': ('👵', 'lilas'),
+  'liste-de-naissance-bebe-premature/': ('🤍', 'peche'),
+  'combien-de-bodies-et-pyjamas-pour-bebe/': ('👕', 'ciel'),
+  'liste-de-naissance-ecologique/': ('♻️', 'menthe'),
+  'cadeau-futur-papa/': ('👨', 'lilas'),
 }
 CAT_TINT = ['lilas', 'ciel', 'peche', 'menthe', 'miel', 'lilas', 'ciel']
 
@@ -92,7 +102,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS}
-<link rel="stylesheet" href="{R}assets/style.css?v=6">
+<link rel="stylesheet" href="{R}assets/style.css?v=7">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -258,7 +268,7 @@ def build():
     for x in GUIDES:
         ex_html, ex_faq = EXTRA.get(x['slug'], ('', []))
         fh, fs = faq_block(x['faq'] + ex_faq)
-        body = (x['body'] + ex_html).replace('{CTA}', CTA).replace('{MSGS}', messages_html())
+        body = (x['body'] + ex_html).replace('{CTA}', CTA).replace('{PRINTLIST}', PRINTLIST).replace('{MSGS}', messages_html())
         body = re.sub(r'\{AMZ:([^}]+)\}', lambda m: amz(m.group(1)), body)
         body, toc = add_toc(body)
         words = len(re.sub('<[^>]+>', ' ', body).split())

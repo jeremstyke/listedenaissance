@@ -221,3 +221,12 @@ h3{font-size:19px;font-weight:600}
 .sharerow input{flex:1;min-width:200px}
 .small{font-size:13px;color:var(--doux)}
 [hidden]{display:none!important}
+/* Liste à imprimer */
+.printlist{display:grid;grid-template-columns:1fr 1fr;gap:6px 28px;background:var(--papier);border-radius:var(--r-m);padding:8px 22px 18px;margin:16px 0}
+.printlist h2{font-size:19px!important;margin:16px 0 8px!important}
+.prose .printlist ul li{padding-left:28px}
+.prose .printlist ul li:before{display:none}
+.printlist .box{position:absolute;left:0;top:.25em;width:16px;height:16px;border:2px solid var(--encre);border-radius:4px}
+.printlist em{color:var(--doux);font-size:13px;font-style:normal}
+@media (max-width:600px){.printlist{grid-template-columns:1fr}}
+@media print{.noprint,.toc,.cover,.rel,.faq,#faq{display:none!important}.prose{max-width:none}.printlist{box-shadow:none;padding:0}body{background:#fff}}
