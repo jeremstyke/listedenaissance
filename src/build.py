@@ -6,6 +6,7 @@ from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
 from extra6 import EXTRA
 from longtail import PRINTLIST
 from auto_articles import AUTO_META
+import ogimg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
@@ -70,7 +71,7 @@ NAV = [('checklist/', 'Checklist'), ('liste-de-naissance-amazon/', 'Liste Amazon
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">')
 
-def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='', noindex=False):
+def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='', noindex=False, og=None):
     depth = path.count('/')
     R = '../' * depth
     url = BASE + '/' + path
@@ -98,7 +99,12 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{BASE}/assets/og.png">
+<meta property="og:image" content="{BASE}/{og or "assets/og.png"}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(title)}">
+<meta property="og:site_name" content="Ma liste bébé">
+<meta name="twitter:image" content="{BASE}/{og or "assets/og.png"}">
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F3F7F6">
@@ -140,6 +146,11 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
     if not noindex: PAGES.append(path)
 
 PAGES = []
+
+def ogfor(name, title, kicker, emoji, tint):
+    rel = 'og/' + name + '.png'
+    ogimg.make(os.path.join(OUT, rel), title, kicker, emoji, tint)
+    return rel
 
 def faq_block(faq):
     if not faq: return '', []
@@ -251,7 +262,7 @@ def build():
 <section class="wrap block narrow">{fh}</section>'''
     page('', 'Liste de naissance : checklist complète et idées (%d)' % YEAR,
          'Fais ta liste de naissance en 5 minutes : checklist gratuite de %d articles triés par pièce, conseils de parents et réduction de la liste Amazon.' % total,
-         home, schema=fs, cls='home')
+         home, schema=fs, cls='home', og=ogfor('accueil', 'Ta liste de naissance, sans rien oublier', 'Checklist gratuite', '🍼', 'miel'))
 
     # Checklist
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
@@ -269,7 +280,7 @@ def build():
                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}]
     page('checklist/', 'Checklist liste de naissance gratuite (%d articles)' % total,
          'Checklist interactive pour ta liste de naissance : %d articles triés par pièce (sommeil, sorties, repas, toilette), avec les indispensables et des conseils.' % total,
-         ck, schema=schema, crumbs=[('Checklist', 'checklist/')], cls='tool')
+         ck, schema=schema, crumbs=[('Checklist', 'checklist/')], cls='tool', og=ogfor('checklist', 'Checklist liste de naissance : %d articles' % total, 'Gratuit', '✅', 'menthe'))
 
     # Guides
     for x in GUIDES:
@@ -289,13 +300,14 @@ def build():
              '<div class="wrap art-wrap"><article class="prose">%s%s%s%s</article></div>%s') % (
             t, e, esc(x['h1']), esc(x['desc']), mins, YEAR, toc, body, CTA, fh, related(x['slug']))
         page(x['slug'], x['title'], x['desc'], b, schema=art + fs,
-             crumbs=[('Guides', 'guides/'), (x['short'], x['slug'])], cls='guide')
+             crumbs=[('Guides', 'guides/'), (x['short'], x['slug'])], cls='guide',
+             og=ogfor(x['slug'].strip('/'), x['h1'], 'Guide', e, t))
 
     idx = ('<section class="wrap pagehead"><h1>Guides liste de naissance</h1><p class="lead">Tout pour préparer l\'arrivée de bébé sereinement, du choix de la poussette à la valise maternité.</p></section>'
            '<section class="wrap block"><div class="grid3">' + ''.join(gcard(x, True) for x in GUIDES) + '</div></section>')
     page('guides/', 'Guides liste de naissance et préparation bébé',
          'Tous nos guides pour préparer ta liste de naissance : que mettre, petit budget, jumeaux, 2e enfant, valise maternité, messages et idées cadeaux.',
-         idx, crumbs=[('Guides', 'guides/')])
+         idx, crumbs=[('Guides', 'guides/')], og=ogfor('guides', 'Tous les guides pour préparer l\'arrivée de bébé', 'Guides', '📚', 'ciel'))
 
 
     # Compte
