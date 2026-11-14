@@ -239,7 +239,8 @@ def build():
     # Checklist
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
 <p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
-<div class="wrap">{tool}
+<div class="wrap">{CTA}
+{tool}
 {CTA}
 <div class="prose">
 <h2>Comment utiliser cette checklist ?</h2>
@@ -268,8 +269,8 @@ def build():
                 "author": {"@type": "Organization", "name": SITE}, "mainEntityOfPage": BASE + '/' + x['slug']}]
         b = ('<header class="cover t-%s"><div class="wrap cover-in"><span class="cover-e" aria-hidden="true">%s</span>'
              '<div><h1>%s</h1><p class="cover-d">%s</p><p class="cover-m">%d min de lecture, mis à jour en novembre %d</p></div></div></header>'
-             '<div class="wrap art-wrap"><article class="prose">%s%s%s</article></div>%s') % (
-            t, e, esc(x['h1']), esc(x['desc']), mins, YEAR, toc, body, fh, related(x['slug']))
+             '<div class="wrap art-wrap"><article class="prose">%s%s%s%s</article></div>%s') % (
+            t, e, esc(x['h1']), esc(x['desc']), mins, YEAR, toc, body, CTA, fh, related(x['slug']))
         page(x['slug'], x['title'], x['desc'], b, schema=art + fs,
              crumbs=[('Guides', 'guides/'), (x['short'], x['slug'])], cls='guide')
 
