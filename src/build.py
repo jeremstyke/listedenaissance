@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
 from extra6 import EXTRA
 from longtail import PRINTLIST
+from auto_articles import AUTO_META
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
@@ -55,6 +56,7 @@ META = {
   'liste-de-naissance-ecologique/': ('♻️', 'menthe'),
   'cadeau-futur-papa/': ('👨', 'lilas'),
 }
+META.update(AUTO_META)
 CAT_TINT = ['lilas', 'ciel', 'peche', 'menthe', 'miel', 'lilas', 'ciel']
 
 CTA = ('<aside class="tag"><span class="tag-hole" aria-hidden="true"></span><div class="tag-tx">'
