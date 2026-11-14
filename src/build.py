@@ -7,12 +7,12 @@ from extra5 import EXTRA
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
-# Tant que le domaine n'est pas branche : GitHub Pages. Pour passer au domaine : LDN_BASE=https://listedenaissance.xyz
-BASE = os.environ.get('LDN_BASE', 'https://jeremstyke.github.io/listedenaissance')
-CUSTOM = 'listedenaissance.xyz' in BASE
+# Domaine : malistebebe.fr (pour tester sur GitHub Pages sans domaine : LDN_BASE=https://jeremstyke.github.io/listedenaissance)
+BASE = os.environ.get('LDN_BASE', 'https://malistebebe.fr')
+CUSTOM = 'malistebebe.fr' in BASE
 PATH0 = '/' + BASE.split('://', 1)[1].split('/', 1)[1] + '/' if BASE.count('/') > 2 else '/'
-DOMAIN = 'listedenaissance.xyz'
-SITE = 'Liste de Naissance'
+DOMAIN = 'malistebebe.fr'
+SITE = 'Ma liste bébé'
 TAG = 'listedenaissance-21'   # identifiant Amazon Partenaires (a remplacer)
 CONTACT = 'contact@cvlibre.com'
 YEAR = 2026
@@ -97,7 +97,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <body class="{cls}">
 <a class="skip" href="#main">Aller au contenu</a>
 <header class="top"><div class="wrap top-in">
-<a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Liste de naissance</a>
+<a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
 <nav class="menu" aria-label="Menu">{nav}<a id="nav-account" class="nav-acc" href="{R}compte/">Connexion</a></nav>
 </div></header>
 <main id="main">
@@ -105,7 +105,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 {body.replace('{R}', R)}
 </main>
 <footer class="foot"><div class="wrap foot-in">
-<div><a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Liste de naissance</a>
+<div><a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
 <p>La checklist gratuite pour préparer l'arrivée de bébé, sans rien oublier.</p></div>
 <nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
@@ -325,7 +325,7 @@ def build():
 </div>
 <p id="acc-msg" class="acc-msg" role="status" aria-live="polite"></p>
 </div></div>"""
-    page('compte/', 'Mon compte | Liste de naissance', 'Crée ton compte gratuit pour sauvegarder ta checklist de naissance et la partager.', acc, noindex=True)
+    page('compte/', 'Mon compte | Ma liste bébé', 'Crée ton compte gratuit pour sauvegarder ta checklist de naissance et la partager.', acc, noindex=True)
 
     pub = """<section class="wrap pagehead"><h1 id="pub-title">Une liste de naissance</h1>
 <p class="lead">Voici les articles choisis par les parents. Clique sur un article pour l'offrir.</p></section>
@@ -340,7 +340,7 @@ def build():
 <h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.</p>
 <h2>Affiliation</h2><p>{DISCLOSURE} Les liens vers Amazon.fr sont des liens d'affiliation : si tu achètes après avoir cliqué, nous touchons une commission, sans surcoût pour toi. Le choix des articles reste indépendant.</p>
 <h2>Responsabilité</h2><p>Les conseils de ce site sont donnés à titre informatif. Ils ne remplacent pas l'avis d'un professionnel de santé (médecin, sage-femme, pédiatre). Les conditions des offres Amazon peuvent changer à tout moment.</p></article></div>'''
-    page('mentions-legales/', 'Mentions légales | Liste de Naissance', 'Mentions légales du site listedenaissance.xyz.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
+    page('mentions-legales/', 'Mentions légales | Ma liste bébé', 'Mentions légales du site malistebebe.fr.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
     cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
 <p>La checklist fonctionne sans inscription. Le compte est facultatif.</p>
 <h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
@@ -348,10 +348,10 @@ def build():
 <p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
-    page('confidentialite/', 'Confidentialité | Liste de Naissance', 'Politique de confidentialité de listedenaissance.xyz : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
+    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de malistebebe.fr : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
 
     # 404
-    page('404-tmp/', 'Page introuvable | Liste de Naissance', 'Page introuvable.',
+    page('404-tmp/', 'Page introuvable | Ma liste bébé', 'Page introuvable.',
          '<div class="wrap art-wrap prose"><h1>Page introuvable</h1><p>Cette page n\'existe pas ou a changé d\'adresse. <a href="/checklist/">Ouvre la checklist</a> ou retourne à <a href="/">l\'accueil</a>.</p></div>')
     shutil.move(os.path.join(OUT, '404-tmp', 'index.html'), os.path.join(OUT, '404.html'))
     shutil.rmtree(os.path.join(OUT, '404-tmp')); PAGES.remove('404-tmp/')

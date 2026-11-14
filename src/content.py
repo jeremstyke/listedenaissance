@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Contenu du site listedenaissance.xyz
+# Contenu du site malistebebe.fr
 
 # Checklist : (categorie, emoji, [(article, recherche Amazon, priorite, conseil)])
 # priorite : 1 = indispensable, 2 = utile, 3 = en option
