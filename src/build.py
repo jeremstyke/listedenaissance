@@ -103,14 +103,15 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS}
-<link rel="stylesheet" href="{R}assets/style.css?v=9">
+<link rel="stylesheet" href="{R}assets/style.css?v=11">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
 <a class="skip" href="#main">Aller au contenu</a>
 <header class="top"><div class="wrap top-in">
 <a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
-<nav class="menu" aria-label="Menu">{nav}<a id="nav-account" class="nav-acc" href="{R}compte/">Connexion</a></nav>
+<nav class="menu" aria-label="Menu">{nav}</nav>
+<a id="nav-account" class="nav-acc" href="{R}compte/"><span class="acc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="8" r="4" fill="currentColor"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" fill="currentColor"/></svg></span><span id="nav-account-txt">Connexion</span></a>
 </div></header>
 <main id="main">
 {('<div class="wrap">' + bc + '</div>') if bc else ''}
@@ -123,7 +124,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p class="wed">💍 Tu te maries aussi ? <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">Crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=2" defer></script>
+<script src="{R}assets/account.js?v=3" defer></script>
 </body>
 </html>
 '''
@@ -222,7 +223,7 @@ def build():
 <p class="hero-p">{total} articles triés par pièce, des vrais indispensables aux petits plus. Tu coches, tu retrouves chaque article sur Amazon, et tu profites de la réduction de la liste de naissance.</p>
 <div class="hbtn"><a class="btn big" href="{{R}}checklist/">Commencer ma checklist</a>
 <a class="btn ghost big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste Amazon</a></div>
-<p class="hero-note">Gratuit, sans inscription. Tes choix restent sur ton téléphone.</p>
+<p class="hero-note">Gratuit. Connecte-toi en un clic par e-mail pour <a href="{{R}}compte/">tout sauvegarder et partager ta liste</a>.</p>
 </div>
 {HERO_TAG}
 </div></section>
@@ -230,6 +231,7 @@ def build():
 <h2>Pièce par pièce</h2>
 <p class="sub">Ouvre une catégorie pour voir ce qu'il faut vraiment prévoir.</p>
 <div class="chips">{cats}</div>
+<div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, et tu peux la partager à ta famille.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 </section>
 <div class="wave-top"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><section class="band"><div class="wrap block">
 <h2>En 4 étapes</h2>
@@ -252,7 +254,7 @@ def build():
     # Checklist
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
 <p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
-<div class="wrap">{CTA}
+<div class="wrap"><div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, et tu peux la partager à ta famille.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 {tool}
 {CTA}
 <div class="prose">

@@ -204,7 +204,7 @@ h3{font-size:19px;font-weight:600}
 .prose tbody th{text-align:left;font-weight:700;background:#F8FBFA}
 .prose td,.prose tbody th{padding:10px 12px;border-top:1px solid var(--fond);vertical-align:top;min-width:110px}
 /* Compte */
-.nav-acc{border:2px solid var(--encre)}
+
 .tabs{display:flex;gap:6px;margin:20px 0 4px}
 .tabs button{border:2px solid var(--encre);background:transparent;border-radius:999px;padding:8px 16px;font:700 15px var(--texte);color:var(--encre);cursor:pointer}
 .tabs button.on{background:var(--encre);color:#fff}
@@ -264,3 +264,24 @@ h3{font-size:19px;font-weight:600}
 .cat{box-shadow:0 2px 0 var(--trait)}
 @media (prefers-reduced-motion:reduce){.btn:hover,.gcard:hover,.cat-chip:hover{transform:none}}
 @media (max-width:600px){.b1{width:340px;height:340px;right:-160px}.s1{left:70%}}
+.save-hint{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--papier);border:2px dashed var(--ciel);border-radius:var(--r-m);padding:14px 18px;margin:20px 0}
+.save-hint>span{font-size:28px}
+.save-hint div{flex:1;min-width:200px}
+.save-hint strong{display:block;font:800 18px var(--titre)}
+.save-hint div span{color:var(--doux);font-size:15px}
+
+/* Bouton compte */
+.top-in{flex-wrap:nowrap}
+.menu{flex:1;justify-content:flex-end}
+.nav-acc{display:inline-flex;align-items:center;gap:8px;flex:none;text-decoration:none;color:var(--encre);background:var(--miel);font-weight:700;font-size:14px;padding:6px 14px 6px 6px;border-radius:999px;transition:transform .15s,box-shadow .15s}
+.nav-acc:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 var(--encre)}
+.acc-ico{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--papier);color:var(--encre)}
+.nav-acc.on{background:var(--menthe)}
+@media (max-width:600px){
+  .top-in{flex-wrap:wrap}
+  .logo{order:1}
+  .nav-acc{order:2;margin-left:auto;padding:4px 12px 4px 4px;font-size:13px}
+  .acc-ico{width:24px;height:24px}
+  .menu{order:3;flex:0 0 100%;width:100%;justify-content:space-between;flex-wrap:nowrap;margin:2px 0 0}
+  .menu a{padding:6px 8px}
+}

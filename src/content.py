@@ -368,7 +368,8 @@ MESSAGES = [
 ]
 
 FAQ_HOME = [
-  ("C'est gratuit ?", "Oui. La checklist est gratuite et sans inscription. Tes choix restent enregistrés sur ton téléphone ou ton ordinateur, rien n'est envoyé sur un serveur."),
+  ("C'est gratuit ?", "Oui, entièrement. La checklist marche même sans compte : tes choix restent alors sur ton appareil."),
+  ("Est-ce que je peux sauvegarder ma liste ?", "Oui. Connecte-toi avec ton e-mail, sans mot de passe : ta checklist est sauvegardée, tu la retrouves sur tous tes appareils et tu peux la partager à ta famille avec un lien privé."),
   ("Est-ce que vous vendez les produits ?", "Non. Les articles mènent vers Amazon.fr. Si tu achètes après avoir cliqué, Amazon nous verse une petite commission, sans aucun surcoût pour toi."),
   ("Je peux créer ma liste Amazon depuis ici ?", "Oui, le bouton « Créer ma liste Amazon » t'emmène sur la page officielle d'Amazon. Tu ajoutes ensuite les articles cochés dans ta liste."),
 ]

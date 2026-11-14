@@ -20,8 +20,10 @@
   }
 
   function navLink() {
-    var a = $('#nav-account'); if (!a) return;
+    document.querySelectorAll('[data-guest]').forEach(function (el) { el.hidden = !!user; });
+    var a = $('#nav-account-txt'); if (!a) return;
     a.textContent = user ? 'Mon compte' : 'Connexion';
+    $('#nav-account').classList.toggle('on', !!user);
   }
 
   /* Synchronisation de la checklist */
