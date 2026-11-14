@@ -98,7 +98,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <a class="skip" href="#main">Aller au contenu</a>
 <header class="top"><div class="wrap top-in">
 <a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
-<nav class="menu" aria-label="Menu">{nav}<a id="nav-account" class="nav-acc" href="{R}compte/">Connexion</a></nav>
+<nav class="menu" aria-label="Menu">{nav}</nav>
 </div></header>
 <main id="main">
 {('<div class="wrap">' + bc + '</div>') if bc else ''}
@@ -110,7 +110,6 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=1" defer></script>
 </body>
 </html>
 '''
@@ -280,60 +279,6 @@ def build():
          idx, crumbs=[('Guides', 'guides/')])
 
 
-    # Compte
-    acc = """<div class="wrap art-wrap"><div class="prose" id="acc">
-<h1>Mon compte</h1>
-<div id="acc-out">
-<p class="lead">Crée un compte gratuit pour retrouver ta checklist sur ton téléphone et ton ordinateur, et la partager avec ta famille.</p>
-<div class="tabs" role="tablist"><button type="button" data-tab="login" class="on">Se connecter</button><button type="button" data-tab="signup">Créer un compte</button></div>
-<form id="form-login" class="accf" data-pane="login">
-<label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-<label>Mot de passe<input type="password" name="password" autocomplete="current-password" required></label>
-<button class="btn" type="submit">Se connecter</button>
-<button class="linkbtn" type="button" data-tab="forgot">Mot de passe oublié ?</button>
-</form>
-<form id="form-signup" class="accf" data-pane="signup" hidden>
-<label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-<label>Mot de passe (8 caractères minimum)<input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
-<button class="btn" type="submit">Créer mon compte</button>
-<p class="small">En créant un compte, tu acceptes notre <a href="{R}confidentialite/">politique de confidentialité</a>.</p>
-</form>
-<form id="form-forgot" class="accf" data-pane="forgot" hidden>
-<label>E-mail du compte<input type="email" name="email" autocomplete="email" required></label>
-<button class="btn" type="submit">Recevoir un lien</button>
-<button class="linkbtn" type="button" data-tab="login">Retour à la connexion</button>
-</form>
-</div>
-<div id="acc-newpw" hidden>
-<h2>Choisis un nouveau mot de passe</h2>
-<form id="form-newpw" class="accf"><label>Nouveau mot de passe<input type="password" name="password" autocomplete="new-password" minlength="8" required></label><button class="btn" type="submit">Enregistrer</button></form>
-</div>
-<div id="acc-in" hidden>
-<p class="lead">Connecté avec <strong id="acc-email"></strong>. Ta checklist est sauvegardée : <strong id="acc-count"></strong>.</p>
-<p><a class="btn" href="{R}checklist/">Ouvrir ma checklist</a></p>
-<h2>Ma liste à partager</h2>
-<form id="form-baby" class="accf">
-<label>Prénom de bébé (facultatif)<input type="text" id="f-baby" maxlength="40"></label>
-<label>Date prévue (facultatif)<input type="date" id="f-due"></label>
-<label class="check"><input type="checkbox" id="f-public"> Rendre ma liste visible avec un lien privé</label>
-<button class="btn" type="submit">Enregistrer</button>
-</form>
-<div id="acc-sharebox" hidden><p>Envoie ce lien à tes proches : ils voient les articles que tu as cochés, avec les liens pour les offrir.</p>
-<div class="sharerow"><input id="acc-share" readonly><button class="btn ghost sm" type="button" id="acc-copy">Copier le lien</button></div></div>
-<h2>Mon compte</h2>
-<p><button class="btn ghost sm" type="button" id="acc-logout">Se déconnecter</button> <button class="btn ghost sm" type="button" id="acc-wipe">Supprimer mes données</button></p>
-</div>
-<p id="acc-msg" class="acc-msg" role="status" aria-live="polite"></p>
-</div></div>"""
-    page('compte/', 'Mon compte | Ma liste bébé', 'Crée ton compte gratuit pour sauvegarder ta checklist de naissance et la partager.', acc, noindex=True)
-
-    pub = """<section class="wrap pagehead"><h1 id="pub-title">Une liste de naissance</h1>
-<p class="lead">Voici les articles choisis par les parents. Clique sur un article pour l'offrir.</p></section>
-<div class="wrap"><div id="pub" class="ck"><p>Chargement de la liste...</p></div>
-<div class="prose"><p>Toi aussi tu prépares l'arrivée d'un bébé ? <a href="{R}checklist/">Fais ta checklist gratuite</a>.</p></div></div>
-<script src="{R}assets/data.js?v=2"></script>"""
-    page('ma-liste/', 'Liste de naissance partagée', 'Une liste de naissance partagée par des futurs parents.', pub, noindex=True, cls='tool')
-
     # Pages légales
     ml = f'''<div class="wrap art-wrap"><article class="prose"><h1>Mentions légales</h1>
 <h2>Éditeur</h2><p>Jérémy Dacier-Jury, 9 passage des Tisserands, 38790 Charantonnay, France. Contact : <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
@@ -342,13 +287,11 @@ def build():
 <h2>Responsabilité</h2><p>Les conseils de ce site sont donnés à titre informatif. Ils ne remplacent pas l'avis d'un professionnel de santé (médecin, sage-femme, pédiatre). Les conditions des offres Amazon peuvent changer à tout moment.</p></article></div>'''
     page('mentions-legales/', 'Mentions légales | Ma liste bébé', 'Mentions légales du site Ma liste bébé.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
     cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
-<p>La checklist fonctionne sans inscription. Le compte est facultatif.</p>
-<h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
-<h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail, ton mot de passe (chiffré, nous ne le voyons jamais), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent uniquement à faire fonctionner ton compte et le partage de ta liste. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
-<p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
+<p>Ce site ne demande aucune inscription et ne collecte aucune donnée personnelle.</p>
+<h2>Ta checklist</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
-    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de Ma liste bébé : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
+    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de Ma liste bébé : aucune donnée collectée.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
 
     # 404
     page('404-tmp/', 'Page introuvable | Ma liste bébé', 'Page introuvable.',
