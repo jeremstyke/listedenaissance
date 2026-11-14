@@ -18,7 +18,7 @@ TAG = 'malistebebe-21'   # identifiant Amazon Partenaires
 CONTACT = 'contact@cvlibre.com'
 YEAR = 2026
 AMZ_LIST = 'https://www.amazon.fr/baby-reg/homepage?tag=' + TAG
-AMZ_WEDDING = 'https://www.amazon.fr/wedding/home?tag=' + TAG   # prime liste de mariage
+AMZ_WEDDING = 'https://www.amazon.fr/wedding?tag=' + TAG   # prime liste de mariage
 DISCLOSURE = "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises."
 
 def amz(q):
