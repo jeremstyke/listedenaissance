@@ -68,8 +68,8 @@ CTA = ('<aside class="tag"><span class="tag-hole" aria-hidden="true"></span><div
 NAV = [('checklist/', 'Checklist'), ('liste-de-naissance-amazon/', 'Liste Amazon'),
        ('quoi-mettre-dans-une-liste-de-naissance/', 'Que mettre ?'), ('guides/', 'Guides')]
 
-FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">')
+FONTS = ('<link rel="preload" href="@R@assets/fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>'
+         '<link rel="preload" href="@R@assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>')
 
 def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='', noindex=False, og=None):
     depth = path.count('/')
@@ -110,8 +110,8 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="theme-color" content="#F3F7F6">
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
-{FONTS}
-<link rel="stylesheet" href="{R}assets/style.css?v=12">
+{FONTS.replace('@R@', R)}
+<link rel="stylesheet" href="{R}assets/style.css?v=13">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -129,7 +129,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <div><a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
 <p>La checklist gratuite pour préparer l'arrivée de bébé, sans rien oublier.</p></div>
 <nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
-<p class="wed">💍 Tu te maries aussi ? <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">Crée ta liste de mariage Amazon</a></p>
+<p class="wed">💍 Tu te maries aussi ? Prépare ta liste avec <a href="https://malistedemariage.fr/">Ma liste mariage</a> ou <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
 <script src="{R}assets/account.js?v=6" defer></script>
@@ -259,6 +259,12 @@ def build():
 <div class="grid3">{''.join(gcard(x) for x in GUIDES[:6])}</div>
 <p class="more"><a href="{{R}}guides/">Voir les {len(GUIDES)} guides</a></p>
 </section>
+<section class="wrap block narrow"><div class="prose">
+<h2>Préparer sa liste de naissance sans stress</h2>
+<p>Une liste de naissance sert à deux choses : ne rien oublier pour l'arrivée de bébé, et aider tes proches qui veulent te faire un cadeau. La plupart des futurs parents la commencent au deuxième trimestre, quand l'énergie revient, et la partagent quelques semaines avant le terme. Notre <a href="{{R}}quand-faire-sa-liste-de-naissance/">calendrier détaillé</a> t'aide à caler les étapes.</p>
+<p>Le plus difficile, c'est de faire le tri entre l'indispensable et le superflu. Dans la checklist, chaque article porte une priorité : <strong>Indispensable</strong> pour les premières semaines, <strong>Utile</strong> pour les cadeaux de la famille, <strong>En option</strong> pour plus tard. Tu évites ainsi les achats inutiles, un vrai plus si tu as un <a href="{{R}}liste-de-naissance-petit-budget/">petit budget</a> ou un <a href="{{R}}liste-de-naissance-petit-appartement/">petit appartement</a>.</p>
+<p>Pour la liste en ligne, la <a href="{{R}}liste-de-naissance-amazon/">liste de naissance Amazon</a> reste la plus simple pour les proches : un lien, un clic, et l'article est livré chez toi. Tu attends des jumeaux, un deuxième enfant ou un bébé d'hiver ? Nos guides dédiés t'aident à adapter la liste à ta situation.</p>
+</div></section>
 <section class="wrap block narrow">{fh}</section>'''
     page('', 'Liste de naissance : checklist complète et idées (%d)' % YEAR,
          'Fais ta liste de naissance en 5 minutes : checklist gratuite de %d articles triés par pièce, conseils de parents et réduction de la liste Amazon.' % total,
@@ -292,16 +298,17 @@ def build():
         words = len(re.sub('<[^>]+>', ' ', body).split())
         mins = max(2, round(words / 200))
         e, t = META.get(x['slug'], ('📄', 'ciel'))
+        ogp = ogfor(x['slug'].strip('/'), x['h1'], 'Guide', e, t)
         art = [{"@context": "https://schema.org", "@type": "Article", "headline": x['h1'], "description": x['desc'],
                 "inLanguage": "fr-FR", "datePublished": "2026-11-14", "dateModified": "2026-11-14",
-                "author": {"@type": "Organization", "name": SITE}, "mainEntityOfPage": BASE + '/' + x['slug']}]
+                "author": {"@type": "Organization", "name": SITE, "url": BASE + '/'}, "publisher": {"@type": "Organization", "name": SITE, "url": BASE + '/'}, "image": BASE + '/' + ogp, "mainEntityOfPage": BASE + '/' + x['slug']}]
         b = ('<header class="cover t-%s"><span class="cover-dots" aria-hidden="true"></span><div class="wrap cover-in"><span class="cover-e" aria-hidden="true">%s</span>'
              '<div><h1>%s</h1><p class="cover-d">%s</p><p class="cover-m">%d min de lecture, mis à jour en novembre %d</p></div></div></header>'
              '<div class="wrap art-wrap"><article class="prose">%s%s%s%s</article></div>%s') % (
             t, e, esc(x['h1']), esc(x['desc']), mins, YEAR, toc, body, CTA, fh, related(x['slug']))
         page(x['slug'], x['title'], x['desc'], b, schema=art + fs,
              crumbs=[('Guides', 'guides/'), (x['short'], x['slug'])], cls='guide',
-             og=ogfor(x['slug'].strip('/'), x['h1'], 'Guide', e, t))
+             og=ogp)
 
     idx = ('<section class="wrap pagehead"><h1>Guides liste de naissance</h1><p class="lead">Tout pour préparer l\'arrivée de bébé sereinement, du choix de la poussette à la valise maternité.</p></section>'
            '<section class="wrap block"><div class="grid3">' + ''.join(gcard(x, True) for x in GUIDES) + '</div></section>')
