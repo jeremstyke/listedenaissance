@@ -7,11 +7,11 @@ from extra5 import EXTRA
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
-# Domaine : malistebebe.fr (pour tester sur GitHub Pages sans domaine : LDN_BASE=https://jeremstyke.github.io/listedenaissance)
-BASE = os.environ.get('LDN_BASE', 'https://malistebebe.fr')
+# En ligne sur GitHub Pages. Quand le domaine sera achete : LDN_BASE=https://malistebebe.fr python3 src/build.py
+BASE = os.environ.get('LDN_BASE', 'https://jeremstyke.github.io/listedenaissance')
 CUSTOM = 'malistebebe.fr' in BASE
 PATH0 = '/' + BASE.split('://', 1)[1].split('/', 1)[1] + '/' if BASE.count('/') > 2 else '/'
-DOMAIN = 'malistebebe.fr'
+DOMAIN = 'malistebebe.fr' if CUSTOM else 'Ma liste bébé'
 SITE = 'Ma liste bébé'
 TAG = 'listedenaissance-21'   # identifiant Amazon Partenaires (a remplacer)
 CONTACT = 'contact@cvlibre.com'
@@ -340,7 +340,7 @@ def build():
 <h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.</p>
 <h2>Affiliation</h2><p>{DISCLOSURE} Les liens vers Amazon.fr sont des liens d'affiliation : si tu achètes après avoir cliqué, nous touchons une commission, sans surcoût pour toi. Le choix des articles reste indépendant.</p>
 <h2>Responsabilité</h2><p>Les conseils de ce site sont donnés à titre informatif. Ils ne remplacent pas l'avis d'un professionnel de santé (médecin, sage-femme, pédiatre). Les conditions des offres Amazon peuvent changer à tout moment.</p></article></div>'''
-    page('mentions-legales/', 'Mentions légales | Ma liste bébé', 'Mentions légales du site malistebebe.fr.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
+    page('mentions-legales/', 'Mentions légales | Ma liste bébé', 'Mentions légales du site Ma liste bébé.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
     cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
 <p>La checklist fonctionne sans inscription. Le compte est facultatif.</p>
 <h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
@@ -348,7 +348,7 @@ def build():
 <p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
-    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de malistebebe.fr : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
+    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de Ma liste bébé : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
 
     # 404
     page('404-tmp/', 'Page introuvable | Ma liste bébé', 'Page introuvable.',
