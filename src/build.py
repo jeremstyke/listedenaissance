@@ -23,14 +23,40 @@ def amz(q):
 
 def esc(s): return html.escape(s, quote=True)
 
-CTA = ('<div class="cta"><div><strong>Crée ta liste de naissance Amazon</strong>'
-       '<span>Gratuite, et jusqu\'à 15 % de réduction sur les articles restants.</span></div>'
-       '<a class="btn" href="' + AMZ_LIST + '" rel="sponsored nofollow noopener" target="_blank">Créer ma liste ↗</a></div>')
+# Couleur et emoji de chaque guide
+META = {
+  'liste-de-naissance-amazon/': ('🎁', 'peche'),
+  'quoi-mettre-dans-une-liste-de-naissance/': ('📝', 'ciel'),
+  'liste-de-naissance-petit-budget/': ('🪙', 'menthe'),
+  'liste-de-naissance-jumeaux/': ('👣', 'lilas'),
+  'liste-de-naissance-petit-appartement/': ('🏠', 'ciel'),
+  'liste-de-naissance-deuxieme-enfant/': ('🧒', 'peche'),
+  'quand-faire-sa-liste-de-naissance/': ('📅', 'menthe'),
+  'message-liste-de-naissance/': ('💌', 'lilas'),
+  'valise-maternite/': ('🧳', 'peche'),
+  'idees-cadeau-de-naissance/': ('🎀', 'lilas'),
+  'trousseau-de-naissance/': ('🧦', 'ciel'),
+  'liste-de-naissance-bebe-ne-en-hiver/': ('❄️', 'ciel'),
+  'liste-de-naissance-bebe-ne-en-ete/': ('☀️', 'miel'),
+  'comment-choisir-sa-poussette/': ('🚼', 'menthe'),
+  'comment-choisir-son-siege-auto-bebe/': ('🚗', 'peche'),
+  'liste-de-naissance-allaitement/': ('🍼', 'lilas'),
+  'liste-de-naissance-originale/': ('✨', 'miel'),
+}
+CAT_TINT = ['lilas', 'ciel', 'peche', 'menthe', 'miel', 'lilas', 'ciel']
+
+CTA = ('<aside class="tag"><span class="tag-hole" aria-hidden="true"></span><div class="tag-tx">'
+       '<strong>Crée ta liste de naissance Amazon</strong>'
+       '<span>Gratuite, avec jusqu\'à 15 % de réduction sur ce qui reste à la fin.</span></div>'
+       '<a class="btn" href="' + AMZ_LIST + '" rel="sponsored nofollow noopener" target="_blank">Créer ma liste</a></aside>')
 
 NAV = [('checklist/', 'Checklist'), ('liste-de-naissance-amazon/', 'Liste Amazon'),
        ('quoi-mettre-dans-une-liste-de-naissance/', 'Que mettre ?'), ('guides/', 'Guides')]
 
-def page(path, title, desc, body, schema=None, crumbs=None, extra_head=''):
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">')
+
+def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls=''):
     depth = path.count('/')
     R = '../' * depth
     url = BASE + '/' + path
@@ -41,11 +67,11 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head=''):
             items.append({"@type": "ListItem", "position": i + 2, "name": n, "item": BASE + '/' + p})
         ld.append({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items})
     if schema: ld += schema
-    nav = ''.join('<a href="%s%s">%s</a>' % (R, p, n) for p, n in NAV)
+    nav = ''.join('<a href="%s%s"%s>%s</a>' % (R, p, ' aria-current="page"' if p == path else '', n) for p, n in NAV)
     bc = ''
     if crumbs:
-        bc = '<nav class="bc"><a href="%s">Accueil</a>' % R + ''.join(
-            ' › <a href="%s%s">%s</a>' % (R, p, esc(n)) for n, p in crumbs[:-1]) + ' › <span>%s</span></nav>' % esc(crumbs[-1][0])
+        bc = '<nav class="bc" aria-label="Fil d\'Ariane"><a href="%s">Accueil</a>' % R + ''.join(
+            ' / <a href="%s%s">%s</a>' % (R, p, esc(n)) for n, p in crumbs[:-1]) + ' / <span>%s</span></nav>' % esc(crumbs[-1][0])
     doc = f'''<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -61,24 +87,27 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head=''):
 <meta property="og:image" content="{BASE}/assets/og.png">
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#f6a5b5">
+<meta name="theme-color" content="#F3F7F6">
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{R}assets/style.css?v=2">
+{FONTS}
+<link rel="stylesheet" href="{R}assets/style.css?v=3">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
-<body>
-<header class="top"><div class="wrap">
-<a class="logo" href="{R}">🍼 <span>Liste de Naissance</span></a>
-<nav class="menu">{nav}</nav>
+<body class="{cls}">
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top"><div class="wrap top-in">
+<a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Liste de naissance</a>
+<nav class="menu" aria-label="Menu">{nav}</nav>
 </div></header>
-<main class="wrap">
-{bc}
+<main id="main">
+{('<div class="wrap">' + bc + '</div>') if bc else ''}
 {body.replace('{R}', R)}
 </main>
-<footer class="foot"><div class="wrap">
-<p class="disc">{DISCLOSURE} Les prix et conditions affichés sur Amazon peuvent changer : vérifie-les avant d'acheter.</p>
-<p><a href="{R}checklist/">Checklist</a> · <a href="{R}guides/">Guides</a> · <a href="{R}mentions-legales/">Mentions légales</a> · <a href="{R}confidentialite/">Confidentialité</a> · <a href="mailto:{CONTACT}">Contact</a></p>
-<p class="small">© {YEAR} {DOMAIN}. Site indépendant, non affilié à Amazon autrement que par le programme Partenaires.</p>
+<footer class="foot"><div class="wrap foot-in">
+<div><a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Liste de naissance</a>
+<p>La checklist gratuite pour préparer l'arrivée de bébé, sans rien oublier.</p></div>
+<nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
+<p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
 </body>
 </html>
@@ -96,27 +125,58 @@ PAGES = []
 
 def faq_block(faq):
     if not faq: return '', []
-    h = '<h2>Questions fréquentes</h2><div class="faq">' + ''.join(
+    h = '<h2 id="faq">Questions fréquentes</h2><div class="faq">' + ''.join(
         '<details><summary>%s</summary><p>%s</p></details>' % (esc(q), esc(a)) for q, a in faq) + '</div>'
     s = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]}]
     return h, s
 
+def gcard(x, long=False):
+    e, t = META.get(x['slug'], ('📄', 'ciel'))
+    d = x['desc'] if long else x['desc'][:96].rsplit(' ', 1)[0] + '...'
+    return ('<a class="gcard t-%s" href="{R}%s"><span class="gcard-e" aria-hidden="true">%s</span>'
+            '<strong>%s</strong><span class="gcard-d">%s</span></a>') % (t, x['slug'], e, esc(x['short'] if not long else x['h1']), esc(d))
+
 def related(cur):
     i = [x['slug'] for x in GUIDES].index(cur)
-    links = [GUIDES[(i + k) % len(GUIDES)] for k in range(1, 6)]
-    return '<aside class="rel"><h2>À lire aussi</h2><ul>' + ''.join(
-        '<li><a href="{R}%s">%s</a></li>' % (x['slug'], esc(x['short'])) for x in links) + '</ul></aside>'
+    links = [GUIDES[(i + k) % len(GUIDES)] for k in range(1, 4)]
+    return '<section class="wrap rel"><h2>À lire ensuite</h2><div class="grid3">' + ''.join(gcard(x) for x in links) + '</div></section>'
+
+def slugify(t):
+    import unicodedata
+    t = unicodedata.normalize('NFD', t).encode('ascii', 'ignore').decode()
+    return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:50]
+
+def add_toc(body):
+    heads = []
+    def rep(m):
+        txt = re.sub('<[^>]+>', '', m.group(1)); sid = slugify(txt); heads.append((sid, txt))
+        return '<h2 id="%s">%s</h2>' % (sid, m.group(1))
+    body = re.sub(r'<h2>(.*?)</h2>', rep, body)
+    if len(heads) < 3: return body, ''
+    toc = '<nav class="toc" aria-label="Sommaire"><strong>Dans ce guide</strong><ol>' + ''.join(
+        '<li><a href="#%s">%s</a></li>' % (i, esc(t)) for i, t in heads) + '</ol></nav>'
+    return body, toc
 
 def messages_html():
     out = '<div class="msgs">'
     for i, (t, m) in enumerate(MESSAGES):
         m = m.replace('\\n', '\n')
-        out += '<div class="msg"><h3>%s</h3><p class="mtext" id="m%d">%s</p><button class="btn ghost copy" data-t="m%d">📋 Copier</button></div>' % (
+        out += '<div class="msg"><h3>%s</h3><p class="mtext" id="m%d">%s</p><button class="btn ghost sm copy" data-t="m%d">Copier le message</button></div>' % (
             esc(t), i, esc(m).replace('\n', '<br>'), i)
-    out += '</div><script src="{R}assets/msg.js?v=1" defer></script>'
+    out += '</div><script src="{R}assets/msg.js?v=2" defer></script>'
     return out
 
+HERO_TAG = """<div class="hero-tag" aria-hidden="true"><span class="tag-hole"></span>
+<p class="ht-title">Ma liste de naissance</p>
+<ul>
+<li class="on" style="--d:.2s">Siège auto i-Size</li>
+<li class="on" style="--d:.6s">Lit et matelas</li>
+<li class="on" style="--d:1s">Gigoteuses</li>
+<li style="--d:1.4s">Porte-bébé</li>
+<li style="--d:1.8s">Tapis d'éveil</li>
+</ul>
+<p class="ht-foot">3 sur 53 cochés</p></div>"""
 def build():
     if os.path.exists(OUT):
         for n in os.listdir(OUT):
@@ -135,81 +195,104 @@ def build():
         f.write(js)
 
     tool = ('<div id="ck" class="ck"><noscript>Active JavaScript pour cocher les articles.</noscript></div>'
-            '<script src="{R}assets/data.js?v=1"></script><script src="{R}assets/checklist.js?v=1" defer></script>')
+            '<script src="{R}assets/data.js?v=2"></script><script src="{R}assets/checklist.js?v=2" defer></script>')
 
     # Accueil
-    guides_cards = ''.join('<a class="card" href="{R}%s"><strong>%s</strong><span>%s</span></a>' % (x['slug'], esc(x['short']), esc(x['desc'][:110].rsplit(' ', 1)[0] + '...')) for x in GUIDES[:6])
+    cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (
+        CAT_TINT[i % len(CAT_TINT)], i, e, esc(c), len(it)) for i, (c, e, it) in enumerate(CHECKLIST))
     fh, fs = faq_block(FAQ_HOME)
-    home = f'''<section class="hero">
-<h1>Ta liste de naissance, prête en 5 minutes</h1>
-<p>{total} articles triés par pièce, les vrais indispensables d'abord. Coche ce que tu veux, retrouve chaque article sur Amazon, et profite de la réduction de la liste de naissance.</p>
-<div class="hbtn"><a class="btn big" href="{{R}}checklist/">✅ Commencer ma checklist</a>
-<a class="btn ghost big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste Amazon ↗</a></div>
-<ul class="pts"><li>Gratuit, sans inscription</li><li>Enregistré sur ton téléphone</li><li>Conseils de parents</li></ul>
+    home = f'''<section class="hero"><div class="wrap hero-in">
+<div class="hero-tx">
+<h1>Ta liste de naissance, sans rien oublier</h1>
+<p class="hero-p">{total} articles triés par pièce, des vrais indispensables aux petits plus. Tu coches, tu retrouves chaque article sur Amazon, et tu profites de la réduction de la liste de naissance.</p>
+<div class="hbtn"><a class="btn big" href="{{R}}checklist/">Commencer ma checklist</a>
+<a class="btn ghost big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste Amazon</a></div>
+<p class="hero-note">Gratuit, sans inscription. Tes choix restent sur ton téléphone.</p>
+</div>
+{HERO_TAG}
+</div></section>
+<section class="wrap block">
+<h2>Pièce par pièce</h2>
+<p class="sub">Ouvre une catégorie pour voir ce qu'il faut vraiment prévoir.</p>
+<div class="chips">{cats}</div>
 </section>
-<h2>Les guides pour bien préparer l'arrivée de bébé</h2>
-<div class="cards">{guides_cards}</div>
-<p><a href="{{R}}guides/">Voir tous les guides →</a></p>
-<h2>Comment ça marche ?</h2>
-<ol class="steps"><li><strong>Coche</strong> les articles dans la <a href="{{R}}checklist/">checklist</a>.</li>
-<li><strong>Ouvre</strong> chaque article sur Amazon et ajoute-le à ta liste de naissance.</li>
-<li><strong>Partage</strong> ta liste avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</li>
-<li><strong>Achète</strong> ce qui reste avec la réduction (<a href="{{R}}liste-de-naissance-amazon/">conditions</a>).</li></ol>
-{fh}'''
+<section class="band"><div class="wrap block">
+<h2>En 4 étapes</h2>
+<ol class="steps">
+<li><strong>Coche</strong><span>les articles dont tu as besoin dans la <a href="{{R}}checklist/">checklist</a>.</span></li>
+<li><strong>Ajoute</strong><span>chaque article à ta liste de naissance sur Amazon.</span></li>
+<li><strong>Partage</strong><span>ta liste avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</span></li>
+<li><strong>Économise</strong><span>sur ce qui reste grâce à la <a href="{{R}}liste-de-naissance-amazon/">réduction</a>.</span></li>
+</ol></div></section>
+<section class="wrap block">
+<h2>Les guides des futurs parents</h2>
+<div class="grid3">{''.join(gcard(x) for x in GUIDES[:6])}</div>
+<p class="more"><a href="{{R}}guides/">Voir les {len(GUIDES)} guides</a></p>
+</section>
+<section class="wrap block narrow">{fh}</section>'''
     page('', 'Liste de naissance : checklist complète et idées (%d)' % YEAR,
          'Fais ta liste de naissance en 5 minutes : checklist gratuite de %d articles triés par pièce, conseils de parents et réduction de la liste Amazon.' % total,
-         home, schema=fs)
+         home, schema=fs, cls='home')
 
     # Checklist
-    ck = f'''<h1>Checklist liste de naissance</h1>
-<p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil. Chaque article s'ouvre sur Amazon.</p>
+    ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
+<p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
+<div class="wrap">{tool}
 {CTA}
-{tool}
+<div class="prose">
 <h2>Comment utiliser cette checklist ?</h2>
 <p>Commence par filtrer sur <strong>Indispensable</strong> : c'est ce dont tu as besoin dès le retour de la maternité. Ajoute ensuite les articles <strong>Utile</strong>, qui font de très bons cadeaux pour la famille. Les articles <strong>En option</strong> peuvent attendre les mois suivants.</p>
-<p>Pour chaque article, ouvre la recherche Amazon, choisis le modèle qui te plaît et clique sur « Ajouter à la liste de naissance ». Une fois ta liste remplie, partage-la avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</p>'''
+<p>Pour chaque article, ouvre la recherche Amazon, choisis le modèle qui te plaît et clique sur « Ajouter à la liste de naissance ». Une fois ta liste remplie, partage-la avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</p>
+</div></div>'''
     schema = [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Checklist liste de naissance",
                "applicationCategory": "LifestyleApplication", "operatingSystem": "Tous", "url": BASE + '/checklist/',
                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}]
     page('checklist/', 'Checklist liste de naissance gratuite (%d articles)' % total,
          'Checklist interactive pour ta liste de naissance : %d articles triés par pièce (sommeil, sorties, repas, toilette), avec les indispensables et des conseils.' % total,
-         ck, schema=schema, crumbs=[('Checklist', 'checklist/')])
+         ck, schema=schema, crumbs=[('Checklist', 'checklist/')], cls='tool')
 
     # Guides
     for x in GUIDES:
         fh, fs = faq_block(x['faq'])
         body = x['body'].replace('{CTA}', CTA).replace('{MSGS}', messages_html())
         body = re.sub(r'\{AMZ:([^}]+)\}', lambda m: amz(m.group(1)), body)
+        body, toc = add_toc(body)
+        words = len(re.sub('<[^>]+>', ' ', body).split())
+        mins = max(2, round(words / 200))
+        e, t = META.get(x['slug'], ('📄', 'ciel'))
         art = [{"@context": "https://schema.org", "@type": "Article", "headline": x['h1'], "description": x['desc'],
                 "inLanguage": "fr-FR", "datePublished": "2026-11-14", "dateModified": "2026-11-14",
                 "author": {"@type": "Organization", "name": SITE}, "mainEntityOfPage": BASE + '/' + x['slug']}]
-        b = '<article><h1>%s</h1>%s%s</article>%s' % (esc(x['h1']), body, fh, related(x['slug']))
+        b = ('<header class="cover t-%s"><div class="wrap cover-in"><span class="cover-e" aria-hidden="true">%s</span>'
+             '<div><h1>%s</h1><p class="cover-d">%s</p><p class="cover-m">%d min de lecture, mis à jour en novembre %d</p></div></div></header>'
+             '<div class="wrap art-wrap"><article class="prose">%s%s%s</article></div>%s') % (
+            t, e, esc(x['h1']), esc(x['desc']), mins, YEAR, toc, body, fh, related(x['slug']))
         page(x['slug'], x['title'], x['desc'], b, schema=art + fs,
-             crumbs=[('Guides', 'guides/'), (x['short'], x['slug'])])
+             crumbs=[('Guides', 'guides/'), (x['short'], x['slug'])], cls='guide')
 
-    idx = '<h1>Guides liste de naissance</h1><p class="lead">Tout pour préparer l\'arrivée de bébé sans stress.</p><div class="cards">' + ''.join(
-        '<a class="card" href="{R}%s"><strong>%s</strong><span>%s</span></a>' % (x['slug'], esc(x['h1']), esc(x['desc'])) for x in GUIDES) + '</div>'
+    idx = ('<section class="wrap pagehead"><h1>Guides liste de naissance</h1><p class="lead">Tout pour préparer l\'arrivée de bébé sereinement, du choix de la poussette à la valise maternité.</p></section>'
+           '<section class="wrap block"><div class="grid3">' + ''.join(gcard(x, True) for x in GUIDES) + '</div></section>')
     page('guides/', 'Guides liste de naissance et préparation bébé',
          'Tous nos guides pour préparer ta liste de naissance : que mettre, petit budget, jumeaux, 2e enfant, valise maternité, messages et idées cadeaux.',
          idx, crumbs=[('Guides', 'guides/')])
 
     # Pages légales
-    ml = f'''<h1>Mentions légales</h1>
+    ml = f'''<div class="wrap art-wrap"><article class="prose"><h1>Mentions légales</h1>
 <h2>Éditeur</h2><p>Jérémy Dacier-Jury, 9 passage des Tisserands, 38790 Charantonnay, France. Contact : <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
 <h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.</p>
 <h2>Affiliation</h2><p>{DISCLOSURE} Les liens vers Amazon.fr sont des liens d'affiliation : si tu achètes après avoir cliqué, nous touchons une commission, sans surcoût pour toi. Le choix des articles reste indépendant.</p>
-<h2>Responsabilité</h2><p>Les conseils de ce site sont donnés à titre informatif. Ils ne remplacent pas l'avis d'un professionnel de santé (médecin, sage-femme, pédiatre). Les conditions des offres Amazon peuvent changer à tout moment.</p>'''
+<h2>Responsabilité</h2><p>Les conseils de ce site sont donnés à titre informatif. Ils ne remplacent pas l'avis d'un professionnel de santé (médecin, sage-femme, pédiatre). Les conditions des offres Amazon peuvent changer à tout moment.</p></article></div>'''
     page('mentions-legales/', 'Mentions légales | Liste de Naissance', 'Mentions légales du site listedenaissance.xyz.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
-    cf = f'''<h1>Confidentialité</h1>
+    cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
 <p>Ce site ne demande aucune inscription et ne collecte aucune donnée personnelle.</p>
 <h2>Ta checklist</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
-<h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p>'''
+<h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
     page('confidentialite/', 'Confidentialité | Liste de Naissance', 'Politique de confidentialité de listedenaissance.xyz : aucune donnée collectée.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
 
     # 404
     page('404-tmp/', 'Page introuvable | Liste de Naissance', 'Page introuvable.',
-         '<h1>Page introuvable</h1><p><a href="/checklist/">Va plutôt voir la checklist</a> ou <a href="/">l\'accueil</a>.</p>')
+         '<div class="wrap art-wrap prose"><h1>Page introuvable</h1><p>Cette page n\'existe pas ou a changé d\'adresse. <a href="/checklist/">Ouvre la checklist</a> ou retourne à <a href="/">l\'accueil</a>.</p></div>')
     shutil.move(os.path.join(OUT, '404-tmp', 'index.html'), os.path.join(OUT, '404.html'))
     shutil.rmtree(os.path.join(OUT, '404-tmp')); PAGES.remove('404-tmp/')
     with open(os.path.join(OUT, '404.html'), encoding='utf-8') as f: t = f.read()

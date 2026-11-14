@@ -9,26 +9,27 @@
   var filter = 'all';
 
   var h = '<div class="ckbar"><div class="prog"><i id="pg"></i></div>' +
-    '<div class="ckinfo"><span id="cnt"></span><span>Enregistré sur cet appareil</span></div>' +
+    '<div class="ckinfo"><span id="cnt"></span><span>Gardé sur cet appareil</span></div>' +
     '<div class="filt" id="flt">' +
     '<button data-f="all" class="on">Tout</button><button data-f="1">Indispensable</button>' +
     '<button data-f="2">Utile</button><button data-f="3">En option</button><button data-f="todo">Pas encore coché</button></div></div>';
   D.forEach(function(c, ci){
-    h += '<section class="cat"><h2><span>' + c.e + ' ' + c.c + '</span><small id="cc' + ci + '"></small></h2>';
+    var tints = ['lilas','ciel','peche','menthe','miel','lilas','ciel'];
+    h += '<section class="cat t-' + tints[ci % tints.length] + '" id="cat' + ci + '"><h2><span class="cat-e" aria-hidden="true">' + c.e + '</span><span class="cat-n">' + c.c + '</span><small id="cc' + ci + '"></small></h2>';
     c.i.forEach(function(it, ii){
       var k = id(ci, ii);
       h += '<div class="it" data-p="' + it.p + '" data-k="' + k + '">' +
         '<input type="checkbox" id="c' + ci + '_' + ii + '">' +
         '<div class="tx"><label for="c' + ci + '_' + ii + '">' + it.n + '<span class="pr p' + it.p + '">' + P[it.p] + '</span></label>' +
         '<p>' + it.t + '</p></div>' +
-        '<a class="btn sm ghost go" href="' + it.u + '" target="_blank" rel="sponsored nofollow noopener">Voir ↗</a></div>';
+        '<a class="go" href="' + it.u + '" target="_blank" rel="sponsored nofollow noopener" aria-label="Voir ' + it.n + ' sur Amazon">Voir</a></div>';
     });
     h += '</section>';
   });
-  h += '<div class="ckact"><button class="btn" id="cp">📋 Copier ma liste</button>' +
-    '<button class="btn ghost" id="pr">🖨️ Imprimer</button>' +
+  h += '<div class="ckact"><button class="btn" id="cp">Copier ma liste</button>' +
+    '<button class="btn ghost" id="pr">Imprimer</button>' +
     '<a class="btn ghost" href="' + window.LDN_LIST + '" target="_blank" rel="sponsored nofollow noopener">Créer ma liste Amazon ↗</a>' +
-    '<button class="btn ghost" id="rs">↺ Tout décocher</button></div>';
+    '<button class="btn ghost" id="rs">Tout décocher</button></div>';
   root.innerHTML = h;
 
   var rows = root.querySelectorAll('.it');
@@ -73,16 +74,16 @@
   }
   document.getElementById('cp').addEventListener('click', function(){
     var b = this, t = listText();
-    if (!Object.keys(st).length) { b.textContent = 'Coche d\'abord des articles'; setTimeout(function(){ b.textContent = '📋 Copier ma liste'; }, 1800); return; }
-    function ok(){ b.textContent = '✅ Copié !'; setTimeout(function(){ b.textContent = '📋 Copier ma liste'; }, 1800); }
+    if (!Object.keys(st).length) { b.textContent = 'Coche d\'abord des articles'; setTimeout(function(){ b.textContent = 'Copier ma liste'; }, 1800); return; }
+    function ok(){ b.textContent = 'Copié'; setTimeout(function(){ b.textContent = 'Copier ma liste'; }, 1800); }
     if (navigator.clipboard) navigator.clipboard.writeText(t).then(ok, fallback); else fallback();
     function fallback(){ var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); ok(); } catch(e){} a.remove(); }
   });
   document.getElementById('pr').addEventListener('click', function(){ filter = 'all'; refresh(); window.print(); });
   document.getElementById('rs').addEventListener('click', function(){
     var b = this;
-    if (b.getAttribute('data-c')) { st = {}; save(); refresh(); b.removeAttribute('data-c'); b.textContent = '↺ Tout décocher'; }
-    else { b.setAttribute('data-c', 1); b.textContent = 'Confirmer ?'; setTimeout(function(){ b.removeAttribute('data-c'); b.textContent = '↺ Tout décocher'; }, 3000); }
+    if (b.getAttribute('data-c')) { st = {}; save(); refresh(); b.removeAttribute('data-c'); b.textContent = 'Tout décocher'; }
+    else { b.setAttribute('data-c', 1); b.textContent = 'Confirmer ?'; setTimeout(function(){ b.removeAttribute('data-c'); b.textContent = 'Tout décocher'; }, 3000); }
   });
   refresh();
 })();
