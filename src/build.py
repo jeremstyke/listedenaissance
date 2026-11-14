@@ -3,7 +3,7 @@ import os, json, html, re, shutil, sys
 from urllib.parse import quote_plus
 sys.path.insert(0, os.path.dirname(__file__))
 from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
-from extra3 import EXTRA
+from extra5 import EXTRA
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
