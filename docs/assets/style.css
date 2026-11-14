@@ -285,3 +285,11 @@ h3{font-size:19px;font-weight:600}
   .menu{order:3;flex:0 0 100%;width:100%;justify-content:space-between;flex-wrap:nowrap;margin:2px 0 0}
   .menu a{padding:6px 8px}
 }
+.perks{list-style:none;padding:0!important;margin:18px 0!important;display:grid;gap:10px}
+.prose .perks li{display:flex;gap:14px;align-items:flex-start;background:var(--papier);border-radius:var(--r-m);padding:14px 16px!important;margin:0!important}
+.prose .perks li:before{display:none}
+.perks li>span{flex:none;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--miel-c);font-size:20px}
+.perks strong{display:block;font:800 17px var(--titre);color:var(--encre);margin-bottom:2px}
+.perks div{color:var(--doux);font-size:15px;line-height:1.45}
+.accf .check{align-items:flex-start;font-weight:500;font-size:14px;line-height:1.45;color:var(--encre)}
+.accf .check input{margin-top:1px;flex:none}

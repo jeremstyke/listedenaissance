@@ -38,11 +38,14 @@
   function pullList() {
     if (!user) return Promise.resolve(null);
     return sb.from('ldn_lists').select('*').eq('user_id', user.id).maybeSingle().then(function (r) {
-      var row = r.data;
+      var row = r.data, pend = null;
+      try { pend = localStorage.getItem('ldn-news-pending'); localStorage.removeItem('ldn-news-pending'); } catch (x) {}
+      var extra = {};
+      if (pend === '1') { extra.newsletter = true; extra.newsletter_at = new Date().toISOString(); }
       var merged = Object.assign({}, (row && row.items) || {}, local());
       setLocal(merged);
-      if (!row || Object.keys(merged).length !== Object.keys(row.items || {}).length) {
-        return sb.from('ldn_lists').upsert({ user_id: user.id, items: merged, updated_at: new Date().toISOString() })
+      if (!row || pend === '1' || Object.keys(merged).length !== Object.keys(row.items || {}).length) {
+        return sb.from('ldn_lists').upsert(Object.assign({ user_id: user.id, items: merged, updated_at: new Date().toISOString() }, extra))
           .select().maybeSingle().then(function (x) { return x.data || row; });
       }
       return row;
@@ -74,6 +77,7 @@
       $('#f-baby').value = row.baby_name || '';
       $('#f-due').value = row.due_date || '';
       $('#f-public').checked = !!row.is_public;
+      $('#f-news').checked = !!row.newsletter;
       var base = new URL(ROOT + 'ma-liste/', location.href).href;
       $('#acc-share').value = base + '?l=' + row.slug;
       $('#acc-sharebox').hidden = !row.is_public;
@@ -85,6 +89,7 @@
     $('#form-magic').addEventListener('submit', function (e) {
       e.preventDefault();
       var em = this.email.value.trim(), btn = this.querySelector('button');
+      try { localStorage.setItem('ldn-news-pending', this.news.checked ? '1' : '0'); } catch (x) {}
       btn.disabled = true; msg('Envoi du lien...');
       sb.auth.signInWithOtp({ email: em, options: { emailRedirectTo: new URL(ROOT + 'compte/', location.href).href } })
         .then(function (r) {
@@ -97,7 +102,8 @@
     $('#form-baby').addEventListener('submit', function (e) {
       e.preventDefault();
       var upd = { user_id: user.id, baby_name: $('#f-baby').value.trim() || null, due_date: $('#f-due').value || null,
-        is_public: $('#f-public').checked, items: local(), updated_at: new Date().toISOString() };
+        is_public: $('#f-public').checked, newsletter: $('#f-news').checked, items: local(), updated_at: new Date().toISOString() };
+      if ($('#f-news').checked) upd.newsletter_at = new Date().toISOString();
       sb.from('ldn_lists').upsert(upd).select().maybeSingle().then(function (r) {
         if (r.error) return msg(err(r.error));
         renderAccount(r.data); msg('Enregistré.', true);

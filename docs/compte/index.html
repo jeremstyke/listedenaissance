@@ -17,7 +17,7 @@
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css?v=11">
+<link rel="stylesheet" href="../assets/style.css?v=12">
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebSite", "name": "Ma liste bébé", "url": "https://malistebebe.fr/"}]</script>
 </head>
 <body class="">
@@ -32,9 +32,15 @@
 <div class="wrap art-wrap"><div class="prose" id="acc">
 <h1>Mon compte</h1>
 <div id="acc-out">
-<p class="lead">Retrouve ta checklist sur ton téléphone et ton ordinateur, et partage-la avec ta famille. Pas de mot de passe : on t'envoie un lien de connexion par e-mail.</p>
+<p class="lead">Ton compte est gratuit et se crée en 10 secondes, sans mot de passe.</p>
+<ul class="perks">
+<li><span aria-hidden="true">☁️</span><div><strong>Ta liste sauvegardée</strong>Ce que tu coches n'est jamais perdu, même si tu changes de téléphone ou vides ton navigateur.</div></li>
+<li><span aria-hidden="true">📱</span><div><strong>Sur tous tes appareils</strong>Commence sur ton téléphone, continue sur l'ordinateur. Et à deux avec le co-parent.</div></li>
+<li><span aria-hidden="true">💌</span><div><strong>Partagée avec ta famille</strong>Un lien privé montre à tes proches ce dont tu as besoin, pour qu'ils puissent l'offrir.</div></li>
+</ul>
 <form id="form-magic" class="accf">
 <label>Ton e-mail<input type="email" name="email" autocomplete="email" required></label>
+<label class="check"><input type="checkbox" name="news"> Je veux recevoir la newsletter de Ma liste bébé : conseils et rappels mois par mois pour préparer l'arrivée de bébé (désinscription en un clic).</label>
 <button class="btn" type="submit">Recevoir mon lien de connexion</button>
 <p class="small">Si tu n'as pas encore de compte, il est créé automatiquement. En continuant, tu acceptes notre <a href="../confidentialite/">politique de confidentialité</a>.</p>
 </form>
@@ -48,6 +54,7 @@
 <label>Prénom de bébé (facultatif)<input type="text" id="f-baby" maxlength="40"></label>
 <label>Date prévue (facultatif)<input type="date" id="f-due"></label>
 <label class="check"><input type="checkbox" id="f-public"> Rendre ma liste visible avec un lien privé</label>
+<label class="check"><input type="checkbox" id="f-news"> Recevoir la newsletter (conseils et rappels mois par mois)</label>
 <button class="btn" type="submit">Enregistrer</button>
 </form>
 <div id="acc-sharebox" hidden><p>Envoie ce lien à tes proches : ils voient les articles que tu as cochés, avec les liens pour les offrir.</p>
@@ -65,6 +72,6 @@
 <p class="wed">💍 Tu te maries aussi ? <a href="https://www.amazon.fr/wedding/home?tag=malistebebe-21" rel="sponsored nofollow noopener" target="_blank">Crée ta liste de mariage Amazon</a></p>
 <p class="disc">En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises. Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © 2026 malistebebe.fr</p>
 </div></footer>
-<script src="../assets/account.js?v=3" defer></script>
+<script src="../assets/account.js?v=4" defer></script>
 </body>
 </html>

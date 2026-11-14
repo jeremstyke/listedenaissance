@@ -103,7 +103,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS}
-<link rel="stylesheet" href="{R}assets/style.css?v=11">
+<link rel="stylesheet" href="{R}assets/style.css?v=12">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -124,7 +124,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p class="wed">💍 Tu te maries aussi ? <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">Crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=3" defer></script>
+<script src="{R}assets/account.js?v=4" defer></script>
 </body>
 </html>
 '''
@@ -300,9 +300,15 @@ def build():
     acc = """<div class="wrap art-wrap"><div class="prose" id="acc">
 <h1>Mon compte</h1>
 <div id="acc-out">
-<p class="lead">Retrouve ta checklist sur ton téléphone et ton ordinateur, et partage-la avec ta famille. Pas de mot de passe : on t'envoie un lien de connexion par e-mail.</p>
+<p class="lead">Ton compte est gratuit et se crée en 10 secondes, sans mot de passe.</p>
+<ul class="perks">
+<li><span aria-hidden="true">☁️</span><div><strong>Ta liste sauvegardée</strong>Ce que tu coches n'est jamais perdu, même si tu changes de téléphone ou vides ton navigateur.</div></li>
+<li><span aria-hidden="true">📱</span><div><strong>Sur tous tes appareils</strong>Commence sur ton téléphone, continue sur l'ordinateur. Et à deux avec le co-parent.</div></li>
+<li><span aria-hidden="true">💌</span><div><strong>Partagée avec ta famille</strong>Un lien privé montre à tes proches ce dont tu as besoin, pour qu'ils puissent l'offrir.</div></li>
+</ul>
 <form id="form-magic" class="accf">
 <label>Ton e-mail<input type="email" name="email" autocomplete="email" required></label>
+<label class="check"><input type="checkbox" name="news"> Je veux recevoir la newsletter de Ma liste bébé : conseils et rappels mois par mois pour préparer l'arrivée de bébé (désinscription en un clic).</label>
 <button class="btn" type="submit">Recevoir mon lien de connexion</button>
 <p class="small">Si tu n'as pas encore de compte, il est créé automatiquement. En continuant, tu acceptes notre <a href="{R}confidentialite/">politique de confidentialité</a>.</p>
 </form>
@@ -316,6 +322,7 @@ def build():
 <label>Prénom de bébé (facultatif)<input type="text" id="f-baby" maxlength="40"></label>
 <label>Date prévue (facultatif)<input type="date" id="f-due"></label>
 <label class="check"><input type="checkbox" id="f-public"> Rendre ma liste visible avec un lien privé</label>
+<label class="check"><input type="checkbox" id="f-news"> Recevoir la newsletter (conseils et rappels mois par mois)</label>
 <button class="btn" type="submit">Enregistrer</button>
 </form>
 <div id="acc-sharebox" hidden><p>Envoie ce lien à tes proches : ils voient les articles que tu as cochés, avec les liens pour les offrir.</p>
@@ -344,7 +351,7 @@ def build():
     cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
 <p>La checklist fonctionne sans inscription. Le compte est facultatif.</p>
 <h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
-<h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail (pour t'envoyer tes liens de connexion), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent uniquement à faire fonctionner ton compte et le partage de ta liste. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
+<h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail (pour t'envoyer tes liens de connexion), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent à faire fonctionner ton compte et le partage de ta liste. Si tu as coché la case newsletter, ton e-mail sert aussi à t'envoyer nos conseils ; tu peux te désinscrire à tout moment depuis Mon compte ou avec le lien présent dans chaque e-mail. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
 <p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
