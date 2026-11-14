@@ -132,10 +132,10 @@
       var row = r.data, n = row ? Object.keys(row.items || {}).length : 0, h;
       if (row && n) {
         h = '<span aria-hidden="true">💍</span><div><strong>Ta liste de mariage : ' + n + ' article' + (n > 1 ? 's' : '') + ' coché' + (n > 1 ? 's' : '') + '</strong><span>' +
-          (row.is_public ? 'Liste partagée avec tes invités : <a href="https://malistemariage.fr/ma-liste/?l=' + row.slug + '" target="_blank" rel="noopener">voir le lien</a>. ' : '') +
-          'Même compte, connecte-toi une fois là-bas avec ton e-mail.</span></div><a class="btn sm" href="https://malistemariage.fr/compte/" target="_blank" rel="noopener">Ouvrir Ma liste mariage</a>';
+          (row.is_public ? 'Liste partagée avec tes invités : <a href="https://malistedemariage.fr/ma-liste/?l=' + row.slug + '" target="_blank" rel="noopener">voir le lien</a>. ' : '') +
+          'Même compte, connecte-toi une fois là-bas avec ton e-mail.</span></div><a class="btn sm" href="https://malistedemariage.fr/compte/" target="_blank" rel="noopener">Ouvrir Ma liste mariage</a>';
       } else {
-        h = '<span aria-hidden="true">💍</span><div><strong>Tu te maries ?</strong><span>Ton compte marche aussi sur Ma liste mariage : même e-mail, ta liste de cadeaux de mariage en 10 minutes.</span></div><a class="btn ghost sm" href="https://malistemariage.fr/" target="_blank" rel="noopener">Découvrir Ma liste mariage</a>';
+        h = '<span aria-hidden="true">💍</span><div><strong>Tu te maries ?</strong><span>Ton compte marche aussi sur Ma liste mariage : même e-mail, ta liste de cadeaux de mariage en 10 minutes.</span></div><a class="btn ghost sm" href="https://malistedemariage.fr/" target="_blank" rel="noopener">Découvrir Ma liste mariage</a>';
       }
       box.innerHTML = h; box.hidden = false;
     });

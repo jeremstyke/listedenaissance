@@ -132,7 +132,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p class="wed">💍 Tu te maries aussi ? <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">Crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=5" defer></script>
+<script src="{R}assets/account.js?v=6" defer></script>
 </body>
 </html>
 '''
