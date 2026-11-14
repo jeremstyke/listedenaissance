@@ -203,3 +203,21 @@ h3{font-size:19px;font-weight:600}
 .prose thead th{background:var(--encre);color:#fff;text-align:left;font-weight:700;padding:10px 12px;white-space:nowrap}
 .prose tbody th{text-align:left;font-weight:700;background:#F8FBFA}
 .prose td,.prose tbody th{padding:10px 12px;border-top:1px solid var(--fond);vertical-align:top;min-width:110px}
+/* Compte */
+.nav-acc{border:2px solid var(--encre)}
+.tabs{display:flex;gap:6px;margin:20px 0 4px}
+.tabs button{border:2px solid var(--encre);background:transparent;border-radius:999px;padding:8px 16px;font:700 15px var(--texte);color:var(--encre);cursor:pointer}
+.tabs button.on{background:var(--encre);color:#fff}
+.accf{display:grid;gap:14px;background:var(--papier);border-radius:var(--r-m);padding:20px;margin:14px 0;max-width:460px}
+.accf label{display:grid;gap:6px;font-weight:700;font-size:15px}
+.accf input[type=email],.accf input[type=password],.accf input[type=text],.accf input[type=date],.sharerow input{font:16px var(--texte);padding:12px 14px;border:2px solid var(--trait);border-radius:var(--r-s);background:var(--fond);color:var(--encre)}
+.accf input:focus{border-color:var(--encre);outline:none}
+.accf .check{display:flex;align-items:center;gap:10px;font-weight:600}
+.accf .check input{width:22px;height:22px;accent-color:var(--framboise)}
+.linkbtn{background:none;border:0;color:var(--framboise-f);font:600 15px var(--texte);text-decoration:underline;cursor:pointer;justify-self:start;padding:0}
+.acc-msg{min-height:24px;font-weight:600;color:var(--framboise-f)}
+.acc-msg.ok{color:#2E7D5B}
+.sharerow{display:flex;gap:8px;flex-wrap:wrap}
+.sharerow input{flex:1;min-width:200px}
+.small{font-size:13px;color:var(--doux)}
+[hidden]{display:none!important}

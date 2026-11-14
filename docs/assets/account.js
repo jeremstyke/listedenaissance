@@ -1,0 +1,189 @@
+/* Comptes (Supabase Auth : e-mail + mot de passe) et sauvegarde de la checklist */
+(function () {
+  var SB_URL = 'https://txvrlvcxfnylnrpdrxtt.supabase.co';
+  var KEY = 'sb_publishable_7aA-njoU5fU2ialO0ExwQQ_REHjAEIe';
+  var LKEY = 'ldn-checklist-v1';
+  var ROOT = (document.querySelector('link[rel=icon]').getAttribute('href') || '').replace('assets/favicon.svg', '');
+  var sb = null, user = null;
+
+  function $(s, r) { return (r || document).querySelector(s); }
+  function local() { try { return JSON.parse(localStorage.getItem(LKEY) || '{}') || {}; } catch (e) { return {}; } }
+  function setLocal(o) { try { localStorage.setItem(LKEY, JSON.stringify(o)); } catch (e) {} }
+
+  function loadLib(cb) {
+    if (window.supabase) return cb();
+    var s = document.createElement('script');
+    s.src = ROOT + 'assets/vendor/supabase.js';
+    s.onload = cb;
+    s.onerror = function () { var m = $('#acc-msg'); if (m) m.textContent = 'Connexion impossible pour le moment. Réessaie plus tard.'; };
+    document.head.appendChild(s);
+  }
+
+  function navLink() {
+    var a = $('#nav-account'); if (!a) return;
+    a.textContent = user ? 'Mon compte' : 'Connexion';
+  }
+
+  /* Synchronisation de la checklist */
+  var saveT = null;
+  function pushList() {
+    if (!user) return;
+    clearTimeout(saveT);
+    saveT = setTimeout(function () {
+      sb.from('ldn_lists').upsert({ user_id: user.id, items: local(), updated_at: new Date().toISOString() });
+    }, 600);
+  }
+  function pullList() {
+    if (!user) return Promise.resolve(null);
+    return sb.from('ldn_lists').select('*').eq('user_id', user.id).maybeSingle().then(function (r) {
+      var row = r.data;
+      var merged = Object.assign({}, (row && row.items) || {}, local());
+      setLocal(merged);
+      if (!row || Object.keys(merged).length !== Object.keys(row.items || {}).length) {
+        return sb.from('ldn_lists').upsert({ user_id: user.id, items: merged, updated_at: new Date().toISOString() })
+          .select().maybeSingle().then(function (x) { return x.data || row; });
+      }
+      return row;
+    });
+  }
+  document.addEventListener('ldn:change', pushList);
+
+  /* Page compte */
+  function msg(t, ok) { var m = $('#acc-msg'); if (m) { m.textContent = t; m.className = 'acc-msg' + (ok ? ' ok' : ''); } }
+  function err(e) {
+    var t = (e && e.message) || '';
+    if (/Invalid login/i.test(t)) return 'E-mail ou mot de passe incorrect.';
+    if (/already registered/i.test(t)) return 'Un compte existe déjà avec cet e-mail. Connecte-toi.';
+    if (/Password should be/i.test(t)) return 'Le mot de passe doit faire au moins 8 caractères.';
+    if (/Email not confirmed/i.test(t)) return 'Confirme d\'abord ton e-mail avec le lien reçu.';
+    if (/rate limit/i.test(t)) return 'Trop de tentatives. Réessaie dans quelques minutes.';
+    return 'Une erreur est survenue. Réessaie.';
+  }
+
+  function showTab(name) {
+    document.querySelectorAll('[data-pane]').forEach(function (p) { p.hidden = p.getAttribute('data-pane') !== name; });
+    document.querySelectorAll('[data-tab]').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-tab') === name); });
+    msg('');
+  }
+
+  function renderAccount(row) {
+    var box = $('#acc'); if (!box) return;
+    if (!user) { $('#acc-out').hidden = false; $('#acc-in').hidden = true; return; }
+    $('#acc-out').hidden = true; $('#acc-in').hidden = false;
+    $('#acc-email').textContent = user.email;
+    var n = Object.keys(local()).length;
+    $('#acc-count').textContent = n + ' article' + (n > 1 ? 's' : '') + ' coché' + (n > 1 ? 's' : '');
+    if (row) {
+      $('#f-baby').value = row.baby_name || '';
+      $('#f-due').value = row.due_date || '';
+      $('#f-public').checked = !!row.is_public;
+      var base = new URL(ROOT + 'ma-liste/', location.href).href;
+      $('#acc-share').value = base + '?l=' + row.slug;
+      $('#acc-sharebox').hidden = !row.is_public;
+    }
+  }
+
+  function bindAccount() {
+    var box = $('#acc'); if (!box) return;
+    document.querySelectorAll('[data-tab]').forEach(function (b) {
+      b.addEventListener('click', function () { showTab(b.getAttribute('data-tab')); });
+    });
+    $('#form-signup').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var em = this.email.value.trim(), pw = this.password.value;
+      if (pw.length < 8) return msg('Le mot de passe doit faire au moins 8 caractères.');
+      msg('Création du compte...');
+      sb.auth.signUp({ email: em, password: pw, options: { emailRedirectTo: new URL(ROOT + 'compte/', location.href).href } })
+        .then(function (r) {
+          if (r.error) return msg(err(r.error));
+          if (r.data.session) msg('Compte créé, tu es connecté.', true);
+          else msg('Compte créé. Ouvre le lien reçu par e-mail pour le confirmer, puis connecte-toi.', true);
+        });
+    });
+    $('#form-login').addEventListener('submit', function (e) {
+      e.preventDefault();
+      msg('Connexion...');
+      sb.auth.signInWithPassword({ email: this.email.value.trim(), password: this.password.value })
+        .then(function (r) { if (r.error) msg(err(r.error)); });
+    });
+    $('#form-forgot').addEventListener('submit', function (e) {
+      e.preventDefault();
+      msg('Envoi...');
+      sb.auth.resetPasswordForEmail(this.email.value.trim(), { redirectTo: new URL(ROOT + 'compte/', location.href).href })
+        .then(function (r) { msg(r.error ? err(r.error) : 'Si un compte existe avec cet e-mail, tu vas recevoir un lien pour choisir un nouveau mot de passe.', !r.error); });
+    });
+    $('#form-newpw').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var pw = this.password.value;
+      if (pw.length < 8) return msg('Le mot de passe doit faire au moins 8 caractères.');
+      sb.auth.updateUser({ password: pw }).then(function (r) {
+        if (r.error) return msg(err(r.error));
+        $('#acc-newpw').hidden = true; msg('Mot de passe modifié.', true);
+      });
+    });
+    $('#form-baby').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var upd = { user_id: user.id, baby_name: $('#f-baby').value.trim() || null, due_date: $('#f-due').value || null,
+        is_public: $('#f-public').checked, items: local(), updated_at: new Date().toISOString() };
+      sb.from('ldn_lists').upsert(upd).select().maybeSingle().then(function (r) {
+        if (r.error) return msg(err(r.error));
+        renderAccount(r.data); msg('Enregistré.', true);
+      });
+    });
+    $('#acc-copy').addEventListener('click', function () {
+      var v = $('#acc-share').value, b = this;
+      if (navigator.clipboard) navigator.clipboard.writeText(v).then(function () { b.textContent = 'Lien copié'; setTimeout(function () { b.textContent = 'Copier le lien'; }, 1800); });
+    });
+    $('#acc-logout').addEventListener('click', function () { sb.auth.signOut(); });
+    $('#acc-wipe').addEventListener('click', function () {
+      var b = this;
+      if (!b.getAttribute('data-c')) { b.setAttribute('data-c', 1); b.textContent = 'Confirmer la suppression'; return; }
+      sb.from('ldn_lists').delete().eq('user_id', user.id).then(function () {
+        setLocal({}); msg('Tes données ont été supprimées. Pour supprimer aussi ton compte, écris-nous.', true);
+        b.removeAttribute('data-c'); b.textContent = 'Supprimer mes données';
+      });
+    });
+  }
+
+  /* Page publique d'une liste partagée */
+  function publicList() {
+    var box = $('#pub'); if (!box) return;
+    var slug = new URLSearchParams(location.search).get('l');
+    if (!slug) { box.innerHTML = '<p>Ce lien de liste est incomplet. Demande le bon lien aux parents.</p>'; return; }
+    sb.rpc('ldn_public_list', { p_slug: slug }).then(function (r) {
+      var row = r.data && r.data[0];
+      if (!row) { box.innerHTML = '<p>Cette liste n\'existe pas ou n\'est plus partagée.</p>'; return; }
+      var D = window.LDN_DATA || [], st = row.items || {}, h = '';
+      var title = row.baby_name ? 'La liste de naissance de ' + esc(row.baby_name) : 'Une liste de naissance';
+      $('#pub-title').textContent = title.replace(/&amp;/g, '&');
+      D.forEach(function (c, ci) {
+        var sel = c.i.filter(function (_, ii) { return st[ci + ':' + ii]; });
+        if (!sel.length) return;
+        h += '<section class="cat t-' + ['lilas','ciel','peche','menthe','miel','lilas','ciel'][ci % 7] + '"><h2><span class="cat-e" aria-hidden="true">' + c.e + '</span><span class="cat-n">' + c.c + '</span></h2>';
+        sel.forEach(function (it) {
+          h += '<div class="it"><div class="tx"><label>' + it.n + '</label><p>' + it.t + '</p></div><a class="go" href="' + it.u + '" target="_blank" rel="sponsored nofollow noopener">Voir</a></div>';
+        });
+        h += '</section>';
+      });
+      box.innerHTML = h || '<p>Les parents n\'ont pas encore choisi d\'articles.</p>';
+    });
+  }
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+  loadLib(function () {
+    sb = window.supabase.createClient(SB_URL, KEY);
+    bindAccount();
+    publicList();
+    sb.auth.onAuthStateChange(function (ev, session) {
+      user = session ? session.user : null;
+      navLink();
+      if (ev === 'PASSWORD_RECOVERY' && $('#acc-newpw')) { $('#acc-newpw').hidden = false; }
+      if (user) {
+        pullList().then(function (row) {
+          renderAccount(row);
+          document.dispatchEvent(new CustomEvent('ldn:reload'));
+        });
+      } else { renderAccount(null); }
+    });
+  });
+})();

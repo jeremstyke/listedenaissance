@@ -2,7 +2,7 @@
   var D = window.LDN_DATA || [], P = window.LDN_PRIO || {}, KEY = 'ldn-checklist-v1';
   var st = {};
   try { st = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch(e) { st = {}; }
-  function save(){ try { localStorage.setItem(KEY, JSON.stringify(st)); } catch(e){} }
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(st)); } catch(e){} document.dispatchEvent(new CustomEvent('ldn:change')); }
   function id(c, i){ return c + ':' + i; }
   var root = document.getElementById('ck'); if (!root) return;
   var total = 0; D.forEach(function(c){ total += c.i.length; });
@@ -85,5 +85,6 @@
     if (b.getAttribute('data-c')) { st = {}; save(); refresh(); b.removeAttribute('data-c'); b.textContent = 'Tout décocher'; }
     else { b.setAttribute('data-c', 1); b.textContent = 'Confirmer ?'; setTimeout(function(){ b.removeAttribute('data-c'); b.textContent = 'Tout décocher'; }, 3000); }
   });
+  document.addEventListener('ldn:reload', function(){ try { st = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch(e){} refresh(); });
   refresh();
 })();
