@@ -132,7 +132,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p class="wed">💍 Tu te maries aussi ? <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">Crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=4" defer></script>
+<script src="{R}assets/account.js?v=5" defer></script>
 </body>
 </html>
 '''
@@ -341,6 +341,7 @@ def build():
 </form>
 <div id="acc-sharebox" hidden><p>Envoie ce lien à tes proches : ils voient les articles que tu as cochés, avec les liens pour les offrir.</p>
 <div class="sharerow"><input id="acc-share" readonly><button class="btn ghost sm" type="button" id="acc-copy">Copier le lien</button></div></div>
+<div id="acc-other" class="save-hint" hidden></div>
 <h2>Mon compte</h2>
 <p><button class="btn ghost sm" type="button" id="acc-logout">Se déconnecter</button> <button class="btn ghost sm" type="button" id="acc-wipe">Supprimer mes données</button></p>
 </div>
