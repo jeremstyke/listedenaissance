@@ -198,3 +198,8 @@ h3{font-size:19px;font-weight:600}
   .tag{padding-left:46px}
 }
 @media print{.top,.foot,.tag,.filt,.ckact,.go,.bc,.prose,.pagehead .lead{display:none}.cat{break-inside:avoid}}
+/* Tableaux */
+.prose table{width:100%;border-collapse:separate;border-spacing:0;margin:8px 0 22px;font-size:15px;background:var(--papier);border-radius:var(--r-s);overflow:hidden;display:block;overflow-x:auto}
+.prose thead th{background:var(--encre);color:#fff;text-align:left;font-weight:700;padding:10px 12px;white-space:nowrap}
+.prose tbody th{text-align:left;font-weight:700;background:#F8FBFA}
+.prose td,.prose tbody th{padding:10px 12px;border-top:1px solid var(--fond);vertical-align:top;min-width:110px}

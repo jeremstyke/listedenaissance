@@ -475,7 +475,7 @@ g("comment-choisir-sa-poussette/",
 <li><strong>campagne</strong> : poussette tout-terrain à grandes roues ;</li>
 <li><strong>deux enfants</strong> : poussette double ou planche à roulettes (voir <a href="{R}liste-de-naissance-jumeaux/">jumeaux</a>).</li>
 </ul>
-<p><a class="btn" href="{AMZ:poussette}" rel="sponsored nofollow noopener" target="_blank">Voir les poussettes sur Amazon ↗</a></p>
+<p><a class="btn" href="{AMZ:poussette}" rel="sponsored nofollow noopener" target="_blank">Voir les poussettes sur Amazon</a></p>
 """,
   short="Choisir sa poussette")
 
@@ -499,7 +499,7 @@ g("comment-choisir-son-siege-auto-bebe/",
 <p>Neuf de préférence : un siège qui a subi un accident peut être abîmé sans que ça se voie. Si on te le prête, demande son histoire et vérifie la date de fabrication.</p>
 <h2>Pour aller plus loin</h2>
 <p>Les tests indépendants de sièges auto (crash-tests de l'ADAC, repris par les associations de consommateurs) sont une bonne référence pour comparer les modèles.</p>
-<p><a class="btn" href="{AMZ:siege auto i-size naissance}" rel="sponsored nofollow noopener" target="_blank">Voir les sièges auto i-Size sur Amazon ↗</a></p>
+<p><a class="btn" href="{AMZ:siege auto i-size naissance}" rel="sponsored nofollow noopener" target="_blank">Voir les sièges auto i-Size sur Amazon</a></p>
 """,
   short="Choisir son siège auto")
 

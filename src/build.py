@@ -3,6 +3,7 @@ import os, json, html, re, shutil, sys
 from urllib.parse import quote_plus
 sys.path.insert(0, os.path.dirname(__file__))
 from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
+from extra3 import EXTRA
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
@@ -90,7 +91,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="theme-color" content="#F3F7F6">
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS}
-<link rel="stylesheet" href="{R}assets/style.css?v=3">
+<link rel="stylesheet" href="{R}assets/style.css?v=4">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -253,8 +254,9 @@ def build():
 
     # Guides
     for x in GUIDES:
-        fh, fs = faq_block(x['faq'])
-        body = x['body'].replace('{CTA}', CTA).replace('{MSGS}', messages_html())
+        ex_html, ex_faq = EXTRA.get(x['slug'], ('', []))
+        fh, fs = faq_block(x['faq'] + ex_faq)
+        body = (x['body'] + ex_html).replace('{CTA}', CTA).replace('{MSGS}', messages_html())
         body = re.sub(r'\{AMZ:([^}]+)\}', lambda m: amz(m.group(1)), body)
         body, toc = add_toc(body)
         words = len(re.sub('<[^>]+>', ' ', body).split())
