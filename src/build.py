@@ -103,7 +103,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS}
-<link rel="stylesheet" href="{R}assets/style.css?v=8">
+<link rel="stylesheet" href="{R}assets/style.css?v=9">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -116,7 +116,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 {('<div class="wrap">' + bc + '</div>') if bc else ''}
 {body.replace('{R}', R)}
 </main>
-<footer class="foot"><div class="wrap foot-in">
+<div class="wave-foot"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><footer class="foot"><div class="wrap foot-in">
 <div><a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
 <p>La checklist gratuite pour préparer l'arrivée de bébé, sans rien oublier.</p></div>
 <nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
@@ -216,7 +216,7 @@ def build():
     cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (
         CAT_TINT[i % len(CAT_TINT)], i, e, esc(c), len(it)) for i, (c, e, it) in enumerate(CHECKLIST))
     fh, fs = faq_block(FAQ_HOME)
-    home = f'''<section class="hero"><div class="wrap hero-in">
+    home = f'''<section class="hero"><span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span><span class="spark s1" aria-hidden="true">✦</span><span class="spark s2" aria-hidden="true">✦</span><span class="spark s3" aria-hidden="true">✦</span><div class="wrap hero-in">
 <div class="hero-tx">
 <h1>Ta liste de naissance, sans rien oublier</h1>
 <p class="hero-p">{total} articles triés par pièce, des vrais indispensables aux petits plus. Tu coches, tu retrouves chaque article sur Amazon, et tu profites de la réduction de la liste de naissance.</p>
@@ -231,14 +231,14 @@ def build():
 <p class="sub">Ouvre une catégorie pour voir ce qu'il faut vraiment prévoir.</p>
 <div class="chips">{cats}</div>
 </section>
-<section class="band"><div class="wrap block">
+<div class="wave-top"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><section class="band"><div class="wrap block">
 <h2>En 4 étapes</h2>
 <ol class="steps">
 <li><strong>Coche</strong><span>les articles dont tu as besoin dans la <a href="{{R}}checklist/">checklist</a>.</span></li>
 <li><strong>Ajoute</strong><span>chaque article à ta liste de naissance sur Amazon.</span></li>
 <li><strong>Partage</strong><span>ta liste avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</span></li>
 <li><strong>Économise</strong><span>sur ce qui reste grâce à la <a href="{{R}}liste-de-naissance-amazon/">réduction</a>.</span></li>
-</ol></div></section>
+</ol></div></section><div class="wave-bot"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div>
 <section class="wrap block">
 <h2>Les guides des futurs parents</h2>
 <div class="grid3">{''.join(gcard(x) for x in GUIDES[:6])}</div>
@@ -280,7 +280,7 @@ def build():
         art = [{"@context": "https://schema.org", "@type": "Article", "headline": x['h1'], "description": x['desc'],
                 "inLanguage": "fr-FR", "datePublished": "2026-11-14", "dateModified": "2026-11-14",
                 "author": {"@type": "Organization", "name": SITE}, "mainEntityOfPage": BASE + '/' + x['slug']}]
-        b = ('<header class="cover t-%s"><div class="wrap cover-in"><span class="cover-e" aria-hidden="true">%s</span>'
+        b = ('<header class="cover t-%s"><span class="cover-dots" aria-hidden="true"></span><div class="wrap cover-in"><span class="cover-e" aria-hidden="true">%s</span>'
              '<div><h1>%s</h1><p class="cover-d">%s</p><p class="cover-m">%d min de lecture, mis à jour en novembre %d</p></div></div></header>'
              '<div class="wrap art-wrap"><article class="prose">%s%s%s%s</article></div>%s') % (
             t, e, esc(x['h1']), esc(x['desc']), mins, YEAR, toc, body, CTA, fh, related(x['slug']))
