@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jeremstyke.github.io/listedenaissance/sitemap.xml
+Sitemap: https://malistebebe.fr/sitemap.xml

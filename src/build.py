@@ -7,8 +7,8 @@ from extra5 import EXTRA
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
-# En ligne sur GitHub Pages. Quand le domaine sera achete : LDN_BASE=https://malistebebe.fr python3 src/build.py
-BASE = os.environ.get('LDN_BASE', 'https://jeremstyke.github.io/listedenaissance')
+# Domaine : malistebebe.fr (sans domaine : LDN_BASE=https://jeremstyke.github.io/listedenaissance)
+BASE = os.environ.get('LDN_BASE', 'https://malistebebe.fr')
 CUSTOM = 'malistebebe.fr' in BASE
 PATH0 = '/' + BASE.split('://', 1)[1].split('/', 1)[1] + '/' if BASE.count('/') > 2 else '/'
 DOMAIN = 'malistebebe.fr' if CUSTOM else 'Ma liste bébé'

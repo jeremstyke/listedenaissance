@@ -70,7 +70,7 @@
       t += '\n' + c.e + ' ' + c.c + '\n';
       sel.forEach(function(it){ t += '- ' + it.n + '\n'; });
     });
-    return t + '\nFaite avec Ma liste bébé';
+    return t + '\nFaite avec malistebebe.fr';
   }
   document.getElementById('cp').addEventListener('click', function(){
     var b = this, t = listText();
