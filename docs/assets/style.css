@@ -230,3 +230,4 @@ h3{font-size:19px;font-weight:600}
 .printlist em{color:var(--doux);font-size:13px;font-style:normal}
 @media (max-width:600px){.printlist{grid-template-columns:1fr}}
 @media print{.noprint,.toc,.cover,.rel,.faq,#faq{display:none!important}.prose{max-width:none}.printlist{box-shadow:none;padding:0}body{background:#fff}}
+.wed{font-size:14px;margin:4px 0 0}.foot .wed a{color:var(--miel)}
