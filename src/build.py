@@ -89,6 +89,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta property="og:locale" content="fr_FR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F3F7F6">
+<meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS}
 <link rel="stylesheet" href="{R}assets/style.css?v=6">
