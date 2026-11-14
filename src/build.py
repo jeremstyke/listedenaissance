@@ -121,7 +121,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=1" defer></script>
+<script src="{R}assets/account.js?v=2" defer></script>
 </body>
 </html>
 '''
@@ -296,29 +296,13 @@ def build():
     acc = """<div class="wrap art-wrap"><div class="prose" id="acc">
 <h1>Mon compte</h1>
 <div id="acc-out">
-<p class="lead">Crée un compte gratuit pour retrouver ta checklist sur ton téléphone et ton ordinateur, et la partager avec ta famille.</p>
-<div class="tabs" role="tablist"><button type="button" data-tab="login" class="on">Se connecter</button><button type="button" data-tab="signup">Créer un compte</button></div>
-<form id="form-login" class="accf" data-pane="login">
-<label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-<label>Mot de passe<input type="password" name="password" autocomplete="current-password" required></label>
-<button class="btn" type="submit">Se connecter</button>
-<button class="linkbtn" type="button" data-tab="forgot">Mot de passe oublié ?</button>
+<p class="lead">Retrouve ta checklist sur ton téléphone et ton ordinateur, et partage-la avec ta famille. Pas de mot de passe : on t'envoie un lien de connexion par e-mail.</p>
+<form id="form-magic" class="accf">
+<label>Ton e-mail<input type="email" name="email" autocomplete="email" required></label>
+<button class="btn" type="submit">Recevoir mon lien de connexion</button>
+<p class="small">Si tu n'as pas encore de compte, il est créé automatiquement. En continuant, tu acceptes notre <a href="{R}confidentialite/">politique de confidentialité</a>.</p>
 </form>
-<form id="form-signup" class="accf" data-pane="signup" hidden>
-<label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-<label>Mot de passe (8 caractères minimum)<input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
-<button class="btn" type="submit">Créer mon compte</button>
-<p class="small">En créant un compte, tu acceptes notre <a href="{R}confidentialite/">politique de confidentialité</a>.</p>
-</form>
-<form id="form-forgot" class="accf" data-pane="forgot" hidden>
-<label>E-mail du compte<input type="email" name="email" autocomplete="email" required></label>
-<button class="btn" type="submit">Recevoir un lien</button>
-<button class="linkbtn" type="button" data-tab="login">Retour à la connexion</button>
-</form>
-</div>
-<div id="acc-newpw" hidden>
-<h2>Choisis un nouveau mot de passe</h2>
-<form id="form-newpw" class="accf"><label>Nouveau mot de passe<input type="password" name="password" autocomplete="new-password" minlength="8" required></label><button class="btn" type="submit">Enregistrer</button></form>
+<div id="acc-sent" hidden><h2>Regarde tes e-mails 📬</h2><p>On t'a envoyé un lien de connexion. Ouvre-le sur cet appareil pour te connecter. Pense à vérifier les indésirables.</p><button class="linkbtn" type="button" id="acc-again">Utiliser une autre adresse</button></div>
 </div>
 <div id="acc-in" hidden>
 <p class="lead">Connecté avec <strong id="acc-email"></strong>. Ta checklist est sauvegardée : <strong id="acc-count"></strong>.</p>
@@ -337,7 +321,7 @@ def build():
 </div>
 <p id="acc-msg" class="acc-msg" role="status" aria-live="polite"></p>
 </div></div>"""
-    page('compte/', 'Mon compte | Ma liste bébé', 'Crée ton compte gratuit pour sauvegarder ta checklist de naissance et la partager.', acc, noindex=True)
+    page('compte/', 'Mon compte | Ma liste bébé', 'Connecte-toi par e-mail, sans mot de passe, pour sauvegarder ta checklist de naissance et la partager.', acc, noindex=True)
 
     pub = """<section class="wrap pagehead"><h1 id="pub-title">Une liste de naissance</h1>
 <p class="lead">Voici les articles choisis par les parents. Clique sur un article pour l'offrir.</p></section>
@@ -356,7 +340,7 @@ def build():
     cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
 <p>La checklist fonctionne sans inscription. Le compte est facultatif.</p>
 <h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
-<h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail, ton mot de passe (chiffré, nous ne le voyons jamais), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent uniquement à faire fonctionner ton compte et le partage de ta liste. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
+<h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail (pour t'envoyer tes liens de connexion), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent uniquement à faire fonctionner ton compte et le partage de ta liste. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
 <p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''

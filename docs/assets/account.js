@@ -56,14 +56,9 @@
     if (/already registered/i.test(t)) return 'Un compte existe déjà avec cet e-mail. Connecte-toi.';
     if (/Password should be/i.test(t)) return 'Le mot de passe doit faire au moins 8 caractères.';
     if (/Email not confirmed/i.test(t)) return 'Confirme d\'abord ton e-mail avec le lien reçu.';
-    if (/rate limit/i.test(t)) return 'Trop de tentatives. Réessaie dans quelques minutes.';
+    if (/rate limit|security purposes/i.test(t)) return 'Trop de demandes. Attends une minute avant de redemander un lien.';
+    if (/invalid/i.test(t) && /email/i.test(t)) return 'Cette adresse e-mail ne semble pas valide.';
     return 'Une erreur est survenue. Réessaie.';
-  }
-
-  function showTab(name) {
-    document.querySelectorAll('[data-pane]').forEach(function (p) { p.hidden = p.getAttribute('data-pane') !== name; });
-    document.querySelectorAll('[data-tab]').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-tab') === name); });
-    msg('');
   }
 
   function renderAccount(row) {
@@ -85,42 +80,18 @@
 
   function bindAccount() {
     var box = $('#acc'); if (!box) return;
-    document.querySelectorAll('[data-tab]').forEach(function (b) {
-      b.addEventListener('click', function () { showTab(b.getAttribute('data-tab')); });
-    });
-    $('#form-signup').addEventListener('submit', function (e) {
+    $('#form-magic').addEventListener('submit', function (e) {
       e.preventDefault();
-      var em = this.email.value.trim(), pw = this.password.value;
-      if (pw.length < 8) return msg('Le mot de passe doit faire au moins 8 caractères.');
-      msg('Création du compte...');
-      sb.auth.signUp({ email: em, password: pw, options: { emailRedirectTo: new URL(ROOT + 'compte/', location.href).href } })
+      var em = this.email.value.trim(), btn = this.querySelector('button');
+      btn.disabled = true; msg('Envoi du lien...');
+      sb.auth.signInWithOtp({ email: em, options: { emailRedirectTo: new URL(ROOT + 'compte/', location.href).href } })
         .then(function (r) {
+          btn.disabled = false;
           if (r.error) return msg(err(r.error));
-          if (r.data.session) msg('Compte créé, tu es connecté.', true);
-          else msg('Compte créé. Ouvre le lien reçu par e-mail pour le confirmer, puis connecte-toi.', true);
+          msg(''); $('#form-magic').hidden = true; $('#acc-sent').hidden = false;
         });
     });
-    $('#form-login').addEventListener('submit', function (e) {
-      e.preventDefault();
-      msg('Connexion...');
-      sb.auth.signInWithPassword({ email: this.email.value.trim(), password: this.password.value })
-        .then(function (r) { if (r.error) msg(err(r.error)); });
-    });
-    $('#form-forgot').addEventListener('submit', function (e) {
-      e.preventDefault();
-      msg('Envoi...');
-      sb.auth.resetPasswordForEmail(this.email.value.trim(), { redirectTo: new URL(ROOT + 'compte/', location.href).href })
-        .then(function (r) { msg(r.error ? err(r.error) : 'Si un compte existe avec cet e-mail, tu vas recevoir un lien pour choisir un nouveau mot de passe.', !r.error); });
-    });
-    $('#form-newpw').addEventListener('submit', function (e) {
-      e.preventDefault();
-      var pw = this.password.value;
-      if (pw.length < 8) return msg('Le mot de passe doit faire au moins 8 caractères.');
-      sb.auth.updateUser({ password: pw }).then(function (r) {
-        if (r.error) return msg(err(r.error));
-        $('#acc-newpw').hidden = true; msg('Mot de passe modifié.', true);
-      });
-    });
+    $('#acc-again').addEventListener('click', function () { $('#acc-sent').hidden = true; $('#form-magic').hidden = false; msg(''); });
     $('#form-baby').addEventListener('submit', function (e) {
       e.preventDefault();
       var upd = { user_id: user.id, baby_name: $('#f-baby').value.trim() || null, due_date: $('#f-due').value || null,
@@ -177,7 +148,6 @@
     sb.auth.onAuthStateChange(function (ev, session) {
       user = session ? session.user : null;
       navLink();
-      if (ev === 'PASSWORD_RECOVERY' && $('#acc-newpw')) { $('#acc-newpw').hidden = false; }
       if (user) {
         pullList().then(function (row) {
           renderAccount(row);
