@@ -6,7 +6,10 @@ from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs')
-BASE = 'https://listedenaissance.xyz'
+# Tant que le domaine n'est pas branche : GitHub Pages. Pour passer au domaine : LDN_BASE=https://listedenaissance.xyz
+BASE = os.environ.get('LDN_BASE', 'https://jeremstyke.github.io/listedenaissance')
+CUSTOM = 'listedenaissance.xyz' in BASE
+PATH0 = '/' + BASE.split('://', 1)[1].split('/', 1)[1] + '/' if BASE.count('/') > 2 else '/'
 DOMAIN = 'listedenaissance.xyz'
 SITE = 'Liste de Naissance'
 TAG = 'listedenaissance-21'   # identifiant Amazon Partenaires (a remplacer)
@@ -211,14 +214,17 @@ def build():
     shutil.rmtree(os.path.join(OUT, '404-tmp')); PAGES.remove('404-tmp/')
     with open(os.path.join(OUT, '404.html'), encoding='utf-8') as f: t = f.read()
     with open(os.path.join(OUT, '404.html'), 'w', encoding='utf-8') as f:
-        f.write(t.replace('href="../', 'href="/').replace('src="../', 'src="/').replace('<head>', '<head>\n<meta name="robots" content="noindex">'))
+        f.write(t.replace('href="../', 'href="' + PATH0).replace('src="../', 'src="' + PATH0).replace('href="/checklist/', 'href="' + PATH0 + 'checklist/').replace('href="/">', 'href="' + PATH0 + '">').replace('<head>', '<head>\n<meta name="robots" content="noindex">')
+            .replace('<link rel="canonical" href="' + BASE + '/404-tmp/">\n', ''))
 
     # sitemap, robots, CNAME
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(
         '<url><loc>%s/%s</loc><lastmod>2026-11-14</lastmod></url>\n' % (BASE, p) for p in PAGES) + '</urlset>\n'
     open(os.path.join(OUT, 'sitemap.xml'), 'w').write(sm)
     open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % BASE)
-    open(os.path.join(OUT, 'CNAME'), 'w').write(DOMAIN + '\n')
+    cn = os.path.join(OUT, 'CNAME')
+    if CUSTOM: open(cn, 'w').write(DOMAIN + '\n')
+    elif os.path.exists(cn): os.remove(cn)
     open(os.path.join(OUT, '.nojekyll'), 'w').write('')
     print(len(PAGES), 'pages,', total, 'articles')
 
