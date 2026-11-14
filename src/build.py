@@ -13,7 +13,7 @@ CUSTOM = 'malistebebe.fr' in BASE
 PATH0 = '/' + BASE.split('://', 1)[1].split('/', 1)[1] + '/' if BASE.count('/') > 2 else '/'
 DOMAIN = 'malistebebe.fr' if CUSTOM else 'Ma liste bébé'
 SITE = 'Ma liste bébé'
-TAG = 'listedenaissance-21'   # identifiant Amazon Partenaires (a remplacer)
+TAG = 'malistebebe-21'   # identifiant Amazon Partenaires
 CONTACT = 'contact@cvlibre.com'
 YEAR = 2026
 AMZ_LIST = 'https://www.amazon.fr/baby-reg/homepage?tag=' + TAG
