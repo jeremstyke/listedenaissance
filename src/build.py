@@ -113,7 +113,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=22">
+<link rel="stylesheet" href="{R}assets/style.css?v=23">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -208,6 +208,15 @@ HERO_TAG = """<div class="hero-tag" aria-hidden="true"><span class="tag-hole"></
 <li style="--d:1.8s">Tapis d'éveil</li>
 </ul>
 <p class="ht-foot">3 sur 53 cochés</p></div>"""
+# Guide « comment choisir » associé à un article de la checklist (affiché seulement si le guide existe)
+GUIDE_MAP = [('Poussette', 'comment-choisir-sa-poussette/'), ('Siège auto', 'comment-choisir-son-siege-auto-bebe/'), ('Lit bébé', 'comment-choisir-lit-bebe/'), ('Matelas', 'comment-choisir-matelas-bebe/'), ('Babyphone', 'comment-choisir-son-babyphone/'), ('Chaise haute', 'comment-choisir-chaise-haute/'), ('Tire-lait', 'comment-choisir-tire-lait/'), ('Transat', 'comment-choisir-transat-bebe/'), ('Sac à langer', 'comment-choisir-sac-a-langer/'), ('Biberons', 'comment-choisir-biberon/'), ('Lit parapluie', 'comment-choisir-lit-parapluie/'), ("Tapis d'éveil", 'comment-choisir-tapis-d-eveil/'), ("Coussin d'allaitement", 'comment-choisir-coussin-allaitement/'), ('Thermomètre médical', 'comment-choisir-thermometre-bebe/'), ('Gigoteuses', 'gigoteuse-quel-tog/'), ('Porte-bébé', 'porte-bebe-ou-echarpe-de-portage/'), ('Lit cododo', 'lit-cododo-utile/'), ('Stérilisateur', 'sterilisateur-biberon-utile/'), ('Chauffe-biberon', 'chauffe-biberon-utile/'), ('Baignoire', 'baignoire-bebe-ou-transat-de-bain/'), ('Bodies', 'combien-de-bodies-et-pyjamas-pour-bebe/'), ('Pyjamas', 'combien-de-bodies-et-pyjamas-pour-bebe/'), ('Mouche-bébé', 'mouche-bebe-lequel-choisir/'), ('Veilleuse', 'veilleuse-bebe-utile/')]
+def guide_for(name):
+    have = {x['slug'] for x in GUIDES}
+    for key, slug in GUIDE_MAP:
+        if name.startswith(key) and slug in have:
+            return slug
+    return None
+
 def build():
     if os.path.exists(OUT):
         for n in os.listdir(OUT):
@@ -221,14 +230,14 @@ def build():
     # Données de la checklist
     data = []
     for cat, emo, items in CHECKLIST:
-        data.append({"c": cat, "e": emo, "i": [{"n": n, "u": amz(q), "p": p, "t": t} for n, q, p, t in items]})
+        data.append({"c": cat, "e": emo, "i": [dict({"n": n, "u": amz(q), "p": p, "t": t}, **({"g": guide_for(n)} if guide_for(n) else {})) for n, q, p, t in items]})
     total = sum(len(c['i']) for c in data)
     js = 'window.LDN_DATA=' + json.dumps(data, ensure_ascii=False) + ';window.LDN_PRIO=' + json.dumps({str(k): v for k, v in PRIO.items()}, ensure_ascii=False) + ';window.LDN_LIST=' + json.dumps(AMZ_LIST) + ';window.LDN_TAG=' + json.dumps(TAG) + ';'
     with open(os.path.join(OUT, 'assets', 'data.js'), 'w', encoding='utf-8') as f:
         f.write(js)
 
     tool = ('<div id="ck" class="ck"><noscript>Active JavaScript pour cocher les articles.</noscript></div>'
-            '<script src="{R}assets/data.js?v=3"></script><script src="{R}assets/checklist.js?v=8" defer></script>')
+            '<script src="{R}assets/data.js?v=3"></script><script src="{R}assets/checklist.js?v=9" defer></script>')
 
     # Accueil
     cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (
