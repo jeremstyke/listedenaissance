@@ -2,7 +2,7 @@
 # Format : - [ ] slug/ | requête visée | produits à couvrir
 # Déjà publiés : meilleure-poussette/, meilleur-siege-auto-bebe/, meilleur-babyphone/, meilleur-lit-bebe/
 
-- [ ] meilleur-matelas-bebe/ | meilleur matelas bébé | 60x120, 70x140, déhoussable
+- [x] meilleur-matelas-bebe/ | meilleur matelas bébé | 60x120, 70x140, déhoussable
 - [ ] meilleure-chaise-haute/ | meilleure chaise haute | évolutive, pliante, compacte
 - [ ] meilleur-tire-lait/ | meilleur tire-lait électrique | simple, double, mains libres ; renvoi sage-femme
 - [ ] meilleur-transat-bebe/ | meilleur transat bébé | manuel, électrique

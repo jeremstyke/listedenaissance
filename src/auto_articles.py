@@ -635,3 +635,115 @@ g("meilleur-lit-bebe/",
        ("Faut-il un cododo en plus du lit à barreaux ?", "Non, ce n'est pas obligatoire : un lit à barreaux convient dès la naissance. Le cododo est un confort en plus les premiers mois, souvent jusqu'à 6 mois ou 9 kg selon les modèles."),
        ("Quel matelas mettre dans le lit ?", "Un matelas exactement à la taille du lit, sans espace sur les côtés. Pour un lit ovale ou un cododo, prends le matelas prévu par la marque.")],
   short="Top 10 lits bébé")
+
+AUTO_META['meilleur-matelas-bebe/'] = ('🏆', 'menthe')
+g("meilleur-matelas-bebe/",
+  "Meilleur matelas bébé 2026 : top 10 en 60x120 et 70x140",
+  "Meilleur matelas bébé 2026 : notre top 10",
+  "Matelas bébé 60x120 et 70x140 : 10 modèles Babycalin, Candide, Tinéo, P'tit Lit, Aerosleep, IKEA ou Little Band classés par usage pour bien choisir en 2026.",
+  """
+<p>Le matelas, c'est l'achat qu'on fait souvent en dernier, juste après le lit. Pourtant, c'est sur lui que ton bébé va passer la plupart de ses nuits. Mousse, fibres de coco, faces été et hiver, housse qui passe en machine ou pas : les fiches produits ne se ressemblent pas du tout. Pour t'aider, on a réuni 10 matelas réels, vendus en France, aux formats 60x120 et 70x140, et on les a classés selon l'usage qui leur va le mieux.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Nous n'avons pas dormi sur ces matelas ni appuyé dessus. Chaque caractéristique citée a été lue sur la fiche du fabricant ou d'un revendeur français. La norme EN 16890 (la norme européenne des matelas pour lits d'enfant) n'est citée que lorsqu'on l'a lue sur la fiche. Quand une donnée manquait, on écrit « non précisé ». Vérifie toujours la fiche du modèle exact au moment de l'achat, car les versions évoluent.</p>
+
+<h2>Le tableau récapitulatif</h2>
+<table><thead><tr><th>Modèle</th><th>Type</th><th>Formats</th><th>Épaisseur</th><th>Déhoussable</th><th>Idéal pour</th></tr></thead><tbody>
+<tr><td>Babycalin Hygiène Plus</td><td>Mousse, ferme</td><td>60x120 cm</td><td>10 cm</td><td>Oui, lavable à 90 °C</td><td>Notre choix global</td></tr>
+<tr><td>Candide Résilience déhoussable 360°</td><td>Mousse haute résilience</td><td>60x120 ou 70x140 cm</td><td>11 cm</td><td>Oui, zip 360°, lavable à 30 °C</td><td>Le plus facile à déhousser</td></tr>
+<tr><td>Candide matelas évolutif</td><td>2 faces bébé et enfant</td><td>60x120 ou 70x140 cm</td><td>12 cm</td><td>Oui, température non précisée</td><td>Un 70x140 qui suit l'enfant</td></tr>
+<tr><td>Tinéo matelas climatisé</td><td>Mousse, faces été et hiver</td><td>60x120 ou 70x140 cm</td><td>10 cm</td><td>Non précisé</td><td>Les saisons marquées</td></tr>
+<tr><td>Little Band Air Plus 3D</td><td>Mousse, face été 3D</td><td>60x120 cm</td><td>10 cm</td><td>Oui, lavable en machine</td><td>Les bébés qui ont chaud</td></tr>
+<tr><td>Aerosleep Sleep Safe Pack Evolution</td><td>Matelas et protège-matelas</td><td>60x120 ou 70x140 cm</td><td>Non précisé</td><td>Housse lavable</td><td>Le plus complet</td></tr>
+<tr><td>P'tit Lit coton bio</td><td>Enveloppe coton bio</td><td>60x120 cm</td><td>10 cm</td><td>Oui, température non précisée</td><td>Une housse en coton bio</td></tr>
+<tr><td>IKEA SKÖNAST</td><td>Mousse, ferme</td><td>60x120 cm</td><td>8 cm</td><td>Non précisé</td><td>Équiper un lit IKEA</td></tr>
+<tr><td>Matelas No Stress coco 70x140</td><td>Coco et latex, ferme</td><td>70x140 cm</td><td>10 cm</td><td>Non précisé</td><td>Un 70x140 en fibres naturelles</td></tr>
+<tr><td>Cosme Literie 100 % naturel</td><td>Coco et latex, très ferme</td><td>60x120 ou 70x140 cm</td><td>8 cm</td><td>Oui, lavage à la main</td><td>Le plus ferme</td></tr>
+</tbody></table>
+<p>Le format du matelas dépend de ton lit, pas l'inverse : mesure l'intérieur du lit avant de choisir. Tous nos critères sont dans le guide <a href="{R}comment-choisir-matelas-bebe/">comment choisir un matelas bébé</a>.</p>
+
+<h2>1. Babycalin Hygiène Plus 60x120 : idéal pour un matelas ferme et très facile à laver (notre choix global)</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu veux un matelas classique, ferme, au format le plus courant, avec une housse qui supporte les gros lavages.</p>
+<p><strong>Points forts :</strong> 60x120 cm pour 10 cm d'épaisseur. Le garnissage est en mousse 100 % polyuréthane de 18 kg/m³, décrite comme thermostabilisée pour un couchage ferme et indéformable. La housse en polyester est déhoussable et lavable à 90 °C, ce qui est rare. Détail malin : la tirette de la fermeture éclair a été retirée pour que bébé ne puisse pas l'attraper, on l'ouvre avec un trombone. Le matelas a deux faces de couchage. La fiche indique qu'il est conforme à la norme NF EN 16890 et cite le label OEKO-TEX Standard 100. Fabrication française.</p>
+<p><strong>Limites honnêtes :</strong> il n'existe qu'en 60x120 sur la fiche consultée. La fiche annonce un traitement anti-acariens : si tu préfères un matelas sans traitement, regarde plutôt le Candide Résilience. La garantie est indiquée à 5 ans dans la description et à 24 mois dans les caractéristiques, donc à vérifier.</p>
+<p><a href="{AMZ:babycalin matelas hygiene plus dehoussable 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. Candide Résilience déhoussable 360° : idéal pour déhousser en un geste</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui vont laver la housse souvent et veulent pouvoir la retirer en entier sans se battre avec le matelas.</p>
+<p><strong>Points forts :</strong> disponible en 60x120 cm et en 70x140 cm, pour 11 cm d'épaisseur. Le cœur est en mousse micro-alvéolée haute résilience de 55 kg/m³, entourée de bandes de mousse de 20 kg/m³. La fiche annonce un « couchage ferme et équilibré ». La housse s'enlève entièrement grâce à un zip 360° et se lave à 30 °C. Le matelas est annoncé sans traitement. Fabriqué en France, garantie 5 ans.</p>
+<p><strong>Limites honnêtes :</strong> aucune norme n'est citée sur la fiche consultée. Le lavage à 30 °C est moins poussé que celui du Babycalin. Le nombre de faces de couchage n'est pas précisé.</p>
+<p><a href="{AMZ:candide matelas resilience dehoussable 360}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Candide matelas évolutif : idéal pour un 70x140 qui suit l'enfant</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu as un grand lit évolutif 70x140 et que tu veux un seul matelas des premiers mois jusqu'au lit d'enfant.</p>
+<p><strong>Points forts :</strong> disponible en 60x120 et en 70x140 cm, avec une belle épaisseur de 12 cm. Le matelas est réversible : une face pour bébé jusqu'à 10 kg, l'autre pour l'enfant au delà de 10 kg. La housse est amovible et lavable. Fabriqué en France, garantie 5 ans.</p>
+<p><strong>Limites honnêtes :</strong> la fiche consultée se contredit sur la matière (mousse polyuréthane de 16 kg/m³ dans les caractéristiques, faces en latex dans la description) : demande confirmation au vendeur. La fermeté n'est pas chiffrée, la température de lavage non précisée, et aucune norme n'est citée. La fiche annonce aussi un traitement anti-acariens.</p>
+<p><a href="{AMZ:candide matelas evolutif 70x140}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Tinéo matelas climatisé : idéal si les saisons sont marquées chez toi</h2>
+<p><strong>Pour qui ?</strong> Pour les parents dont la chambre est fraîche l'hiver et chaude l'été, qui veulent pouvoir retourner le matelas selon la saison.</p>
+<p><strong>Points forts :</strong> disponible en 60x120 ou 70x140 cm, 10 cm d'épaisseur. L'âme est en mousse 100 % polyuréthane. Une face hiver en coutil matelassé, une face été en maille aérée pour faire circuler l'air. La fiche parle d'un couchage ferme et indique qu'il est sans traitement. Fabriqué en France.</p>
+<p><strong>Limites honnêtes :</strong> la fiche consultée ne dit pas si la housse est déhoussable ni à quelle température elle se lave. Aucune norme n'est citée. La fermeté est annoncée « à 75 % », un chiffre que la fiche n'explique pas.</p>
+<p><a href="{AMZ:tineo matelas climatise 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Little Band Air Plus 3D : idéal pour les bébés qui ont chaud</h2>
+<p><strong>Pour qui ?</strong> Pour toi si ton bébé transpire la nuit ou si sa chambre est sous les toits.</p>
+<p><strong>Points forts :</strong> 60x120 cm, 10 cm d'épaisseur. Le couchage est annoncé ferme. Double face : une face matelassée pour l'hiver, et une face matelassée 3D pour l'été, pensée pour la circulation de l'air. La housse est déhoussable et se lave en machine. La fiche indique « Matelas conforme à la norme EN 16890 » et cite le label OEKO-TEX Standard 100. Origine France. La fiche rappelle aussi une règle utile : un seul matelas dans le lit, et pas plus de 30 mm d'espace entre le matelas et les côtés.</p>
+<p><strong>Limites honnêtes :</strong> la fiche se contredit sur le garnissage (ouate polyester de 24 kg/m³ dans la description, mousse de 18 kg/m³ dans la fiche technique). La température de lavage n'est pas précisée, la garantie est de 24 mois et un traitement anti-acariens est indiqué.</p>
+<p><a href="{AMZ:little band matelas air plus 3d 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Aerosleep Sleep Safe Pack Evolution : idéal pour un pack matelas et protège-matelas</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent tout d'un coup, matelas et protection, sans chercher le bon protège-matelas à part.</p>
+<p><strong>Points forts :</strong> le fabricant le vend comme un ensemble 2 en 1 : le matelas et un protège-matelas 3D à 4 couches, décrit comme respirant. Le matelas est présenté comme offrant une fermeté supplémentaire. Il existe en 120x60 cm et en 140x70 cm, et aussi en plusieurs tailles de berceau et de parc, pratique si tu veux la même marque partout. La housse est décrite comme lavable.</p>
+<p><strong>Limites honnêtes :</strong> la page du fabricant consultée ne donne ni l'épaisseur, ni la matière détaillée, ni la température de lavage, ni de norme. Le fabricant conseille ses propres draps housses perforés, ce qui ajoute un achat si tu veux suivre la recommandation.</p>
+<p><a href="{AMZ:aerosleep sleep safe pack evolution 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. P'tit Lit coton bio : idéal pour une housse en coton bio</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu fais attention aux textiles en contact avec la peau de bébé et que tu veux une enveloppe en coton.</p>
+<p><strong>Points forts :</strong> 60x120 cm, 10 cm d'épaisseur. L'enveloppe est 100 % coton issu de l'agriculture biologique. Le matelas est déhoussable. La fiche cite les labels OEKO-TEX et CertiPUR, et une fabrication en France.</p>
+<p><strong>Limites honnêtes :</strong> la fiche consultée ne précise ni la matière ni la densité de l'âme, ni la fermeté, ni la température de lavage (les conseils d'entretien sont dans un PDF à part). Aucune norme n'y est citée. N'existe qu'en 60x120 sur cette fiche.</p>
+<p><a href="{AMZ:ptit lit matelas bebe coton bio 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. IKEA SKÖNAST : idéal pour équiper un lit IKEA</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui ont choisi un lit IKEA (SNIGLAR, SUNDVIK...) et veulent un matelas simple de la même marque, au bon format.</p>
+<p><strong>Points forts :</strong> matelas en mousse de 60x120 cm, 8 cm d'épaisseur, avec une fermeté indiquée « ferme ». IKEA précise que la plupart de ses matelas pour lits à barreaux ont une housse amovible lavable en machine à 60 °C.</p>
+<p><strong>Limites honnêtes :</strong> c'est le plus fin de la sélection. La page consultée ne confirme pas la housse amovible pour ce modèle précis et ne cite aucune norme, seulement des « normes de sécurité strictes ». Il se trouve surtout en magasin IKEA ou sur le site de la marque.</p>
+<p><a href="{AMZ:ikea skonast matelas lit bebe 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. Matelas No Stress coco 70x140 : idéal pour un 70x140 en fibres naturelles</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu as un lit 70x140 et que tu préfères un cœur en fibres naturelles plutôt qu'en mousse.</p>
+<p><strong>Points forts :</strong> 70x140 cm, 10 cm d'épaisseur, fermeté indiquée « ferme ». Le cœur est fait d'environ 8 cm de fibres de coco agglomérées avec du latex. Une face hiver garnie de laine, une face été garnie de coton. La fiche cite le label OEKO-TEX Standard 100 et une fabrication dans des ateliers du Nord de la France.</p>
+<p><strong>Limites honnêtes :</strong> la fiche consultée ne dit pas si la housse est déhoussable, et se contredit sur l'enveloppe (coutil coton bio dans la description, habillage bambou dans les caractéristiques). Aucune norme n'est citée. Si quelqu'un est allergique au latex dans la famille, demande conseil avant.</p>
+<p><a href="{AMZ:matelas no stress coco bambou 70x140}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. Cosme Literie matelas 100 % naturel : idéal pour un couchage très ferme</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent le couchage le plus ferme de la sélection, avec des matières naturelles, de la naissance jusqu'à 5 ans.</p>
+<p><strong>Points forts :</strong> disponible en 60x120 ou 70x140 cm, 8 cm d'épaisseur. Le cœur associe fibre de coco et latex naturel. La fiche indique une face très ferme pour les bébés de 0 à 1 an et une face mi-ferme pour les enfants de 1 à 5 ans. La housse en coton bio s'enlève grâce à une fermeture à glissière. La fiche cite les labels GOLS pour le latex et OEKO-TEX pour les textiles, et une fabrication dans la Sarthe.</p>
+<p><strong>Limites honnêtes :</strong> la housse ne passe pas en machine, la fiche conseille un lavage à la main pour les taches seulement. Avec un bébé qui régurgite, prévois un bon protège-matelas. Aucune norme n'est citée sur la fiche consultée, et la présence sur Amazon est à vérifier au moment de l'achat.</p>
+<p><a href="{AMZ:cosme literie matelas bebe naturel coco latex}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Comment choisir</h2>
+<p>Avant de comparer les modèles, pose-toi quatre questions simples.</p>
+<ul>
+<li><strong>Quel est le format exact de ton lit ?</strong> 60x120 pour la plupart des lits à barreaux, 70x140 pour les lits plus grands ou évolutifs. Mesure l'intérieur du lit. Si tu n'as pas encore choisi le lit, lis d'abord notre guide <a href="{R}comment-choisir-lit-bebe/">comment choisir un lit bébé</a>.</li>
+<li><strong>Le matelas est-il ferme ?</strong> C'est le critère numéro un. Cherche « ferme » sur la fiche, et méfie-toi des matelas décrits seulement comme moelleux ou très enveloppants.</li>
+<li><strong>Comment se lave la housse ?</strong> Déhoussable, lavable en machine, à quelle température : c'est ce qui te simplifiera la vie au quotidien. Une housse qui ne passe pas en machine demande un protège-matelas impeccable.</li>
+<li><strong>Quelle matière ?</strong> La mousse est la plus courante. Les fibres de coco et le latex plaisent aux parents qui veulent des matières naturelles. Les faces été et hiver aident si la chambre change beaucoup de température.</li>
+</ul>
+<p>Côté sécurité, la norme EN 16890 sur la fiche est un bon signe, mais beaucoup de fiches ne la mentionnent pas : dans ce cas, demande au vendeur ou regarde l'étiquette du matelas. Tous les critères sont détaillés dans notre guide <a href="{R}comment-choisir-matelas-bebe/">comment choisir un matelas bébé</a>.</p>
+
+<h2>Sécurité : les règles qui comptent plus que le modèle</h2>
+<ul>
+<li><strong>Un matelas ferme :</strong> appuie avec la paume au centre, il doit reprendre sa forme tout de suite, sans creux. Pas de surmatelas ni de couche moelleuse ajoutée par-dessus.</li>
+<li><strong>À la taille exacte du lit :</strong> le matelas doit remplir tout le lit, sans espace sur les côtés où bébé pourrait coincer un bras ou le visage. Un seul matelas, jamais deux superposés.</li>
+<li><strong>Rien dans le lit :</strong> pas de couette, d'oreiller, de tour de lit ni de peluche. Bébé dort sur le dos, dans une gigoteuse adaptée à sa taille.</li>
+<li><strong>Un matelas neuf de préférence :</strong> un matelas d'occasion a pu se creuser ou garder de l'humidité, et c'est difficile à voir.</li>
+</ul>
+<p>Si tu as un doute sur le sommeil ou l'installation de ton bébé, parles-en à ta sage-femme, à ton médecin ou à ton pédiatre.</p>
+
+<h2>Dans ta liste de naissance</h2>
+<p>Le matelas va très bien avec le lit dans une liste de naissance : un proche offre le lit, un autre le matelas, le protège-matelas et deux draps housses au même format. Précise bien la taille pour éviter les erreurs. Pour ne rien oublier, coche tout dans notre <a href="{R}checklist/">checklist</a>, et lis notre guide <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux y regrouper ces articles.</p>
+""",
+  faq=[("Quel est le meilleur matelas bébé en 2026 ?", "Il n'y a pas de matelas parfait pour tout le monde. Le bon matelas est ferme, exactement à la taille de ton lit et facile à entretenir. Notre choix global est le Babycalin Hygiène Plus 60x120 pour sa housse lavable à 90 °C et sa conformité EN 16890 indiquée sur la fiche."),
+       ("Faut-il un matelas 60x120 ou 70x140 ?", "Ça dépend uniquement de ton lit. Mesure l'intérieur du lit et prends le format exact, sans espace sur les côtés. Le 70x140 va avec les lits plus grands ou évolutifs."),
+       ("Quelle épaisseur choisir pour un matelas bébé ?", "Les modèles de notre sélection vont de 8 à 12 cm. L'épaisseur compte moins que la fermeté et la taille exacte. Vérifie aussi que le matelas reste bien sous le haut des barreaux, en suivant la notice de ton lit.")],
+  short="Top 10 matelas bébé")
