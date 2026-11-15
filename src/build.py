@@ -113,7 +113,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=16">
+<link rel="stylesheet" href="{R}assets/style.css?v=17">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -228,7 +228,7 @@ def build():
         f.write(js)
 
     tool = ('<div id="ck" class="ck"><noscript>Active JavaScript pour cocher les articles.</noscript></div>'
-            '<script src="{R}assets/data.js?v=3"></script><script src="{R}assets/checklist.js?v=6" defer></script>')
+            '<script src="{R}assets/data.js?v=3"></script><script src="{R}assets/checklist.js?v=7" defer></script>')
 
     # Accueil
     cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (

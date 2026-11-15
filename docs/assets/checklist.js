@@ -12,7 +12,7 @@
     '<div class="ckinfo"><span id="cnt"></span><span>Gardé sur cet appareil</span></div>' +
     '<div class="filt" id="flt">' +
     '<button data-f="all" class="on">Tout</button><button data-f="1">Indispensable</button>' +
-    '<button data-f="2">Utile</button><button data-f="3">En option</button><button data-f="todo">Pas encore coché</button></div><p class="ck-tip">Astuce : pour chaque article, clique sur « Voir », choisis ton modèle sur Amazon, copie son lien puis colle-le avec « Mon modèle ».</p></div>';
+    '<button data-f="2">Utile</button><button data-f="3">En option</button><button data-f="todo">Pas encore coché</button></div><p class="ck-tip">Astuce : coche un article, clique sur « Voir » pour choisir ton modèle sur Amazon, puis colle son lien avec « Mon modèle ».</p></div>';
   D.forEach(function(c, ci){
     var tints = ['lilas','ciel','peche','menthe','miel','lilas','ciel'];
     h += '<section class="cat t-' + tints[ci % tints.length] + '" id="cat' + ci + '"><h2><span class="cat-e" aria-hidden="true">' + c.e + '</span><span class="cat-n">' + c.c + '</span><small id="cc' + ci + '"></small></h2>';
