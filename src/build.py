@@ -132,7 +132,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p>La checklist gratuite pour préparer l'arrivée de bébé, sans rien oublier.</p></div>
 <nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}outils/">Outils</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
 <p class="wed">💍 Tu te maries aussi ? Prépare ta liste avec <a href="https://malistedemariage.fr/">Ma liste mariage</a> ou <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">crée ta liste de mariage Amazon</a></p>
-<nav class="sites" aria-label="Nos sites"><span>Nos sites :</span><a aria-current="page" href="{R}">🍼 Ma liste bébé</a><a href="https://malistedemariage.fr/">💍 Ma liste mariage</a><a href="https://jeremstyke.github.io/vieillirchezsoi/">🏡 Vieillir chez soi</a></nav>
+<nav class="sites" aria-label="Nos sites"><span>Nos sites :</span><a aria-current="page" href="{R}">🍼 Ma liste bébé</a><a href="https://malistedemariage.fr/">💍 Ma liste mariage</a><a href="https://viellirchezsoi.fr/">🏡 Vieillir chez soi</a></nav>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
 <script src="{R}assets/account.js?v=10" defer></script>
