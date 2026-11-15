@@ -86,3 +86,54 @@ g("comment-choisir-lit-bebe/",
        ("Faut-il un berceau en plus du lit ?", "Ce n'est pas obligatoire. Un berceau ou un lit cododo est pratique les premiers mois, mais un lit à barreaux convient dès la naissance."),
        ("Peut-on acheter un lit bébé d'occasion ?", "Oui, s'il est complet, stable, conforme à la norme et sans peinture abîmée. Achète en revanche un matelas neuf.")],
   short="Choisir un lit bébé")
+
+AUTO_META['comment-choisir-matelas-bebe/'] = ('🧸', 'menthe')
+g("comment-choisir-matelas-bebe/",
+  "Comment choisir un matelas bébé : fermeté, taille, sécurité",
+  "Comment choisir un matelas bébé",
+  "Fermeté, taille exacte du lit, mousse, latex ou fibres, housse déhoussable, norme : les critères pour choisir un matelas bébé sûr et facile à entretenir.",
+  """
+<p>On passe des heures à comparer les lits et les poussettes, et le matelas finit souvent ajouté au dernier moment. C'est pourtant lui qui compte le plus pour le sommeil de bébé. Bonne nouvelle : les bons critères sont simples, et un matelas bien choisi n'a pas besoin d'être le plus cher.</p>
+{CTA}
+<h2>Le critère numéro un : la fermeté</h2>
+<p>Un matelas bébé doit être <strong>ferme</strong>. C'est la recommandation qu'on retrouve dans tous les conseils de couchage sûr : bébé dort sur le dos, sur un matelas ferme, dans un lit sans couette, oreiller, tour de lit ni peluche. Un matelas trop moelleux se creuse sous le poids de bébé et peut gêner sa respiration s'il tourne la tête.</p>
+<p>Pour vérifier, appuie avec la paume au centre du matelas : il doit reprendre sa forme tout de suite et ne pas former de creux. Ce qui te paraît un peu dur pour toi est en général parfait pour un nourrisson, qui pèse très peu.</p>
+<p>Attention aux surmatelas, aux matelas à mémoire de forme très enveloppants et aux couches ajoutées pour « plus de confort » : ils annulent l'intérêt d'un matelas ferme. Si tu as un doute sur l'installation de bébé, parles-en à ta sage-femme ou au pédiatre.</p>
+<h2>La taille exacte du lit, au centimètre près</h2>
+<p>Le deuxième critère de sécurité est souvent négligé : le matelas doit <strong>remplir tout le lit</strong>. Entre le matelas et les côtés du lit, il ne doit pas rester d'espace où bébé pourrait coincer un bras, une jambe ou le visage.</p>
+<ul>
+<li><strong>Mesure l'intérieur du lit</strong> avant d'acheter, et non la taille annoncée sur l'emballage du lit.</li>
+<li><strong>Prends le format correspondant</strong> : 60x120 pour la majorité des lits à barreaux, 70x140 pour les lits plus grands ou évolutifs. <a href="{AMZ:matelas bebe 60x120}" rel="sponsored nofollow noopener" target="_blank">Voir les matelas 60x120</a> ou <a href="{AMZ:matelas bebe 70x140}" rel="sponsored nofollow noopener" target="_blank">les matelas 70x140</a>.</li>
+<li><strong>Berceau, couffin, cododo, lit parapluie</strong> : ces lits ont des tailles plus variées. Prends le matelas vendu avec le lit ou un modèle prévu pour ses dimensions exactes. <a href="{AMZ:matelas berceau cododo}" rel="sponsored nofollow noopener" target="_blank">Voir les matelas de berceau et cododo</a>.</li>
+</ul>
+<p>Tu hésites encore sur le lit lui-même ? Notre guide <a href="{R}comment-choisir-lit-bebe/">comment choisir un lit bébé</a> t'aide à trancher entre 60x120 et 70x140.</p>
+<h2>Mousse, latex ou fibres : quelle matière ?</h2>
+<p>Il n'y a pas de matière parfaite, seulement des compromis entre prix, poids, durée de vie et aération. Voici les grandes familles :</p>
+<table><thead><tr><th>Matière</th><th>Points forts</th><th>Limites</th><th>Pour qui ?</th></tr></thead><tbody>
+<tr><td>Mousse polyuréthane</td><td>Léger, petit prix, facile à trouver</td><td>Qualité variable selon la densité</td><td>Petit budget, lit d'appoint</td></tr>
+<tr><td>Fibres (coco, polyester)</td><td>Souvent bien aéré, ferme</td><td>Plus lourd, parfois plus cher</td><td>Parents attentifs à l'aération</td></tr>
+<tr><td>Latex</td><td>Durable, garde sa forme</td><td>Prix plus élevé, à éviter en cas d'allergie au latex dans la famille</td><td>Lit utilisé plusieurs années</td></tr>
+<tr><td>Matelas mixte ou à deux faces</td><td>Une face plus ferme pour les premiers mois, une autre pour plus tard</td><td>Bien repérer la bonne face</td><td>Lit évolutif</td></tr>
+</tbody></table>
+<p>Quelle que soit la matière, regarde la fermeté et la tenue dans le temps plutôt que les arguments marketing. Si tu veux limiter les substances chimiques, cherche des labels sur les textiles et les mousses, et aère bien le matelas après le déballage.</p>
+<h2>La housse : déhoussable et lavable</h2>
+<p>Régurgitations, couches qui fuient, petites maladies : le matelas va être sali, c'est certain. Une housse <strong>déhoussable et lavable en machine</strong> te fera gagner beaucoup de temps. Vérifie la fermeture (une fermeture éclair sur plusieurs côtés est plus pratique) et la température de lavage indiquée sur l'étiquette.</p>
+<p>Ajoute un <a href="{AMZ:alese bebe 60x120}" rel="sponsored nofollow noopener" target="_blank">protège-matelas imperméable</a> à la bonne taille : il protège le matelas sans le ramollir. Prévois aussi deux ou trois <a href="{AMZ:drap housse bebe 60x120}" rel="sponsored nofollow noopener" target="_blank">draps housses</a>, bien tendus, pour en avoir toujours un propre. Le reste du linge est détaillé dans notre <a href="{R}trousseau-de-naissance/">trousseau de naissance</a>.</p>
+<h2>La norme et les mentions à vérifier</h2>
+<p>En Europe, il existe une norme dédiée aux matelas de lits et berceaux pour enfants : <strong>EN 16890</strong>. Elle fixe des exigences de sécurité et des méthodes d'essai. Un matelas qui l'annonce sur l'étiquette ou la fiche produit est un bon signe. Regarde aussi :</p>
+<ul>
+<li>les dimensions exactes et l'épaisseur indiquées par le fabricant ;</li>
+<li>les consignes d'entretien de la housse ;</li>
+<li>la face à utiliser pour un nouveau-né si le matelas a deux faces.</li>
+</ul>
+<h2>Neuf ou d'occasion ?</h2>
+<p>Beaucoup de matériel bébé s'achète très bien d'occasion. Le matelas fait exception : il est souvent conseillé de le prendre <strong>neuf</strong>. Un matelas déjà utilisé a pu se creuser, perdre sa fermeté ou garder de l'humidité, et c'est difficile à voir. Pour un deuxième enfant, tu peux réutiliser le matelas du premier s'il est resté ferme, propre, sans creux ni tache d'humidité, et s'il a été bien protégé. Dans le doute, mieux vaut le remplacer.</p>
+<h2>Combien de matelas prévoir ?</h2>
+<p>Un par lit, tout simplement. Si bébé dort d'abord dans un berceau ou un cododo près de toi, puis dans son lit à barreaux, il te faudra deux matelas de tailles différentes. Pour le <a href="{AMZ:matelas lit parapluie}" rel="sponsored nofollow noopener" target="_blank">lit parapluie</a>, le fond fourni est souvent fin : un matelas adapté peut améliorer le confort, à condition qu'il soit prévu pour ce lit et à sa taille exacte, sans superposer plusieurs épaisseurs.</p>
+<h2>Le matelas dans ta liste de naissance</h2>
+<p>Le matelas se marie très bien avec le lit dans une liste de naissance : un proche offre le lit, un autre le matelas et le linge. Précise bien la taille dans ta liste pour éviter les erreurs. Pour ne rien oublier, coche tout au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>, et lis notre guide <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux y regrouper ces articles.</p>
+""",
+  faq=[("Quelle fermeté pour un matelas bébé ?", "Le matelas doit être ferme : il reprend sa forme dès que tu retires la main et ne se creuse pas sous le poids de bébé. Pas de surmatelas ni de couche moelleuse ajoutée par-dessus."),
+       ("Comment savoir si le matelas est à la bonne taille ?", "Il doit remplir tout le lit, sans espace entre le matelas et les bords. Mesure l'intérieur du lit et choisis le format exact, par exemple 60x120 ou 70x140."),
+       ("Peut-on garder le matelas du premier enfant ?", "Oui s'il est resté ferme, sans creux, propre et sec. S'il est affaissé, taché ou abîmé, il vaut mieux en acheter un neuf.")],
+  short="Choisir un matelas bébé")
