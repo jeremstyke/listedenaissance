@@ -134,7 +134,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p class="wed">💍 Tu te maries aussi ? Prépare ta liste avec <a href="https://malistedemariage.fr/">Ma liste mariage</a> ou <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=6" defer></script>
+<script src="{R}assets/account.js?v=7" defer></script>
 </body>
 </html>
 '''
@@ -226,7 +226,7 @@ def build():
         f.write(js)
 
     tool = ('<div id="ck" class="ck"><noscript>Active JavaScript pour cocher les articles.</noscript></div>'
-            '<script src="{R}assets/data.js?v=2"></script><script src="{R}assets/checklist.js?v=3" defer></script>')
+            '<script src="{R}assets/data.js?v=2"></script><script src="{R}assets/checklist.js?v=4" defer></script>')
 
     # Accueil
     cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (
