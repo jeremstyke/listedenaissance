@@ -354,3 +354,4 @@ h3{font-size:19px;font-weight:600}
 .sites a{padding:6px 14px;border-radius:99px;border:1px solid rgba(255,255,255,.35);text-decoration:none;color:#fff!important;font-weight:700;font-size:14px}
 .sites a:hover{background:rgba(255,255,255,.12)}
 .sites a[aria-current]{background:#fff;color:#22302B!important;border-color:#fff}
+.note{background:#F3F7F6;border-left:4px solid var(--miel,#E8B04B);border-radius:12px;padding:12px 16px;margin:18px 0;font-size:.95em}
