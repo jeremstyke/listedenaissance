@@ -113,7 +113,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=19">
+<link rel="stylesheet" href="{R}assets/style.css?v=20">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -248,7 +248,7 @@ def build():
 <h2>Pièce par pièce</h2>
 <p class="sub">Ouvre une catégorie pour voir ce qu'il faut vraiment prévoir.</p>
 <div class="chips">{cats}</div>
-<div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, et tu peux la partager à ta famille.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
+<div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, tu retrouves ta progression partout.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 </section>
 <div class="wave-top"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><section class="band"><div class="wrap block">
 <h2>Comment ça marche</h2>
@@ -281,7 +281,7 @@ def build():
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
 <p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
 <div class="wrap"><p class="ck-first">Pas encore de liste ? <a href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Crée d'abord ta liste de naissance sur Amazon</a> (gratuit), puis remplis-la ici article par article.</p></div>
-<div class="wrap"><div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, et tu peux la partager à ta famille.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
+<div class="wrap"><div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, tu retrouves ta progression partout.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 {tool}
 {CTA}
 <div class="prose">
@@ -354,7 +354,6 @@ def build():
 <ul class="perks">
 <li><span aria-hidden="true">☁️</span><div><strong>Ta liste sauvegardée</strong>Ce que tu coches n'est jamais perdu, même si tu changes de téléphone ou vides ton navigateur.</div></li>
 <li><span aria-hidden="true">📱</span><div><strong>Sur tous tes appareils</strong>Commence sur ton téléphone, continue sur l'ordinateur. Et à deux avec le co-parent.</div></li>
-<li><span aria-hidden="true">💌</span><div><strong>Partagée avec ta famille</strong>Un lien privé montre à tes proches ce dont tu as besoin, pour qu'ils puissent l'offrir.</div></li>
 </ul>
 <form id="form-magic" class="accf">
 <label>Ton e-mail<input type="email" name="email" autocomplete="email" required></label>
@@ -367,7 +366,7 @@ def build():
 <div id="acc-in" hidden>
 <p class="lead">Connecté avec <strong id="acc-email"></strong>. Ta checklist est sauvegardée : <strong id="acc-count"></strong>.</p>
 <p><a class="btn" href="{R}checklist/">Ouvrir ma checklist</a></p>
-<h2>Ma liste à partager</h2>
+<h2>Mes infos</h2>
 <form id="form-baby" class="accf">
 <label>Prénom de bébé (facultatif)<input type="text" id="f-baby" maxlength="40"></label>
 <label>Date prévue (facultatif)<input type="date" id="f-due"></label>
@@ -383,7 +382,7 @@ def build():
 </div>
 <p id="acc-msg" class="acc-msg" role="status" aria-live="polite"></p>
 </div></div>"""
-    page('compte/', 'Mon compte | Ma liste bébé', 'Connecte-toi par e-mail, sans mot de passe, pour sauvegarder ta checklist de naissance et la partager.', acc, noindex=True)
+    page('compte/', 'Mon compte | Ma liste bébé', 'Connecte-toi par e-mail, sans mot de passe, pour sauvegarder ta checklist de naissance.', acc, noindex=True)
 
     pub = """<section class="wrap pagehead"><h1 id="pub-title">Une liste de naissance</h1>
 <p class="lead">Voici les articles choisis par les parents. Clique sur un article pour l'offrir.</p></section>
