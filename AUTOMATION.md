@@ -11,3 +11,4 @@ Règles d'écriture : tutoiement, français simple, jamais de tiret long, 900 à
 Pas de chiffre ni de fait inventé : vérifier tout fait précis (normes, aides, conditions Amazon) par une recherche web, sinon rester général.
 Santé : conseils généraux uniquement, renvoyer vers médecin, sage-femme ou pédiatre.
 Liens Amazon : uniquement via `{AMZ:mots clés}` dans le corps (le tag est ajouté automatiquement).
+Ton neutre : ne pas parler d'Amazon dans chaque paragraphe. Présenter les solutions de façon équilibrée (site marchand, liste multi-boutiques, magasin, cagnotte) ; Amazon peut être cité comme notre choix, sans plus. Lien vers la page comparatif `{R}ou-faire-sa-liste-de-naissance/` quand le sujet s'y prête.

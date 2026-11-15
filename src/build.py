@@ -5,6 +5,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
 from extra6 import EXTRA
 from longtail import PRINTLIST
+import neutre_b
 from auto_articles import AUTO_META
 from tools_b import TOOLS
 import ogimg
@@ -62,11 +63,11 @@ META.update(AUTO_META)
 CAT_TINT = ['lilas', 'ciel', 'peche', 'menthe', 'miel', 'lilas', 'ciel']
 
 CTA = ('<aside class="tag"><span class="tag-hole" aria-hidden="true"></span><div class="tag-tx">'
-       '<strong>Crée ta liste de naissance Amazon</strong>'
-       '<span>Gratuite, avec jusqu\'à 15 % de réduction sur ce qui reste à la fin.</span></div>'
+       '<strong>Prête à créer ta liste en ligne ?</strong>'
+       '<span>Notre choix : la liste Amazon, gratuite et simple pour tes proches. <a href="{R}ou-faire-sa-liste-de-naissance/">Comparer les solutions</a></span></div>'
        '<a class="btn" href="' + AMZ_LIST + '" rel="sponsored nofollow noopener" target="_blank">Créer ma liste</a></aside>')
 
-NAV = [('checklist/', 'Checklist'), ('liste-de-naissance-amazon/', 'Liste Amazon'),
+NAV = [('checklist/', 'Checklist'), ('ou-faire-sa-liste-de-naissance/', 'Où faire sa liste'),
        ('outils/', 'Outils'), ('guides/', 'Guides')]
 
 FONTS = ('<link rel="preload" href="@R@assets/fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>'
@@ -225,7 +226,7 @@ def build():
         f.write(js)
 
     tool = ('<div id="ck" class="ck"><noscript>Active JavaScript pour cocher les articles.</noscript></div>'
-            '<script src="{R}assets/data.js?v=2"></script><script src="{R}assets/checklist.js?v=2" defer></script>')
+            '<script src="{R}assets/data.js?v=2"></script><script src="{R}assets/checklist.js?v=3" defer></script>')
 
     # Accueil
     cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (
@@ -234,9 +235,9 @@ def build():
     home = f'''<section class="hero"><span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span><span class="spark s1" aria-hidden="true">✦</span><span class="spark s2" aria-hidden="true">✦</span><span class="spark s3" aria-hidden="true">✦</span><div class="wrap hero-in">
 <div class="hero-tx">
 <h1>Ta liste de naissance, sans rien oublier</h1>
-<p class="hero-p">{total} articles triés par pièce, des vrais indispensables aux petits plus. Tu coches, tu retrouves chaque article sur Amazon, et tu profites de la réduction de la liste de naissance.</p>
+<p class="hero-p">{total} articles triés par pièce, des vrais indispensables aux petits plus. Tu coches, tu compares les modèles en un clic, et tu remplis ta liste en ligne sans rien oublier.</p>
 <div class="hbtn"><a class="btn big" href="{{R}}checklist/">Commencer ma checklist</a>
-<a class="btn ghost big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste Amazon</a></div>
+<a class="btn ghost big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste en ligne</a></div>
 <p class="hero-note">Gratuit. Connecte-toi en un clic par e-mail pour <a href="{{R}}compte/">tout sauvegarder et partager ta liste</a>.</p>
 </div>
 {HERO_TAG}
@@ -251,7 +252,7 @@ def build():
 <h2>En 4 étapes</h2>
 <ol class="steps">
 <li><strong>Coche</strong><span>les articles dont tu as besoin dans la <a href="{{R}}checklist/">checklist</a>.</span></li>
-<li><strong>Ajoute</strong><span>chaque article à ta liste de naissance sur Amazon.</span></li>
+<li><strong>Ajoute</strong><span>chaque article à ta liste en ligne (<a href="{{R}}ou-faire-sa-liste-de-naissance/">où la faire ?</a>).</span></li>
 <li><strong>Partage</strong><span>ta liste avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</span></li>
 <li><strong>Économise</strong><span>sur ce qui reste grâce à la <a href="{{R}}liste-de-naissance-amazon/">réduction</a>.</span></li>
 </ol></div></section><div class="wave-bot"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div>
@@ -268,11 +269,11 @@ def build():
 <h2>Préparer sa liste de naissance sans stress</h2>
 <p>Une liste de naissance sert à deux choses : ne rien oublier pour l'arrivée de bébé, et aider tes proches qui veulent te faire un cadeau. La plupart des futurs parents la commencent au deuxième trimestre, quand l'énergie revient, et la partagent quelques semaines avant le terme. Notre <a href="{{R}}quand-faire-sa-liste-de-naissance/">calendrier détaillé</a> t'aide à caler les étapes.</p>
 <p>Le plus difficile, c'est de faire le tri entre l'indispensable et le superflu. Dans la checklist, chaque article porte une priorité : <strong>Indispensable</strong> pour les premières semaines, <strong>Utile</strong> pour les cadeaux de la famille, <strong>En option</strong> pour plus tard. Tu évites ainsi les achats inutiles, un vrai plus si tu as un <a href="{{R}}liste-de-naissance-petit-budget/">petit budget</a> ou un <a href="{{R}}liste-de-naissance-petit-appartement/">petit appartement</a>.</p>
-<p>Pour la liste en ligne, la <a href="{{R}}liste-de-naissance-amazon/">liste de naissance Amazon</a> reste la plus simple pour les proches : un lien, un clic, et l'article est livré chez toi. Tu attends des jumeaux, un deuxième enfant ou un bébé d'hiver ? Nos guides dédiés t'aident à adapter la liste à ta situation.</p>
+<p>Pour la liste en ligne, plusieurs solutions existent : site marchand, liste multi-boutiques, magasin, cagnotte. Notre comparatif <a href="{{R}}ou-faire-sa-liste-de-naissance/">où faire sa liste de naissance</a> t'aide à choisir. Tu attends des jumeaux, un deuxième enfant ou un bébé d'hiver ? Nos guides dédiés t'aident à adapter la liste à ta situation.</p>
 </div></section>
 <section class="wrap block narrow">{fh}</section>'''
     page('', 'Liste de naissance : checklist complète et idées (%d)' % YEAR,
-         'Fais ta liste de naissance en 5 minutes : checklist gratuite de %d articles triés par pièce, conseils de parents et réduction de la liste Amazon.' % total,
+         'Fais ta liste de naissance en 5 minutes : checklist gratuite de %d articles triés par pièce, conseils de parents et comparatif des listes en ligne.' % total,
          home, schema=fs, cls='home', og=ogfor('accueil', 'Ta liste de naissance, sans rien oublier', 'Checklist gratuite', '🍼', 'miel'))
 
     # Checklist
@@ -284,7 +285,7 @@ def build():
 <div class="prose">
 <h2>Comment utiliser cette checklist ?</h2>
 <p>Commence par filtrer sur <strong>Indispensable</strong> : c'est ce dont tu as besoin dès le retour de la maternité. Ajoute ensuite les articles <strong>Utile</strong>, qui font de très bons cadeaux pour la famille. Les articles <strong>En option</strong> peuvent attendre les mois suivants.</p>
-<p>Pour chaque article, ouvre la recherche Amazon, choisis le modèle qui te plaît et clique sur « Ajouter à la liste de naissance ». Une fois ta liste remplie, partage-la avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</p>
+<p>Pour chaque article, le bouton « Voir » te montre des modèles : choisis celui qui te plaît et ajoute-le à ta liste en ligne. Une fois ta liste remplie, partage-la avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</p>
 </div></div>'''
     schema = [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Checklist liste de naissance",
                "applicationCategory": "LifestyleApplication", "operatingSystem": "Tous", "url": BASE + '/checklist/',
