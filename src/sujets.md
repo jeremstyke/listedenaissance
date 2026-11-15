@@ -2,8 +2,19 @@
 # Format : - [ ] slug/ | requête visée | angle
 # Cocher [x] une fois publié. Prendre toujours le premier sujet non coché.
 
+- [ ] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
+- [ ] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
+- [ ] comment-choisir-matelas-bebe/ | comment choisir un matelas bébé | fermeté, taille exacte, déhoussable, sécurité du sommeil
+- [ ] comment-choisir-chaise-haute/ | comment choisir une chaise haute | évolutive, pliante, nettoyage, harnais
+- [ ] comment-choisir-tire-lait/ | comment choisir un tire-lait | manuel, électrique simple ou double, location
+- [ ] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
+- [ ] comment-choisir-sac-a-langer/ | comment choisir un sac à langer | sac à dos ou cabas, matelas, poches isothermes
+- [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
+- [ ] comment-choisir-lit-parapluie/ | comment choisir un lit parapluie | poids, pliage, matelas, usage voyage
+- [ ] comment-choisir-tapis-d-eveil/ | comment choisir un tapis d'éveil | arches, lavable, taille, évolutif
+- [ ] comment-choisir-coussin-allaitement/ | comment choisir un coussin d'allaitement | rembourrage, housse, grossesse
+- [ ] comment-choisir-thermometre-bebe/ | comment choisir un thermomètre bébé | rectal, frontal, auriculaire, rester général et renvoyer au médecin
 - [ ] porte-bebe-ou-echarpe-de-portage/ | porte-bébé ou écharpe de portage | comparatif clair, selon l'âge et l'usage
-- [ ] babyphone-audio-ou-video/ | babyphone audio ou vidéo | lequel choisir selon le logement
 - [ ] gigoteuse-quel-tog/ | gigoteuse quel TOG | tableau température / TOG, saison
 - [ ] lit-cododo-utile/ | lit cododo utile ou pas | avantages, limites, sécurité du sommeil
 - [ ] sterilisateur-biberon-utile/ | stérilisateur biberon utile | quand c'est utile, alternatives
