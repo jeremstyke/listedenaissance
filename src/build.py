@@ -113,7 +113,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=20">
+<link rel="stylesheet" href="{R}assets/style.css?v=22">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -280,7 +280,7 @@ def build():
     # Checklist
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
 <p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
-<div class="wrap"><p class="ck-first">Pas encore de liste ? <a href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Crée d'abord ta liste de naissance sur Amazon</a> (gratuit), puis remplis-la ici article par article.</p></div>
+<div class="wrap"><div class="ck-first"><strong>Comment ajouter un article à ta liste</strong><ol><li>Pas encore de liste ? <a href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Crée-la sur Amazon</a>, c'est gratuit.</li><li>Ici, clique sur <strong>« Voir »</strong> à côté d'un article : Amazon s'ouvre avec des modèles.</li><li>Choisis un modèle, puis appuie sur <strong>« Ajouter à la liste de naissance »</strong>, sous « Ajouter au panier ». Sur l'appli, il peut se trouver dans le menu « Ajouter à une liste ».</li><li>Reviens ici : l'article est déjà coché, passe au suivant.</li></ol></div></div>
 <div class="wrap"><div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, tu retrouves ta progression partout.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 {tool}
 {CTA}
