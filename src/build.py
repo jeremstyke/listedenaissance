@@ -6,6 +6,7 @@ from content import CHECKLIST, PRIO, GUIDES, MESSAGES, FAQ_HOME
 from extra6 import EXTRA
 from longtail import PRINTLIST
 from auto_articles import AUTO_META
+from tools_b import TOOLS
 import ogimg
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -66,7 +67,7 @@ CTA = ('<aside class="tag"><span class="tag-hole" aria-hidden="true"></span><div
        '<a class="btn" href="' + AMZ_LIST + '" rel="sponsored nofollow noopener" target="_blank">Créer ma liste</a></aside>')
 
 NAV = [('checklist/', 'Checklist'), ('liste-de-naissance-amazon/', 'Liste Amazon'),
-       ('quoi-mettre-dans-une-liste-de-naissance/', 'Que mettre ?'), ('guides/', 'Guides')]
+       ('outils/', 'Outils'), ('guides/', 'Guides')]
 
 FONTS = ('<link rel="preload" href="@R@assets/fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>'
          '<link rel="preload" href="@R@assets/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>')
@@ -111,7 +112,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=13">
+<link rel="stylesheet" href="{R}assets/style.css?v=14">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -128,7 +129,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <div class="wave-foot"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><footer class="foot"><div class="wrap foot-in">
 <div><a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
 <p>La checklist gratuite pour préparer l'arrivée de bébé, sans rien oublier.</p></div>
-<nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
+<nav aria-label="Pied de page"><a href="{R}checklist/">Checklist</a><a href="{R}guides/">Guides</a><a href="{R}outils/">Outils</a><a href="{R}mentions-legales/">Mentions légales</a><a href="{R}confidentialite/">Confidentialité</a><a href="mailto:{CONTACT}">Contact</a></nav>
 <p class="wed">💍 Tu te maries aussi ? Prépare ta liste avec <a href="https://malistedemariage.fr/">Ma liste mariage</a> ou <a href="{AMZ_WEDDING}" rel="sponsored nofollow noopener" target="_blank">crée ta liste de mariage Amazon</a></p>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
@@ -259,6 +260,10 @@ def build():
 <div class="grid3">{''.join(gcard(x) for x in GUIDES[:6])}</div>
 <p class="more"><a href="{{R}}guides/">Voir les {len(GUIDES)} guides</a></p>
 </section>
+<section class="wrap block">
+<h2>Nos outils gratuits</h2>
+<div class="grid3">{''.join(('<a class="gcard t-%s" href="{R}%s"><span class="gcard-e" aria-hidden="true">%s</span><strong>%s</strong><span class="gcard-d">%s</span></a>') % (x['tint'], x['slug'], x['emoji'], esc(x['h1']), esc(x['desc'])) for x in TOOLS)}</div>
+</section>
 <section class="wrap block narrow"><div class="prose">
 <h2>Préparer sa liste de naissance sans stress</h2>
 <p>Une liste de naissance sert à deux choses : ne rien oublier pour l'arrivée de bébé, et aider tes proches qui veulent te faire un cadeau. La plupart des futurs parents la commencent au deuxième trimestre, quand l'énergie revient, et la partagent quelques semaines avant le terme. Notre <a href="{{R}}quand-faire-sa-liste-de-naissance/">calendrier détaillé</a> t'aide à caler les étapes.</p>
@@ -316,6 +321,27 @@ def build():
          'Tous nos guides pour préparer ta liste de naissance : que mettre, petit budget, jumeaux, 2e enfant, valise maternité, messages et idées cadeaux.',
          idx, crumbs=[('Guides', 'guides/')], og=ogfor('guides', 'Tous les guides pour préparer l\'arrivée de bébé', 'Guides', '📚', 'ciel'))
 
+
+    # Outils gratuits
+    for x in TOOLS:
+        fh, fs = faq_block(x['faq'])
+        body, toc = add_toc(x['body'])
+        app = [{"@context": "https://schema.org", "@type": "WebApplication", "name": x['h1'], "description": x['desc'],
+                "applicationCategory": "UtilitiesApplication", "operatingSystem": "Tous", "url": BASE + '/' + x['slug'],
+                "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}]
+        ogp = ogfor(x['slug'].strip('/'), x['h1'], 'Outil gratuit', x['emoji'], x['tint'])
+        b = ('<header class="cover t-%s"><span class="cover-dots" aria-hidden="true"></span><div class="wrap cover-in"><span class="cover-e" aria-hidden="true">%s</span>'
+             '<div><h1>%s</h1><p class="cover-d">%s</p><p class="cover-m">Outil gratuit, sans inscription</p></div></div></header>'
+             '<div class="wrap art-wrap"><div class="tool-box">%s</div><article class="prose">%s%s%s%s</article></div>'
+             '<script src="{R}assets/tools.js?v=1" defer></script>') % (
+            x['tint'], x['emoji'], esc(x['h1']), esc(x['desc']), x['tool'], toc, body, CTA, fh)
+        page(x['slug'], x['title'], x['desc'], b, schema=app + fs,
+             crumbs=[('Outils', 'outils/'), (x['short'], x['slug'])], cls='guide', og=ogp)
+    tcards = ''.join(('<a class="gcard t-%s" href="{R}%s"><span class="gcard-e" aria-hidden="true">%s</span>'
+                      '<strong>%s</strong><span class="gcard-d">%s</span></a>') % (x['tint'], x['slug'], x['emoji'], esc(x['h1']), esc(x['desc'])) for x in TOOLS)
+    page('outils/', "Outils gratuits futurs parents : date d'accouchement, trousseau", "Outils gratuits pour préparer l'arrivée de bébé : calcul de la date d'accouchement, calendrier de préparation et calculateur de trousseau.",
+         '<section class="wrap pagehead"><h1>Outils gratuits pour futurs parents</h1><p class="lead">Calcule ta date d\'accouchement, prépare ton trousseau et organise l\'arrivée de bébé.</p></section><section class="wrap block"><div class="grid3">' + tcards + '</div></section>',
+         crumbs=[('Outils', 'outils/')], og=ogfor('outils', 'Outils gratuits pour futurs parents', 'Gratuit', '🧰', 'menthe'))
 
     # Compte
     acc = """<div class="wrap art-wrap"><div class="prose" id="acc">
