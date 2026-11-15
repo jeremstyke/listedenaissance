@@ -2,8 +2,8 @@
 # Format : - [ ] slug/ | requête visée | angle
 # Cocher [x] une fois publié. Prendre toujours le premier sujet non coché.
 
-- [ ] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
-- [ ] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
+- [x] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
+- [x] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
 - [ ] comment-choisir-matelas-bebe/ | comment choisir un matelas bébé | fermeté, taille exacte, déhoussable, sécurité du sommeil
 - [ ] comment-choisir-chaise-haute/ | comment choisir une chaise haute | évolutive, pliante, nettoyage, harnais
 - [ ] comment-choisir-tire-lait/ | comment choisir un tire-lait | manuel, électrique simple ou double, location
