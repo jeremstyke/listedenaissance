@@ -136,6 +136,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
 <script src="{R}assets/account.js?v=10" defer></script>
+<script src="{R}assets/track.js?v=1" defer></script>
 </body>
 </html>
 '''
@@ -413,6 +414,7 @@ def build():
 <h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
 <h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail (pour t'envoyer tes liens de connexion), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent à faire fonctionner ton compte et le partage de ta liste. Si tu as coché la case newsletter, ton e-mail sert aussi à t'envoyer nos conseils ; tu peux te désinscrire à tout moment depuis Mon compte ou avec le lien présent dans chaque e-mail. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
 <p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
+<h2>Mesure d'audience</h2><p>Nous comptons les pages vues et les clics vers Amazon de façon anonyme (page visitée, site d'origine, type d'appareil et un identifiant aléatoire stocké dans ton navigateur). Ces données ne sont ni vendues ni utilisées pour de la publicité, et sont hébergées par Supabase dans l'Union européenne.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
     page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de Ma liste bébé : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
