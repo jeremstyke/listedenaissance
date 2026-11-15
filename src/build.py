@@ -236,9 +236,9 @@ def build():
 <div class="hero-tx">
 <h1>Ta liste de naissance, sans rien oublier</h1>
 <p class="hero-p">{total} articles triés par pièce, des vrais indispensables aux petits plus. Tu coches, tu compares les modèles en un clic, et tu remplis ta liste en ligne sans rien oublier.</p>
-<div class="hbtn"><a class="btn big" href="{{R}}checklist/">Commencer ma checklist</a>
-<a class="btn ghost big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste en ligne</a></div>
-<p class="hero-note">Gratuit. Connecte-toi en un clic par e-mail pour <a href="{{R}}compte/">tout sauvegarder et partager ta liste</a>.</p>
+<div class="hbtn"><a class="btn big" href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Créer ma liste</a>
+<a class="btn ghost big" href="{{R}}checklist/">Voir la checklist</a></div>
+<p class="hero-note"><strong>1.</strong> Crée ta liste de naissance sur Amazon, c'est gratuit (<a href="{{R}}ou-faire-sa-liste-de-naissance/">pourquoi Amazon ?</a>). <strong>2.</strong> Remplis-la avec notre checklist, sans rien oublier.</p>
 </div>
 {HERO_TAG}
 </div></section>
@@ -249,12 +249,11 @@ def build():
 <div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, et tu peux la partager à ta famille.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 </section>
 <div class="wave-top"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><section class="band"><div class="wrap block">
-<h2>En 4 étapes</h2>
+<h2>Comment ça marche</h2>
 <ol class="steps">
-<li><strong>Coche</strong><span>les articles dont tu as besoin dans la <a href="{{R}}checklist/">checklist</a>.</span></li>
-<li><strong>Ajoute</strong><span>chaque article à ta liste en ligne (<a href="{{R}}ou-faire-sa-liste-de-naissance/">où la faire ?</a>).</span></li>
-<li><strong>Partage</strong><span>ta liste avec nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</span></li>
-<li><strong>Économise</strong><span>sur ce qui reste grâce à la <a href="{{R}}liste-de-naissance-amazon/">réduction</a>.</span></li>
+<li><strong>Crée ta liste</strong><span>sur Amazon, gratuitement : <a href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">créer ma liste</a>.</span></li>
+<li><strong>Remplis-la</strong><span>avec la <a href="{{R}}checklist/">checklist</a> : pour chaque article, « Voir » te montre les modèles à ajouter.</span></li>
+<li><strong>Partage-la</strong><span>avec tes proches grâce à nos <a href="{{R}}message-liste-de-naissance/">messages tout prêts</a>.</span></li>
 </ol></div></section><div class="wave-bot"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div>
 <section class="wrap block">
 <h2>Les guides des futurs parents</h2>
@@ -279,6 +278,7 @@ def build():
     # Checklist
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
 <p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
+<div class="wrap"><p class="ck-first">Pas encore de liste ? <a href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Crée d'abord ta liste de naissance sur Amazon</a> (gratuit), puis remplis-la ici article par article.</p></div>
 <div class="wrap"><div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, et tu peux la partager à ta famille.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 {tool}
 {CTA}
