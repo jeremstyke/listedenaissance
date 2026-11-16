@@ -5,7 +5,7 @@
 - [x] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
 - [x] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
 - [x] comment-choisir-matelas-bebe/ | comment choisir un matelas bébé | fermeté, taille exacte, déhoussable, sécurité du sommeil
-- [ ] comment-choisir-chaise-haute/ | comment choisir une chaise haute | évolutive, pliante, nettoyage, harnais
+- [x] comment-choisir-chaise-haute/ | comment choisir une chaise haute | évolutive, pliante, nettoyage, harnais
 - [ ] comment-choisir-tire-lait/ | comment choisir un tire-lait | manuel, électrique simple ou double, location
 - [ ] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
 - [ ] comment-choisir-sac-a-langer/ | comment choisir un sac à langer | sac à dos ou cabas, matelas, poches isothermes

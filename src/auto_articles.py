@@ -747,3 +747,168 @@ g("meilleur-matelas-bebe/",
        ("Faut-il un matelas 60x120 ou 70x140 ?", "Ça dépend uniquement de ton lit. Mesure l'intérieur du lit et prends le format exact, sans espace sur les côtés. Le 70x140 va avec les lits plus grands ou évolutifs."),
        ("Quelle épaisseur choisir pour un matelas bébé ?", "Les modèles de notre sélection vont de 8 à 12 cm. L'épaisseur compte moins que la fermeté et la taille exacte. Vérifie aussi que le matelas reste bien sous le haut des barreaux, en suivant la notice de ton lit.")],
   short="Top 10 matelas bébé")
+
+AUTO_META['comment-choisir-chaise-haute/'] = ('🥄', 'peche')
+g("comment-choisir-chaise-haute/",
+  "Comment choisir une chaise haute : évolutive, pliante, sécurité",
+  "Comment choisir une chaise haute",
+  "Évolutive ou pliante, harnais, stabilité, nettoyage, place dans la cuisine : les vrais critères pour choisir une chaise haute adaptée à bébé et à ton logement.",
+  """
+<p>La bonne chaise haute, c'est celle qui tient bébé en sécurité avec un vrai harnais, qui se nettoie en deux minutes et qui trouve sa place chez toi. Le reste (bois ou plastique, design, accessoires) se décide ensuite, selon ton logement et le temps que tu veux la garder.</p>
+<p>Et pas de panique sur le calendrier : la chaise haute sert surtout à partir du moment où bébé tient assis seul, en général autour de 6 mois. Tu as le temps de bien choisir.</p>
+{CTA}
+<h2>À partir de quand bébé peut-il s'y asseoir ?</h2>
+<p>Le repère qui compte n'est pas l'âge mais le développement. Santé Canada le résume clairement : seul un enfant capable de s'asseoir seul, bien droit, devrait être installé dans une chaise haute. Que Choisir rappelle que les chaises hautes classiques sont prévues pour les enfants d'au moins 6 mois, justement parce qu'il faut qu'ils puissent se tenir assis.</p>
+<p>Certains modèles s'utilisent dès la naissance, mais en position allongée, comme un transat, avec un réducteur ou un siège nouveau-né. Pratique pour garder bébé près de la table pendant que tu manges. Ce n'est pas pour autant le signal du début des repas : le moment de commencer la diversification se décide avec ton médecin ou ton pédiatre.</p>
+<h2>Évolutive, pliante ou compacte : le grand choix</h2>
+<p>Trois familles se partagent l'essentiel du marché. Aucune n'est meilleure dans l'absolu, tout dépend de ta cuisine et de ce que tu attends de la chaise.</p>
+<table><thead><tr><th>Type</th><th>Points forts</th><th>Limites</th><th>Pour qui ?</th></tr></thead><tbody>
+<tr><td>Évolutive (souvent en bois)</td><td>Se règle en hauteur et en profondeur, sert parfois jusqu'à l'adolescence, voire à l'âge adulte</td><td>Ne se plie pas, siège bébé et harnais souvent vendus à part</td><td>Ceux qui veulent un achat qui dure et une chaise à hauteur de table</td></tr>
+<tr><td>Pliante multi-réglages</td><td>Hauteurs et inclinaisons nombreuses, roues, certaines dès la naissance en position transat</td><td>Assez lourde, encombrante une fois ouverte, usage limité aux premières années</td><td>Les parents qui veulent du confort pour un tout-petit</td></tr>
+<tr><td>Compacte ou démontable</td><td>Légère, se plie ou se démonte vite, souvent simple à laver</td><td>Peu de réglages, dossier plus droit</td><td>Petite cuisine, grands-parents, résidence secondaire</td></tr>
+</tbody></table>
+<p>Par exemple, si tu vis dans un deux-pièces avec une cuisine ouverte, une chaise qui se replie contre un mur te rendra plus service qu'une chaise à huit hauteurs qui reste dépliée au milieu du passage. Et si tu as la place et que tu veux bébé à la table familiale, une <a href="{AMZ:chaise haute evolutive bois}" rel="sponsored nofollow noopener" target="_blank">chaise évolutive en bois</a> a du sens sur la durée.</p>
+<p>Notre conseil : pense à la chaise dans trois ans, pas seulement dans trois mois. Une chaise pliante prévue jusqu'à 15 kg sera rangée vers 3 ans, alors qu'une évolutive continue sa vie de chaise d'enfant.</p>
+<h2>Le harnais : le critère qui ne se discute pas</h2>
+<p>La tablette ne retient pas un enfant. Que Choisir le dit sans détour : ce n'est pas son rôle. Ce qui le retient, c'est le harnais. Choisis un modèle avec un système d'attache à 3 ou 5 points, avec une sangle d'entrejambe, qui empêche bébé de glisser sous la tablette.</p>
+<p>Le harnais 5 points (épaules, taille, entrejambe) maintient mieux un enfant qui gigote ou qui commence à vouloir se lever. Sur les chaises évolutives, vérifie bien ce qui est fourni : le siège bébé et le harnais sont parfois des accessoires à acheter en plus. L'erreur classique, c'est de commander la chaise seule et de découvrir au moment de l'installer qu'elle n'a rien pour retenir un enfant de 6 mois.</p>
+<h2>Stable et bien placée : là où se passent les chutes</h2>
+<p>D'après une étude américaine de 2013 citée par Que Choisir, deux tiers des chutes de chaise haute ont lieu alors que l'enfant tente de grimper dessus ou s'y tient debout. D'où trois habitudes simples :</p>
+<ul>
+<li><strong>attacher le harnais à chaque fois</strong>, même pour un goûter de cinq minutes ;</li>
+<li><strong>ne jamais laisser l'enfant seul</strong> dans la chaise, ni le laisser grimper dessus ou se lever sur la tablette ;</li>
+<li><strong>vérifier l'espace autour</strong> : une chaise collée à une table ou à un mur peut basculer si l'enfant pousse fort avec les pieds. Garde-la aussi loin de la cuisinière, des fenêtres et des cordons de stores.</li>
+</ul>
+<p>À l'achat, une base large est en général plus stable. Si la chaise a des roues, vérifie qu'elles se bloquent bien avec des freins. Et pour la sécurité, la norme européenne des chaises hautes s'appelle <strong>NF EN 14988</strong> : si elle figure sur la fiche ou l'étiquette, c'est un bon signe.</p>
+<h2>Le nettoyage, ce qu'on sous-estime toujours</h2>
+<p>Avec la diversification, la chaise va voir passer de la purée, du yaourt et des morceaux de banane écrasés dans chaque recoin. Les détails qui changent la vie :</p>
+<ul>
+<li>une <strong>tablette amovible</strong>, idéalement avec un insert qui passe au lave-vaisselle ;</li>
+<li>un <strong>coussin lisse ou essuyable</strong>, ou une housse qui passe en machine ;</li>
+<li>le moins possible de <strong>coutures, plis et recoins</strong> où la nourriture se coince.</li>
+</ul>
+<p>Ce que les gens oublient : le harnais lui-même se salit vite. Une sangle qui se retire et se lave, c'est un vrai plus. Un <a href="{AMZ:tapis sol chaise haute}" rel="sponsored nofollow noopener" target="_blank">tapis de sol sous la chaise</a> protège aussi le parquet et t'évite de passer la serpillière après chaque repas.</p>
+<h2>Pliante ou pas : regarde ta cuisine avant</h2>
+<p>La plupart des chaises hautes ne se plient pas, rappelle Que Choisir. Si tu as besoin de la ranger, vérifie trois choses sur la fiche : les dimensions une fois pliée, le poids (il peut aller du simple au triple selon les modèles) et si elle tient debout seule une fois repliée.</p>
+<p>Pour un petit logement, nos idées de rangement et de matériel peu encombrant sont dans <a href="{R}liste-de-naissance-petit-appartement/">la liste de naissance pour petit appartement</a>. Et si bébé mange souvent chez ses grands-parents, une <a href="{AMZ:chaise haute pliante compacte}" rel="sponsored nofollow noopener" target="_blank">chaise compacte pliante</a> ou un <a href="{AMZ:rehausseur chaise bebe}" rel="sponsored nofollow noopener" target="_blank">rehausseur à harnais</a> qui s'attache sur une chaise adulte suffit souvent : on en parle dans <a href="{R}materiel-bebe-chez-les-grands-parents/">le matériel bébé chez les grands-parents</a>.</p>
+<h2>Neuf, occasion, budget : nos repères</h2>
+<p>La chaise haute s'achète assez bien d'occasion, à condition de vérifier qu'elle est complète (harnais, tablette, siège bébé), qu'elle ne bouge pas quand tu la secoues et que le système de verrouillage fonctionne. Regarde aussi le nom du modèle sur l'étiquette pour chercher d'éventuels rappels de sécurité.</p>
+<p>Côté budget, inutile de viser le haut de gamme si la chaise ne servira que deux ans chez les grands-parents. À l'inverse, une chaise évolutive coûte plus cher au départ mais remplace plus tard une chaise d'enfant. C'est aussi un cadeau parfait pour une participation à plusieurs dans ta liste : nos astuces sont dans <a href="{R}liste-de-naissance-petit-budget/">la liste de naissance petit budget</a>.</p>
+<p>Tu veux des modèles précis ? On a comparé dix chaises vendues en France dans notre <a href="{R}meilleure-chaise-haute/">top des meilleures chaises hautes</a>. Et pour ne rien oublier dans ta liste, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>.</p>
+""",
+  faq=[("À quel âge mettre bébé dans une chaise haute ?", "Quand il tient assis seul, bien droit, en général autour de 6 mois. Certains modèles acceptent un nouveau-né en position allongée comme un transat, mais pas pour les repas. Pour le début de la diversification, demande conseil à ton médecin ou ton pédiatre."),
+       ("Harnais 3 ou 5 points ?", "Les deux existent, l'important est d'avoir une sangle d'entrejambe et de l'attacher à chaque repas. Le 5 points maintient mieux un enfant qui gigote ou qui essaie de se lever."),
+       ("Chaise haute évolutive ou pliante ?", "Évolutive si tu as la place et que tu veux une chaise qui dure des années à hauteur de table. Pliante ou compacte si ta cuisine est petite ou si la chaise doit voyager.")],
+  short="Choisir une chaise haute")
+
+AUTO_META['meilleure-chaise-haute/'] = ('🏆', 'miel')
+g("meilleure-chaise-haute/",
+  "Meilleure chaise haute 2026 : top 10 évolutives et pliantes",
+  "Meilleure chaise haute 2026 : notre top 10",
+  "Chaise haute évolutive, pliante ou compacte : 10 modèles Maxi-Cosi, Stokke, Cybex, Chicco, Joie, Hauck, IKEA et Timba comparés pour bien choisir en 2026.",
+  """
+<p>Si tu veux une seule chaise de la naissance jusqu'à l'âge scolaire, regarde d'abord la Maxi-Cosi Minla. Si tu préfères une chaise en bois qui finira à la table des grands, la Stokke Tripp Trapp et la Cybex Lemo sont les plus connues. Et si ta cuisine est minuscule, une Joie Mimzy Snacker ou une IKEA ANTILOP fera très bien l'affaire.</p>
+<p>Voilà pour la réponse courte. La longue est plus bas : dix chaises hautes réelles, vendues en France, classées selon la situation où elles brillent vraiment, avec ce qui nous plaît et ce qui coince.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Nous n'avons installé aucun enfant dans ces chaises. Chaque caractéristique citée a été lue sur la fiche du fabricant ou d'un revendeur français. Une norme n'est mentionnée que si on l'a lue sur la fiche. Quand une donnée manquait, on écrit « non précisé ». Les versions et les packs changent souvent : vérifie toujours la fiche du modèle exact au moment de l'achat.</p>
+
+<h2>Le tableau pour comparer d'un coup d'œil</h2>
+<table><thead><tr><th>Modèle</th><th>Type</th><th>Dès</th><th>Jusqu'à</th><th>Harnais</th><th>Pliable</th><th>Idéal pour</th></tr></thead><tbody>
+<tr><td>Maxi-Cosi Minla</td><td>Évolutive multi-réglages</td><td>Naissance</td><td>14 ans, 60 kg</td><td>5 points, convertible en 3</td><td>Oui</td><td>Notre choix global</td></tr>
+<tr><td>Stokke Tripp Trapp</td><td>Évolutive en bois</td><td>Naissance ou 6 mois avec accessoires</td><td>Âge adulte selon la marque</td><td>Avec accessoires</td><td>Non précisé</td><td>Un classique qui dure</td></tr>
+<tr><td>Cybex Lemo 3-in-1</td><td>Évolutive bois et aluminium</td><td>6 mois avec le Baby Set inclus</td><td>120 kg</td><td>Non précisé</td><td>Non précisé</td><td>Une évolutive livrée prête pour bébé</td></tr>
+<tr><td>Hauck Alpha+</td><td>Évolutive en hêtre</td><td>36 mois pour la chaise seule</td><td>90 kg</td><td>5 points inclus</td><td>Non précisé</td><td>Une évolutive en bois plus simple</td></tr>
+<tr><td>Timba (Bébé Confort / Safety 1st)</td><td>Évolutive en bois</td><td>6 mois</td><td>10 ans</td><td>Inclus, points non précisés</td><td>Non précisé</td><td>Une évolutive avec coussin fourni</td></tr>
+<tr><td>Chicco Polly Magic Relax</td><td>Pliante multi-réglages</td><td>Naissance</td><td>36 mois, 15 kg</td><td>Non précisé</td><td>Oui</td><td>Le confort des premiers mois</td></tr>
+<tr><td>Joie Mimzy Recline</td><td>Pliante multi-réglages</td><td>Naissance</td><td>15 kg</td><td>5 points</td><td>Oui, tient debout pliée</td><td>Une pliante très complète</td></tr>
+<tr><td>Joie Mimzy Snacker</td><td>Pliante compacte</td><td>6 mois</td><td>15 kg</td><td>5 points</td><td>Oui, d'une main</td><td>Les petites cuisines</td></tr>
+<tr><td>Stokke Clikk</td><td>Compacte démontable</td><td>6 mois</td><td>3 ans, 15 kg</td><td>5 points</td><td>Se démonte</td><td>Voyager ou aller chez les grands-parents</td></tr>
+<tr><td>IKEA ANTILOP</td><td>Basique démontable</td><td>Quand l'enfant tient assis seul</td><td>3 ans, 15 kg</td><td>Ceinture incluse</td><td>Se démonte</td><td>Le petit budget</td></tr>
+</tbody></table>
+<p>Une précision sur le tableau : « dès la naissance » veut dire en position allongée, comme un transat. Pour manger assis, il faut que bébé tienne assis seul, en général autour de 6 mois.</p>
+
+<h2>1. Maxi-Cosi Minla : la plus polyvalente (notre choix global)</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu veux une seule chaise qui commence en transat pour un nouveau-né et finit en chaise d'écolier.</p>
+<p><strong>Points forts :</strong> la fiche annonce un usage de 0 à 14 ans, jusqu'à 60 kg, avec des limites claires par étape (9 kg de 0 à 6 mois, 15 kg de 6 à 36 mois). On compte 9 hauteurs, 5 inclinaisons et un repose-pieds réglable sur 2 positions. Le harnais 5 points se convertit en 3 points. Le plateau se règle et se retire d'une main, et son insert passe au lave-vaisselle. Elle se plie et a des roues à l'avant. C'est la seule de la sélection dont la fiche cite noir sur blanc la norme EN 14988, avec d'autres normes pour chaque étape. Garantie de 24 mois, portée à 5 ans avec une inscription en ligne dans les 6 mois après l'achat.</p>
+<p><strong>Limites honnêtes :</strong> 10,1 kg, ce n'est pas une chaise qu'on déplace d'une pièce à l'autre en la portant à bout de bras. Les dimensions pliée ne sont pas données. Et la fiche se contredit sur l'entretien : elle parle de tissus lavables en machine mais indique aussi « housses amovibles : non ». À vérifier avant d'acheter si c'est important pour toi.</p>
+<p><a href="{AMZ:Maxi-Cosi Minla chaise haute}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. Stokke Tripp Trapp : la chaise en bois qui suit toute l'enfance</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent bébé à la table familiale, à la même hauteur que tout le monde, et une chaise qu'on garde des années.</p>
+<p><strong>Points forts :</strong> la Tripp Trapp est en hêtre ou en chêne européens certifiés FSC. L'assise et le repose-pieds se règlent, ce qui permet d'adapter la chaise à la taille de l'enfant au fil des ans ; Stokke la présente comme utilisable « de la naissance à l'âge adulte ». Pour un nouveau-né, il existe un Newborn Set avec un harnais 5 points. Pour un bébé, le Baby Set s'utilise dès que l'enfant est capable de s'asseoir sans aide, et un plateau Stokke se fixe dessus en quelques secondes. Des patins extensibles servent à la stabilité avec ces accessoires.</p>
+<p><strong>Limites honnêtes :</strong> la chaise seule ne suffit pas pour un bébé. Le Baby Set, le harnais et le plateau sont des accessoires à prévoir en plus, ce qui alourdit la facture. Les pages consultées ne donnent ni le poids de la chaise, ni la charge maximale, ni la garantie. Pas de roues, et rien n'indique qu'elle se plie.</p>
+<p><a href="{AMZ:Stokke Tripp Trapp}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Cybex Lemo 3-in-1 : l'évolutive livrée avec le siège bébé</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu aimes le principe de la chaise évolutive mais que tu ne veux pas courir après les accessoires.</p>
+<p><strong>Points forts :</strong> le pack 3-in-1 comprend la chaise, le Baby Set (de 6 mois à 3 ans, environ 15 kg) et le plateau. Ensuite, la chaise seule va de 3 à 99 ans selon la marque, jusqu'à 120 kg. L'assise et le repose-pieds se règlent en hauteur et en profondeur, sans outil et d'une seule main. Siège, dossier et repose-pieds sont en hêtre, le châssis en aluminium. Le plateau et le Baby Set passent au lave-vaisselle, et des roulettes à l'arrière aident à la déplacer. Elle pèse 7,7 kg seule, 9,3 kg avec le Baby Set.</p>
+<p><strong>Limites honnêtes :</strong> la fiche ne précise pas le type de harnais inclus (un harnais est vendu en accessoire). Le réducteur pour nouveau-né est vendu à part. Aucune norme n'est citée sur la page consultée et la durée de garantie commerciale n'est pas indiquée.</p>
+<p><a href="{AMZ:Cybex Lemo 3-in-1 chaise haute}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Hauck Alpha+ : une évolutive en bois plus simple</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent une chaise évolutive en bois sans viser le haut de gamme, et qui acceptent de choisir le bon pack.</p>
+<p><strong>Points forts :</strong> hêtre européen certifié FSC, 7,5 kg, charge admise jusqu'à 90 kg selon la fiche du fabricant. L'assise et le repose-pieds se règlent en hauteur. La fiche indique un harnais 5 points avec sangle d'entrejambe inclus, et insiste sur la barre de protection avant pour les jeunes enfants. Hauck propose aussi un transat Alpha Bouncer qui se fixe sur la chaise.</p>
+<p><strong>Limites honnêtes :</strong> la fiche consultée indique « à partir de 36 mois » pour la chaise seule. Pour un bébé, il faut donc un pack avec siège bébé et plateau, vendus selon les revendeurs : lis bien ce que contient l'annonce. Tablette, entretien, norme et garantie ne sont pas précisés sur la fiche.</p>
+<p><a href="{AMZ:Hauck Alpha+ chaise haute}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Timba (Bébé Confort / Safety 1st) : l'évolutive avec coussin fourni</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu veux une chaise en bois qui grandit avec l'enfant et qui arrive complète, coussin compris.</p>
+<p><strong>Points forts :</strong> la Timba est vendue dès 6 mois et évolue jusqu'à 10 ans selon la fiche du revendeur. L'assise et le marchepied s'ajustent à la taille de l'enfant. La tablette et le harnais sont amovibles. Le coussin est inclus et lavable à 30 °C. Garantie de 2 ans indiquée. On la trouve aujourd'hui sous la marque Bébé Confort comme sous Safety 1st, selon les revendeurs.</p>
+<p><strong>Limites honnêtes :</strong> le type de harnais (3 ou 5 points) n'est pas précisé, la fiche affiche un poids incohérent (« 7,5 g ») et ne cite aucune norme. Pas de position allongée : elle n'est pas faite pour les tout-petits.</p>
+<p><a href="{AMZ:Timba chaise haute bois}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Chicco Polly Magic Relax : le confort des premiers mois</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent garder un nouveau-né allongé près de la table, puis passer en chaise de repas sans changer d'équipement.</p>
+<p><strong>Points forts :</strong> homologuée de 0 à 36 mois (15 kg) selon la fiche du revendeur. 8 hauteurs, 4 inclinaisons du dossier, un plateau réglable sur 4 positions avec une surtablette amovible pour le nettoyage. Housse en éco cuir, plus simple à essuyer qu'un tissu. Quatre roues, une barre de jeux incluse et un pliage compact (31 x 53 x 85 cm une fois pliée).</p>
+<p><strong>Limites honnêtes :</strong> 10,5 kg, et elle s'arrête vers 3 ans. La fiche consultée ne précise pas le type de harnais, ni si la surtablette passe au lave-vaisselle, ni la garantie. Aucune norme n'y est citée.</p>
+<p><a href="{AMZ:Chicco Polly Magic Relax}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Joie Mimzy Recline : la pliante la plus complète</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu veux tous les réglages d'une grosse chaise, mais la possibilité de la ranger debout dans un coin.</p>
+<p><strong>Points forts :</strong> utilisable dès la naissance, jusqu'à 15 kg. 7 hauteurs, un repose-pieds à 3 hauteurs, un harnais 5 points. Le grand plateau se déploie d'une main, se règle sur 3 profondeurs et se range à l'arrière de la chaise. L'insert du plateau et le plateau à collations passent au lave-vaisselle, l'insert en tissu en machine, et le coussin s'essuie. Pliée, elle tient debout (31,3 x 51 x 120 cm). Deux grandes roues pour la déplacer.</p>
+<p><strong>Limites honnêtes :</strong> c'est la plus lourde de la sélection (10,95 kg) et elle reste haute une fois pliée. La fiche se contredit sur l'inclinaison (5 options d'un côté, 3 positions de l'autre). Aucune norme ni garantie sur la fiche.</p>
+<p><a href="{AMZ:Joie Mimzy Recline}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Joie Mimzy Snacker : la petite pliante pour cuisine étroite</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui ont peu de place et qui veulent ranger la chaise après chaque repas sans y passer cinq minutes.</p>
+<p><strong>Points forts :</strong> elle se plie et se déplie d'une seule main, une particularité aussi relevée par Que Choisir. Pliée, elle mesure 29,5 x 50,2 x 91 cm, et ne pèse que 6,25 kg. Harnais 5 points, dossier inclinable sur 3 positions, plateau amovible qui passe au lave-vaisselle et réglable sur 3 profondeurs, housse essuyable. De 6 mois à 15 kg.</p>
+<p><strong>Limites honnêtes :</strong> pas de réglage de hauteur indiqué sur la fiche, et le repose-pieds est fixe. Elle n'est pas prévue pour un nouveau-né. Norme et garantie non précisées sur la fiche.</p>
+<p><a href="{AMZ:Joie Mimzy Snacker}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. Stokke Clikk : la compacte pour voyager ou les grands-parents</h2>
+<p><strong>Pour qui ?</strong> Pour toi si la chaise doit bouger souvent : week-ends, maison de vacances, chez papi et mamie.</p>
+<p><strong>Points forts :</strong> de 6 mois à 3 ans, jusqu'à 15 kg. Elle s'assemble sans outil en moins d'une minute selon Stokke. Assise en bambou certifié FSC, pieds en bois. Harnais 5 points lavable en machine, plateau qui passe au lave-vaisselle, repose-pieds à 2 positions. La page cite une certification Intertek GS. Garantie de 3 ans, avec une extension de 3 ans à l'enregistrement du produit. Un sac de voyage est proposé en accessoire.</p>
+<p><strong>Limites honnêtes :</strong> pas d'inclinaison indiquée, rien pour les tout-petits sans le pack nouveau-né vendu à part, et le poids de la chaise n'est pas donné. Elle s'arrête à 3 ans.</p>
+<p><a href="{AMZ:Stokke Clikk chaise haute}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. IKEA ANTILOP : le petit budget qui fait le travail</h2>
+<p><strong>Pour qui ?</strong> Pour un deuxième poste chez les grands-parents, une nounou ou un budget serré.</p>
+<p><strong>Points forts :</strong> une chaise toute simple en polypropylène et acier, pour les enfants capables de se tenir assis sans aide, jusqu'à 3 ans ou 15 kg. La ceinture de sécurité est incluse. Elle se démonte facilement pour le transport, et l'entretien se résume à de l'eau savonneuse et un chiffon. IKEA la dit même adaptée à un usage professionnel.</p>
+<p><strong>Limites honnêtes :</strong> aucun réglage de hauteur, d'inclinaison ou de repose-pieds n'est décrit sur la fiche, et le coussin d'appui est vendu à part. Le nombre de points de la ceinture et la norme ne sont pas précisés sur la fiche. Tu la trouveras plus facilement chez IKEA que sur Amazon.</p>
+<p><a href="{AMZ:IKEA ANTILOP chaise haute}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Comment choisir la tienne ?</h2>
+<p>Commence par ta cuisine, pas par la fiche produit. Une chaise qui ne trouve pas sa place finit en meuble encombrant qu'on contourne toute la journée.</p>
+<ul>
+<li><strong>Tu as la place et tu penses long terme :</strong> une évolutive (Minla, Tripp Trapp, Lemo, Alpha+, Timba). Vérifie bien ce qui est inclus pour un bébé de 6 mois : siège, harnais, plateau.</li>
+<li><strong>Tu veux bébé près de toi dès la naissance :</strong> une chaise qui s'allonge en transat (Minla, Polly Magic Relax, Mimzy Recline). C'est confortable, mais plus lourd.</li>
+<li><strong>Petite cuisine ou chaise qui voyage :</strong> Mimzy Snacker, Clikk ou ANTILOP.</li>
+</ul>
+<p>Quel que soit le modèle, garde trois critères en tête : un harnais avec sangle d'entrejambe, une base stable, et une tablette qui se retire pour le nettoyage. Notre conseil : si tu hésites entre deux modèles, prends celui qui se nettoie le plus facilement. C'est ce que tu remarqueras tous les jours. Tous les critères sont détaillés dans notre guide <a href="{R}comment-choisir-chaise-haute/">comment choisir une chaise haute</a>.</p>
+
+<h2>Les bons réflexes de sécurité</h2>
+<ul>
+<li><strong>Le harnais à chaque repas :</strong> la tablette ne retient pas un enfant.</li>
+<li><strong>Jamais seul dans la chaise :</strong> et pas question de grimper dessus ou de se lever sur la tablette.</li>
+<li><strong>De l'espace autour :</strong> une chaise trop près d'une table ou d'un mur peut basculer si l'enfant pousse avec les pieds. Loin de la cuisinière et des cordons de stores aussi.</li>
+<li><strong>Freins serrés</strong> si la chaise a des roues.</li>
+</ul>
+<p>Pour le début de la diversification et la position de bébé pendant les repas, parle-en avec ton médecin, ta sage-femme ou ton pédiatre.</p>
+
+<h2>Dans ta liste de naissance</h2>
+<p>La chaise haute est un cadeau idéal pour une participation à plusieurs : elle sert à partir de 6 mois, quand l'élan des cadeaux de naissance est retombé. Mets-la dans ta liste dès le début, avec le tapis de sol et les bavoirs à côté. Pour ne rien oublier, coche tout dans notre <a href="{R}checklist/">checklist</a>, et lis notre guide <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux y regrouper ces articles.</p>
+""",
+  faq=[("Quelle est la meilleure chaise haute en 2026 ?", "Il n'y en a pas une pour tout le monde. Notre choix global est la Maxi-Cosi Minla, utilisable de la naissance à 14 ans selon la fiche, avec un harnais 5 points et la norme EN 14988 citée. Pour une petite cuisine, la Joie Mimzy Snacker se plie d'une main."),
+       ("Chaise haute évolutive ou pliante ?", "Évolutive si tu as la place et que tu veux la garder des années. Pliante si ta cuisine est petite ou si tu veux des réglages confortables pour un tout-petit. Une compacte démontable suffit pour les grands-parents."),
+       ("Les accessoires sont-ils inclus avec les chaises en bois ?", "Pas toujours. Sur la Stokke Tripp Trapp, le Baby Set, le harnais et le plateau sont des accessoires. La Cybex Lemo 3-in-1 inclut le Baby Set et le plateau. Lis bien le contenu du pack avant d'acheter.")],
+  short="Top 10 chaises hautes")
