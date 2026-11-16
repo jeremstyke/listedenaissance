@@ -912,3 +912,173 @@ g("meilleure-chaise-haute/",
        ("Chaise haute évolutive ou pliante ?", "Évolutive si tu as la place et que tu veux la garder des années. Pliante si ta cuisine est petite ou si tu veux des réglages confortables pour un tout-petit. Une compacte démontable suffit pour les grands-parents."),
        ("Les accessoires sont-ils inclus avec les chaises en bois ?", "Pas toujours. Sur la Stokke Tripp Trapp, le Baby Set, le harnais et le plateau sont des accessoires. La Cybex Lemo 3-in-1 inclut le Baby Set et le plateau. Lis bien le contenu du pack avant d'acheter.")],
   short="Top 10 chaises hautes")
+
+AUTO_META['comment-choisir-tire-lait/'] = ('🍼', 'lilas')
+g("comment-choisir-tire-lait/",
+  "Comment choisir un tire-lait : manuel, électrique ou location",
+  "Comment choisir un tire-lait",
+  "Manuel, électrique simple ou double, location remboursée sur ordonnance ou achat : comment choisir le tire-lait qui colle à ton allaitement et à ton quotidien.",
+  """
+<p>Tout dépend de la fréquence à laquelle tu vas tirer ton lait. Pour un biberon de temps en temps, un tire-lait manuel suffit. Pour tirer tous les jours, surtout après la reprise du travail, un électrique double fait gagner un temps fou, et en France sa location peut être remboursée sur ordonnance.</p>
+<p>Avant d'acheter quoi que ce soit, prends donc cinq minutes pour imaginer ta journée type dans deux ou trois mois. C'est elle qui décide, pas la fiche produit.</p>
+{CTA}
+<h2>Tu vas tirer ton lait combien de fois ?</h2>
+<p>C'est la seule vraie question de départ. Une maman qui veut laisser un biberon au papa pour une soirée n'a pas du tout les mêmes besoins qu'une maman qui reprend le travail à temps plein et veut continuer l'allaitement, ou que les parents d'un bébé hospitalisé qui ne peut pas encore téter.</p>
+<p>Par exemple, si tu tires une fois par semaine pour une sortie, un manuel, peu coûteux, fera le travail sans encombrer ta salle de bains. Si tu tires deux ou trois fois par jour au bureau, chaque minute compte, et c'est là que le double pompage prend tout son sens.</p>
+<table><thead><tr><th>Type</th><th>Pour quel usage ?</th><th>Points forts</th><th>Limites</th></tr></thead><tbody>
+<tr><td>Manuel</td><td>Occasionnel : un biberon de temps en temps, soulager un engorgement</td><td>Léger, silencieux, sans prise ni batterie, peu cher</td><td>Fatigant pour la main, un seul sein à la fois, lent</td></tr>
+<tr><td>Électrique simple</td><td>Régulier mais pas quotidien</td><td>Moins d'effort, réglages de vitesse et d'intensité</td><td>Un sein à la fois, donc deux fois plus long qu'un double</td></tr>
+<tr><td>Électrique double</td><td>Tous les jours, reprise du travail, bébé prématuré</td><td>Tire les deux seins en même temps, gain de temps</td><td>Plus encombrant, plus cher à l'achat</td></tr>
+<tr><td>Mains libres (dans le soutien-gorge)</td><td>Tirer en bougeant, au bureau, en voiture à l'arrêt</td><td>Discret, pas de tuyaux qui pendent</td><td>Prix élevé, petits réservoirs, souvent moins puissant</td></tr>
+</tbody></table>
+<h2>Le manuel : utile, mais pas pour tout</h2>
+<p>Un <a href="{AMZ:tire-lait manuel}" rel="sponsored nofollow noopener" target="_blank">tire-lait manuel</a> se glisse dans un sac à langer et ne fait aucun bruit. Il dépanne bien la nuit, en vacances ou pour soulager un sein trop tendu. Mais tirer à la main deux fois par jour pendant des semaines, c'est long et ça fatigue l'avant-bras.</p>
+<p>Notre conseil : si tu hésites, commence par là. C'est un petit investissement, et si l'usage devient régulier, tu passeras à l'électrique avec une ordonnance.</p>
+<h2>Électrique simple ou double ?</h2>
+<p>Un électrique simple pompe un sein à la fois. Un double pompe les deux en même temps, ce qui divise grosso modo le temps de la séance par deux. Pour une maman qui tire au travail sur sa pause, la différence se sent tout de suite.</p>
+<p>Regarde aussi les réglages : une phase de stimulation rapide pour déclencher le réflexe d'éjection, puis une phase d'expression plus lente, et plusieurs niveaux d'intensité. Ce qui compte, c'est que ce soit confortable. Tirer ne devrait pas faire mal : si c'est douloureux, baisse l'intensité et vérifie la taille des téterelles.</p>
+<p>Les modèles <a href="{AMZ:tire-lait electrique double}" rel="sponsored nofollow noopener" target="_blank">électriques doubles</a> du commerce sont pratiques pour un usage à la maison. Pour un usage intensif ou les premières semaines délicates, beaucoup de sages-femmes orientent plutôt vers la location, qui donne accès à des appareils prévus pour durer.</p>
+<h2>Louer ou acheter : ce que la Sécu rembourse</h2>
+<p>En France, c'est la <strong>location</strong> d'un tire-lait électrique qui est prise en charge par l'Assurance Maladie, pas son achat. Il faut une ordonnance d'un médecin ou d'une sage-femme, à part des autres prescriptions. Tu la présentes ensuite en pharmacie ou chez un prestataire de matériel médical.</p>
+<ul>
+<li><strong>Première prescription :</strong> 10 semaines au maximum.</li>
+<li><strong>Renouvellements :</strong> par périodes de 3 mois au maximum, selon la durée de ton allaitement.</li>
+<li><strong>Le kit de téterelles</strong> (la partie qui touche le sein, avec les tuyaux et les flacons) s'achète, car il est personnel. Il est lui aussi remboursé sur la base d'un tarif fixé, un éventuel dépassement pouvant être pris en charge par ta mutuelle.</li>
+<li><strong>Le taux :</strong> pendant la période maternité, qui se termine 12 jours après l'accouchement, la prise en charge est à 100 %. Ensuite, c'est le taux habituel, et ta complémentaire santé couvre en général le reste.</li>
+</ul>
+<p>Ce que les gens oublient : demander l'ordonnance <strong>avant</strong> de sortir de la maternité, ou pendant une consultation de fin de grossesse. Démarrer la location pendant cette période maternité limite le reste à charge. Les montants et les règles peuvent évoluer, alors vérifie avec ta pharmacie ou sur ameli.fr au moment de louer.</p>
+<p>L'achat a quand même du sens dans deux cas : si tu prévois de tirer peu mais longtemps, ou si tu veux un petit modèle d'appoint en plus de l'appareil loué, par exemple un pour la maison et un pour le bureau.</p>
+<h2>La taille des téterelles, l'erreur la plus fréquente</h2>
+<p>Une téterelle trop petite frotte et irrite le mamelon. Trop grande, elle aspire une partie de l'aréole et le tirage devient moins efficace. Beaucoup de kits sont livrés dans une seule taille, alors que les mamelons sont tous différents, et parfois différents d'un sein à l'autre.</p>
+<p>Si tu as mal, si tu tires peu de lait ou si ton mamelon blanchit après la séance, parles-en à ta sage-femme ou à une consultante en lactation : elle peut t'aider à trouver la bonne taille. Les pharmacies qui louent proposent souvent plusieurs tailles de kit.</p>
+<h2>Les petits détails qui changent tout</h2>
+<ul>
+<li><strong>Le bruit :</strong> si tu tires la nuit à côté de bébé ou dans un open space, un moteur discret vaut de l'or.</li>
+<li><strong>La batterie :</strong> un modèle sur batterie te libère de la prise, pratique en déplacement.</li>
+<li><strong>Le nettoyage :</strong> moins il y a de pièces, plus c'est rapide. Vérifie lesquelles passent au lave-vaisselle ou au <a href="{AMZ:sterilisateur biberon}" rel="sponsored nofollow noopener" target="_blank">stérilisateur</a>.</li>
+<li><strong>La compatibilité :</strong> certains tire-laits se vissent directement sur les biberons de la même marque, ce qui évite un transvasement.</li>
+<li><strong>Le stockage :</strong> prévois des <a href="{AMZ:sachets conservation lait maternel}" rel="sponsored nofollow noopener" target="_blank">sachets de conservation</a> et un <a href="{AMZ:sac isotherme lait maternel}" rel="sponsored nofollow noopener" target="_blank">sac isotherme</a> si tu tires au travail.</li>
+</ul>
+<h2>Dans ta liste de naissance ?</h2>
+<p>Le tire-lait électrique n'a pas vraiment sa place dans une liste si tu comptes le louer : la location remboursée est souvent plus avantageuse. En revanche, un manuel, des sachets de conservation, un <a href="{AMZ:coussin allaitement}" rel="sponsored nofollow noopener" target="_blank">coussin d'allaitement</a> ou des coussinets d'allaitement sont des cadeaux utiles et faciles à offrir. On a rassemblé tout ce qui aide à allaiter dans notre <a href="{R}liste-de-naissance-allaitement/">liste de naissance allaitement</a>.</p>
+<p>Pense aussi à glisser le manuel dans ta <a href="{R}valise-maternite/">valise maternité</a> : il peut servir dès les premiers jours en cas de seins très tendus. Et si ton budget est serré, nos astuces sont dans <a href="{R}liste-de-naissance-petit-budget/">la liste de naissance petit budget</a>. Pour ne rien oublier, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>.</p>
+<p>Chaque allaitement est différent. Pour toute douleur, crevasse, baisse de lactation ou question sur le rythme des tirages, ta sage-femme, ton médecin ou une consultante en lactation sont les mieux placés pour t'accompagner.</p>
+""",
+  faq=[("La location d'un tire-lait est-elle remboursée ?", "Oui, sur ordonnance d'un médecin ou d'une sage-femme. La première prescription couvre 10 semaines au maximum, puis elle se renouvelle par périodes de 3 mois maximum. L'achat de l'appareil n'est pas remboursé, mais le kit de téterelles l'est."),
+       ("Tire-lait simple ou double ?", "Pour tirer tous les jours, un double fait gagner beaucoup de temps puisqu'il pompe les deux seins à la fois. Pour un usage occasionnel, un simple ou même un manuel suffit."),
+       ("Tirer son lait doit-il faire mal ?", "Non. Une douleur vient souvent d'une intensité trop forte ou d'une téterelle de mauvaise taille. Si elle persiste, parles-en à ta sage-femme ou à ton médecin.")],
+  short="Choisir un tire-lait")
+
+AUTO_META['meilleurs-livres-grossesse/'] = ('🏆', 'peche')
+g("meilleurs-livres-grossesse/",
+  "Meilleurs livres grossesse 2026 : top 10 pour futurs parents",
+  "Meilleurs livres sur la grossesse 2026 : notre top 10",
+  "Pernoud, CNGOF, Thirion, Gasquet, Brabant, guides du futur papa et du post-partum : 10 livres de référence pour vivre la grossesse et les premiers mois en 2026.",
+  """
+<p>Si tu ne dois en lire qu'un, prends <em>J'attends un enfant</em> de Laurence et Clémence Pernoud, dont l'édition 2026 vient d'être entièrement mise à jour. Pour des explications plus médicales, avec des échographies décryptées, <em>Le grand livre de ma grossesse</em> du Collège national des gynécologues et obstétriciens français est l'autre grand classique.</p>
+<p>Ensuite, tout dépend de ce qui te préoccupe : l'allaitement, l'accouchement, le rôle du futur papa ou les semaines qui suivent la naissance. Voici dix livres réels, disponibles en France, rangés par usage, avec ce qu'ils contiennent et à qui ils parlent vraiment.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Ici, les « fabricants » sont les éditeurs : on a lu la fiche de chaque livre chez l'éditeur (Albin Michel, Eyrolles, Marabout) ou à la Fnac, puis vérifié qu'il est bien proposé sur Amazon.fr. Les descriptions reprennent ce que disent ces fiches, pas un avis de lecture. Quand une information manquait, on écrit « non précisé ». Les éditions changent souvent : vérifie l'année avant d'acheter.</p>
+
+<h2>Les 10 livres en un coup d'œil</h2>
+<table><thead><tr><th>Livre</th><th>Auteur(s)</th><th>Éditeur, édition</th><th>Format</th><th>Pages</th><th>Idéal pour</th></tr></thead><tbody>
+<tr><td>J'attends un enfant</td><td>Laurence et Clémence Pernoud</td><td>Albin Michel, édition 2026</td><td>Broché</td><td>440</td><td>Le guide de référence de la grossesse</td></tr>
+<tr><td>Le grand livre de ma grossesse</td><td>CNGOF</td><td>Eyrolles, édition 2023-2024</td><td>Relié</td><td>494</td><td>Les explications médicales</td></tr>
+<tr><td>J'élève mon enfant</td><td>Laurence et Clémence Pernoud</td><td>Albin Michel, édition 2026</td><td>Broché</td><td>488</td><td>L'après : bébé jusqu'à la maternelle</td></tr>
+<tr><td>L'Allaitement</td><td>Dr Marie Thirion</td><td>Albin Michel, 2023</td><td>Broché</td><td>384</td><td>Préparer l'allaitement</td></tr>
+<tr><td>Mon cours de préparation à l'accouchement</td><td>Dr Bernadette de Gasquet</td><td>Marabout, 2019</td><td>Broché</td><td>224</td><td>Se préparer physiquement à l'accouchement</td></tr>
+<tr><td>Vivre sa grossesse et son accouchement</td><td>Isabelle Brabant</td><td>Chronique Sociale, 2013</td><td>Broché</td><td>584</td><td>Le regard d'une sage-femme, en profondeur</td></tr>
+<tr><td>Papa dans quelques mois</td><td>Nicolas Evrard, Clémentine Fitaire</td><td>Eyrolles, 2019</td><td>Broché</td><td>190</td><td>Le futur papa qui veut tout comprendre</td></tr>
+<tr><td>Futur papa bien préparé</td><td>Frédéric Faurillon</td><td>Marabout, 2024</td><td>Broché</td><td>128</td><td>Le futur papa pressé</td></tr>
+<tr><td>Le mois d'or</td><td>Marie Mahé-Poulin, Céline Chadelat</td><td>Marabout, poche, 2026</td><td>Poche</td><td>416</td><td>Préparer le premier mois après la naissance</td></tr>
+<tr><td>SOS Post-partum</td><td>Marie-Elise Launay</td><td>First, 2022</td><td>Broché</td><td>128</td><td>Un journal pour le quatrième trimestre</td></tr>
+</tbody></table>
+
+<h2>1. J'attends un enfant (Pernoud) : celui à lire en premier</h2>
+<p><strong>Pour qui ?</strong> Pour toute future maman ou futur papa qui veut un seul livre complet, de l'annonce de la grossesse au post-partum.</p>
+<p><strong>Ce qu'on y trouve :</strong> c'est le grand classique, et l'édition 2026 marque ses 70 ans avec une mise à jour complète, signée Laurence et Clémence Pernoud. La fiche d'Albin Michel annonce un suivi mois par mois, un cahier spécial accouchement et un guide des démarches administratives. Elle insiste aussi sur des sujets plus récents : le projet de naissance, la gestion de la douleur, la matrescence, le post-partum et le partage de la charge mentale, le tout « sans injonctions ». Le livre s'adresse aux deux parents, quelle que soit la composition de la famille.</p>
+<p><strong>Format :</strong> broché, 440 pages, paru le 14 janvier 2026. Existe aussi en numérique.</p>
+<p><strong>Limites :</strong> c'est un pavé qu'on consulte plus qu'on ne lit d'une traite. Et attention aux anciennes éditions qui circulent encore d'occasion : sur les démarches et les recommandations, prends la plus récente.</p>
+<p><a href="{AMZ:Pernoud J attends un enfant 2026}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. Le grand livre de ma grossesse (CNGOF) : pour les explications médicales</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu veux comprendre ce qui se passe à chaque examen, et ce que montrent vraiment les échographies.</p>
+<p><strong>Ce qu'on y trouve :</strong> le livre est écrit par des experts réunis par le Collège national des gynécologues et obstétriciens français : gynécologues, sages-femmes, pédiatres, pédopsychiatres. Selon Eyrolles, il va du désir d'enfant au retour à la maison, avec le suivi mois par mois, les petits maux, la préparation à l'accouchement et les démarches. La fiche annonce 140 schémas, 45 échographies décryptées et des vidéos.</p>
+<p><strong>Format :</strong> relié, 494 pages, édition 2023-2024 parue en novembre 2022.</p>
+<p><strong>Limites :</strong> l'édition la plus récente qu'on a trouvée date de 2022. Le contenu médical de base change peu, mais certaines démarches ou recommandations ont pu évoluer depuis : ta sage-femme ou ton médecin restent la référence pour ton suivi.</p>
+<p><a href="{AMZ:Le grand livre de ma grossesse CNGOF}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. J'élève mon enfant (Pernoud) : pour l'après</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent déjà se projeter dans les premiers mois, ou qui cherchent un livre à garder sous la main jusqu'à l'école maternelle.</p>
+<p><strong>Ce qu'on y trouve :</strong> le pendant de <em>J'attends un enfant</em>, des premiers bains à la maternelle. La fiche cite le portage, l'allaitement, le cododo, le sommeil, l'alimentation, les pleurs, la santé et le développement, avec un suivi de l'éveil mois par mois, un dictionnaire de santé et un guide des démarches.</p>
+<p><strong>Format :</strong> broché, 488 pages, édition 2026 parue le 14 janvier 2026.</p>
+<p><strong>Limites :</strong> pendant la grossesse, tu n'en liras qu'une petite partie. Une édition 2027 apparaît déjà chez certains revendeurs : choisis la plus récente disponible.</p>
+<p><a href="{AMZ:Pernoud J eleve mon enfant}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. L'Allaitement (Marie Thirion) : la référence pour allaiter</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu envisages d'allaiter et que tu veux arriver à la maternité en sachant à quoi t'attendre.</p>
+<p><strong>Ce qu'on y trouve :</strong> le sous-titre dit tout, « de la naissance au sevrage ». La fiche d'Albin Michel cite la préparation, la montée de lait, les positions, la composition du lait, les difficultés comme l'abcès ou la lymphangite, la reprise du poids, la sexualité, la durée de l'allaitement et le sevrage. L'éditeur précise que le livre est régulièrement mis à jour.</p>
+<p><strong>Format :</strong> broché, 384 pages, édition parue en janvier 2023, illustrée par Christiane Schaeffer.</p>
+<p><strong>Limites :</strong> un livre ne remplace pas une aide en direct. Si l'allaitement fait mal ou que bébé prend mal le sein, une sage-femme ou une consultante en lactation t'aidera bien plus vite qu'un chapitre.</p>
+<p><a href="{AMZ:Marie Thirion L allaitement}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Mon cours de préparation à l'accouchement (Gasquet) : pour le corps</h2>
+<p><strong>Pour qui ?</strong> Pour les futures mamans qui veulent se préparer physiquement, en complément des séances de préparation à la naissance.</p>
+<p><strong>Ce qu'on y trouve :</strong> la méthode du Dr Bernadette de Gasquet, pour un accouchement plus physiologique, même quand il est médicalisé. La fiche cite la respiration, les postures, la préparation du périnée, le ballon, la baignoire, la suspension, le choix de la position et une autre façon de pousser. Une partie s'adresse au partenaire, pour qu'il sache comment soutenir la future mère.</p>
+<p><strong>Format :</strong> broché, 224 pages, paru en janvier 2019.</p>
+<p><strong>Limites :</strong> c'est un livre de méthode, pas un guide général de la grossesse. Avant de faire des exercices, surtout en cas de grossesse à risque, demande l'avis de ta sage-femme.</p>
+<p><a href="{AMZ:Gasquet Mon cours de preparation a l accouchement}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Vivre sa grossesse et son accouchement (Brabant) : le regard d'une sage-femme</h2>
+<p><strong>Pour qui ?</strong> Pour celles et ceux qui aiment aller au fond des choses, y compris sur les émotions et la vie de couple.</p>
+<p><strong>Ce qu'on y trouve :</strong> le livre d'Isabelle Brabant, sage-femme, sous-titré « une naissance heureuse ». La fiche parle des changements physiques et émotionnels, des préparatifs, du couple, de l'accompagnement pendant le travail, du soulagement de la douleur, des gestes médicaux courants et des premiers jours après la naissance. Il aborde aussi l'accouchement à domicile.</p>
+<p><strong>Format :</strong> broché, 584 pages, édition Chronique Sociale d'avril 2013.</p>
+<p><strong>Limites :</strong> l'édition française date de 2013, et l'autrice exerce au Québec : certaines pratiques et démarches diffèrent de la France. À lire pour l'approche, pas pour le parcours administratif.</p>
+<p><a href="{AMZ:Isabelle Brabant Vivre sa grossesse et son accouchement}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Papa dans quelques mois : le guide complet du futur père</h2>
+<p><strong>Pour qui ?</strong> Pour le futur papa qui veut comprendre la grossesse au même niveau que sa compagne, et pas seulement monter le lit.</p>
+<p><strong>Ce qu'on y trouve :</strong> écrit par Nicolas Evrard et Clémentine Fitaire avec l'aide d'une sage-femme, il couvre le suivi médical, le développement du bébé, la préparation à la naissance et les démarches. La fiche annonce aussi des conseils concrets (biberon, premiers soins, pleurs) et des témoignages de jeunes papas commentés par un psychologue.</p>
+<p><strong>Format :</strong> broché, 190 pages, Eyrolles, février 2019.</p>
+<p><strong>Limites :</strong> l'édition date de 2019. Les règles du congé de paternité ont changé depuis : vérifie-les sur service-public.fr plutôt que dans le livre.</p>
+<p><a href="{AMZ:Papa dans quelques mois Evrard}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Futur papa bien préparé : la version courte et récente</h2>
+<p><strong>Pour qui ?</strong> Pour le futur papa qui lira plus volontiers 128 pages illustrées qu'un pavé de 500.</p>
+<p><strong>Ce qu'on y trouve :</strong> Frédéric Faurillon, père de deux enfants, accompagne le futur père pendant toute la grossesse. La fiche de Marabout cite le suivi médical, le congé de paternité, son rôle pendant l'accouchement, le post-partum et l'essentiel des premiers mois de bébé.</p>
+<p><strong>Format :</strong> broché grand format, 128 pages, janvier 2024.</p>
+<p><strong>Limites :</strong> plus court, donc moins détaillé que le précédent. C'est une bonne porte d'entrée, à compléter par un guide général. Il fait aussi un joli cadeau : on a d'autres idées dans notre page <a href="{R}cadeau-futur-papa/">cadeau futur papa</a>.</p>
+<p><a href="{AMZ:Futur papa bien prepare Faurillon}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. Le mois d'or : préparer le premier mois après la naissance</h2>
+<p><strong>Pour qui ?</strong> Pour toi si tu veux anticiper la fatigue des premières semaines et organiser l'aide autour de toi avant l'accouchement.</p>
+<p><strong>Ce qu'on y trouve :</strong> Marie Mahé-Poulin et Céline Chadelat partent des soins que d'autres cultures offrent aux jeunes mères pendant le mois qui suit la naissance. La fiche cite le bandage du bassin, les massages, les conseils nutritionnels, le yoga, la méditation, le shiatsu, les soins du périnée et l'organisation avec l'entourage.</p>
+<p><strong>Format :</strong> poche, 416 pages, Marabout, janvier 2026. Une édition grand format existe aussi aux Presses du Châtelet.</p>
+<p><strong>Limites :</strong> c'est un livre de bien-être, pas un livre médical. Pour tout ce qui touche à la cicatrisation, au périnée ou à ton moral, ta sage-femme reste la bonne interlocutrice.</p>
+<p><a href="{AMZ:Le mois d or Chadelat poche}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. SOS Post-partum : un journal pour le quatrième trimestre</h2>
+<p><strong>Pour qui ?</strong> Pour les jeunes mamans qui ont envie d'écrire ce qu'elles vivent, quel que soit leur accouchement.</p>
+<p><strong>Ce qu'on y trouve :</strong> Marie-Elise Launay, sage-femme libérale, l'a pensé à partir du manque d'information sur le post-partum. La fiche le décrit comme un journal chronologique, avec des conseils, des astuces, du réconfort et des pages pour écrire, illustré par Violette Suquet.</p>
+<p><strong>Format :</strong> broché, 128 pages, First, avril 2022.</p>
+<p><strong>Limites :</strong> c'est un compagnon, pas un manuel complet. Et si la fatigue ou la tristesse durent après la naissance, parles-en à ta sage-femme ou à ton médecin, sans attendre.</p>
+<p><a href="{AMZ:SOS Post-partum Launay}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Comment choisir le bon livre (sans en acheter six) ?</h2>
+<p>L'erreur classique, c'est d'empiler les livres pendant le premier trimestre et de ne plus en ouvrir aucun au septième mois. Deux ou trois bien choisis valent mieux.</p>
+<ul>
+<li><strong>Un guide général :</strong> Pernoud ou CNGOF. Le premier est plus accessible et plus récent, le second plus médical et plus visuel.</li>
+<li><strong>Un livre ciblé sur ta préoccupation :</strong> allaitement (Thirion), accouchement (Gasquet), post-partum (Le mois d'or, SOS Post-partum).</li>
+<li><strong>Un livre pour le futur papa :</strong> Evrard et Fitaire pour le complet, Faurillon pour le rapide.</li>
+</ul>
+<p>Regarde toujours l'année de l'édition. Les démarches, les congés et certaines recommandations changent, et un livre d'occasion de 2015 peut t'induire en erreur. Notre conseil : achète le guide général neuf, dans sa dernière édition, et prends les livres plus thématiques d'occasion si tu veux économiser.</p>
+<p>Si tu prévois d'allaiter, notre <a href="{R}liste-de-naissance-allaitement/">liste de naissance allaitement</a> rassemble le matériel utile, et notre guide <a href="{R}comment-choisir-tire-lait/">comment choisir un tire-lait</a> t'aidera si tu dois tirer ton lait.</p>
+
+<h2>Les livres dans ta liste de naissance</h2>
+<p>Un livre sur la grossesse est un cadeau parfait pour les proches qui veulent participer sans savoir quoi offrir, surtout en début de grossesse. Ajoute-les dans ta liste à côté du matériel : tu trouveras d'autres idées dans nos <a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a>. Pour tout organiser, suis notre <a href="{R}checklist/">checklist</a> et notre guide de la <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a>.</p>
+<p>Ces livres informent, mais ils ne remplacent pas ton suivi. Pour toute question sur ta grossesse, ta santé ou celle de bébé, ta sage-femme et ton médecin restent tes premiers interlocuteurs.</p>
+""",
+  faq=[("Quel est le meilleur livre sur la grossesse ?", "Pour un seul livre complet, J'attends un enfant de Laurence et Clémence Pernoud, dont l'édition 2026 a été entièrement mise à jour. Pour des explications plus médicales, Le grand livre de ma grossesse du CNGOF."),
+       ("Quel livre offrir à un futur papa ?", "Papa dans quelques mois (Evrard et Fitaire, Eyrolles) est le plus complet. Futur papa bien préparé (Faurillon, Marabout, 2024) est plus court et plus récent."),
+       ("Un livre peut-il remplacer les cours de préparation à la naissance ?", "Non. Il les complète. Les séances avec une sage-femme permettent de poser tes questions et d'adapter les conseils à ta situation.")],
+  short="Top 10 livres grossesse")
