@@ -113,7 +113,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.ico" sizes="32x32"><link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{R}assets/apple-touch-icon.png">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=26">
+<link rel="stylesheet" href="{R}assets/style.css?v=27">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -313,6 +313,7 @@ def build():
         fh, fs = faq_block(x['faq'] + ex_faq)
         body = (x['body'] + ex_html).replace('{CTA}', CTA).replace('{PRINTLIST}', PRINTLIST).replace('{MSGS}', messages_html())
         body = re.sub(r'\{AMZ:([^}]+)\}', lambda m: amz(m.group(1)), body)
+        body = re.sub(r'<p>\s*<a (href="https://www\.amazon\.fr[^"]*"[^>]*)>([^<]+)</a>\s*</p>', r'<p class="amz-p"><a class="btn-amz" \1>\2</a></p>', body)
         body, toc = add_toc(body)
         words = len(re.sub('<[^>]+>', ' ', body).split())
         mins = max(2, round(words / 200))
