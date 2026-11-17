@@ -9,23 +9,33 @@
 - [x] comment-choisir-tire-lait/ | comment choisir un tire-lait | manuel, électrique simple ou double, location
 - [x] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
 - [ ] comment-choisir-sac-a-langer/ | comment choisir un sac à langer | sac à dos ou cabas, matelas, poches isothermes
+- [ ] premier-noel-de-bebe/ | premier Noël de bébé cadeau | idées de cadeaux utiles et sûrs selon l'âge, ce qui est inutile, tradition et souvenirs ; liens Amazon ; à publier avant mi-décembre
 - [ ] liste-de-naissance-combien-d-articles/ | combien d'articles dans une liste de naissance | nombre idéal, essentiels vs bonus, budget des invités
+- [ ] cadeau-1-an-bebe/ | cadeau 1 an bébé | idées par budget, jouets d'éveil adaptés à 12 mois, normes de sécurité, cadeaux souvenirs
 - [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
 - [ ] liste-de-naissance-quand-la-faire/ | quand faire sa liste de naissance | mois idéal, avant ou après la baby shower, délais de livraison
+- [ ] cadeau-maman-apres-accouchement/ | cadeau pour maman après accouchement | idées utiles pour la maman (confort, repos, allaitement), cadeaux à éviter, offrir du temps
 - [ ] comment-choisir-lit-parapluie/ | comment choisir un lit parapluie | poids, pliage, matelas, usage voyage
 - [ ] comment-choisir-tapis-d-eveil/ | comment choisir un tapis d'éveil | arches, lavable, taille, évolutif
+- [ ] cadeau-naissance-combien-mettre/ | combien mettre dans un cadeau de naissance | repères selon le lien (famille, ami, collègue), participer à un gros cadeau, alternative de la liste
 - [ ] liste-de-naissance-que-mettre-en-premier/ | que mettre en premier dans une liste de naissance | priorités par ordre d'usage, gros articles à partager
 - [ ] comment-choisir-coussin-allaitement/ | comment choisir un coussin d'allaitement | rembourrage, housse, grossesse
+- [ ] cadeau-parrain-marraine-naissance/ | cadeau de naissance parrain marraine | idées souvenirs et utiles, budget, cadeau symbolique
 - [ ] comment-choisir-thermometre-bebe/ | comment choisir un thermomètre bébé | rectal, frontal, auriculaire, rester général et renvoyer au médecin
 - [ ] liste-de-naissance-petit-appartement/ | liste de naissance petit appartement | matériel pliable, multifonction, ce qu'on peut éviter
+- [ ] cadeau-naissance-collegue/ | cadeau de naissance pour une collègue | cagnotte de bureau, idées collectives, montant habituel, mot à écrire
 - [ ] porte-bebe-ou-echarpe-de-portage/ | porte-bébé ou écharpe de portage | comparatif clair, selon l'âge et l'usage
 - [ ] gigoteuse-quel-tog/ | gigoteuse quel TOG | tableau température / TOG, saison
+- [ ] remercier-cadeau-naissance/ | remercier pour un cadeau de naissance | modèles de messages courts, délai, carte ou message, remercier un groupe
 - [ ] liste-de-naissance-papa/ | liste de naissance côté papa | idées pratiques pour le papa (porte-bébé, sac à langer neutre, gadgets utiles)
 - [ ] lit-cododo-utile/ | lit cododo utile ou pas | avantages, limites, sécurité du sommeil
+- [ ] liste-de-naissance-bebe-ne-en-automne/ | liste de naissance bébé né en automne | vêtements de saison, chancelière, gigoteuse adaptée, poussette avec habillage pluie
 - [ ] sterilisateur-biberon-utile/ | stérilisateur biberon utile | quand c'est utile, alternatives
 - [ ] gros-cadeau-de-naissance-a-plusieurs/ | gros cadeau de naissance à plusieurs | poussette, siège auto, lit : comment organiser une cagnotte
+- [ ] liste-de-naissance-sur-le-faire-part/ | annoncer sa liste de naissance | comment l'annoncer sans gêne (faire-part, message, lien), formulations
 - [ ] chauffe-biberon-utile/ | chauffe-biberon utile ou pas | usages, nomade, alternatives
 - [ ] que-mettre-dans-le-sac-a-langer/ | que mettre dans le sac à langer | checklist sortie
+- [ ] cadeaux-de-naissance-en-double/ | que faire des cadeaux de naissance en double | échanger, retourner (règles des listes Amazon), garder pour plus tard, donner
 - [ ] liste-de-naissance-sans-amazon-ou-avec/ | liste de naissance Amazon avis | avantages (coffret, retours, 15 %), limites, alternatives
 - [ ] ce-quil-ne-faut-pas-acheter-pour-bebe/ | ce qu'il ne faut pas acheter pour bébé | achats inutiles
 - [ ] materiel-bebe-occasion/ | matériel bébé d'occasion | quoi acheter d'occasion ou neuf, sécurité
