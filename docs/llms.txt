@@ -53,5 +53,6 @@ Langue : français
 - [Calcul de la date d'accouchement (DPA) et calendrier](https://malistebebe.fr/calcul-date-accouchement/): Calcule ta date prévue d'accouchement selon la convention française (41 SA), ton nombre de semaines d'aménorrhée et ton calendrier de préparation.
 - [Calculateur de trousseau bébé : combien de bodies ?](https://malistebebe.fr/calculateur-trousseau-bebe/): Combien de bodies, pyjamas, bavoirs et langes acheter pour bébé ? Calcule ton trousseau selon la fréquence de tes lessives et la saison de naissance.
 - [Outils gratuits futurs parents : date d'accouchement, trousseau](https://malistebebe.fr/outils/): Outils gratuits pour préparer l'arrivée de bébé : calcul de la date d'accouchement, calendrier de préparation et calculateur de trousseau.
+- [À propos | Ma liste bébé](https://malistebebe.fr/a-propos/): Qui écrit Ma liste bébé, d'où viennent nos conseils et comment le site est financé.
 - [Mentions légales | Ma liste bébé](https://malistebebe.fr/mentions-legales/): Mentions légales du site Ma liste bébé.
 - [Confidentialité | Ma liste bébé](https://malistebebe.fr/confidentialite/): Politique de confidentialité de Ma liste bébé : checklist sans inscription, compte facultatif.
