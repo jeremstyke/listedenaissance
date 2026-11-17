@@ -7,7 +7,7 @@
 - [x] comment-choisir-matelas-bebe/ | comment choisir un matelas bébé | fermeté, taille exacte, déhoussable, sécurité du sommeil
 - [x] comment-choisir-chaise-haute/ | comment choisir une chaise haute | évolutive, pliante, nettoyage, harnais
 - [x] comment-choisir-tire-lait/ | comment choisir un tire-lait | manuel, électrique simple ou double, location
-- [ ] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
+- [x] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
 - [ ] comment-choisir-sac-a-langer/ | comment choisir un sac à langer | sac à dos ou cabas, matelas, poches isothermes
 - [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
 - [ ] comment-choisir-lit-parapluie/ | comment choisir un lit parapluie | poids, pliage, matelas, usage voyage

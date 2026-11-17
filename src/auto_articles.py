@@ -1082,3 +1082,166 @@ g("meilleurs-livres-grossesse/",
        ("Quel livre offrir à un futur papa ?", "Papa dans quelques mois (Evrard et Fitaire, Eyrolles) est le plus complet. Futur papa bien préparé (Faurillon, Marabout, 2024) est plus court et plus récent."),
        ("Un livre peut-il remplacer les cours de préparation à la naissance ?", "Non. Il les complète. Les séances avec une sage-femme permettent de poser tes questions et d'adapter les conseils à ta situation.")],
   short="Top 10 livres grossesse")
+
+AUTO_META['comment-choisir-transat-bebe/'] = ('🪑', 'miel')
+g("comment-choisir-transat-bebe/",
+  "Comment choisir un transat bébé : manuel, électrique, sécurité",
+  "Comment choisir un transat bébé",
+  "Manuel ou électrique, inclinaison, harnais, poids maximum et norme EN 12790 : comment choisir un transat bébé qui servira vraiment, et l'utiliser en sécurité.",
+  """
+<p>Pour la plupart des familles, un transat manuel à bascule, avec un dossier inclinable, un harnais et la norme EN 12790, fait parfaitement l'affaire. Le transat électrique peut aider si ton bébé ne se calme qu'en mouvement, mais il coûte plus cher et sert le même nombre de mois.</p>
+<p>Car c'est le point que beaucoup découvrent trop tard : un transat ne sert pas longtemps. Il est prévu pour les bébés qui ne s'assoient pas encore seuls, jusqu'à 9 kg environ. Ça change la façon de le choisir, et le budget qu'on y met.</p>
+{CTA}
+<h2>À quoi sert vraiment un transat ?</h2>
+<p>Le transat, c'est la petite place de bébé quand il est réveillé et que tu as besoin de tes deux mains. Tu prends ta douche, tu cuisines, tu manges enfin assise : il est à côté de toi, légèrement relevé, et il te voit. Beaucoup de bébés aiment cette position mieux que d'être allongés à plat, parce qu'ils voient ce qui se passe autour.</p>
+<p>Ce n'est en revanche ni un lit, ni un siège pour le porter partout. Et ce n'est pas indispensable : un tapis d'éveil au sol rend une partie des mêmes services. Mais dans un logement où tu passes ta journée d'une pièce à l'autre, un transat léger qu'on déplace d'une main est vite adopté.</p>
+<h2>Manuel, électrique ou évolutif ?</h2>
+<p>Trois grandes familles se partagent les rayons. Elles ont toutes le même usage de base, la différence se joue sur le mouvement, l'encombrement et la durée de vie.</p>
+<table><thead><tr><th>Type</th><th>Comment il bouge</th><th>Pour qui ?</th><th>Limites</th></tr></thead><tbody>
+<tr><td>Transat manuel à bascule</td><td>Bébé le fait bouger lui-même en gigotant, ou tu le berces du pied</td><td>La majorité des familles, les petits logements</td><td>Pas de bercement automatique</td></tr>
+<tr><td>Transat électrique</td><td>Bercement ou vibrations à moteur, parfois avec musique</td><td>Les bébés qui se calment surtout en mouvement</td><td>Plus cher, plus lourd, piles ou prise, plus encombrant</td></tr>
+<tr><td>Transat évolutif</td><td>Selon le modèle, se transforme ensuite en petit siège ou en chaise</td><td>Ceux qui veulent l'utiliser au delà de la phase transat</td><td>Plus volumineux, la partie transat garde les mêmes limites de poids</td></tr>
+<tr><td>Transat de bain</td><td>Fixe, posé dans la baignoire</td><td>Donner le bain en gardant les mains libres</td><td>Usage différent : ne remplace pas un transat de salon</td></tr>
+</tbody></table>
+<p>Notre conseil : commence par un <a href="{AMZ:transat bebe a bascule}" rel="sponsored nofollow noopener" target="_blank">transat manuel à bascule</a>. Il est léger, silencieux, sans piles, et beaucoup de bébés apprennent vite à le faire bouger en remuant les jambes. Si ton bébé ne se calme vraiment qu'en mouvement, un <a href="{AMZ:transat electrique bebe}" rel="sponsored nofollow noopener" target="_blank">transat électrique</a> peut valoir le coup, mais regarde bien son poids et sa taille une fois installé dans ton salon.</p>
+<h2>Jusqu'à quand ton bébé pourra-t-il s'en servir ?</h2>
+<p>Les transats répondent à la norme européenne EN 12790, dont la version actuelle vise les enfants jusqu'au moment où ils commencent à essayer de s'asseoir seuls. Les fiches produits et les conseils de prévention parlent en général d'un poids maximum de 9 kg. Lis la limite indiquée sur la notice de ton modèle : c'est elle qui compte.</p>
+<p>En pratique, dès que ton bébé se redresse tout seul ou essaie de sortir du transat, il est temps d'arrêter, même s'il pèse moins que la limite. Un bébé qui se penche fort sur le côté peut faire basculer un transat léger.</p>
+<p>Par exemple, si tu hésites entre deux modèles proches, ne paie pas plus cher pour une promesse de « longue durée » sur la partie transat. Le seul moyen de prolonger l'usage, c'est un modèle évolutif qui devient un siège pour enfant assis, et dans ce cas vérifie à partir de quand et jusqu'à quel poids la fiche l'autorise.</p>
+<h2>Les critères qui comptent vraiment</h2>
+<ul>
+<li><strong>La norme EN 12790</strong> mentionnée sur la fiche ou l'emballage. Méfie-toi des modèles sans aucune mention de norme.</li>
+<li><strong>Un harnais 3 ou 5 points</strong>, avec une sangle entre les jambes, facile à attacher d'une main.</li>
+<li><strong>Plusieurs inclinaisons</strong> : au moins une position semi-allongée pour les tout-petits et une position plus assise pour quand il veut regarder autour de lui.</li>
+<li><strong>Une base large et stable</strong>, avec des patins antidérapants.</li>
+<li><strong>Une housse déhoussable et lavable en machine</strong>. Avec les régurgitations, tu la laveras souvent.</li>
+<li><strong>Le poids et le pliage</strong> : un transat qu'on porte d'une main suit bébé de la cuisine à la salle de bains, et un modèle qui se plie à plat se glisse sous un lit ou dans le coffre.</li>
+</ul>
+<p>Les arches de jouets sont sympas mais secondaires. Un bébé de deux mois regarde surtout ton visage, et une arche se rajoute après coup si besoin.</p>
+<h2>Les erreurs qu'on voit souvent</h2>
+<p>La plus dangereuse : poser le transat en hauteur. Même avec un bébé attaché, un transat sur une table, un plan de travail, un lit ou un canapé peut glisser et tomber quand bébé gigote. Il se pose toujours au sol, sur une surface plane.</p>
+<p>Deuxième erreur : laisser bébé dormir dans le transat. S'il s'endort, ça arrive, recouche-le dès que possible à plat sur le dos, dans son lit. En position assise ou inclinée, la tête d'un nourrisson peut basculer vers l'avant et gêner sa respiration. L'Académie américaine de pédiatrie déconseille d'ailleurs de faire dormir un bébé dans un dispositif incliné, surtout s'il se balance.</p>
+<p>Troisième erreur : oublier le harnais « juste pour une minute ». C'est justement dans cette minute qu'un bébé se tortille et glisse. Et quatrième : en faire la place principale de bébé toute la journée. Il a besoin aussi de temps à plat, sur un tapis, pour bouger librement. Pour la durée raisonnable dans un transat ou si tu remarques que sa tête s'aplatit d'un côté, demande conseil à ton pédiatre, ton médecin ou ta sage-femme.</p>
+<h2>Faut-il le mettre dans ta liste de naissance ?</h2>
+<p>Oui, c'est même un bon cadeau à offrir : il sert dès les premières semaines et se choisit sans connaître les goûts précis des parents. Un <a href="{AMZ:transat bebe pliable}" rel="sponsored nofollow noopener" target="_blank">transat pliable</a> est malin si tu vis dans un petit espace, on en parle dans notre guide de la <a href="{R}liste-de-naissance-petit-appartement/">liste de naissance petit appartement</a>.</p>
+<p>Pour la suite, quand bébé saura se tenir assis et commencera à manger, c'est la chaise haute qui prendra le relais : notre guide <a href="{R}comment-choisir-chaise-haute/">comment choisir une chaise haute</a> t'aide à anticiper. Pour un deuxième enfant, regarde si l'ancien transat est encore en bon état et a encore sa notice : sangles, housse et base doivent être intactes. Et pour tout le reste, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a> ou pioche dans <a href="{R}quoi-mettre-dans-une-liste-de-naissance/">quoi mettre dans une liste de naissance</a>.</p>
+""",
+  faq=[("Jusqu'à quel âge utiliser un transat ?", "Plutôt jusqu'à un poids qu'à un âge : les transats sont prévus pour les bébés qui ne s'assoient pas encore seuls, en général jusqu'à 9 kg. Respecte la limite indiquée sur la notice et arrête dès que ton bébé essaie de se redresser seul."),
+       ("Bébé peut-il dormir dans son transat ?", "Non. S'il s'endort dedans, recouche-le sur le dos, à plat, dans son lit. En position inclinée, sa tête peut basculer vers l'avant et gêner sa respiration."),
+       ("Transat manuel ou électrique ?", "Le manuel à bascule suffit à la plupart des familles : léger, silencieux, sans piles. L'électrique peut aider un bébé qui ne se calme qu'en mouvement, mais il est plus cher et sert le même nombre de mois.")],
+  short="Choisir un transat")
+
+AUTO_META['meilleurs-livres-bebe/'] = ('🏆', 'ciel')
+g("meilleurs-livres-bebe/",
+  "Meilleurs livres pour bébé 2026 : top 10 de 0 à 3 ans",
+  "Meilleurs livres pour bébé de 0 à 3 ans : notre top 10 2026",
+  "Imagiers, livres à toucher, sonores, en tissu et grands classiques comme La chenille qui fait des trous : 10 livres réels pour bébé de 0 à 3 ans en 2026.",
+  """
+<p>Pour un tout premier livre, prends un album tout-carton qu'il peut mordiller sans risque, comme <em>Bébés chouettes</em> ou <em>La chenille qui fait des trous</em>. Ajoute un livre à toucher vers 6 mois, et garde les albums plus longs comme <em>Petit-Bleu et Petit-Jaune</em> pour ses 2 ou 3 ans.</p>
+<p>À cet âge, un bon livre n'est pas celui qui raconte le plus. C'est celui qui résiste aux petites mains, qui se lit en deux minutes et que ton enfant va te tendre vingt fois de suite. On a retenu dix livres qui existent vraiment en France, rangés du plus petit âge au plus grand.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Pour les livres, on a lu la fiche de chaque titre à la Fnac (ou chez Lilliputiens pour le livre en tissu), car les sites de plusieurs éditeurs n'étaient pas consultables, puis vérifié qu'il est proposé sur Amazon.fr. Les âges cités sont ceux indiqués par l'éditeur ou le revendeur. Quand une information manquait, on écrit « non précisé ».</p>
+
+<h2>Les 10 livres en un coup d'œil</h2>
+<table><thead><tr><th>Livre</th><th>Auteur(s)</th><th>Éditeur</th><th>Type</th><th>Pages</th><th>Âge indiqué</th></tr></thead><tbody>
+<tr><td>Bébés chouettes</td><td>Martin Waddell, Patrick Benson</td><td>Kaléidoscope</td><td>Album tout-carton</td><td>24</td><td>Dès la naissance</td></tr>
+<tr><td>La chenille qui fait des trous</td><td>Eric Carle</td><td>Mijade</td><td>Album cartonné à trous</td><td>Non précisé</td><td>Dès la naissance</td></tr>
+<tr><td>Où est Spot, mon petit chien ?</td><td>Eric Hill</td><td>Nathan</td><td>Album cartonné à rabats</td><td>24</td><td>Dès la naissance</td></tr>
+<tr><td>Les animaux, Mon premier tout-doux</td><td>Stella Baggott, Katrina Fearn</td><td>Usborne</td><td>Imagier à toucher</td><td>10</td><td>Dès 6 mois</td></tr>
+<tr><td>Ne chatouille pas le lion...</td><td>Sam Taplin, Ana Martin-Larranaga</td><td>Usborne</td><td>Livre sonore à toucher</td><td>10</td><td>Dès 6 mois</td></tr>
+<tr><td>Mes instruments</td><td>Marion Billet</td><td>Gallimard Jeunesse</td><td>Imagier sonore</td><td>14</td><td>Variable selon la fiche</td></tr>
+<tr><td>Mon imagier animé : les bébés animaux</td><td>Nathalie Choux (illustrations)</td><td>Nathan, Kididoc</td><td>Imagier à animations</td><td>10</td><td>Dès 1 an</td></tr>
+<tr><td>Jack rugit</td><td>Lilliputiens</td><td>Lilliputiens</td><td>Livre en tissu</td><td>Non précisé</td><td>Dès 12 mois</td></tr>
+<tr><td>Petit-Bleu et Petit-Jaune</td><td>Leo Lionni</td><td>L'école des loisirs</td><td>Album cartonné</td><td>48</td><td>Dès 3 ans</td></tr>
+<tr><td>Un livre</td><td>Hervé Tullet</td><td>Bayard Jeunesse</td><td>Album interactif cartonné</td><td>64</td><td>Dès 3 ans</td></tr>
+</tbody></table>
+
+<h2>1. Bébés chouettes : le livre du soir dès les premières semaines</h2>
+<p><strong>Pour qui ?</strong> Pour les tout-petits, et pour les parents qui cherchent une histoire très courte à lire au moment du coucher.</p>
+<p><strong>Ce qu'on y trouve :</strong> trois bébés chouettes, Sarah, Rémy et Lou, attendent le retour de leur maman la nuit. Texte de Martin Waddell, illustrations de Patrick Benson. La Fnac présente l'album comme une histoire simple et rassurante pour accompagner l'endormissement, ce qui colle bien à la peur de la séparation que connaissent beaucoup de bébés.</p>
+<p><strong>Format :</strong> album tout-carton, 24 pages, Kaléidoscope, édition parue en septembre 2015. Indiqué dès la naissance.</p>
+<p><strong>Limites :</strong> les illustrations sont assez sombres, puisque l'histoire se passe la nuit. Certains enfants adorent, d'autres préfèrent des images très colorées.</p>
+<p><a href="{AMZ:Bebes chouettes tout carton Waddell}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. La chenille qui fait des trous : le classique qu'on garde des années</h2>
+<p><strong>Pour qui ?</strong> Pour presque tous les enfants. Un bébé regarde les couleurs et glisse ses doigts dans les trous, un enfant de 2 ou 3 ans suit l'histoire et compte les fruits.</p>
+<p><strong>Ce qu'on y trouve :</strong> une petite chenille très gourmande mange de plus en plus de choses au fil de la semaine, avant de devenir un papillon. Le nombre de trous dans les pages augmente, ce qui aide à découvrir les chiffres, selon la fiche.</p>
+<p><strong>Format :</strong> album cartonné, collection Mijade Cartonné, 16,5 x 22,5 cm, parution octobre 2016. Nombre de pages non précisé. Indiqué dès la naissance.</p>
+<p><strong>Limites :</strong> le livre existe aussi en petit format souple. Pour un bébé qui mâchouille tout, prends bien la version cartonnée.</p>
+<p><a href="{AMZ:Eric Carle La chenille qui fait des trous album cartonne}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Où est Spot, mon petit chien ? : le jeu du coucou en livre</h2>
+<p><strong>Pour qui ?</strong> Pour les bébés qui découvrent le plaisir de chercher et de retrouver, souvent vers la fin de la première année.</p>
+<p><strong>Ce qu'on y trouve :</strong> c'est la première aventure de Spot, d'Eric Hill. Sally cherche son petit chien partout dans la maison, et à chaque page on soulève un rabat pour voir s'il se cache derrière.</p>
+<p><strong>Format :</strong> album cartonné à rabats, 24 pages, Nathan, collection Spot Animés. Indiqué dès la naissance.</p>
+<p><strong>Limites :</strong> les rabats sont la partie fragile. Avec un tout-petit qui tire fort, ils risquent de ne pas survivre longtemps, alors lis-le avec lui au début. Plusieurs éditions circulent : vérifie que c'est bien la version cartonnée.</p>
+<p><a href="{AMZ:Ou est Spot mon petit chien Eric Hill}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Les animaux, Mon premier tout-doux : le premier livre à toucher</h2>
+<p><strong>Pour qui ?</strong> Pour les bébés de 6 mois et plus, qui explorent tout avec les mains.</p>
+<p><strong>Ce qu'on y trouve :</strong> un tout premier imagier avec des couleurs vives et des matières à toucher, et huit animaux à découvrir, d'après la fiche. Texte de Stella Baggott, illustrations de Katrina Fearn.</p>
+<p><strong>Format :</strong> petit livre cartonné de 10 pages, 14,7 x 14,8 cm, Usborne, collection Tout-Doux.</p>
+<p><strong>Limites :</strong> c'est court, et c'est voulu. Ton enfant en aura fait le tour vers 18 mois, il faudra alors passer à des imagiers plus fournis.</p>
+<p><a href="{AMZ:Usborne Mon premier tout-doux Les animaux}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Ne chatouille pas le lion... : toucher et écouter</h2>
+<p><strong>Pour qui ?</strong> Pour le bébé qui adore appuyer sur tout ce qui fait du bruit.</p>
+<p><strong>Ce qu'on y trouve :</strong> chaque page associe une matière à toucher et une puce sonore avec le cri d'un animal. À la fin, tous les animaux se retrouvent pour un concert. Texte de Sam Taplin, illustrations d'Ana Martin-Larranaga.</p>
+<p><strong>Format :</strong> cartonné, 10 pages, 20 x 20 cm, Usborne, collection Je touche, j'écoute, février 2020. Nombre de sons et type de piles : non précisés sur la fiche consultée.</p>
+<p><strong>Limites :</strong> la fiche indique dès 6 mois. Comme tous les livres sonores, le son finit par lasser les adultes, et on ne sait pas d'après la fiche si les piles se changent.</p>
+<p><a href="{AMZ:Usborne Ne chatouille pas le lion}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Mes instruments : un imagier sonore pour les oreilles</h2>
+<p><strong>Pour qui ?</strong> Pour éveiller ton enfant à la musique, et pour les grands-parents qui veulent un cadeau facile.</p>
+<p><strong>Ce qu'on y trouve :</strong> Marion Billet y présente cinq instruments, la flûte, le piano, le violon, la guitare et le xylophone. L'enfant appuie sur une puce, entend le son, puis cherche l'image qui va avec. La fiche cite aussi une puce sonore aléatoire.</p>
+<p><strong>Format :</strong> album cartonné, 14 pages, 15 x 15 cm, Gallimard Jeunesse, collection Mes petits imagiers sonores, novembre 2021.</p>
+<p><strong>Limites :</strong> l'âge n'est pas clair sur la fiche consultée, qui affiche à la fois dès la naissance et dès 10 mois. On le réserverait plutôt à la deuxième moitié de la première année. Le remplacement des piles n'est pas précisé.</p>
+<p><a href="{AMZ:Marion Billet Mes instruments imagier sonore}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Mon imagier animé : les bébés animaux (Kididoc)</h2>
+<p><strong>Pour qui ?</strong> Pour les enfants d'un an et plus qui commencent à vouloir manipuler, tirer, ouvrir.</p>
+<p><strong>Ce qu'on y trouve :</strong> un imagier avec cinq animations conçues pour les petites mains, pour apprendre le nom des bébés animaux. Par exemple, on sort le petit kangourou de la poche de sa mère, ou on ouvre des œufs de poule. Illustrations de Nathalie Choux.</p>
+<p><strong>Format :</strong> album cartonné, 10 pages, 17 x 17,2 cm, Nathan, collection Kididoc Imagiers, octobre 2023. Indiqué dès 1 an.</p>
+<p><strong>Limites :</strong> la fiche parle d'animations très solides, mais tout ce qui se tire et se tourne s'use plus vite qu'une page plate. À manipuler ensemble au début.</p>
+<p><a href="{AMZ:Kididoc Mon imagier anime les bebes animaux}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Jack rugit (Lilliputiens) : le livre en tissu qui va partout</h2>
+<p><strong>Pour qui ?</strong> Pour l'enfant qui emporte ses livres dans la poussette, le lit ou le bain de sable, et pour les parents qui aiment pouvoir laver.</p>
+<p><strong>Ce qu'on y trouve :</strong> Jack le lion traverse la jungle et croise un crocodile triste ou un rhinocéros craintif : le livre parle d'émotions. Il contient du papier qui fait du bruit, une marionnette à doigt lion en peluche et un miroir sur la dernière page, selon le site de Lilliputiens.</p>
+<p><strong>Format :</strong> livre en tissu de 16 x 16 cm, lavable en machine à 30 °C en cycle délicat. Nombre de pages non précisé. Indiqué à partir de 12 mois.</p>
+<p><strong>Limites :</strong> l'âge indiqué est 12 mois, plus tard que beaucoup de livres en tissu. Si tu cherches un livre pour un bébé de quelques mois, regarde l'âge sur la fiche de chaque modèle.</p>
+<p><a href="{AMZ:Lilliputiens livre Jack rugit}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. Petit-Bleu et Petit-Jaune : pour ses 3 ans</h2>
+<p><strong>Pour qui ?</strong> Pour la fin de la tranche 0 à 3 ans, quand ton enfant suit une vraie petite histoire.</p>
+<p><strong>Ce qu'on y trouve :</strong> le classique de Leo Lionni paru en 1970. Petit-Bleu et Petit-Jaune sont les meilleurs amis du monde. En s'embrassant, ils deviennent verts, et leurs parents ne les reconnaissent plus. La fiche le présente comme une histoire sur l'amitié et la différence, avec de simples taches de couleur pour personnages.</p>
+<p><strong>Format :</strong> cartonné, 48 pages, 20,9 x 20,9 cm, L'école des loisirs, édition de septembre 2020. Une version brochée existe aussi. Indiqué dès 3 ans.</p>
+<p><strong>Limites :</strong> trop tôt pour un bébé. C'est un livre à mettre de côté, ou à offrir pour un deuxième anniversaire et à ressortir un peu plus tard.</p>
+<p><a href="{AMZ:Leo Lionni Petit-Bleu et Petit-Jaune}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. Un livre (Hervé Tullet) : le livre qui se joue</h2>
+<p><strong>Pour qui ?</strong> Pour les enfants de 3 ans qui aiment qu'on leur demande de faire quelque chose.</p>
+<p><strong>Ce qu'on y trouve :</strong> pas d'histoire, mais des consignes. Comme le dit la fiche : c'est un livre, tu fais comme il te dit, et tu vas voir. L'enfant appuie sur des ronds de couleur, secoue le livre, et la page suivante semble réagir.</p>
+<p><strong>Format :</strong> cartonné, 64 pages, 22 x 22 cm, Bayard Jeunesse, nouvelle édition d'octobre 2020. Indiqué à partir de 3 ans.</p>
+<p><strong>Limites :</strong> comme Petit-Bleu, il vise le haut de la tranche d'âge. Il en existe deux éditions, l'originale et la nouvelle : regarde laquelle tu commandes.</p>
+<p><a href="{AMZ:Herve Tullet Un livre Bayard}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Quel livre pour quel âge ?</h2>
+<p>Entre 0 et 3 ans, l'enfant change tellement que le livre parfait à 4 mois l'ennuie à 2 ans. Voici les grandes étapes, à adapter à ton enfant :</p>
+<ul>
+<li><strong>Les premiers mois :</strong> des albums tout-carton, avec des images contrastées et très peu de texte. Ce qui compte, c'est ta voix et le moment passé ensemble.</li>
+<li><strong>Vers 6 mois :</strong> les livres à toucher et les livres en tissu, qui supportent d'être tenus, secoués et mâchouillés.</li>
+<li><strong>Vers 1 an :</strong> les rabats, les animations, les imagiers. Ton enfant commence à pointer du doigt et à nommer.</li>
+<li><strong>Vers 2 et 3 ans :</strong> de vraies histoires courtes, avec un début, un problème et une fin.</li>
+</ul>
+<p>L'erreur fréquente, c'est d'acheter trop de livres sonores. Ils plaisent tout de suite, mais ils font tout le travail à la place de l'adulte qui lit. Un ou deux suffisent. Notre conseil : mise sur un mélange de trois types, un tout-carton, un à toucher et un classique pour plus tard, parce que c'est ce mélange qui suivra ton enfant le plus longtemps.</p>
+<p>Pense aussi à la solidité. Un bébé met les livres à la bouche, c'est normal : préfère le carton épais ou le tissu, et garde les livres à rabats ou à petites pièces pour les moments où tu lis avec lui. Pour toute question sur son développement, sa vue ou son audition, ton pédiatre est le bon interlocuteur.</p>
+
+<h2>Des livres dans ta liste de naissance</h2>
+<p>Les livres sont un cadeau parfait pour les proches qui veulent offrir quelque chose de personnel sans dépenser beaucoup. Une idée qui marche bien : demander à chaque invité d'apporter son livre d'enfance préféré pour constituer une première bibliothèque. Tu trouveras d'autres pistes dans nos <a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a> et notre <a href="{R}liste-de-naissance-originale/">liste de naissance originale</a>.</p>
+<p>Et si tu prépares toi-même la grossesse en lisant, notre sélection des <a href="{R}meilleurs-livres-grossesse/">meilleurs livres sur la grossesse</a> peut t'intéresser. Pour tout organiser, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a> et lis notre guide de la <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux tout regrouper au même endroit.</p>
+""",
+  faq=[("À partir de quel âge lire des livres à un bébé ?", "Dès la naissance. Plusieurs albums de cette sélection, comme Bébés chouettes, La chenille qui fait des trous ou Où est Spot, sont indiqués dès la naissance par l'éditeur. À cet âge, c'est surtout ta voix et le moment partagé qui comptent."),
+       ("Quel est le meilleur premier livre pour bébé ?", "Un album tout-carton court, qu'il peut manipuler sans l'abîmer. Bébés chouettes ou La chenille qui fait des trous en version cartonnée sont de bons choix, puis un livre à toucher vers 6 mois."),
+       ("Les livres en tissu se lavent-ils ?", "Souvent, mais pas toujours de la même façon. Par exemple, Jack rugit de Lilliputiens se lave en machine à 30 °C en cycle délicat. Lis toujours l'étiquette de chaque modèle.")],
+  short="Top 10 livres bébé")
