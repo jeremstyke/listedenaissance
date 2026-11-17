@@ -9,23 +9,33 @@
 - [x] comment-choisir-tire-lait/ | comment choisir un tire-lait | manuel, électrique simple ou double, location
 - [x] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
 - [ ] comment-choisir-sac-a-langer/ | comment choisir un sac à langer | sac à dos ou cabas, matelas, poches isothermes
+- [ ] liste-de-naissance-combien-d-articles/ | combien d'articles dans une liste de naissance | nombre idéal, essentiels vs bonus, budget des invités
 - [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
+- [ ] liste-de-naissance-quand-la-faire/ | quand faire sa liste de naissance | mois idéal, avant ou après la baby shower, délais de livraison
 - [ ] comment-choisir-lit-parapluie/ | comment choisir un lit parapluie | poids, pliage, matelas, usage voyage
 - [ ] comment-choisir-tapis-d-eveil/ | comment choisir un tapis d'éveil | arches, lavable, taille, évolutif
+- [ ] liste-de-naissance-que-mettre-en-premier/ | que mettre en premier dans une liste de naissance | priorités par ordre d'usage, gros articles à partager
 - [ ] comment-choisir-coussin-allaitement/ | comment choisir un coussin d'allaitement | rembourrage, housse, grossesse
 - [ ] comment-choisir-thermometre-bebe/ | comment choisir un thermomètre bébé | rectal, frontal, auriculaire, rester général et renvoyer au médecin
+- [ ] liste-de-naissance-petit-appartement/ | liste de naissance petit appartement | matériel pliable, multifonction, ce qu'on peut éviter
 - [ ] porte-bebe-ou-echarpe-de-portage/ | porte-bébé ou écharpe de portage | comparatif clair, selon l'âge et l'usage
 - [ ] gigoteuse-quel-tog/ | gigoteuse quel TOG | tableau température / TOG, saison
+- [ ] liste-de-naissance-papa/ | liste de naissance côté papa | idées pratiques pour le papa (porte-bébé, sac à langer neutre, gadgets utiles)
 - [ ] lit-cododo-utile/ | lit cododo utile ou pas | avantages, limites, sécurité du sommeil
 - [ ] sterilisateur-biberon-utile/ | stérilisateur biberon utile | quand c'est utile, alternatives
+- [ ] gros-cadeau-de-naissance-a-plusieurs/ | gros cadeau de naissance à plusieurs | poussette, siège auto, lit : comment organiser une cagnotte
 - [ ] chauffe-biberon-utile/ | chauffe-biberon utile ou pas | usages, nomade, alternatives
 - [ ] que-mettre-dans-le-sac-a-langer/ | que mettre dans le sac à langer | checklist sortie
+- [ ] liste-de-naissance-sans-amazon-ou-avec/ | liste de naissance Amazon avis | avantages (coffret, retours, 15 %), limites, alternatives
 - [ ] ce-quil-ne-faut-pas-acheter-pour-bebe/ | ce qu'il ne faut pas acheter pour bébé | achats inutiles
 - [ ] materiel-bebe-occasion/ | matériel bébé d'occasion | quoi acheter d'occasion ou neuf, sécurité
+- [ ] cadeau-naissance-grands-parents/ | cadeau de naissance des grands-parents | gros cadeaux utiles, souvenirs, livret d'épargne (info générale)
 - [ ] chaise-haute-a-partir-de-quel-age/ | chaise haute à partir de quel âge | repères, types
 - [ ] tapis-deveil-a-partir-de-quand/ | tapis d'éveil à partir de quand | usage dès la naissance
+- [ ] liste-de-naissance-mois-par-mois/ | de quoi bébé a besoin mois par mois | 0-3, 3-6, 6-12 mois, éviter d'acheter trop tôt
 - [ ] transat-bebe-des-la-naissance/ | transat bébé dès la naissance | durée d'usage, sécurité
 - [ ] poussette-canne-a-partir-de-quel-age/ | poussette canne à partir de quel âge | repères
+- [ ] liste-de-naissance-bebe-ne-au-printemps/ | liste de naissance bébé né au printemps | vêtements de mi-saison, poussette légère, ombrelle
 - [ ] siege-auto-pivotant-ou-pas/ | siège auto pivotant ou pas | avantages, prix, voitures
 - [ ] baignoire-bebe-ou-transat-de-bain/ | baignoire bébé ou transat de bain | comparatif
 - [ ] couches-lavables-combien/ | couches lavables combien en prévoir | quantités, budget
