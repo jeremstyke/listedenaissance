@@ -18,6 +18,7 @@ CUSTOM = 'malistebebe.fr' in BASE
 PATH0 = '/' + BASE.split('://', 1)[1].split('/', 1)[1] + '/' if BASE.count('/') > 2 else '/'
 DOMAIN = 'malistebebe.fr' if CUSTOM else 'Ma liste bébé'
 SITE = 'Ma liste bébé'
+LLMS_INTRO = "Ma liste bébé aide les futurs parents à préparer l'arrivée de leur bébé : liste de naissance complète, guides pour bien choisir le matériel de puériculture (poussette, siège auto, lit, babyphone, tire-lait), comparatifs de produits vendus en France et outils pratiques. Les liens vers Amazon sont des liens d'affiliation."
 TAG = 'malistebebe-21'   # identifiant Amazon Partenaires
 CONTACT = 'contact@cvlibre.com'
 YEAR = 2026
@@ -435,6 +436,22 @@ def build():
         '<url><loc>%s/%s</loc><lastmod>2026-11-14</lastmod></url>\n' % (BASE, p) for p in PAGES) + '</urlset>\n'
     open(os.path.join(OUT, 'sitemap.xml'), 'w').write(sm)
     open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % BASE)
+    # llms.txt : résumé du site pour les IA (généré à chaque build)
+    try:
+        import html as _h
+        _out = ['# ' + SITE, '', '> ' + LLMS_INTRO, '', 'Site : ' + BASE + '/', 'Langue : français', '', '## Pages']
+        for _loc in re.findall(r'<loc>([^<]+)</loc>', sm):
+            _rel = _loc[len(BASE):].strip('/')
+            _f = os.path.join(OUT, _rel, 'index.html') if _rel else os.path.join(OUT, 'index.html')
+            if not os.path.exists(_f): continue
+            _t = open(_f, encoding='utf-8').read()
+            _ti = re.search(r'<title>(.*?)</title>', _t, re.S)
+            _de = re.search(r'<meta name="description" content="([^"]*)"', _t)
+            if not _ti or 'http-equiv="refresh"' in _t: continue
+            _out.append('- [%s](%s)%s' % (_h.unescape(_ti.group(1)).strip(), _loc, (': ' + _h.unescape(_de.group(1)).strip()) if _de else ''))
+        open(os.path.join(OUT, 'llms.txt'), 'w', encoding='utf-8').write('\n'.join(_out) + '\n')
+    except Exception as _e:
+        print('llms.txt non généré :', _e)
     cn = os.path.join(OUT, 'CNAME')
     if CUSTOM: open(cn, 'w').write(DOMAIN + '\n')
     elif os.path.exists(cn): os.remove(cn)
