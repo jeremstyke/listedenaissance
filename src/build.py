@@ -128,7 +128,6 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <header class="top"><div class="wrap top-in">
 <a class="logo" href="{R}"><span class="logo-ico" aria-hidden="true">🍼</span>Ma liste bébé</a>
 <nav class="menu" aria-label="Menu">{nav}</nav>
-<a id="nav-account" class="nav-acc" href="{R}compte/"><span class="acc-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16"><circle cx="12" cy="8" r="4" fill="currentColor"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7" fill="currentColor"/></svg></span><span id="nav-account-txt">Connexion</span></a>
 </div></header>
 <main id="main">
 {('<div class="wrap">' + bc + '</div>') if bc else ''}
@@ -142,7 +141,6 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <nav class="sites" aria-label="Nos autres sites"><p class="sites-t">Découvrez aussi nos autres sites</p><div class="sites-g"><a href="https://vieillir-chez-soi.fr/"><img src="https://vieillir-chez-soi.fr/assets/favicon.svg" alt="" width="40" height="40" loading="lazy"><span><strong>Vieillir chez soi</strong><small>Rester autonome à la maison</small></span></a><a href="https://lesoiseauxdujardin.fr/"><img src="https://lesoiseauxdujardin.fr/assets/favicon.svg" alt="" width="40" height="40" loading="lazy"><span><strong>Les oiseaux du jardin</strong><small>Nourrir et observer les oiseaux</small></span></a><a href="https://malistedemariage.fr/"><img src="https://malistedemariage.fr/assets/favicon.svg" alt="" width="40" height="40" loading="lazy"><span><strong>Ma liste mariage</strong><small>La liste de mariage simple</small></span></a></div></nav>
 <p class="disc">{DISCLOSURE} Les prix et les conditions d'Amazon peuvent changer : vérifie-les avant d'acheter. © {YEAR} {DOMAIN}</p>
 </div></footer>
-<script src="{R}assets/account.js?v=10" defer></script>
 <script src="{R}assets/track.js?v=1" defer></script>
 </body>
 </html>
@@ -246,7 +244,7 @@ def build():
         f.write(js)
 
     tool = ('<div id="ck" class="ck"><noscript>Active JavaScript pour cocher les articles.</noscript></div>'
-            '<script src="{R}assets/data.js?v=3"></script><script src="{R}assets/checklist.js?v=9" defer></script>')
+            '<script src="{R}assets/data.js?v=3"></script><script src="{R}assets/checklist.js?v=9b" defer></script>')
 
     # Accueil
     cats = ''.join('<a class="cat-chip t-%s" href="{R}checklist/#cat%d"><span aria-hidden="true">%s</span>%s<small>%d articles</small></a>' % (
@@ -266,7 +264,6 @@ def build():
 <h2>Pièce par pièce</h2>
 <p class="sub">Ouvre une catégorie pour voir ce qu'il faut vraiment prévoir.</p>
 <div class="chips">{cats}</div>
-<div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, tu retrouves ta progression partout.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
 </section>
 <div class="wave-top"><svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 C 240 70 480 0 720 25 C 960 50 1200 10 1440 30 L1440 60 L0 60 Z"/></svg></div><section class="band"><div class="wrap block">
 <h2>Comment ça marche</h2>
@@ -299,8 +296,7 @@ def build():
     ck = f'''<section class="wrap pagehead"><h1>Checklist liste de naissance</h1>
 <p class="lead">{total} articles triés par usage. Coche ce que tu veux mettre dans ta liste : tes choix restent enregistrés sur cet appareil.</p></section>
 <div class="wrap"><div class="ck-first"><strong>Comment ajouter un article à ta liste</strong><ol><li>Pas encore de liste ? <a href="{AMZ_LIST}" rel="sponsored nofollow noopener" target="_blank">Crée-la sur Amazon</a>, c'est gratuit.</li><li>Ici, clique sur <strong>« Voir »</strong> à côté d'un article : Amazon s'ouvre avec des modèles.</li><li>Choisis un modèle, puis appuie sur <strong>« Ajouter à la liste de naissance »</strong>, sous « Ajouter au panier ». Sur l'appli, il peut se trouver dans le menu « Ajouter à une liste ».</li><li>Reviens ici : l'article est déjà coché, passe au suivant.</li></ol></div></div>
-<div class="wrap"><div class="save-hint" data-guest><span aria-hidden="true">☁️</span><div><strong>Sauvegarde ta liste</strong><span>Connecte-toi par e-mail, sans mot de passe : ta checklist te suit sur ton téléphone et ton ordinateur, tu retrouves ta progression partout.</span></div><a class="btn sm" href="{{R}}compte/">Me connecter</a></div>
-{tool}
+<div class="wrap">{tool}
 {CTA}
 <div class="prose">
 <h2>Comment utiliser cette checklist ?</h2>
@@ -366,49 +362,7 @@ def build():
          crumbs=[('Outils', 'outils/')], og=ogfor('outils', 'Outils gratuits pour futurs parents', 'Gratuit', '🧰', 'menthe'))
 
     # Compte
-    acc = """<div class="wrap art-wrap"><div class="prose" id="acc">
-<h1>Mon compte</h1>
-<div id="acc-out">
-<p class="lead">Ton compte est gratuit et se crée en 10 secondes, sans mot de passe.</p>
-<ul class="perks">
-<li><span aria-hidden="true">☁️</span><div><strong>Ta liste sauvegardée</strong>Ce que tu coches n'est jamais perdu, même si tu changes de téléphone ou vides ton navigateur.</div></li>
-<li><span aria-hidden="true">📱</span><div><strong>Sur tous tes appareils</strong>Commence sur ton téléphone, continue sur l'ordinateur. Et à deux avec le co-parent.</div></li>
-</ul>
-<form id="form-magic" class="accf">
-<label>Ton e-mail<input type="email" name="email" autocomplete="email" required></label>
-<label class="check"><input type="checkbox" name="news"> Je veux recevoir la newsletter de Ma liste bébé : conseils et rappels mois par mois pour préparer l'arrivée de bébé (désinscription en un clic).</label>
-<button class="btn" type="submit">Recevoir mon lien de connexion</button>
-<p class="small">Si tu n'as pas encore de compte, il est créé automatiquement. En continuant, tu acceptes notre <a href="{R}confidentialite/">politique de confidentialité</a>.</p>
-</form>
-<div id="acc-sent" hidden><h2>Regarde tes e-mails 📬</h2><p>On t'a envoyé un lien de connexion. Ouvre-le sur cet appareil pour te connecter. Pense à vérifier les indésirables.</p><button class="linkbtn" type="button" id="acc-again">Utiliser une autre adresse</button></div>
-</div>
-<div id="acc-in" hidden>
-<p class="lead">Connecté avec <strong id="acc-email"></strong>. Ta checklist est sauvegardée : <strong id="acc-count"></strong>.</p>
-<p><a class="btn" href="{R}checklist/">Ouvrir ma checklist</a></p>
-<h2>Mes infos</h2>
-<form id="form-baby" class="accf">
-<label>Prénom de bébé (facultatif)<input type="text" id="f-baby" maxlength="40"></label>
-<label>Date prévue (facultatif)<input type="date" id="f-due"></label>
-<label class="check"><input type="checkbox" id="f-public"> Rendre ma liste visible avec un lien privé</label>
-<label class="check"><input type="checkbox" id="f-news"> Recevoir la newsletter (conseils et rappels mois par mois)</label>
-<button class="btn" type="submit">Enregistrer</button>
-</form>
-<div id="acc-sharebox" hidden><p>Envoie ce lien à tes proches : ils voient les articles que tu as cochés, peuvent réserver ce qu'ils offrent (« Je l'offre ») et l'acheter en un clic.</p><p class="small">Conseil : partage un seul lien, celui-ci ou celui de ta liste Amazon, pas les deux. Sinon, un même cadeau risque d'être offert deux fois.</p>
-<div class="sharerow"><input id="acc-share" readonly><button class="btn ghost sm" type="button" id="acc-copy">Copier le lien</button></div></div>
-<div id="acc-other" class="save-hint" hidden></div>
-<h2>Mon compte</h2>
-<p><button class="btn ghost sm" type="button" id="acc-logout">Se déconnecter</button> <button class="btn ghost sm" type="button" id="acc-wipe">Supprimer mes données</button></p>
-</div>
-<p id="acc-msg" class="acc-msg" role="status" aria-live="polite"></p>
-</div></div>"""
-    page('compte/', 'Mon compte | Ma liste bébé', 'Connecte-toi par e-mail, sans mot de passe, pour sauvegarder ta checklist de naissance.', acc, noindex=True)
 
-    pub = """<section class="wrap pagehead"><h1 id="pub-title">Une liste de naissance</h1>
-<p class="lead">Voici les articles choisis par les parents. Clique sur un article pour l'offrir.</p></section>
-<div class="wrap"><div id="pub" class="ck"><p>Chargement de la liste...</p></div>
-<div class="prose"><p>Toi aussi tu prépares l'arrivée d'un bébé ? <a href="{R}checklist/">Fais ta checklist gratuite</a>.</p></div></div>
-<script src="{R}assets/data.js?v=3"></script>"""
-    page('ma-liste/', 'Ma liste de naissance 🍼', 'Voici les articles choisis pour l\'arrivée de bébé. Clique sur un article pour l\'offrir.', pub, noindex=True, cls='tool', og=ogfor('ma-liste', 'Ma liste de naissance', 'Clique pour offrir un cadeau', '🎁', 'peche'))
 
     # Pages légales
     ml = f'''<div class="wrap art-wrap"><article class="prose"><h1>Mentions légales</h1>
@@ -426,14 +380,12 @@ def build():
 <h2>Comment le site est financé</h2><p>{DISCLOSURE} Si tu achètes après avoir cliqué sur un lien Amazon, nous touchons une commission, sans surcoût pour toi. Le choix des articles reste indépendant.</p></article></div>''', crumbs=[('À propos', 'a-propos/')])
     page('mentions-legales/', 'Mentions légales | Ma liste bébé', 'Mentions légales du site Ma liste bébé.', ml, crumbs=[('Mentions légales', 'mentions-legales/')])
     cf = f'''<div class="wrap art-wrap"><article class="prose"><h1>Confidentialité</h1>
-<p>La checklist fonctionne sans inscription. Le compte est facultatif.</p>
-<h2>Sans compte</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
-<h2>Avec un compte</h2><p>Si tu crées un compte, nous enregistrons ton adresse e-mail (pour t'envoyer tes liens de connexion), les articles cochés et, si tu les indiques, le prénom de bébé et la date prévue. Ces données servent à faire fonctionner ton compte et le partage de ta liste. Si tu as coché la case newsletter, ton e-mail sert aussi à t'envoyer nos conseils ; tu peux te désinscrire à tout moment depuis Mon compte ou avec le lien présent dans chaque e-mail. Elles sont hébergées par Supabase, sur des serveurs situés dans l'Union européenne (Paris). Nous ne les vendons pas et ne les utilisons pas pour de la publicité.</p>
-<p>Ta liste n'est visible par d'autres personnes que si tu actives le partage : elle n'est alors accessible qu'avec son lien. Tu peux supprimer tes données à tout moment depuis la page Mon compte, et demander la suppression complète de ton compte en nous écrivant.</p>
+<p>La checklist fonctionne sans inscription. Aucun compte n'est nécessaire.</p>
+<h2>Ta checklist</h2><p>Les articles que tu coches sont enregistrés uniquement dans ton navigateur (stockage local). Rien n'est envoyé sur un serveur. Vider les données du navigateur efface ta checklist.</p>
 <h2>Mesure d'audience</h2><p>Nous comptons les pages vues et les clics vers Amazon de façon anonyme (page visitée, site d'origine, type d'appareil et un identifiant aléatoire stocké dans ton navigateur). Ces données ne sont ni vendues ni utilisées pour de la publicité, et sont hébergées par Supabase dans l'Union européenne.</p>
 <h2>Amazon</h2><p>Quand tu cliques sur un lien vers Amazon.fr, Amazon peut déposer des cookies pour attribuer la commission. Consulte la politique de confidentialité d'Amazon pour en savoir plus.</p>
 <h2>Contact</h2><p><a href="mailto:{CONTACT}">{CONTACT}</a></p></article></div>'''
-    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de Ma liste bébé : checklist sans inscription, compte facultatif.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
+    page('confidentialite/', 'Confidentialité | Ma liste bébé', 'Politique de confidentialité de Ma liste bébé : checklist sans inscription, sans inscription ni compte.', cf, crumbs=[('Confidentialité', 'confidentialite/')])
 
     # 404
     page('404-tmp/', 'Page introuvable | Ma liste bébé', 'Page introuvable.',
