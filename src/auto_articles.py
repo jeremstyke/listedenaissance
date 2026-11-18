@@ -1245,3 +1245,153 @@ g("meilleurs-livres-bebe/",
        ("Quel est le meilleur premier livre pour bébé ?", "Un album tout-carton court, qu'il peut manipuler sans l'abîmer. Bébés chouettes ou La chenille qui fait des trous en version cartonnée sont de bons choix, puis un livre à toucher vers 6 mois."),
        ("Les livres en tissu se lavent-ils ?", "Souvent, mais pas toujours de la même façon. Par exemple, Jack rugit de Lilliputiens se lave en machine à 30 °C en cycle délicat. Lis toujours l'étiquette de chaque modèle.")],
   short="Top 10 livres bébé")
+
+AUTO_META['comment-choisir-sac-a-langer/'] = ('👜', 'peche')
+g("comment-choisir-sac-a-langer/",
+  "Comment choisir un sac à langer : sac à dos, cabas ou besace ?",
+  "Comment choisir un sac à langer",
+  "Sac à dos, cabas ou besace, matelas à langer, poche isotherme, attaches poussette : les vrais critères pour choisir un sac à langer adapté à ton quotidien.",
+  """
+<p>Si tu ne devais retenir qu'une chose : prends un sac à dos à langer si tu marches beaucoup, portes bébé en écharpe ou as déjà un aîné à tenir par la main. Le cabas ou la besace conviennent mieux si tu te déplaces surtout en voiture ou si le sac reste accroché à la poussette.</p>
+<p>Le reste, c'est du détail qui compte quand même : une ouverture large, un matelas à langer qui se nettoie d'un coup d'éponge, une poche au frais pour les biberons. On fait le tour de tout ça, critère par critère.</p>
+{CTA}
+<h2>Sac à dos, cabas ou besace : lequel pour ta vie à toi ?</h2>
+<p>La forme du sac dépend moins de tes goûts que de tes trajets. Imagine une sortie classique dans quelques mois : un rendez-vous chez le pédiatre, des courses, une promenade au parc. Comment tu y vas ? Avec quoi dans les bras ?</p>
+<p>Par exemple, si tu prends le métro avec bébé en porte-bébé, un cabas qui glisse de l'épaule toutes les deux minutes va vite t'agacer. À l'inverse, si tu passes de la voiture à la poussette, un sac à dos que tu dois enlever à chaque fois pour attraper une couche devient pénible, sauf s'il s'ouvre par le côté.</p>
+<table><thead><tr><th>Forme</th><th>Pour qui ?</th><th>Points forts</th><th>Limites</th></tr></thead><tbody>
+<tr><td>Sac à dos</td><td>Marche, transports, portage, deux enfants</td><td>Mains libres, poids réparti sur les deux épaules, partagé facilement entre les parents</td><td>Il faut l'enlever pour fouiller, sauf ouverture latérale</td></tr>
+<tr><td>Cabas (fourre-tout)</td><td>Trajets en voiture, sorties courtes</td><td>Grande ouverture, on voit tout d'un coup d'œil</td><td>Glisse de l'épaule, fatigue un seul côté</td></tr>
+<tr><td>Besace</td><td>Sorties à pied avec un seul enfant</td><td>Portée en travers du corps, accès rapide</td><td>Volume souvent plus réduit</td></tr>
+<tr><td>Sac de poussette</td><td>Parents qui sortent presque toujours avec la poussette</td><td>Reste accroché, rien à porter</td><td>Moins pratique quand tu laisses la poussette</td></tr>
+</tbody></table>
+<p>Notre conseil : le <a href="{AMZ:sac a dos a langer}" rel="sponsored nofollow noopener" target="_blank">sac à dos à langer</a> est le choix le plus polyvalent, parce qu'il te laisse les deux mains libres et que les deux parents le portent sans se poser de question sur le style. Si tu préfères un sac plus habillé, regarde du côté des <a href="{AMZ:sac a langer cabas}" rel="sponsored nofollow noopener" target="_blank">cabas à langer</a>, en vérifiant qu'ils ont des anses assez longues pour passer sur l'épaule avec un manteau.</p>
+<h2>Quelle taille prendre ?</h2>
+<p>Un sac à langer trop petit, tu le remplis en un mois. Trop grand, tu le remplis aussi, mais de choses inutiles, et il pèse vite lourd. La bonne taille dépend surtout de deux choses : le nombre d'enfants et le type d'alimentation.</p>
+<p>Un bébé allaité au sein demande moins de matériel qu'un bébé nourri au biberon, qui implique biberons, eau, lait en poudre en doseur. Avec des jumeaux ou un aîné encore en couches, tout est multiplié par deux. Dans ce cas, prends un modèle plus grand, avec beaucoup de compartiments, plutôt que deux petits sacs. On parle d'organisation à deux dans notre <a href="{R}liste-de-naissance-jumeaux/">liste de naissance jumeaux</a>.</p>
+<p>Ce que les gens oublient : le sac va servir trois ans, pas trois mois. Avec un enfant qui marche viennent le goûter, une tenue de rechange plus grande, un petit jouet, la gourde. Un volume un peu généreux n'est pas un luxe.</p>
+<h2>Les détails qui font un bon sac à langer</h2>
+<p>Deux sacs qui se ressemblent sur la photo peuvent être très différents à l'usage. Voici ce qu'on regarderait en priorité sur la fiche.</p>
+<h3>L'ouverture</h3>
+<p>Une ouverture large, en haut ou sur le côté, évite de tout vider sur le banc pour trouver la tétine au fond. Un sac qui reste ouvert tout seul, grâce à une armature, fait aussi gagner du temps.</p>
+<h3>Le matelas à langer</h3>
+<p>Beaucoup de sacs en fournissent un, pliable, à glisser dans une poche. Vérifie qu'il est imperméable et qu'il se nettoie facilement : il finira forcément taché. S'il n'est pas fourni, un <a href="{AMZ:matelas a langer nomade}" rel="sponsored nofollow noopener" target="_blank">matelas à langer nomade</a> se trouve facilement à part. Les tables à langer des lieux publics ne sont pas toujours propres, ni toujours là.</p>
+<h3>La poche isotherme</h3>
+<p>Utile si tu donnes le biberon ou si tu tires ton lait. Elle garde au frais ou au chaud un moment, pas toute la journée. Pour du lait maternel tiré, demande à ta sage-femme combien de temps il peut rester hors du réfrigérateur, et prévois au besoin un <a href="{AMZ:sac isotherme biberon}" rel="sponsored nofollow noopener" target="_blank">sac isotherme pour biberons</a> avec un pain de glace.</p>
+<h3>Les attaches poussette</h3>
+<p>Des mousquetons ou des sangles pour accrocher le sac au guidon, c'est pratique. Attention quand même : un sac lourd accroché au guidon peut déséquilibrer la poussette quand tu sors bébé. Si ta poussette a un grand panier, c'est souvent une meilleure place. Pour choisir la poussette en pensant aussi au rangement, lis notre guide <a href="{R}comment-choisir-sa-poussette/">comment choisir sa poussette</a>.</p>
+<h3>La matière</h3>
+<p>Un tissu déperlant ou enduit résiste mieux à la pluie et aux biberons qui fuient. Regarde si le sac passe en machine ou s'il se nettoie seulement à l'éponge. L'intérieur clair aide à retrouver les petites choses, l'intérieur noir cache les taches.</p>
+<h2>Les erreurs fréquentes</h2>
+<ul>
+<li><strong>Choisir sur le look seul.</strong> Le joli sac en matière délicate supporte mal les traces de compote.</li>
+<li><strong>Oublier le poids à vide.</strong> Un sac déjà lourd vide devient pesant une fois rempli.</li>
+<li><strong>Négliger les bretelles.</strong> Des bretelles fines scient les épaules après une heure de marche.</li>
+<li><strong>Penser qu'il faut un sac «&nbsp;spécial bébé&nbsp;».</strong> Un bon sac à dos avec des compartiments, plus une <a href="{AMZ:pochette a couches}" rel="sponsored nofollow noopener" target="_blank">pochette à couches</a> et un matelas nomade, peut très bien faire l'affaire.</li>
+</ul>
+<h2>Que mettre dedans pour une sortie ?</h2>
+<p>Pour une sortie de quelques heures avec un nourrisson, la base tient en peu de choses : quelques couches, des lingettes ou du coton, une crème pour le change si tu en utilises une, une tenue de rechange complète, un lange, un sac pour les couches sales, et de quoi nourrir bébé. Ajoute un petit sac de vêtements pour toi aussi : les débordements de couche n'épargnent pas les parents.</p>
+<p>Notre conseil : prépare le sac le soir et remets-le à niveau en rentrant, parce que c'est au moment de sortir en retard qu'on oublie les couches. Avant la naissance, le sac à langer peut aussi servir de deuxième sac pour la maternité, avec les affaires de bébé. Notre liste de <a href="{R}valise-maternite/">valise maternité</a> t'aide à le préparer.</p>
+<h2>Dans ta liste de naissance ?</h2>
+<p>Oui, c'est même un cadeau très facile à offrir : il plaît, il sert tous les jours et il se partage bien entre plusieurs proches si le modèle est un peu cher. Ajoute-le dans ta liste avec la forme que tu préfères, pour éviter de recevoir un cabas si tu rêves d'un sac à dos. Pour ne rien oublier dans le reste de l'équipement, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>.</p>
+""",
+  faq=[("Sac à dos ou cabas à langer, que choisir ?", "Le sac à dos laisse les mains libres et répartit le poids sur les deux épaules : c'est le plus pratique à pied, en transports ou avec un porte-bébé. Le cabas s'ouvre plus largement et convient bien aux trajets en voiture."),
+       ("Faut-il un matelas à langer dans le sac ?", "C'est très utile, car les tables à langer ne sont pas partout. Choisis-le imperméable et facile à nettoyer. S'il n'est pas fourni avec le sac, un matelas nomade pliable s'achète séparément."),
+       ("Quand acheter le sac à langer ?", "Avant la naissance, idéalement en même temps que la valise de maternité : il peut servir de sac pour les affaires de bébé dès le séjour à la maternité.")],
+  short="Choisir un sac à langer")
+
+AUTO_META['meilleur-tire-lait/'] = ('🏆', 'lilas')
+g("meilleur-tire-lait/",
+  "Meilleur tire-lait 2026 : top 10 électriques et mains libres",
+  "Meilleur tire-lait électrique : notre top 10 2026",
+  "Medela, Philips Avent, Elvie, Momcozy, Lansinoh : 10 tire-laits électriques simples, doubles, mains libres et un manuel, comparés fiche par fiche en 2026.",
+  """
+<p>Pour tirer ton lait tous les jours, vise un électrique double comme le Medela Swing Maxi : il pompe les deux seins en même temps et tient plusieurs séances sur batterie. Pour un biberon de temps en temps, un électrique simple ou même un manuel suffit. Les mains libres, eux, servent surtout à celles qui veulent bouger pendant le tirage.</p>
+<p>Avant d'acheter, garde une chose en tête : en France, la location d'un tire-lait électrique est remboursée sur ordonnance d'un médecin ou d'une sage-femme. Pour un usage intensif, c'est souvent la meilleure piste. Acheter garde du sens pour un appareil d'appoint, un usage au bureau ou un modèle mains libres, que la location ne propose pas toujours.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Pour chaque modèle, on a lu la fiche du fabricant en France, ou à défaut celle d'un grand revendeur français quand la fiche officielle n'était plus en ligne (Tommee Tippee), puis vérifié qu'il est proposé sur Amazon.fr. Quand une donnée manquait sur la page, on écrit « non précisé ». Les chiffres d'efficacité cités sont ceux des fabricants, pas les nôtres.</p>
+
+<h2>Les 10 tire-laits en un coup d'œil</h2>
+<table><thead><tr><th>Modèle</th><th>Type</th><th>Alimentation</th><th>Réglages</th><th>Contenance</th><th>Bruit annoncé</th></tr></thead><tbody>
+<tr><td>Medela Swing Maxi</td><td>Électrique double</td><td>Batterie, jusqu'à 6 séances</td><td>9 réglages</td><td>2 x 150 ml</td><td>Moins de 45 dB</td></tr>
+<tr><td>Medela Solo</td><td>Électrique simple</td><td>Batterie, jusqu'à 6 séances</td><td>9 réglages</td><td>150 ml</td><td>Moins de 45 dB</td></tr>
+<tr><td>Philips Avent SCF395</td><td>Électrique simple</td><td>Secteur uniquement</td><td>8 stimulation, 16 expression</td><td>125 ml</td><td>Non précisé</td></tr>
+<tr><td>Philips Avent SCF397</td><td>Électrique double</td><td>Secteur uniquement</td><td>Non précisé</td><td>Non précisé</td><td>Non précisé</td></tr>
+<tr><td>Tommee Tippee Made for Me</td><td>Électrique simple</td><td>Batterie, 60 min de tirage</td><td>5 massage, 9 tirage</td><td>150 ml</td><td>Non précisé</td></tr>
+<tr><td>Medela Freestyle Hands-free</td><td>Double, mains libres</td><td>Batterie ou secteur, environ 2 h</td><td>Jusqu'à 9 niveaux</td><td>2 x 150 ml</td><td>Non précisé</td></tr>
+<tr><td>Elvie Stride 2</td><td>Mains libres, simple ou double</td><td>Batterie, autonomie non précisée</td><td>10 par mode</td><td>Non précisé</td><td>Non précisé</td></tr>
+<tr><td>Momcozy M5 Smart</td><td>Mains libres dans le soutien-gorge</td><td>Batterie, 180 min</td><td>3 modes, 9 niveaux</td><td>160 ml</td><td>Moins de 48 dB</td></tr>
+<tr><td>Lansinoh Tire-lait mains libres</td><td>Mains libres, simple ou double</td><td>Batterie, 1 h 30</td><td>4 modes, 9 niveaux</td><td>180 ml</td><td>Moins de 45 dB</td></tr>
+<tr><td>Medela Harmony</td><td>Manuel</td><td>Aucune</td><td>2 phases à la main</td><td>Non précisé</td><td>Silencieux</td></tr>
+</tbody></table>
+
+<h2>1. Medela Swing Maxi : le double polyvalent pour tirer tous les jours</h2>
+<p><strong>Pour qui ?</strong> Pour la maman qui reprend le travail et veut continuer à donner son lait, ou qui tire plusieurs fois par jour à la maison.</p>
+<p><strong>Points forts :</strong> c'est un tire-lait électrique double, donc les deux seins en même temps, ce qui raccourcit chaque séance. La batterie rechargeable intégrée tient jusqu'à 6 séances selon Medela, avec une recharge en USB-C et un adaptateur secteur fourni. Il propose 9 réglages préprogrammés et deux phases : une succion rapide pour stimuler, puis plus lente pour exprimer. La boîte contient deux tailles de téterelles, 21 et 24 mm, en double, ce qui évite d'en racheter tout de suite si la taille standard ne te va pas. Medela annonce moins de 45 dB au niveau maximal et un système fermé : le lait ne remonte pas dans la tubulure.</p>
+<p><strong>Limites :</strong> le poids n'est pas précisé sur la fiche. Les chiffres de lait « en plus » mis en avant par Medela sont les siens, à prendre comme un argument de marque. Si tu tires très souvent dès les premières semaines, compare avec la location remboursée avant d'acheter.</p>
+<p><a href="{AMZ:Medela Swing Maxi}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. Medela Solo : le simple compact, ex-Swing Flex</h2>
+<p><strong>Pour qui ?</strong> Pour un usage régulier mais pas quotidien, par exemple un biberon par jour pour que l'autre parent participe.</p>
+<p><strong>Points forts :</strong> Medela indique que le Swing Flex devient Solo : c'est le même esprit, sous un nouveau nom. On retrouve la batterie rechargeable (jusqu'à 6 séances), les 9 réglages, les deux phases et le système fermé. Les pièces passent au lave-vaisselle, sauf la tubulure, selon la fiche. Un biberon de 150 ml et une téterelle de 24 mm sont fournis.</p>
+<p><strong>Limites :</strong> le moteur n'est pas prévu pour tirer les deux seins en même temps, donc chaque séance dure plus longtemps qu'avec un double. Une seule taille de téterelle dans la boîte : si la 24 mm ne te convient pas, il faudra en acheter une autre.</p>
+<p><a href="{AMZ:Medela Solo tire-lait electrique simple}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Philips Avent SCF395 : le simple sur secteur aux réglages fins</h2>
+<p><strong>Pour qui ?</strong> Pour la maman qui tire surtout à la maison, toujours au même endroit, et qui aime ajuster finement l'intensité.</p>
+<p><strong>Points forts :</strong> la fiche annonce 8 niveaux de stimulation et 16 niveaux d'expression, de quoi trouver un réglage confortable. Le coussin en silicone souple est présenté comme adapté aux mamelons jusqu'à 30 mm. L'appareil mémorise les derniers réglages et a un bouton pause. Les pièces en contact avec le lait sont sans BPA, et la boîte contient un biberon de 125 ml avec tétine, deux coussinets jetables et cinq sachets de conservation.</p>
+<p><strong>Limites :</strong> il fonctionne uniquement sur secteur, sans batterie. Pas pratique au bureau sans prise à portée, ni pour tirer dans le canapé loin du mur. Philips recommande de rester assise bien droite, sans se pencher.</p>
+<p><a href="{AMZ:Philips Avent SCF395 tire-lait electrique}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Philips Avent SCF397 : la version double, peu documentée</h2>
+<p><strong>Pour qui ?</strong> Pour celles qui aiment l'approche Philips et veulent tirer des deux côtés en même temps, à la maison.</p>
+<p><strong>Points forts :</strong> c'est la version double du tire-lait électrique Philips Avent, avec la même technologie Natural Motion, un passage entre mode stimulation et mode expression, et le même coussin souple jusqu'à 30 mm.</p>
+<p><strong>Limites :</strong> la fiche Philips en France est très pauvre. Le nombre de réglages, la contenance des biberons, le bruit et le contenu de la boîte n'y sont pas précisés. Il fonctionne sur secteur uniquement. Avant d'acheter, lis bien la fiche du vendeur pour savoir exactement ce qui est livré. On l'a gardé pour proposer un double sur secteur, mais à documentation égale, on préférerait le Swing Maxi.</p>
+<p><a href="{AMZ:Philips Avent SCF397 tire-lait electrique double}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Tommee Tippee Made for Me : le simple sans fil qui se visse sur ses biberons</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui utilisent déjà les biberons Tommee Tippee et veulent éviter les transvasements.</p>
+<p><strong>Points forts :</strong> selon la fiche de La Redoute, il se branche directement sur les biberons Closer to Nature et Anti-colique avancé de la marque, sauf la gamme en verre. Il propose 5 modes de massage et 9 modes de tirage, une batterie rechargeable par USB annoncée pour 60 minutes de tirage sans fil, un affichage LED du temps et un système fermé. Les pièces sont sans BPA ni BPS, et passent au lave-vaisselle.</p>
+<p><strong>Limites :</strong> un seul sein à la fois. La taille de téterelle fournie n'est pas précisée. Il pèse 409 g selon la fiche, ce qui reste à tenir à la main pendant toute la séance. La fiche officielle française n'était plus consultable : on s'est appuyé sur celle d'un revendeur.</p>
+<p><a href="{AMZ:Tommee Tippee Made for Me tire-lait electrique simple}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Medela Freestyle Hands-free : le mains libres avec un vrai moteur</h2>
+<p><strong>Pour qui ?</strong> Pour la maman qui tire souvent et veut garder les mains libres, sans renoncer à un moteur séparé et à une appli.</p>
+<p><strong>Points forts :</strong> les collecteurs de 150 ml se placent dans le soutien-gorge et sont reliés par une tubulure à un bloc-moteur de 273 g, que tu poses ou glisses dans une poche. Il fonctionne sur batterie, environ 2 heures soit à peu près 8 séances de 15 minutes selon Medela, ou sur secteur. Jusqu'à 9 niveaux, deux phases, téterelles en 21 et 24 mm fournies, et une appli Medela Family facultative pour suivre les séances.</p>
+<p><strong>Limites :</strong> ce n'est pas un modèle tout-en-un : il y a des tuyaux. Medela précise qu'il ne s'arrête pas tout seul quand les collecteurs sont pleins, et déconseille de trop se pencher pendant le tirage. Le bruit n'est pas précisé.</p>
+<p><a href="{AMZ:Medela Freestyle Hands-free}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Elvie Stride 2 : le mains libres le plus complet côté téterelles</h2>
+<p><strong>Pour qui ?</strong> Pour celle qui a du mal à trouver la bonne taille de téterelle, et qui veut tirer en bougeant.</p>
+<p><strong>Points forts :</strong> c'est ce qui le distingue : chaque coupelle a un coussin de 28 mm et cinq inserts de 15, 17, 19, 21 et 24 mm, avec un outil pour mesurer le mamelon. Les coupelles en silicone souple vont dans le soutien-gorge, le moteur se porte à la ceinture ou au cou. Il existe en simple ou en double. Elvie annonce 10 réglages d'intensité en mode stimulation comme en mode expression, une aspiration jusqu'à -300 mmHg, et une appli pour piloter le tire-lait à distance. Garantie de 2 ans sur le moteur, 90 jours sur les pièces lavables.</p>
+<p><strong>Limites :</strong> l'autonomie, le poids et la contenance des coupelles ne sont pas précisés sur la page consultée. Le moteur reste relié par des tubes : plus discret qu'un tire-lait classique, moins qu'un modèle entièrement logé dans le soutien-gorge.</p>
+<p><a href="{AMZ:Elvie Stride 2}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Momcozy M5 Smart : tout dans le soutien-gorge</h2>
+<p><strong>Pour qui ?</strong> Pour tirer en faisant autre chose : préparer le repas, s'occuper de l'aîné, travailler devant l'ordinateur.</p>
+<p><strong>Points forts :</strong> pas de tuyau, pas de moteur à côté : tout tient dans la coque glissée dans le soutien-gorge. Il se vend à l'unité ou par deux. Momcozy annonce 180 minutes d'autonomie, soit environ 6 séances, 3 modes (stimulation, expression, mixte), 9 niveaux, un collecteur de 160 ml et moins de 48 dB. La téterelle existe en 17, 19, 21 et 24 mm. L'appli, facultative, règle chaque côté séparément. L'appareil s'arrête seul au bout de 30 minutes, et Momcozy parle de seulement 4 pièces à nettoyer.</p>
+<p><strong>Limites :</strong> la fiche ne dit pas clairement quelles tailles de téterelle sont dans la boîte, et le poids diffère selon l'endroit de la page (230 ou 232 g). Les pourcentages d'efficacité sont ceux de la marque. La fiche le déconseille en cas de stimulateur cardiaque ou d'implant électronique. Pour un usage intensif dès les premières semaines, demande l'avis de ta sage-femme : les modèles portés dans le soutien-gorge ne remplacent pas toujours un tire-lait classique.</p>
+<p><a href="{AMZ:Momcozy M5 Smart}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. Lansinoh Tire-lait mains libres : la plus grande coupelle de la sélection</h2>
+<p><strong>Pour qui ?</strong> Pour celles qui ont beaucoup de lait et veulent éviter de vider la coupelle en pleine séance.</p>
+<p><strong>Points forts :</strong> les coupelles font 180 ml, avec bec verseur, la plus grande contenance de ce top. Lansinoh annonce 4 modes (stimulation, massage, automatique, expression), 9 niveaux, moins de 45 dB et 1 h 30 d'autonomie. La téterelle de 24 mm et des inserts de 21 mm sont fournis, et les pièces passent au lave-vaisselle. Il existe en simple ou en double, avec des clips pour les bretelles.</p>
+<p><strong>Limites :</strong> on ne peut pas l'utiliser pendant qu'il charge. Les inserts de 17 et 19 mm et la téterelle de 27 mm sont vendus à part. La présence d'une appli n'est pas précisée.</p>
+<p><a href="{AMZ:Lansinoh tire-lait mains libres}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. Medela Harmony : le manuel de secours à glisser dans le sac</h2>
+<p><strong>Pour qui ?</strong> Pour un usage occasionnel, ou en complément d'un tire-lait électrique loué, pour les sorties et les vacances.</p>
+<p><strong>Points forts :</strong> 105 g, ni prise ni piles, et silencieux. La poignée pivotante a deux positions : côté court pour stimuler, côté long pour exprimer. Il dépanne bien si un sein est très tendu loin de la maison.</p>
+<p><strong>Limites :</strong> tirer à la main prend du temps et fatigue. Medela elle-même conseille un électrique double pour un usage fréquent. La taille de téterelle fournie et la contenance du biberon ne sont pas précisées sur la fiche.</p>
+<p><a href="{AMZ:Medela Harmony tire-lait manuel}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Comment choisir ton tire-lait ?</h2>
+<p>Commence par la fréquence. Une fois par semaine, un manuel ou un électrique simple suffit. Tous les jours, et surtout plusieurs fois par jour, le double change la vie, puisqu'il divise à peu près par deux le temps passé à tirer. Les mains libres viennent en plus, pour le confort, pas forcément en remplacement.</p>
+<p>Regarde ensuite l'alimentation. Un modèle uniquement sur secteur, comme les deux Philips de cette liste, t'attache à une prise. Une batterie te libère, mais vérifie combien de séances elle tient : 6 pour les Medela classiques, 60 minutes de tirage pour le Tommee Tippee, d'après les fabricants.</p>
+<p>La taille des téterelles est l'erreur qu'on fait le plus souvent. Une téterelle trop petite frotte, trop grande elle aspire l'aréole et le tirage devient moins efficace. Un modèle livré avec plusieurs tailles, comme l'Elvie Stride 2 ou les Medela Swing Maxi et Freestyle, te laisse plus de marge. Tirer ne doit pas faire mal : en cas de douleur, de crevasses ou de lait qui diminue, parles-en à ta sage-femme, à ton médecin ou à une consultante en lactation.</p>
+<p>Notre conseil : si tu prévois de tirer tous les jours dès le retour de la maternité, demande d'abord une ordonnance pour louer, parce que la location est remboursée et te donne accès à des appareils prévus pour un usage intensif. Achète ensuite, si besoin, un petit modèle d'appoint pour le bureau ou les sorties. Tout le détail est dans notre guide <a href="{R}comment-choisir-tire-lait/">comment choisir un tire-lait</a>.</p>
+<p>Pour le reste du matériel d'allaitement, des coussinets au coussin, regarde notre <a href="{R}liste-de-naissance-allaitement/">liste de naissance allaitement</a>. Pour tout préparer sans oublier, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>, et si tu veux tout regrouper au même endroit, lis notre guide de la <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a>.</p>
+""",
+  faq=[("Vaut-il mieux louer ou acheter un tire-lait ?", "Pour un usage quotidien, la location sur ordonnance d'un médecin ou d'une sage-femme est souvent plus intéressante, car elle est prise en charge par l'Assurance Maladie. L'achat a du sens pour un usage occasionnel, un modèle d'appoint ou un mains libres."),
+       ("Un tire-lait mains libres est-il aussi efficace qu'un classique ?", "Cela dépend des modèles et de chaque femme. Les mains libres apportent surtout de la liberté de mouvement. Pour un tirage intensif, demande conseil à ta sage-femme ou à une consultante en lactation."),
+       ("Quelle taille de téterelle choisir ?", "Celle qui correspond au diamètre de ton mamelon, ce qui varie d'une femme à l'autre et parfois d'un sein à l'autre. Certains modèles fournissent plusieurs tailles ou un outil de mesure. Ta sage-femme peut t'aider à vérifier.")],
+  short="Top 10 tire-laits")
