@@ -369,7 +369,7 @@ MESSAGES = [
 
 FAQ_HOME = [
   ("C'est gratuit ?", "Oui, entièrement. La checklist marche même sans compte : tes choix restent alors sur ton appareil."),
-  ("Est-ce que je peux sauvegarder ma liste ?", "Oui. Connecte-toi avec ton e-mail, sans mot de passe : ta checklist est sauvegardée, tu la retrouves sur tous tes appareils. Pour tes proches, partage directement ta liste Amazon : elle évite les doublons toute seule."),
+  ("Est-ce que je peux sauvegarder ma liste ?", "Oui : tes cases cochées restent enregistrées sur ton appareil, tant que tu ne vides pas les données du navigateur. Tu peux aussi imprimer ta checklist ou copier ta liste avec le bouton « Partager ma liste ». Pour tes proches, partage directement ta liste Amazon : elle évite les doublons toute seule."),
   ("Est-ce que vous vendez les produits ?", "Non. Les articles mènent vers Amazon.fr. Si tu achètes après avoir cliqué, Amazon nous verse une petite commission, sans aucun surcoût pour toi."),
   ("Où créer ma liste en ligne ?", "Plusieurs solutions existent : site marchand, liste multi-boutiques, magasin de puériculture ou cagnotte. Notre comparatif t'aide à choisir. Le bouton « Créer ma liste en ligne » ouvre la liste de naissance Amazon, notre choix pour sa simplicité."),
 ]
