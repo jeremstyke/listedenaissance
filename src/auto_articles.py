@@ -1395,3 +1395,159 @@ g("meilleur-tire-lait/",
        ("Un tire-lait mains libres est-il aussi efficace qu'un classique ?", "Cela dépend des modèles et de chaque femme. Les mains libres apportent surtout de la liberté de mouvement. Pour un tirage intensif, demande conseil à ta sage-femme ou à une consultante en lactation."),
        ("Quelle taille de téterelle choisir ?", "Celle qui correspond au diamètre de ton mamelon, ce qui varie d'une femme à l'autre et parfois d'un sein à l'autre. Certains modèles fournissent plusieurs tailles ou un outil de mesure. Ta sage-femme peut t'aider à vérifier.")],
   short="Top 10 tire-laits")
+
+AUTO_META['idees-prenom-garcon/'] = ('👶', 'ciel')
+g("idees-prenom-garcon/",
+  "Prénom garçon : idées classiques, courtes, rares et conseils",
+  "Prénom de garçon : idées par style et conseils pour choisir à deux",
+  "Prénoms de garçon classiques, courts, moins courants ou internationaux, les plus donnés selon l'Insee, et des conseils concrets pour bien choisir à deux.",
+  """
+<p>Pour trouver un prénom de garçon, pars du style qui vous plaît à tous les deux (classique, court, ancien, international), garde trois ou quatre finalistes, puis teste-les à voix haute avec le nom de famille. Les idées ci-dessous sont rangées par style pour t'aider à faire ce premier tri.</p>
+<p>Un repère pour situer ton choix : en 2025, les prénoms de garçon les plus donnés en France étaient Gabriel, Noah, Léo, Raphaël et Louis, selon l'Insee. Gabriel a été donné à 4 625 garçons, soit 1,4 % des naissances de garçons. Autrement dit, même le prénom numéro un reste assez rare dans une classe.</p>
+{CTA}
+<h2>Les prénoms de garçon par style, en un coup d'œil</h2>
+<table><thead><tr><th>Style</th><th>Exemples</th><th>Pour qui ?</th><th>À vérifier</th></tr></thead><tbody>
+<tr><td>Les plus donnés</td><td>Gabriel, Noah, Léo, Raphaël, Louis</td><td>Les parents qui aiment un prénom qui plaît au plus grand nombre</td><td>Il y aura sûrement un autre Gabriel dans la classe</td></tr>
+<tr><td>Classiques</td><td>Arthur, Jules, Paul, Victor, Antoine, Henri, Charles</td><td>Ceux qui veulent un prénom qui vieillit bien</td><td>La longueur avec un nom de famille déjà long</td></tr>
+<tr><td>Courts</td><td>Tom, Noé, Malo, Ugo, Axel, Max, Eden</td><td>Les noms de famille longs ou composés</td><td>Le rythme : un prénom court et un nom court peuvent sonner sec</td></tr>
+<tr><td>Anciens, moins courants</td><td>Anatole, Ambroise, Octave, Achille, Joachim, Melchior</td><td>Ceux qui veulent sortir des sentiers battus</td><td>Le surnom que les copains vont en tirer</td></tr>
+<tr><td>Internationaux</td><td>Adam, Elias, Samuel, Oscar, Hugo, Daniel</td><td>Les familles bilingues ou qui vivent entre deux pays</td><td>La prononciation dans chaque langue</td></tr>
+<tr><td>Régionaux</td><td>Elouan, Malo, Tanguy (Bretagne), Iñaki (Pays basque)</td><td>Les attaches à une région</td><td>L'orthographe et les accents</td></tr>
+</tbody></table>
+<h2>Les prénoms qui reviennent le plus en ce moment</h2>
+<p>Gabriel, Noah, Léo, Raphaël et Louis forment le haut du classement 2025 de l'Insee. Ils ont des points communs : courts ou faciles à dire, doux à l'oreille, avec une sonorité qu'on comprend partout. Ce sont de très bons prénoms, simplement il faut savoir qu'ils sont partagés.</p>
+<p>Bonne nouvelle si tu crains les doublons : les prénoms sont de plus en plus variés. D'après la même étude de l'Insee, les 5 prénoms de garçon les plus donnés représentaient 5,5 % des naissances de garçons en 2025, contre 32,5 % en 1946. Et les 643 900 bébés nés en France en 2025 portent 65 940 prénoms différents. Même un prénom du top 10 n'a donc plus rien à voir avec les « trois Nicolas par classe » de certaines générations.</p>
+<h2>Des prénoms classiques qui vieillissent bien</h2>
+<p>Un classique, c'est un prénom qu'on imagine aussi bien sur un bébé que sur un homme de 60 ans. Arthur, Jules, Paul, Victor, Antoine, Henri, Charles ou Augustin passent les modes parce qu'ils ont déjà été portés par plusieurs générations. Ils plaisent souvent aux grands-parents, ce qui évite quelques discussions au repas de famille.</p>
+<p>Leur limite : avec un nom de famille long, un prénom de trois syllabes comme Augustin peut donner un ensemble un peu lourd. Dans ce cas, Paul ou Jules équilibrent mieux.</p>
+<h2>Des prénoms courts, efficaces avec un nom long</h2>
+<p>Tom, Noé, Malo, Ugo, Axel, Max, Eden, Sacha : en une ou deux syllabes, ils se crient facilement au parc et s'écrivent sans fautes. L'Insee note d'ailleurs que les prénoms de la génération née entre 1997 et 2012 sont devenus « plus courts et transculturels ».</p>
+<p>Par exemple, si ton nom de famille est Delacroix-Martineau, un prénom court allège tout. À l'inverse, avec un nom d'une syllabe, un prénom court peut sonner un peu sec : dis « Tom Roy » à voix haute et compare avec « Victor Roy ».</p>
+<h2>Des prénoms moins courants, sans être bizarres</h2>
+<p>Anatole, Ambroise, Octave, Achille, Joachim, Melchior, Aurèle, Côme : ce sont des prénoms anciens qu'on croise moins, avec du caractère. Ils marquent les esprits sans que ton fils doive épeler son prénom toute sa vie.</p>
+<p>L'erreur fréquente, c'est de chercher l'originalité à tout prix avec une orthographe inventée. Un prénom qu'il faut corriger à chaque formulaire, à l'école, à la mairie, chez le médecin, finit par peser. En France, l'officier d'état civil peut d'ailleurs saisir le procureur de la République s'il estime qu'un prénom est contraire à l'intérêt de l'enfant, par exemple parce qu'il l'exposerait aux moqueries.</p>
+<h2>Des prénoms qui voyagent bien</h2>
+<p>Si la famille vit entre deux pays ou deux langues, choisis un prénom qui se prononce à peu près pareil des deux côtés : Adam, Elias, Samuel, Oscar, Hugo, Daniel, Noah. Vérifie quand même le sens du prénom dans l'autre langue, et la façon dont il s'écrit avec les claviers et les papiers d'identité de chaque pays : un accent ou un tilde peut poser souci.</p>
+<h2>Comment se mettre d'accord à deux ?</h2>
+<p>C'est souvent là que ça coince. Quelques méthodes qui marchent bien :</p>
+<ul>
+<li><strong>Chacun fait sa liste de dix</strong>, sans montrer l'autre. Vous gardez ceux qui apparaissent sur les deux listes, puis chacun a droit à un veto sans se justifier.</li>
+<li><strong>Le test du parc :</strong> crie le prénom comme si ton fils s'éloignait vers le toboggan. S'il est difficile à appeler, tu le sauras vite.</li>
+<li><strong>Les initiales :</strong> écris prénom et nom en initiales. Certaines combinaisons forment des mots ou des sigles gênants.</li>
+<li><strong>Les surnoms :</strong> pense à ceux qu'on tirera du prénom, gentils ou moins gentils. Maximilien deviendra probablement Max, il faut que Max vous plaise aussi.</li>
+<li><strong>Les frères et sœurs :</strong> si tu as déjà un enfant, dis les deux prénoms ensemble. Évite deux prénoms trop proches, comme Léo et Léon.</li>
+</ul>
+<p>Notre conseil : ne figez rien avant la naissance. Garde deux finalistes et regarde ton bébé. Il arrive qu'un des deux s'impose tout seul en voyant son visage. Tu as ensuite 5 jours après l'accouchement pour déclarer la naissance à la mairie, ce qui laisse le temps de trancher.</p>
+<h2>Des cadeaux personnalisés au prénom</h2>
+<p>Une fois le prénom choisi, il devient une belle idée de cadeau pour les proches. Les plus courants : une <a href="{AMZ:gourmette bebe gravure prenom}" rel="sponsored nofollow noopener" target="_blank">gourmette gravée</a>, des <a href="{AMZ:lettres prenom bois chambre bebe}" rel="sponsored nofollow noopener" target="_blank">lettres en bois pour la porte de la chambre</a>, un <a href="{AMZ:livre personnalise prenom enfant}" rel="sponsored nofollow noopener" target="_blank">livre personnalisé</a> dont il est le héros, ou un <a href="{AMZ:doudou personnalise prenom brode}" rel="sponsored nofollow noopener" target="_blank">doudou brodé</a>. Pour un bijou, demande l'avis de ton pédiatre sur l'âge à partir duquel le porter, et choisis-le plutôt comme souvenir à garder.</p>
+<p>Si tu gardes le prénom secret jusqu'à la naissance, ces cadeaux peuvent attendre : ajoute-les à ta liste après coup. On a d'autres pistes dans nos <a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a> et notre <a href="{R}liste-de-naissance-originale/">liste de naissance originale</a>. Pour annoncer la liste à tes proches avec le prénom, inspire-toi de nos <a href="{R}message-liste-de-naissance/">messages de liste de naissance</a>, et coche le reste au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>.</p>
+""",
+  faq=[("Quel est le prénom de garçon le plus donné en France ?", "Selon l'Insee, c'est Gabriel en 2025, donné à 4 625 garçons, soit 1,4 % des naissances de garçons. Suivent Noah, Léo, Raphaël et Louis."),
+       ("Combien de temps a-t-on pour déclarer le prénom ?", "La naissance, avec le prénom, se déclare à la mairie du lieu de naissance dans les 5 jours qui suivent l'accouchement."),
+       ("Comment trouver un prénom original sans qu'il soit bizarre ?", "Regarde du côté des prénoms anciens moins portés, comme Anatole, Octave ou Ambroise, plutôt que d'inventer une orthographe. Ils se remarquent sans qu'il faille les épeler à chaque fois.")],
+  short="Idées prénom garçon")
+
+AUTO_META['meilleur-transat-bebe/'] = ('🏆', 'miel')
+g("meilleur-transat-bebe/",
+  "Meilleur transat bébé 2026 : top 10 manuels et électriques",
+  "Meilleur transat bébé : notre top 10 2026, manuels et électriques",
+  "BabyBjörn, Nuna, Chicco, Hauck, Babymoov, 4moms, Graco, Joie : 10 transats bébé manuels, à vibrations ou électriques comparés fiche par fiche en 2026.",
+  """
+<p>Pour la plupart des familles, un transat manuel suffit : le BabyBjörn Balance Soft ou le Chicco Hooplà bercent grâce aux mouvements du bébé, sans piles ni prise, et se rangent facilement. Un modèle électrique comme la Babymoov Swoon Evolution ou la 4moms mamaRoo vaut surtout le coup si ton bébé ne se calme qu'en étant bercé longtemps et que tu as la place pour un appareil plus encombrant.</p>
+<p>On a retenu dix transats réels, rangés des plus simples aux plus équipés. Le tableau juste en dessous résume l'essentiel, puis chaque modèle a sa fiche avec ses limites.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Pour chaque transat, on a lu la fiche du fabricant ou, à défaut, celle d'un grand revendeur (Fnac, Aubert, Nature et Découvertes, Smyths), puis vérifié qu'il est proposé sur Amazon.fr. Quand une donnée manquait, on écrit « non précisé ». Les fiches évoluent : vérifie toujours la notice du modèle que tu reçois.</p>
+
+<h2>Les 10 transats comparés</h2>
+<table><thead><tr><th>Modèle</th><th>Type</th><th>Limite indiquée</th><th>Inclinaisons</th><th>Alimentation</th><th>Poids du transat</th></tr></thead><tbody>
+<tr><td>BabyBjörn Balance Soft</td><td>Manuel ergonomique, évolutif</td><td>9 kg en transat, 13 kg en fauteuil</td><td>3</td><td>Aucune</td><td>Non précisé</td></tr>
+<tr><td>Nuna LEAF grow</td><td>Manuel, balancement latéral</td><td>9 kg avec harnais</td><td>3</td><td>Aucune</td><td>6,9 kg</td></tr>
+<tr><td>Chicco Hooplà</td><td>Manuel, fixe ou bascule, évolutif</td><td>18 kg</td><td>4</td><td>Aucune</td><td>3,5 kg</td></tr>
+<tr><td>Hauck Bungee Deluxe</td><td>Manuel à bascule</td><td>Non précisé</td><td>3</td><td>Aucune</td><td>2,6 kg</td></tr>
+<tr><td>Ingenuity Keep Cozy 3 en 1</td><td>Vibrations, évolutif</td><td>18 kg, 30 mois</td><td>2</td><td>1 pile LR14</td><td>Non précisé</td></tr>
+<tr><td>Fisher-Price Câlins Tout Doux</td><td>Vibrations et musique</td><td>9 kg</td><td>Non précisé</td><td>Non précisé</td><td>Non précisé</td></tr>
+<tr><td>Babymoov Swoon Evolution</td><td>Balancelle électrique rotative</td><td>9 kg</td><td>5</td><td>Secteur</td><td>12 kg</td></tr>
+<tr><td>Graco Duet Sway</td><td>Balancelle électrique, siège détachable</td><td>9 kg</td><td>3</td><td>Secteur</td><td>9,4 kg</td></tr>
+<tr><td>Joie Serina 2in1</td><td>Balancelle électrique, siège détachable</td><td>9 kg</td><td>3</td><td>Secteur ou 4 piles D</td><td>11,22 kg</td></tr>
+<tr><td>4moms mamaRoo</td><td>Électrique connecté</td><td>11,3 kg (site américain)</td><td>Réglage continu</td><td>Secteur</td><td>Environ 6,8 kg</td></tr>
+</tbody></table>
+
+<h2>1. BabyBjörn Transat Balance Soft : le manuel qui se plie à plat</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent un transat sans piles, léger à déplacer d'une pièce à l'autre et facile à ranger.</p>
+<p><strong>Points forts :</strong> pas de moteur ici, c'est bébé qui fait basculer le transat en bougeant. BabyBjörn l'indique de 3,5 à 13 kg : transat jusqu'à 9 kg ou jusqu'à ce que l'enfant veuille s'asseoir, puis fauteuil jusqu'à 13 kg. Il a 3 positions, se plie à plat, et sa housse passe en machine à 40 °C. La fiche cite la norme EN 12790 et des tissus certifiés OEKO-TEX Standard 100.</p>
+<p><strong>Limites :</strong> l'arche de jeux n'est pas incluse, elle s'achète à part. Le poids et les dimensions ne sont pas précisés sur la fiche. Attention aussi aux noms : la version Tri-Fabric s'appelle désormais Bliss, vérifie le modèle que tu commandes.</p>
+<p><a href="{AMZ:BabyBjorn Transat Balance Soft}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. Nuna LEAF grow : le balancement sans moteur qui dure</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui aiment le balancement doux mais ne veulent ni piles ni fil, et cherchent un siège qui servira des années.</p>
+<p><strong>Points forts :</strong> une petite poussée suffit à le faire balancer de gauche à droite, jusqu'à environ 2 minutes selon Nuna, et on peut le bloquer en position fixe. Il s'utilise avec harnais 3 points jusqu'à 9 kg, puis en chaise sans harnais jusqu'à 60 kg. Trois inclinaisons, arche avec trois hochets incluse, norme EN 12790:2009 citée par le fabricant et le revendeur.</p>
+<p><strong>Limites :</strong> 6,9 kg, c'est lourd à déplacer pour un transat manuel. Les dimensions varient légèrement entre la fiche Nuna et celle d'Aubert. La housse se lave à froid en machine, dans un filet, selon Aubert.</p>
+<p><a href="{AMZ:Nuna Leaf Grow}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Chicco Hooplà : le transat qui devient fauteuil</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent un seul siège de la naissance jusqu'au petit fauteuil de l'enfant qui tient assis.</p>
+<p><strong>Points forts :</strong> la Fnac l'indique de la naissance à 18 kg, avec un usage en fauteuil dès 12 mois quand l'enfant se tient assis seul. Il passe du mode fixe au mode bascule, a un dossier à 4 positions, un coussin réducteur en deux parties et une arche amovible. Il pèse 3,5 kg et se plie de façon compacte grâce à deux boutons dans les pieds.</p>
+<p><strong>Limites :</strong> le type de harnais et la température de lavage de la housse ne sont pas précisés sur les fiches consultées.</p>
+<p><a href="{AMZ:Chicco Hoopla transat}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Hauck Bungee Deluxe : le plus léger de la sélection</h2>
+<p><strong>Pour qui ?</strong> Pour un deuxième transat, chez les grands-parents par exemple, ou pour les petits logements.</p>
+<p><strong>Points forts :</strong> 2,6 kg seulement, un dossier à 3 positions réglable d'une main, une bascule qu'on bloque avec de petits pieds, une arche amovible avec peluches. La housse est déhoussable.</p>
+<p><strong>Limites :</strong> la fiche lue (Fnac, version Winnie l'Ourson) indique un lavage à la main à 30 °C, pas en machine. Le poids maximal et le harnais ne sont pas précisés sur cette fiche. Le modèle beige standard vendu sur Amazon.fr peut différer par le décor.</p>
+<p><a href="{AMZ:Hauck Bungee Deluxe transat}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Ingenuity Keep Cozy 3 en 1 : vibrations et usage jusqu'à 30 mois</h2>
+<p><strong>Pour qui ?</strong> Pour les bébés que les vibrations apaisent, et pour les parents qui veulent prolonger l'usage.</p>
+<p><strong>Points forts :</strong> trois modes, transat à rebond, bascule et siège fixe avec béquille. Il est annoncé de la naissance à 30 mois, jusqu'à 18 kg, avec un harnais 5 points. Les vibrations fonctionnent avec une seule pile LR14, et le coussin comme le réducteur passent en machine.</p>
+<p><strong>Limites :</strong> seulement 2 inclinaisons. La pile n'est pas fournie. La présence de musique et de l'arche n'est pas précisée sur la fiche consultée.</p>
+<p><a href="{AMZ:Ingenuity Keep Cozy 3 en 1}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Fisher-Price Câlins Tout Doux : vibrations et musique, fiche maigre</h2>
+<p><strong>Pour qui ?</strong> Pour un usage simple les premiers mois, avec un peu de musique pour occuper bébé.</p>
+<p><strong>Points forts :</strong> la Fnac l'indique dès la naissance et jusqu'à 9 kg, avec des vibrations apaisantes, de la musique jusqu'à 20 minutes et un mobile amovible chiot et chaton.</p>
+<p><strong>Limites :</strong> c'est la fiche la plus pauvre de ce top : inclinaison, alimentation, poids, harnais et lavage n'y sont pas précisés. Le nom change aussi selon les revendeurs (Deluxe Câlins Tout Doux, ou référence GWD50). Lis bien la fiche avant de commander.</p>
+<p><a href="{AMZ:Fisher-Price GWD50 transat Calins Tout Doux}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Babymoov Swoon Evolution : la balancelle qui tourne sur elle-même</h2>
+<p><strong>Pour qui ?</strong> Pour les bébés qui ont besoin d'être bercés longtemps, dans un salon assez grand.</p>
+<p><strong>Points forts :</strong> l'assise tourne à 360°, pratique pour que bébé te suive du regard. Selon les fiches, 8 mouvements, 5 vitesses, 12 mélodies avec bruits blancs et sons de la nature, 5 positions d'inclinaison, réducteur nouveau-né inclus, harnais 5 points et arche avec 3 jouets. Elle fonctionne sur secteur.</p>
+<p><strong>Limites :</strong> 12 kg et environ 69 x 63 x 93 cm, ce n'est pas un transat qu'on déplace d'une pièce à l'autre. La notice indique de ne plus l'utiliser au-delà de 9 kg ou dès que l'enfant tient assis seul. La housse se lave en cycle doux, sans essorage.</p>
+<p><a href="{AMZ:Babymoov Swoon Evolution}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Graco Duet Sway : balancelle et transat portable</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent une balancelle au salon et un transat à emporter dans la cuisine ou la salle de bains.</p>
+<p><strong>Points forts :</strong> le siège se détache de la balancelle et devient un transat. Graco annonce des vitesses de balancement réglables, 2 vitesses de vibrations, 3 positions du dossier, un harnais 5 points et une housse lavable en machine à 30 °C, en cycle délicat.</p>
+<p><strong>Limites :</strong> usage indiqué de la naissance à environ 6 mois et jusqu'à 9 kg, donc une durée de vie courte. La page donne deux poids différents, 9,4 kg et 10,7 kg. Le nombre de vitesses de balancement et la musique ne sont pas précisés.</p>
+<p><a href="{AMZ:Graco Duet Sway}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. Joie Serina 2in1 : la balancelle qui marche aussi sur piles</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui veulent une balancelle électrique sans dépendre d'une prise, par exemple dans une pièce mal équipée.</p>
+<p><strong>Points forts :</strong> elle fonctionne sur secteur ou avec 4 piles D. Joie annonce 6 vitesses, un balancement d'avant en arrière ou de côté, 2 vitesses de vibrations, 5 berceuses et 5 sons de la nature, 3 inclinaisons et un harnais 5 points. Le siège se détache pour servir de transat.</p>
+<p><strong>Limites :</strong> 11,22 kg et 91,5 x 73 x 81 cm, c'est encombrant. Usage jusqu'à 9 kg. Sur Amazon.fr, l'intitulé de l'annonce est mal traduit : vérifie qu'il s'agit bien de la Serina 2in1.</p>
+<p><a href="{AMZ:Joie Serina 2in1}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. 4moms mamaRoo : le plus connecté</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui aiment piloter depuis leur téléphone et veulent beaucoup de mouvements différents.</p>
+<p><strong>Points forts :</strong> 5 mouvements et 5 vitesses, 4 sons intégrés, une commande en Bluetooth par l'appli 4moms, une inclinaison réglable en continu de la position assise à allongée, un harnais 5 points convertible en 3 points et une arche avec balles réversibles. Elle fonctionne sur secteur, et la housse passe en machine selon le fabricant.</p>
+<p><strong>Limites :</strong> les limites d'âge et de poids que nous avons trouvées viennent du site américain du fabricant, qui indique 11,3 kg ou environ 9 mois. Aucune page française consultée ne les précise, et le revendeur français lu affichait le produit indisponible. C'est aussi un appareil volumineux, environ 67 x 60 x 90 cm.</p>
+<p><a href="{AMZ:4moms mamaRoo 5}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Manuel ou électrique : comment choisir ?</h2>
+<p>Pose-toi d'abord une question simple : ton bébé se calme-t-il dans tes bras quand tu te balances un peu, ou faut-il le bercer longtemps ? Pour la majorité des bébés, le petit rebond d'un transat manuel suffit, et il a de vrais avantages : pas de piles, pas de prise, un poids plume. Une balancelle électrique se justifie si bébé est difficile à apaiser et que tu as de la place, car elle reste souvent au même endroit.</p>
+<p>Regarde ensuite la durée d'utilisation. La plupart des transats et balancelles de ce top s'arrêtent à 9 kg. Le Chicco Hooplà, l'Ingenuity Keep Cozy, le BabyBjörn et le Nuna LEAF grow continuent ensuite comme siège ou fauteuil, ce qui rentabilise l'achat.</p>
+<p>Enfin, pense au quotidien : le poids si tu le déplaces souvent, le pliage si ton logement est petit, et la housse. Une housse qui passe en machine fait gagner un temps fou, quand une housse à laver à la main finit souvent au fond du panier. Tous nos critères détaillés sont dans le guide <a href="{R}comment-choisir-transat-bebe/">comment choisir un transat bébé</a>.</p>
+<h2>Les règles de sécurité à garder en tête</h2>
+<ul>
+<li><strong>Toujours au sol</strong>, jamais sur une table, un lit ou un plan de travail : un transat qui bascule peut glisser.</li>
+<li><strong>Toujours attaché</strong> avec le harnais, même pour deux minutes.</li>
+<li><strong>Pas pour dormir :</strong> si bébé s'endort dans le transat, couche-le dans son lit, sur le dos.</li>
+<li><strong>Respecte les limites</strong> de poids et d'âge de la notice, et arrête dès que l'enfant cherche à se redresser ou à sortir.</li>
+</ul>
+<p>Pour toute question sur le temps à passer en transat, les reflux ou la position de ton bébé, ton pédiatre ou ta sage-femme sont les mieux placés pour te répondre.</p>
+<h2>Dans ta liste de naissance</h2>
+<p>Le transat fait partie des cadeaux qu'on offre volontiers à plusieurs, surtout les modèles électriques. Pense à préciser le modèle exact dans ta liste pour éviter les doublons. Pour le reste de l'équipement, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>, et lis notre guide de la <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux tout regrouper au même endroit.</p>
+""",
+  faq=[("À partir de quel âge mettre bébé dans un transat ?", "La plupart des transats de ce top sont indiqués dès la naissance, à condition de respecter la position la plus inclinée et le harnais. Vérifie toujours la notice de ton modèle, et demande conseil à ton pédiatre en cas de doute."),
+       ("Transat ou balancelle électrique, que choisir ?", "Un transat manuel suffit à la plupart des bébés : il est léger, sans piles et souvent évolutif. La balancelle électrique se justifie pour un bébé difficile à apaiser, si tu as la place pour un appareil plus lourd."),
+       ("Jusqu'à quel poids utiliser un transat ?", "Souvent jusqu'à 9 kg, ou dès que l'enfant tient assis seul. Certains modèles, comme le Chicco Hooplà ou l'Ingenuity Keep Cozy, se transforment ensuite en siège jusqu'à 18 kg.")],
+  short="Top 10 transats bébé")
