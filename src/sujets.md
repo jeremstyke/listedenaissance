@@ -13,6 +13,7 @@
 - [x] premier-noel-de-bebe/ | premier Noël de bébé cadeau | idées de cadeaux utiles et sûrs selon l'âge, ce qui est inutile, tradition et souvenirs ; liens Amazon ; à publier avant mi-décembre
 - [x] liste-de-naissance-combien-d-articles/ | combien d'articles dans une liste de naissance | nombre idéal, essentiels vs bonus, budget des invités
 - [ ] cadeau-1-an-bebe/ | cadeau 1 an bébé | idées par budget, jouets d'éveil adaptés à 12 mois, normes de sécurité, cadeaux souvenirs
+- [ ] bebe-aux-besoins-intenses/ | bébé aux besoins intenses BABI | reconnaître un bébé qui pleure beaucoup et veut être porté sans culpabiliser, ce qui aide au quotidien (portage, bruit blanc, emmaillotage sûr, relais entre parents), quoi ajouter à la liste de naissance (porte-bébé physiologique, écharpe, transat, veilleuse bruit blanc) ; rester général et renvoyer au pédiatre si inquiétude ; liens internes meilleur-porte-bebe/ et meilleur-transat-bebe/
 - [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
 - [ ] liste-de-naissance-quand-la-faire/ | quand faire sa liste de naissance | mois idéal, avant ou après la baby shower, délais de livraison
 - [ ] cadeau-maman-apres-accouchement/ | cadeau pour maman après accouchement | idées utiles pour la maman (confort, repos, allaitement), cadeaux à éviter, offrir du temps
