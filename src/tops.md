@@ -9,7 +9,7 @@
 - [x] meilleur-tire-lait/ | meilleur tire-lait électrique | simple, double, mains libres ; renvoi sage-femme
 - [x] meilleur-transat-bebe/ | meilleur transat bébé | manuel, électrique
 - [x] meilleur-sac-a-langer/ | meilleur sac à langer | sac à dos, cabas
-- [ ] meilleur-porte-bebe/ | meilleur porte-bébé physiologique | dès la naissance, ergonomique
+- [x] meilleur-porte-bebe/ | meilleur porte-bébé physiologique | dès la naissance, ergonomique
 - [ ] meilleure-echarpe-de-portage/ | meilleure écharpe de portage | tissée, extensible, sling
 - [ ] meilleur-lit-parapluie/ | meilleur lit parapluie | léger, voyage, avec matelas
 - [ ] meilleur-tapis-d-eveil/ | meilleur tapis d'éveil | arches, lavable

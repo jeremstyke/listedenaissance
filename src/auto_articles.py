@@ -1708,3 +1708,168 @@ g("meilleur-sac-a-langer/",
        ("Quelle taille de sac à langer choisir ?", "Autour de 20 litres pour une journée avec un nouveau né. Un modèle de 15 à 16 litres convient aux sorties courtes, un sac de plus de 25 litres aux jumeaux ou aux week-ends."),
        ("Comment laver un sac à langer ?", "Suis l'étiquette : la plupart se nettoient seulement à l'éponge humide, certains se lavent à la main, et quelques-uns, comme le Sunveno Classic, passent en machine selon leur fabricant. Les matelas à langer se lavent souvent séparément.")],
   short="Top 8 sacs à langer")
+
+AUTO_META['liste-de-naissance-combien-d-articles/'] = ('🔢', 'miel')
+g("liste-de-naissance-combien-d-articles/",
+  "Combien d'articles mettre dans une liste de naissance ?",
+  "Combien d'articles mettre dans une liste de naissance ?",
+  "Combien d'articles dans une liste de naissance ? Une méthode simple selon le nombre d'invités, le bon mélange de prix et ce qu'il vaut mieux acheter soi-même.",
+  """
+<p>Il n'existe pas de nombre officiel, mais une règle simple marche bien : prévois un peu plus d'articles que de personnes susceptibles d'offrir quelque chose, soit environ une fois et demie le nombre de foyers invités. Pour 20 foyers, une trentaine d'articles suffit ; au-delà de 50 ou 60, ta liste devient difficile à lire et beaucoup de lignes ne seront jamais offertes.</p>
+<p>Le nombre compte moins que le mélange. Une liste de 30 articles avec des petits prix, des moyens et deux ou trois gros équipements à financer à plusieurs fonctionne mieux qu'une liste de 80 lignes de bodies et de gadgets.</p>
+{CTA}
+<h2>Pourquoi compter en foyers et pas en invités ?</h2>
+<p>Un couple, une famille avec deux ados ou des grands-parents offrent en général un seul cadeau à eux tous. Compte donc les foyers, pas les personnes. Commence par la liste de ceux qui t'ont déjà demandé « qu'est-ce qui te ferait plaisir ? », puis ajoute les collègues, amis et voisins qui risquent de participer.</p>
+<p>Pourquoi une marge en plus ? Parce que tout le monde ne choisit pas au même moment. Les derniers à regarder ta liste doivent encore trouver des choix dans leur budget, sinon ils achèteront au hasard. Une marge d'environ 50 % garde de l'offre jusqu'au bout sans transformer la liste en catalogue. C'est un repère de bon sens, pas une statistique : ajuste-le selon ta famille.</p>
+<h2>Le bon nombre d'articles selon ta situation</h2>
+<table><thead><tr><th>Nombre de foyers qui offrent</th><th>Articles conseillés</th><th>Dont gros équipements à partager</th><th>Remarque</th></tr></thead><tbody>
+<tr><td>Moins de 10</td><td>15 à 20</td><td>1</td><td>Famille proche : vise surtout l'utile</td></tr>
+<tr><td>10 à 20</td><td>20 à 35</td><td>1 ou 2</td><td>Le cas le plus courant</td></tr>
+<tr><td>20 à 40</td><td>35 à 60</td><td>2 ou 3</td><td>Ajoute des petits prix pour les collègues</td></tr>
+<tr><td>Plus de 40</td><td>60 et plus</td><td>3 ou 4</td><td>Pense à une participation libre</td></tr>
+</tbody></table>
+<p>Pour un deuxième enfant, divise plutôt par deux : tu as déjà une bonne partie du matériel, et les proches offrent souvent moins. Notre guide de la <a href="{R}liste-de-naissance-deuxieme-enfant/">liste de naissance pour un deuxième enfant</a> détaille ce qu'il vaut la peine de racheter.</p>
+<h2>Comment répartir les prix dans la liste ?</h2>
+<p>C'est là que beaucoup de listes coincent. On met d'abord ce qu'on veut vraiment, et on se retrouve avec une poussette, un siège auto, un lit, puis une poignée de chaussettes. Résultat : les invités au budget moyen ne trouvent rien entre les deux.</p>
+<p>Un bon équilibre ressemble à peu près à ceci :</p>
+<ul>
+<li><strong>Environ la moitié de petits prix</strong>, sous 30 € : lot de bodies, gigoteuse, thermomètre de bain, livres, langes. Parfait pour les collègues et les amis.</li>
+<li><strong>Un bon tiers de prix moyens</strong>, de 30 à 100 € : transat, tapis d'éveil, babyphone audio, porte-bébé, sac à langer.</li>
+<li><strong>Quelques gros équipements</strong>, au-dessus de 100 € : poussette, siège auto, lit, chaise haute. Ceux-là sont offerts par les grands-parents ou à plusieurs.</li>
+</ul>
+<p>Ces tranches sont indicatives, adapte-les à ton entourage. Si ta famille offre traditionnellement de gros cadeaux, tu peux ajouter un ou deux équipements de plus.</p>
+<p>Notre conseil : pour les gros équipements, choisis un site qui permet la participation à plusieurs. Sans ça, personne n'ose réserver la poussette, et elle reste en haut de la liste jusqu'à la naissance. On compare les possibilités de chaque solution dans notre page <a href="{R}ou-faire-sa-liste-de-naissance/">où faire sa liste de naissance</a>.</p>
+<h2>Quels articles garder dans la liste, et lesquels acheter toi-même ?</h2>
+<p>Tout ne doit pas forcément passer par la liste. Certains achats sont trop personnels ou trop urgents :</p>
+<ul>
+<li><strong>Le matelas et le siège auto</strong>, si tu tiens à un modèle précis et à l'avoir avant le terme. Tu peux les mettre en liste, mais vérifie qu'ils sont offerts à temps, sinon achète-les.</li>
+<li><strong>Le tire-lait</strong>, qui peut se louer en pharmacie sur prescription. Parles-en à ta sage-femme avant de l'ajouter.</li>
+<li><strong>Les consommables</strong> (couches, lingettes, sérum physiologique) : utiles, mais peu de gens ont envie de les offrir. Une ou deux lignes suffisent.</li>
+</ul>
+<p>À l'inverse, garde dans la liste ce que les proches aiment choisir : vêtements dans des tailles variées, jouets d'éveil, livres, linge de lit, et le sac à langer. Pour l'ordre de priorité, notre page <a href="{R}quoi-mettre-dans-une-liste-de-naissance/">quoi mettre dans une liste de naissance</a> sépare l'indispensable du confort.</p>
+<h2>Les erreurs qui font gonfler une liste</h2>
+<p>Une liste trop longue n'est pas une liste plus généreuse. Elle noie les invités, et tu reçois souvent des cadeaux secondaires pendant que l'essentiel attend. Les pièges les plus fréquents :</p>
+<ul>
+<li><strong>Dix lignes pour des vêtements en taille naissance.</strong> Bébé les portera quelques semaines, et tu en recevras de toute façon hors liste. Mieux vaut viser le 3 mois et le 6 mois. Notre page <a href="{R}combien-de-bodies-et-pyjamas-pour-bebe/">combien de bodies et de pyjamas</a> donne des quantités réalistes.</li>
+<li><strong>Les doublons d'usage</strong> : un transat, une balancelle et un hamac, alors qu'un seul servira vraiment.</li>
+<li><strong>Les gadgets</strong> : chauffe-lingettes, poubelle à couches très spécialisée, stérilisateur et chauffe-biberon quand tu prévois d'allaiter. Ajoute-les plus tard si le besoin se présente.</li>
+</ul>
+<p>Si tu as peu de place ou que tu veux limiter la casse, notre <a href="{R}liste-de-naissance-minimaliste/">liste de naissance minimaliste</a> va à l'essentiel.</p>
+<h2>Une liste qui vit après la naissance</h2>
+<p>Ta liste n'est pas figée. Commence-la vers le cinquième ou sixième mois de grossesse avec les grosses pièces, puis complète au fil des semaines. Après la naissance, retire ce qui ne sert plus et ajoute les tailles suivantes ou un premier <a href="{AMZ:jouet eveil bebe 6 mois}" rel="sponsored nofollow noopener" target="_blank">jouet d'éveil pour 6 mois</a> : les visiteurs de la maternité regardent souvent la liste à ce moment-là.</p>
+<p>Pour savoir ce qu'il te manque encore, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist de naissance</a>. Et pour annoncer la liste sans gêne, nos exemples de <a href="{R}message-liste-de-naissance/">messages pour partager ta liste</a> t'aident à trouver le ton.</p>
+""",
+  faq=[("Combien d'articles mettre dans une liste de naissance pour 20 invités ?", "Compte d'abord les foyers plutôt que les personnes. Pour une vingtaine de foyers, une trentaine d'articles suffit, avec environ la moitié de petits prix et un ou deux gros équipements à financer à plusieurs."),
+       ("Une liste de naissance trop longue, c'est grave ?", "Ce n'est pas impoli, mais c'est moins efficace : les invités hésitent, et l'essentiel risque de ne pas être offert. Mieux vaut une liste courte, bien répartie en prix, que tu complètes après la naissance."),
+       ("Peut-on ajouter des articles après la naissance ?", "Oui. Beaucoup de proches offrent leur cadeau après l'arrivée du bébé. Retire ce qui ne sert plus et ajoute les tailles suivantes ou des jouets adaptés à son âge.")],
+  short="Combien d'articles dans une liste")
+
+AUTO_META['meilleur-porte-bebe/'] = ('🏆', 'menthe')
+g("meilleur-porte-bebe/",
+  "Meilleur porte-bébé physiologique 2026 : top 10 dès la naissance",
+  "Meilleur porte-bébé physiologique 2026 : notre top 10 dès la naissance",
+  "Ergobaby, BabyBjörn, Manduca, Boba, Tula, NéoBulle : 10 porte-bébés physiologiques comparés en 2026, poids, positions, réducteur, lavage et leurs limites.",
+  """
+<p>Si tu veux porter dès la naissance et longtemps, un préformé à boucles avec une assise réglable est le choix le plus simple : l'Ergobaby Omni Breeze (de 3,2 à 20,4 kg, 4 positions) est notre n°1, et le Manduca XT ou le Boba X font aussi bien pour qui n'a pas besoin du face au monde. Pour les seuls premiers mois, un modèle léger comme l'Ergobaby Embrace ou le BabyBjörn Mini suffit et coûte en général moins cher.</p>
+<p>On a retenu dix porte-bébés réels, vendus en France, en écartant ceux dont la fiche était trop floue. Le tableau donne l'essentiel, puis chaque modèle a sa fiche, avec ce qui coince.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Pour chaque porte-bébé, on a lu la page du fabricant ou, quand elle n'était pas accessible, celle d'un grand revendeur français (Aubert, Fnac, Nature et Découvertes), puis vérifié qu'il est proposé sur Amazon.fr. Quand une donnée manquait, on écrit « non précisé ». Aucun prix n'est indiqué : ils changent trop souvent.</p>
+
+<h2>Les 10 porte-bébés comparés</h2>
+<table><thead><tr><th>Modèle</th><th>Poids de l'enfant</th><th>Positions</th><th>Face au monde</th><th>Lavage</th><th>Mention hanches lue</th></tr></thead><tbody>
+<tr><td>Ergobaby Omni Breeze</td><td>3,2 à 20,4 kg</td><td>Ventral, face au monde, hanche, dos</td><td>Oui</td><td>Machine 30 °C</td><td>Oui</td></tr>
+<tr><td>BabyBjörn Harmony</td><td>3,2 à 15 kg</td><td>Ventral, face au monde, dos</td><td>Oui</td><td>Machine 40 °C</td><td>Oui</td></tr>
+<tr><td>Manduca XT</td><td>3,5 à 20 kg</td><td>Ventral, hanche, dos</td><td>Non précisé</td><td>Non précisé</td><td>Oui</td></tr>
+<tr><td>Boba X</td><td>3,2 à 20,4 kg</td><td>Ventral, dos</td><td>Non précisé</td><td>Machine</td><td>Oui</td></tr>
+<tr><td>Tula Original (Free-to-Grow)</td><td>3,2 à 20,4 kg</td><td>Ventral, dos</td><td>Non</td><td>Machine à froid</td><td>Non précisé</td></tr>
+<tr><td>NéoBulle Néo</td><td>3 à 15 kg</td><td>Ventral, dos</td><td>Non précisé</td><td>30 °C</td><td>Non précisé</td></tr>
+<tr><td>Love Radius HoodieCarrier 2</td><td>3,5 à 20 kg selon la notice</td><td>Ventral, hanche, dos</td><td>Non précisé</td><td>Non précisé</td><td>Non précisé</td></tr>
+<tr><td>Ergobaby Embrace</td><td>3,2 à 11,3 kg</td><td>Ventral, face au monde</td><td>Dès 6 mois</td><td>30 °C</td><td>Non précisé</td></tr>
+<tr><td>BabyBjörn Mini</td><td>3,2 à 11 kg</td><td>Ventral, face au monde</td><td>Oui</td><td>40 °C</td><td>Oui</td></tr>
+<tr><td>Babymoov Moov &amp; Boost</td><td>Jusqu'à 15 kg</td><td>Ventral, côté, dos</td><td>Évoqué en FAQ</td><td>30 °C</td><td>Oui</td></tr>
+</tbody></table>
+
+<h2>1. Ergobaby Omni Breeze : le plus polyvalent</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent un seul porte-bébé de la maternité jusqu'aux balades avec un enfant de 3 ou 4 ans, et qui portent souvent quand il fait chaud.</p>
+<p><strong>Points forts :</strong> la fiche Aubert l'indique de 3,2 à 20,4 kg, soit de 0 à 48 mois, sans réducteur mentionné. Il offre les 4 positions : face à toi dès la naissance, face au monde vers 5 ou 6 mois, puis hanche et dos vers 6 mois. Le tissu est un mesh en polyester, aéré. Les bretelles se croisent (40 à 110 cm), la ceinture va de 45,4 à 145 cm avec un soutien lombaire rembourré, et il passe en machine à 30 °C. La page indique qu'il est labellisé par l'International Hip Dysplasia Institute.</p>
+<p><strong>Limites :</strong> le poids du porte-bébé et la norme ne sont pas précisés sur la page consultée, et l'âge du face au monde varie entre 5 et 6 mois selon les sections. Attention à ne pas le confondre avec l'Omni 360, l'Omni Dream ou l'Omni Classic.</p>
+<p><a href="{AMZ:Ergobaby Omni Breeze}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. BabyBjörn Harmony : la fiche la plus complète</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui veulent des informations précises sur les normes et un porte-bébé facile à régler, jusqu'à 3 ans environ.</p>
+<p><strong>Points forts :</strong> BabyBjörn l'annonce de 3,2 à 15 kg et de 53 à 100 cm, en position nouveau-né, face à toi, face au monde et sur le dos. Longueur, position des jambes et assise se règlent, et le support de tête a 3 positions. La ceinture se porte à la taille pour les tout-petits, puis sur les hanches. C'est l'une des rares fiches à citer clairement la norme EN 13209-2:2015, le label OEKO-TEX Standard 100 et la mention de l'International Hip Dysplasia Institute. Il passe en machine à 40 °C.</p>
+<p><strong>Limites :</strong> 15 kg maximum, c'est moins que les modèles qui montent à 20 kg. Pas de position hanche, et le poids du porte-bébé n'est pas indiqué. Il existe en Mesh 3D et en tissé brossé : choisis la version mesh si tu as souvent chaud.</p>
+<p><a href="{AMZ:BabyBjörn porte-bébé Harmony}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Manduca XT : le coton bio à assise très réglable</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui préfèrent le coton et veulent porter longtemps sur le dos, sans tenir au face au monde.</p>
+<p><strong>Points forts :</strong> de 3,5 à 20 kg et de 0 à 36 mois selon Nature et Découvertes, sans accessoire supplémentaire pour le nouveau-né. La largeur d'assise se règle en continu de 16 à 50 cm, ce qui permet de garder une bonne position des jambes à tous les âges, et l'extension dorsale a 3 hauteurs. Il se porte en ventral, sur la hanche et sur le dos. Il est en coton biologique, et la page indique la reconnaissance de l'International Hip Dysplasia Institute et la norme CEN/TR 16512:2015.</p>
+<p><strong>Limites :</strong> il démarre à 3,5 kg, donc un peu plus tard qu'un modèle à 3,2 kg pour un petit gabarit. Le lavage et le poids du porte-bébé ne sont pas précisés sur la fiche lue. Plusieurs versions existent (Cotton, Monochrome, ZipIn) : le Manduca First est un autre modèle.</p>
+<p><a href="{AMZ:Manduca XT porte-bébé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Boba X : le plus fin à régler</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui veulent ajuster le porte-bébé au centimètre près au fil des mois, et porter un enfant déjà grand.</p>
+<p><strong>Points forts :</strong> Boba l'indique de 3,2 à 20,4 kg, sans réducteur. La largeur d'assise va de 20 à 53 cm et la hauteur du tablier de 30 à 40 cm, avec des extensions zippées pour les bambins. La ceinture rembourrée va de 60 à 145 cm et a une poche zippée. Il est en sergé de coton, se lave en machine et la marque le dit certifié « Hip Healthy » par l'International Hip Dysplasia Institute.</p>
+<p><strong>Limites :</strong> le face au monde n'est pas indiqué, ni le poids du porte-bébé. La page du fabricant est en anglais, et Amazon.fr affiche une fourchette arrondie de 3 à 20 kg. Ne le confonds pas avec le Boba 4G.</p>
+<p><a href="{AMZ:Boba X porte-bébé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Tula Original (ex Free-to-Grow) : simple, avec 3 largeurs d'assise</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui portent face à eux puis sur le dos, et qui aiment les réglages simples.</p>
+<p><strong>Points forts :</strong> de 3,2 à 20,4 kg, soit jusqu'à 48 mois environ selon Tula. L'assise a 3 largeurs, étroite pour le nouveau-né, puis intermédiaire et large. La ceinture est large et rembourrée, et il passe en machine à froid. Il existe en coton, en lin et en mesh.</p>
+<p><strong>Limites :</strong> Tula précise qu'il n'est pas conçu pour le face au monde. La composition de la version maille est contradictoire sur la page, la norme et le poids ne sont pas précisés. Sur Amazon.fr, il apparaît encore sous l'ancien nom Free-to-Grow.</p>
+<p><a href="{AMZ:Tula Free-to-Grow porte-bébé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. NéoBulle Néo : le préformé fabriqué en France</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui aiment le tissu des écharpes de portage mais veulent la facilité d'un préformé, et qui tiennent au made in France.</p>
+<p><strong>Points forts :</strong> NéoBulle l'indique de la naissance à 2 ans, de 3 à 15 kg, en ventral puis sur le dos quand bébé tient sa tête. Il est en coton bio sergé brisé, le même tissu que les écharpes de la marque, et fabriqué à Saint-Bonnet-le-Château. Le tablier se règle en largeur et en hauteur, la ceinture souple monte jusqu'à 140 cm, et il se lave à 30 °C.</p>
+<p><strong>Limites :</strong> 15 kg ou 2 ans maximum, pas de face au monde ni de hanche. Norme et poids non précisés. Attention aux noms : le My Néo s'arrête à 12 mois et le Néo+ ne commence qu'à 3 mois.</p>
+<p><a href="{AMZ:NéoBulle Néo V3 porte-bébé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Love Radius HoodieCarrier 2 : la gaze de coton respirante</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent un porte-bébé souple et réglable sans accessoire, avec le choix des bretelles en H ou en X.</p>
+<p><strong>Points forts :</strong> l'assise se règle de 11 à 38 cm sans réducteur selon Aubert, et la notice prévoit un cale-tête intérieur pour les 0 à 3 mois. Trois positions : devant, sur le côté, sur le dos, de 0 à 36 mois. Le tissu est une triple gaze de coton, et les bretelles se portent en H ou en X.</p>
+<p><strong>Limites :</strong> la notice indique 3,5 à 14 kg en couverture puis 3,5 à 20 kg plus loin, sans explication : retiens les plages par position (dos de 7 à 20 kg). Lavage et norme ne sont pas précisés. Plusieurs noms circulent (HoodieCarrier 2, HCV2, PhysioCarrier), qui ne désignent pas tous le même modèle.</p>
+<p><a href="{AMZ:Love Radius HoodieCarrier 2}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Ergobaby Embrace : le plus léger pour les premiers mois</h2>
+<p><strong>Pour qui ?</strong> Pour les jeunes parents qui veulent un porte-bébé souple, presque comme une écharpe, mais sans nœud à apprendre.</p>
+<p><strong>Points forts :</strong> 0,44 kg seulement selon la Fnac. Il est fait pour le nouveau-né, de 3,2 à 11,3 kg, face à toi dès la naissance, puis face au monde à partir de 6 mois. L'assise se règle en repliant la ceinture pour garder la position en M, la ceinture est rembourrée et se ferme par boucles, et il se lave à 30 °C.</p>
+<p><strong>Limites :</strong> l'usage est court, 11,3 kg au maximum, et le portage dos n'est pas prévu. Il existe en plusieurs versions (Embrace, Embrace Cozy, Embrace Soft Air Mesh).</p>
+<p><a href="{AMZ:Ergobaby Embrace porte-bébé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>9. BabyBjörn Mini : l'entrée de gamme pour la première année</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui veulent surtout porter pendant les premiers mois, pour les siestes ou les petits trajets.</p>
+<p><strong>Points forts :</strong> de 3,2 à 11 kg, de 0 à 12 mois, en position nouveau-né, face à toi et face au monde. La fiche cite les normes EN 13209-2:2015 et ASTM F2236 et la mention de l'International Hip Dysplasia Institute. Il existe en tissé, Mesh 3D et Jersey 3D, et se lave à 40 °C.</p>
+<p><strong>Limites :</strong> pas de dos ni de hanche. La fiche ne mentionne pas de ceinture ventrale : sans elle, le poids repose sur les épaules, ce qui fatigue vite quand bébé grandit. Le réglage de l'assise n'est pas mentionné non plus, seul le support de tête est décrit comme réglable.</p>
+<p><a href="{AMZ:BabyBjörn porte-bébé Mini}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>10. Babymoov Moov &amp; Boost : celui qui devient rehausseur</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui voyagent ou mangent souvent dehors, et qui aiment l'idée d'un objet deux en un.</p>
+<p><strong>Points forts :</strong> il se transforme en rehausseur nomade avec un coussin gonflable, en moins de 5 minutes selon Babymoov. Il se porte en ventral, sur le côté et sur le dos, jusqu'à 15 kg. Tissu en coton bio, dos en mesh de polyester recyclé, ceinture renforcée, lavage à 30 °C (hors coussin gonflable). Babymoov le dit certifié sain pour les hanches.</p>
+<p><strong>Limites :</strong> c'est le point à bien comprendre : sans réducteur, Babymoov l'indique dès 4 mois. Pour l'utiliser dès la naissance, il faut le réducteur nouveau-né (3 à 5 kg), indiqué comme plus disponible sur le site de la marque. Certaines annonces Amazon le vendent en pack avec ce réducteur : vérifie-le avant de commander. Aucune norme n'est citée sur la fiche.</p>
+<p><a href="{AMZ:Babymoov Moov Boost porte-bébé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Qu'est-ce qu'un porte-bébé physiologique ?</h2>
+<p>C'est un porte-bébé qui respecte la position naturelle du bébé : le dos arrondi, les genoux plus hauts que les fesses, les cuisses soutenues d'un genou à l'autre. On parle souvent de position en M. Un porte-bébé où les jambes pendent tout droit, retenues seulement par l'entrejambe, ne l'est pas.</p>
+<p>Concrètement, regarde trois choses sur la fiche : une assise qui se règle en largeur (ou qui est faite pour le nouveau-né), un poids minimal autour de 3,2 kg si tu veux porter dès la naissance, et une ceinture ventrale pour soulager tes épaules. La mention de l'International Hip Dysplasia Institute est un repère utile, mais son absence ne veut pas dire que le porte-bébé est mauvais : plusieurs bons modèles de ce top ne l'affichent simplement pas.</p>
+
+<h2>Faut-il un porte-bébé face au monde ?</h2>
+<p>Pas forcément. Beaucoup de parents s'en passent, et plusieurs modèles de ce top ne le proposent pas du tout. Quand il existe, les fabricants l'indiquent vers 5 ou 6 mois, quand bébé tient bien sa tête, et souvent pour des durées courtes, parce que bébé reçoit beaucoup de stimulations et ne peut pas se blottir contre toi pour se reposer.</p>
+<p>Notre conseil : choisis d'abord sur le confort et la durée d'usage. Si tu veux un seul porte-bébé jusqu'à 3 ou 4 ans, vise un modèle qui monte à 20 kg et se porte sur le dos. Si tu veux juste porter les premiers mois, un Embrace ou un Mini suffit, quitte à passer ensuite à un modèle plus costaud.</p>
+
+<h2>Les bons réflexes pour porter en sécurité</h2>
+<ul>
+<li><strong>Visage visible</strong> et dégagé, jamais caché dans le tissu.</li>
+<li><strong>Menton décollé de la poitrine</strong> : bébé doit pouvoir respirer librement.</li>
+<li><strong>Assez haut</strong> pour que tu puisses déposer un bisou sur sa tête sans effort.</li>
+<li><strong>Respecte les limites de poids et d'âge</strong> de la notice, surtout pour le face au monde et le dos.</li>
+</ul>
+<p>Si ton bébé est né prématurément, a un petit poids ou un souci de hanches, demande l'avis de ton pédiatre, de ta sage-femme ou d'un kinésithérapeute avant de commencer. Une séance avec un moniteur de portage aide aussi beaucoup à bien régler son porte-bébé les premières fois.</p>
+
+<h2>Dans ta liste de naissance</h2>
+<p>Le porte-bébé est un beau cadeau, mais c'est aussi un objet très personnel : la taille du porteur et le confort comptent. Si possible, essaie un ou deux modèles avant de l'ajouter, ou demande à tes proches de te laisser choisir. Pour le reste de l'équipement, regarde <a href="{R}quoi-mettre-dans-une-liste-de-naissance/">quoi mettre dans une liste de naissance</a>, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>, et lis notre guide de la <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux tout regrouper au même endroit.</p>
+""",
+  faq=[("À partir de quand peut-on porter bébé dans un porte-bébé physiologique ?", "Dès la naissance avec un modèle prévu pour le nouveau-né, en général à partir de 3,2 ou 3,5 kg selon le fabricant. Certains, comme le Babymoov Moov & Boost, demandent un réducteur pour les premiers mois. En cas de prématurité ou de petit poids, demande d'abord l'avis de ton pédiatre ou de ta sage-femme."),
+       ("Porte-bébé ou écharpe de portage, que choisir ?", "L'écharpe s'adapte parfaitement au nouveau-né mais demande d'apprendre les nouages. Le préformé à boucles s'installe plus vite et convient mieux quand bébé grandit. Beaucoup de parents commencent en écharpe puis passent au préformé."),
+       ("Jusqu'à quel âge utiliser un porte-bébé ?", "Cela dépend du modèle : environ 11 kg ou 1 an pour les porte-bébés nouveau-né comme le BabyBjörn Mini, jusqu'à 20 kg et 3 ou 4 ans pour les préformés évolutifs comme l'Ergobaby Omni Breeze, le Manduca XT ou le Boba X.")],
+  short="Top 10 porte-bébés")
