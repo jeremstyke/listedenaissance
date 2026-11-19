@@ -8,7 +8,7 @@
 - [x] meilleurs-livres-bebe/ | meilleurs livres pour bébé 0 à 3 ans | imagiers, livres en tissu, livres à toucher, livres sonores ; titres, auteurs, éditeurs et éditions lus sur la page de l'éditeur ou d'un grand libraire (Fnac, Decitre, Cultura) et vérifiés sur Amazon.fr ; uniquement des livres réels et disponibles ; pour chaque livre : pour qui, ce qu'on y trouve, format (broché, poche, relié), nombre de pages si indiqué ; jamais de résumé inventé
 - [x] meilleur-tire-lait/ | meilleur tire-lait électrique | simple, double, mains libres ; renvoi sage-femme
 - [x] meilleur-transat-bebe/ | meilleur transat bébé | manuel, électrique
-- [ ] meilleur-sac-a-langer/ | meilleur sac à langer | sac à dos, cabas
+- [x] meilleur-sac-a-langer/ | meilleur sac à langer | sac à dos, cabas
 - [ ] meilleur-porte-bebe/ | meilleur porte-bébé physiologique | dès la naissance, ergonomique
 - [ ] meilleure-echarpe-de-portage/ | meilleure écharpe de portage | tissée, extensible, sling
 - [ ] meilleur-lit-parapluie/ | meilleur lit parapluie | léger, voyage, avec matelas

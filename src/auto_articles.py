@@ -1551,3 +1551,160 @@ g("meilleur-transat-bebe/",
        ("Transat ou balancelle électrique, que choisir ?", "Un transat manuel suffit à la plupart des bébés : il est léger, sans piles et souvent évolutif. La balancelle électrique se justifie pour un bébé difficile à apaiser, si tu as la place pour un appareil plus lourd."),
        ("Jusqu'à quel poids utiliser un transat ?", "Souvent jusqu'à 9 kg, ou dès que l'enfant tient assis seul. Certains modèles, comme le Chicco Hooplà ou l'Ingenuity Keep Cozy, se transforment ensuite en siège jusqu'à 18 kg.")],
   short="Top 10 transats bébé")
+
+AUTO_META['premier-noel-de-bebe/'] = ('🎄', 'peche')
+g("premier-noel-de-bebe/",
+  "Premier Noël de bébé : quel cadeau offrir selon son âge ?",
+  "Premier Noël de bébé : quel cadeau offrir selon son âge ?",
+  "Premier Noël de bébé : idées de cadeaux utiles et sûrs selon l'âge (0 à 12 mois), ce qui ne sert à rien, la sécurité des jouets et des idées souvenirs.",
+  """
+<p>Pour le premier Noël de bébé, le meilleur cadeau dépend surtout de son âge le 25 décembre : avant 6 mois, un hochet, un tapis d'éveil ou un livre en tissu suffisent largement ; vers 9 à 12 mois, place aux jouets qu'on empile, qu'on pousse ou qu'on fait rouler. Et comme bébé ne se souviendra pas de ses paquets, un cadeau souvenir ou un équipement dont tu as vraiment besoin vaut souvent mieux qu'une montagne de jouets.</p>
+<p>La bonne nouvelle, c'est que tu peux guider la famille. Une petite liste partagée début décembre évite les trois hochets identiques et le jouet bruyant qui finit au placard.</p>
+{CTA}
+<h2>Quel cadeau pour un bébé de quelques mois ?</h2>
+<p>Un nouveau né de novembre ou décembre dort beaucoup, regarde les contrastes et attrape à peine. Ce qui l'intéresse vraiment : ton visage, ta voix, et quelques objets simples à regarder ou à serrer. Inutile de dépenser beaucoup.</p>
+<p>Par exemple, si bébé est né en octobre, un <a href="{AMZ:tapis d'eveil bebe arche}" rel="sponsored nofollow noopener" target="_blank">tapis d'éveil avec arche</a> lui servira tous les jours pendant des mois. Un <a href="{AMZ:livre bebe noir et blanc contraste}" rel="sponsored nofollow noopener" target="_blank">livre en noir et blanc à fort contraste</a> ou un <a href="{AMZ:hochet bebe naissance}" rel="sponsored nofollow noopener" target="_blank">hochet léger</a> font aussi plaisir sans encombrer.</p>
+<p>Pour les parents, ce sont souvent les cadeaux pratiques qui comptent le plus à cette période : une gigoteuse chaude pour l'hiver, une écharpe de portage, un lot de bodies en taille 3 ou 6 mois. On en parle en détail dans notre guide de la <a href="{R}liste-de-naissance-bebe-ne-en-hiver/">liste de naissance pour un bébé né en hiver</a>.</p>
+<h2>Les idées de cadeaux selon l'âge</h2>
+<p>Le tableau donne des repères, pas des règles. Chaque bébé avance à son rythme, et l'âge indiqué sur l'emballage reste la référence.</p>
+<table><thead><tr><th>Âge à Noël</th><th>Ce qui l'occupe</th><th>Idées de cadeaux</th><th>À éviter</th></tr></thead><tbody>
+<tr><td>0 à 3 mois</td><td>Regarder, écouter</td><td>Tapis d'éveil, livre contrasté, mobile, gigoteuse d'hiver</td><td>Jouets à piles bruyants</td></tr>
+<tr><td>3 à 6 mois</td><td>Attraper, porter à la bouche</td><td>Hochet, anneau de dentition, livre en tissu, balle sensorielle souple</td><td>Petits objets décoratifs, bijoux</td></tr>
+<tr><td>6 à 9 mois</td><td>Tenir assis, taper, faire du bruit</td><td>Cubes souples, gobelets à empiler, livre de bain, culbuto</td><td>Jouets marqués « 3 ans et plus »</td></tr>
+<tr><td>9 à 12 mois</td><td>Ramper, se lever, pousser</td><td>Trotteur ou chariot de marche, boîte à formes, imagier cartonné</td><td>Jouets avec longs cordons</td></tr>
+</tbody></table>
+<p>Pour les 6 à 12 mois, les <a href="{AMZ:gobelets a empiler bebe}" rel="sponsored nofollow noopener" target="_blank">gobelets à empiler</a> sont une valeur sûre : ils servent au salon, dans le bain et au square. Un <a href="{AMZ:chariot de marche bebe bois}" rel="sponsored nofollow noopener" target="_blank">chariot de marche</a> fera plaisir à un bébé qui commence à se mettre debout, à condition d'avoir un peu de place au sol. Côté livres, on a fait une sélection dans notre top des <a href="{R}meilleurs-livres-bebe/">meilleurs livres pour bébé</a>.</p>
+<h2>Comment savoir si un jouet est sûr pour un bébé ?</h2>
+<p>C'est la question à se poser avant le prix ou la couleur. Avant 3 ans, bébé met tout à la bouche, et les petites pièces sont le premier danger.</p>
+<ul>
+<li><strong>Le marquage CE</strong> doit être visible, lisible et indélébile sur le jouet, l'étiquette ou l'emballage. Il s'agit d'un autocontrôle du fabricant, pas d'une certification : c'est le minimum, pas une garantie de qualité.</li>
+<li><strong>La mention « Ne convient pas aux enfants de moins de 36 mois »</strong>, ou son pictogramme, accompagnée de la raison (souvent des petits éléments détachables). Si tu la vois, le jouet n'est pas pour un bébé, même s'il a l'air mignon.</li>
+<li><strong>Les piles</strong> ne doivent pas être accessibles : le compartiment s'ouvre normalement avec un tournevis ou deux gestes simultanés.</li>
+<li><strong>Les cordons longs et les petits éléments</strong> présentent un risque d'étouffement ou d'étranglement. Méfie-toi des déguisements de Noël avec rubans, pompons et grelots cousus.</li>
+</ul>
+<p>Notre conseil : achète les jouets de bébé dans des enseignes connues ou chez des vendeurs identifiés, et lis l'étiquette avant de payer. Une très bonne affaire chez un vendeur inconnu n'en est pas une si le jouet perd ses yeux au premier mâchouillage.</p>
+<p>La déco compte aussi. Les boules de sapin en verre, les guirlandes électriques, les crochets et les papiers cadeaux froissés finissent vite dans une petite main. Garde le bas du sapin dégagé, surtout si bébé rampe déjà.</p>
+<h2>Les cadeaux qui ne servent (presque) à rien</h2>
+<p>On ne va pas te dire quoi offrir à la place de tes proches, mais certains cadeaux reviennent chaque année et déçoivent souvent :</p>
+<ul>
+<li><strong>Les jouets trop avancés</strong>, achetés « pour plus tard ». Ils prennent la poussière pendant deux ans.</li>
+<li><strong>Les vêtements de Noël en taille naissance</strong>, portés une seule fois, parfois jamais si bébé a déjà grandi.</li>
+<li><strong>Les peluches en grand nombre.</strong> Une ou deux suffisent. Pour dormir, les recommandations de sécurité du sommeil demandent un lit vide, sans peluche, coussin ni tour de lit : la peluche, c'est pour les moments d'éveil.</li>
+<li><strong>Les jouets électroniques très sonores</strong>, qui fatiguent toute la maison bien avant bébé.</li>
+</ul>
+<p>Si la famille tient à offrir beaucoup, propose de regrouper les budgets sur un gros équipement : une chaise haute, un siège auto de groupe suivant, un lit parapluie pour les vacances chez les grands-parents.</p>
+<h2>Des idées souvenirs pour garder une trace</h2>
+<p>Bébé ne se souviendra pas de ce Noël, mais toi, si. Ce sont souvent les cadeaux qu'on garde le plus longtemps :</p>
+<ul>
+<li>une <a href="{AMZ:boule de noel personnalisee bebe premier noel}" rel="sponsored nofollow noopener" target="_blank">boule de sapin personnalisée</a> avec son prénom et l'année, à ressortir chaque décembre ;</li>
+<li>un <a href="{AMZ:kit empreinte bebe pied main}" rel="sponsored nofollow noopener" target="_blank">kit d'empreintes de mains et de pieds</a> ;</li>
+<li>un <a href="{AMZ:album naissance premiere annee bebe}" rel="sponsored nofollow noopener" target="_blank">album de la première année</a> à remplir au fil des mois ;</li>
+<li>une lettre écrite par chaque parent, à ouvrir à ses 18 ans. Gratuit, et souvent le plus émouvant.</li>
+</ul>
+<p>Pour d'autres idées, notre page d'<a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a> marche aussi très bien pour Noël, et notre <a href="{R}liste-de-naissance-originale/">liste de naissance originale</a> propose des pistes moins attendues.</p>
+<h2>Faut-il faire une liste de Noël pour bébé ?</h2>
+<p>Oui, et ce n'est pas impoli. Les proches demandent presque toujours « qu'est-ce qui lui ferait plaisir ? », et une liste leur évite de chercher. Tu peux reprendre ta liste de naissance, retirer ce qui a été offert et ajouter les tailles de vêtements actuelles et deux ou trois jouets adaptés à son âge.</p>
+<p>Envoie-la début décembre, avant la course aux cadeaux. Pour faire le point sur ce qu'il te manque encore, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist de naissance</a>.</p>
+<p>Enfin, un dernier point souvent oublié : le premier Noël, c'est aussi beaucoup de monde, de bras qui se passent bébé, de bruit et de veillées tardives. Prévois un coin calme pour la sieste. Si ton bébé est né prématurément ou en plein hiver, et que tu t'inquiètes des rassemblements et des virus de saison, parles-en à ton pédiatre ou à ta sage-femme avant les fêtes.</p>
+""",
+  faq=[("Quoi offrir à un bébé de 3 mois pour Noël ?", "Un tapis d'éveil, un hochet léger, un livre en tissu ou contrasté, ou un vêtement chaud dans la taille au-dessus. À cet âge, bébé s'intéresse surtout aux contrastes et à ce qu'il peut attraper."),
+       ("Comment vérifier qu'un jouet convient à un bébé ?", "Cherche le marquage CE et vérifie qu'il n'y a pas la mention ou le pictogramme « ne convient pas aux enfants de moins de 36 mois ». Évite les petites pièces détachables, les cordons longs et les piles accessibles sans outil."),
+       ("Faut-il dépenser beaucoup pour le premier Noël de bébé ?", "Non. Bébé ne gardera aucun souvenir de ses cadeaux. Un ou deux jouets adaptés à son âge, un objet souvenir et des cadeaux pratiques pour les parents suffisent largement.")],
+  short="Premier Noël de bébé")
+
+AUTO_META['meilleur-sac-a-langer/'] = ('🏆', 'lilas')
+g("meilleur-sac-a-langer/",
+  "Meilleur sac à langer 2026 : top 8 sacs à dos et sacs épaule",
+  "Meilleur sac à langer 2026 : notre top 8, sacs à dos et sacs épaule",
+  "Béaba, Babymoov, Lässig, Done by Deer, Sunveno : 8 sacs à langer à dos ou à l'épaule comparés en 2026, volume, poches isothermes, matelas et entretien.",
+  """
+<p>Pour la plupart des parents, le meilleur sac à langer est un sac à dos : les mains restent libres pour pousser la poussette ou porter bébé. Dans ce top, le Béaba Oslo nous semble le plus équilibré (19 litres, 11 poches, poche isotherme, matelas et attache poussette), le Babymoov Le Sancy convient à ceux qui emportent beaucoup, et le Lässig Vividal à ceux qui veulent voyager léger.</p>
+<p>On a retenu huit sacs réels, vendus en France, parce que ce sont ceux dont on a pu lire une fiche fiable. Plutôt que de compléter avec des modèles mal documentés, on a préféré s'arrêter là. Le tableau résume l'essentiel, puis chaque sac a sa fiche avec ses limites.</p>
+{CTA}
+<p class="note"><strong>Comment on a fait cette sélection :</strong> à partir des fiches publiées par les fabricants et les revendeurs, sans test en main. Pour chaque sac, on a lu la page du fabricant, puis vérifié qu'il est proposé sur Amazon.fr. Quand une donnée manquait, on écrit « non précisé ». Aucun prix n'est indiqué : ils changent trop souvent, vérifie-les sur la fiche du vendeur.</p>
+
+<h2>Les 8 sacs à langer comparés</h2>
+<table><thead><tr><th>Modèle</th><th>Type</th><th>Volume</th><th>Poids</th><th>Isotherme</th><th>Matelas</th><th>Attache poussette</th></tr></thead><tbody>
+<tr><td>Béaba Oslo</td><td>Sac à dos</td><td>19 L</td><td>Non précisé</td><td>1 poche</td><td>Oui</td><td>Oui</td></tr>
+<tr><td>Babymoov Le Sancy</td><td>Sac à dos</td><td>26 à 36 L</td><td>1,42 kg</td><td>Grande poche</td><td>Oui, amovible</td><td>Oui</td></tr>
+<tr><td>Lässig Vividal Backpack</td><td>Sac à dos</td><td>16 L</td><td>0,79 kg</td><td>Porte-biberon</td><td>Oui, amovible</td><td>Oui</td></tr>
+<tr><td>Done by Deer sac à dos à langer</td><td>Sac à dos</td><td>Non précisé</td><td>Non précisé</td><td>Non précisé</td><td>Oui, pliable</td><td>2 crochets</td></tr>
+<tr><td>Sunveno Classic Diaper Backpack</td><td>Sac à dos</td><td>Non précisé</td><td>Non précisé</td><td>3 poches biberon</td><td>Non précisé</td><td>Anneaux en D</td></tr>
+<tr><td>Béaba Genève</td><td>Sac épaule</td><td>23 L</td><td>Non précisé</td><td>Pochette repas</td><td>Oui, matelassé</td><td>Oui</td></tr>
+<tr><td>Babymoov Day to Day</td><td>Sac épaule ou à la main</td><td>23 L</td><td>Non précisé</td><td>Pochette</td><td>Oui</td><td>Oui</td></tr>
+<tr><td>Done by Deer sac à langer matelassé</td><td>Sac épaule ou à la main</td><td>Non précisé</td><td>Non précisé</td><td>Poche pour gourde</td><td>Oui, pliable</td><td>Crochets et sangles</td></tr>
+</tbody></table>
+
+<h2>1. Béaba Oslo : le sac à dos le plus équilibré</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent un seul sac pour la crèche, les sorties et le travail, sans tomber dans le gros format.</p>
+<p><strong>Points forts :</strong> 19 litres pour 36 x 15 x 40 cm, et 11 poches dont 3 zippées. On y trouve une poche isotherme, un matelas à langer et une attache poussette intégrée. Détail utile si tu reprends le travail : il a un compartiment pour un ordinateur portable 17 pouces. Béaba indique un tissu polyester avec une enduction polyuréthane sans PFAS, qui intègre du polyester recyclé.</p>
+<p><strong>Limites :</strong> le poids n'est pas précisé, et le sac se nettoie à la main, à l'éponge humide. La disponibilité varie selon le coloris : la version Vintage Rose était en rupture sur le site de la marque quand on l'a consultée, la version Anthracite est proposée sur Amazon.fr.</p>
+<p><a href="{AMZ:Béaba sac à dos Oslo}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>2. Babymoov Le Sancy : pour ceux qui emportent tout</h2>
+<p><strong>Pour qui ?</strong> Pour les longues journées dehors, les week-ends chez les grands-parents, ou les parents de jumeaux.</p>
+<p><strong>Points forts :</strong> c'est le plus grand de la sélection : Babymoov annonce entre 26 et 36 litres pour 34 x 19 x 39 cm. Il a une grande poche isotherme intégrée, de nombreuses poches zippées, un matelas à langer étanche amovible et des attaches poussette. Il est livré avec une pochette à sucette et une serviette éponge brodée. Le tissu est déperlant.</p>
+<p><strong>Limites :</strong> 1,42 kg à vide, c'est le plus lourd du top. Une fois rempli, ça se sent sur les épaules. Le sac et ses accessoires se lavent à la main, seule la serviette passe en machine à 60 °C.</p>
+<p><a href="{AMZ:Babymoov Sac à dos à langer Le Sancy}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>3. Lässig Vividal Backpack : le plus compact</h2>
+<p><strong>Pour qui ?</strong> Pour les sorties courtes et les parents qui ont horreur des gros sacs, surtout quand bébé grandit et qu'on emporte moins de choses.</p>
+<p><strong>Points forts :</strong> 16 litres pour 28,5 x 14 x 38 cm et 0,79 kg. Malgré sa petite taille, Lässig fournit un matelas à langer déperlant amovible, un porte-biberon isolé, un porte-petits pots, une pochette à ustensiles et une poche humide pour les vêtements sales. Il a une fixation poussette et un passant au dos pour le glisser sur une valise à roulettes. L'extérieur utilise du polyester recyclé Waste2Wear.</p>
+<p><strong>Limites :</strong> 16 litres, c'est juste pour une journée entière avec un nouveau né. Selon les pictogrammes du fabricant, il ne se lave pas : ni machine, ni sèche-linge, ni nettoyage à sec. Le nombre de poches n'est pas précisé.</p>
+<p><a href="{AMZ:LÄSSIG Vividal Backpack}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>4. Done by Deer sac à dos à langer : simple et bien organisé</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui veulent un sac à dos sobre, avec des poches bien réparties, et qui n'ont pas besoin de garder un biberon au chaud.</p>
+<p><strong>Points forts :</strong> 7 poches à l'intérieur et 1 sur le devant, un matelas à langer pliable, 2 crochets pour la poussette et un crochet intérieur pour les sucettes ou les clés, qu'on cherche toujours au fond du sac. La marque indique un polyester recyclé fabriqué à partir de 38 bouteilles en plastique usagées. Il existe en plusieurs couleurs (vert, taupe, noir, sable).</p>
+<p><strong>Limites :</strong> aucune poche isotherme n'est mentionnée. Le volume, le poids et l'entretien ne sont pas précisés sur le site de la marque. Les dimensions de 45 x 40 x 15 cm viennent du titre de l'annonce Amazon, pas de la fiche du fabricant.</p>
+<p><a href="{AMZ:Done by Deer sac à dos à langer}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>5. Sunveno Classic Diaper Backpack : le seul lavable en machine</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui veulent pouvoir laver leur sac après une fuite de biberon ou une couche qui a débordé.</p>
+<p><strong>Points forts :</strong> c'est le seul sac du top que son fabricant indique lavable en machine. Sunveno annonce 13 poches dont 3 poches biberon isothermes, un tissu Oxford léger et imperméable, des anneaux en D pour l'accrocher à la poussette, et un port USB avec câble pour recharger un téléphone (la batterie externe n'est pas fournie).</p>
+<p><strong>Limites :</strong> aucun matelas à langer n'est mentionné sur la fiche, ni les dimensions, ni le volume, ni le poids. Sunveno vend aussi beaucoup de modèles très proches (matelassé, velours, toile, extensible) : vérifie bien le nom du modèle sur l'annonce avant de commander.</p>
+<p><a href="{AMZ:Sunveno sac à dos à langer}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>6. Béaba Genève : le sac épaule aux 16 poches</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui préfèrent un sac porté à l'épaule, plus élégant qu'un sac à dos, et qui aiment que chaque chose ait sa place.</p>
+<p><strong>Points forts :</strong> Béaba annonce 23 litres et 16 poches, dont une pochette repas isotherme. Il a un tapis à langer matelassé, des attaches poussette universelles, une pochette avant amovible, une pochette à sucette et une attache pour valise à roulettes. La longue bandoulière est amovible. Le matelas passe en machine à 30 °C. Beaucoup de coloris sont proposés.</p>
+<p><strong>Limites :</strong> les dimensions et le poids ne sont pas précisés sur la fiche consultée. Le sac lui-même se nettoie à l'éponge humide. Attention au nom : on le trouve en « Genève » ou « Genève II » selon les annonces, et il existe une version Eco.</p>
+<p><a href="{AMZ:Béaba sac à langer Genève II}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>7. Babymoov Day to Day : le sac en coton</h2>
+<p><strong>Pour qui ?</strong> Pour ceux qui veulent un sac qui ressemble à un vrai sac du quotidien, et qui servira encore quand bébé n'aura plus de couches.</p>
+<p><strong>Points forts :</strong> 23 litres pour 40 x 19,5 x 28 cm, en coton dont du coton recyclé, avec des poignées en simili cuir. Il se porte en bandoulière ou à la main, et Babymoov fournit 6 accessoires : matelas à langer, pochette à sucette, pochette isotherme, attaches poussette, passant valise et sangle bandoulière.</p>
+<p><strong>Limites :</strong> le poids n'est pas précisé, il se lave à la main, et la fiche ne parle pas d'imperméabilité. Une toile de coton supporte moins bien les fuites qu'un polyester enduit. Ne le confonds pas avec le Tote Bag Babymoov, un autre modèle plus grand.</p>
+<p><a href="{AMZ:Babymoov Sac à langer Day to Day}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>8. Done by Deer sac à langer matelassé : le cabas facile à essuyer</h2>
+<p><strong>Pour qui ?</strong> Pour les parents qui préfèrent un sac porté à la main ou en bandoulière, et qui l'accrochent souvent à la poussette.</p>
+<p><strong>Points forts :</strong> 4 poches intérieures, 3 extérieures, une poche intérieure isolée pour une gourde ou un biberon, un matelas à langer pliable. Pour la poussette, il a à la fois des crochets et des sangles extérieures. Le polyester recyclé résiste à l'eau et s'entretient au chiffon humide.</p>
+<p><strong>Limites :</strong> volume et poids non précisés par la marque. Les dimensions de 41 x 21 x 29 cm viennent du titre de l'annonce Amazon. Porté à l'épaule, un sac chargé fatigue plus vite qu'un sac à dos.</p>
+<p><a href="{AMZ:Done by Deer sac à langer matelassé}" rel="sponsored nofollow noopener" target="_blank">Voir sur Amazon</a></p>
+
+<h2>Sac à dos ou sac épaule : lequel choisir ?</h2>
+<p>Le sac à dos gagne presque toujours au quotidien. Le poids est réparti sur les deux épaules, et tu gardes les mains libres pour bébé, la poussette, les courses. C'est aussi le format le plus pratique pour un papa ou un parent qui ne veut pas d'un sac trop « bébé ».</p>
+<p>Le sac épaule ou le cabas a deux vrais avantages : on attrape ce qu'on cherche sans le poser par terre, et il se glisse facilement sur les poignées de la poussette. Il convient bien aux sorties en voiture, où on porte le sac quelques mètres seulement.</p>
+<p>Notre conseil : si tu hésites, prends un sac à dos avec une poignée sur le dessus. Il se porte aussi à la main pour de courts trajets.</p>
+
+<h2>Combien de litres faut-il pour un sac à langer ?</h2>
+<p>Avec un nouveau né, on emporte beaucoup : couches, lingettes, deux tenues de rechange, un lange, parfois des biberons et du lait. Autour de 20 litres, comme l'Oslo, le Genève ou le Day to Day, tu es à l'aise pour la journée. Un modèle de 16 litres comme le Vividal suffit pour des sorties de quelques heures, ou plus tard quand bébé a grandi. Au-delà de 25 litres, le Sancy devient intéressant pour les jumeaux ou les week-ends.</p>
+<p>Une erreur fréquente : choisir le plus grand sac « au cas où ». Un grand sac se remplit toujours, et c'est ton dos qui paie. Mieux vaut trier son contenu tous les deux ou trois mois.</p>
+
+<h2>Les détails qu'on oublie de vérifier</h2>
+<ul>
+<li><strong>L'entretien.</strong> La plupart des sacs du top se nettoient seulement à l'éponge. Si tu veux pouvoir le laver après un accident, le Sunveno est le seul indiqué lavable en machine.</li>
+<li><strong>La poche isotherme.</strong> Utile si tu emportes des biberons de lait maternel ou des petits pots. Absente sur le sac à dos Done by Deer.</li>
+<li><strong>Le matelas à langer.</strong> Fourni avec tous les sacs ici, sauf le Sunveno où il n'est pas mentionné.</li>
+<li><strong>Les attaches poussette.</strong> Un sac lourd accroché aux poignées peut déséquilibrer une poussette légère quand tu sors bébé. Vérifie la notice de ta poussette.</li>
+</ul>
+<p>Tous nos critères sont détaillés dans le guide <a href="{R}comment-choisir-sac-a-langer/">comment choisir un sac à langer</a>. Et pour savoir quoi mettre dedans les premiers jours, notre liste de la <a href="{R}valise-maternite/">valise de maternité</a> donne une bonne base.</p>
+
+<h2>Dans ta liste de naissance</h2>
+<p>Le sac à langer est un cadeau facile à offrir, que les proches aiment choisir. Indique le modèle et le coloris exacts dans ta liste pour éviter de recevoir un sac que tu n'aurais pas choisi. Pour le reste de l'équipement, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist</a>, et lis notre guide de la <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a> si tu veux tout regrouper au même endroit.</p>
+""",
+  faq=[("Faut-il vraiment un sac à langer ?", "Ce n'est pas obligatoire : un sac à dos classique avec une trousse et un matelas à langer de voyage peut suffire. Le sac à langer apporte surtout des poches pensées pour les biberons, un matelas intégré et des attaches poussette."),
+       ("Quelle taille de sac à langer choisir ?", "Autour de 20 litres pour une journée avec un nouveau né. Un modèle de 15 à 16 litres convient aux sorties courtes, un sac de plus de 25 litres aux jumeaux ou aux week-ends."),
+       ("Comment laver un sac à langer ?", "Suis l'étiquette : la plupart se nettoient seulement à l'éponge humide, certains se lavent à la main, et quelques-uns, comme le Sunveno Classic, passent en machine selon leur fabricant. Les matelas à langer se lavent souvent séparément.")],
+  short="Top 8 sacs à langer")
