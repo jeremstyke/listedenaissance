@@ -192,7 +192,7 @@ g("materiel-bebe-chez-les-grands-parents/",
 <h2>Les règles à rappeler en douceur</h2>
 <p>Les recommandations ont changé depuis l'époque où les grands-parents ont eu leurs enfants. Les plus importantes concernent le sommeil : <strong>bébé dort sur le dos</strong>, dans un lit vide, sans oreiller ni couette, dans une gigoteuse. Un petit mot affiché dans la chambre évite les malentendus.</p>
 <h2>Le cadeau idéal pour les grands-parents</h2>
-<p>Beaucoup de grands-parents veulent offrir un « vrai » cadeau. Leur proposer d'équiper leur propre maison (lit parapluie, siège auto) est une excellente idée : utile pour eux, et ça libère ta liste pour d'autres articles.</p>
+<p>Beaucoup de grands-parents veulent offrir un « vrai » cadeau. Leur proposer d'équiper leur propre maison (lit parapluie, siège auto) est une excellente idée : utile pour eux, et ça libère ta liste pour d'autres articles. Pour la chaise haute, notre <a href="{R}meilleure-chaise-haute/">comparatif des chaises hautes évolutives et pliantes</a> aide à trouver un modèle facile à ranger.</p>
 """,
   faq=[
     ("Faut-il un deuxième siège auto pour les grands-parents ?", "Seulement s'ils transportent souvent bébé en voiture. Sinon, une deuxième base Isofix pour la coque peut suffire, ou tu leur prêtes le tien."),

@@ -136,7 +136,7 @@ g("quoi-mettre-dans-une-liste-de-naissance/",
 <li><strong>pour s'habiller</strong> : bodies, pyjamas, gilets, un bonnet et des chaussons, surtout en taille 1 mois.</li>
 </ul>
 <h2>Les articles utiles</h2>
-<p>Babyphone, porte-bébé, base Isofix, chauffe-biberon, tapis d'éveil, transat : tu peux vivre sans, mais ils simplifient vraiment les premiers mois. Ce sont de très bons cadeaux à proposer à la famille.</p>
+<p>Babyphone, porte-bébé, base Isofix, chauffe-biberon, tapis d'éveil, transat : tu peux vivre sans, mais ils simplifient vraiment les premiers mois. Ce sont de très bons cadeaux à proposer à la famille. Pour comparer les modèles, vois notre <a href="{R}meilleur-porte-bebe/">sélection des meilleurs porte-bébés physiologiques</a>.</p>
 <h2>Ce que tu peux éviter</h2>
 <ul>
 <li><strong>trop de vêtements taille naissance</strong> : beaucoup de bébés ne les portent que 2 ou 3 semaines ;</li>
@@ -202,6 +202,7 @@ g("liste-de-naissance-jumeaux/",
 <li><strong>un coussin d'allaitement jumeaux</strong> pour nourrir les deux en même temps ;</li>
 <li><strong>un grand sac à langer</strong>.</li>
 </ul>
+<p>Les jumeaux naissent plus souvent avant terme : notre guide de la <a href="{R}liste-de-naissance-bebe-premature/">liste de naissance pour bébé prématuré</a> t'aide à t'y préparer.</p>
 <p>Pense aux cadeaux de groupe : une poussette double coûte vite plus de 500 €. Notre <a href="{R}checklist/">checklist</a> t'aide à ne rien oublier.</p>
 """,
   short="Jumeaux")
@@ -398,7 +399,7 @@ g("trousseau-de-naissance/",
 <li><strong>lave tout avant la naissance</strong> avec une lessive douce ;</li>
 <li><strong>mets les tailles 3 et 6 mois dans ta liste</strong> : on t'offrira de toute façon beaucoup de petites tailles.</li>
 </ul>
-<p>Le reste du matériel est dans notre <a href="{R}checklist/">checklist</a>.</p>
+<p>Pour adapter ces quantités à ton rythme de lessive et à la saison, utilise notre <a href="{R}calculateur-trousseau-bebe/">calculateur de trousseau bébé</a>. Le reste du matériel est dans notre <a href="{R}checklist/">checklist</a>.</p>
 """,
   short="Trousseau de naissance")
 
