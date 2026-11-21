@@ -109,7 +109,7 @@ g("liste-de-naissance-amazon/",
 <h2>Notre avis</h2>
 <p>Pour la plupart des parents, c'est la liste la plus simple : le catalogue est immense, la livraison rapide, et les proches éloignés participent en deux clics. Ses limites : pas d'articles de petits créateurs, pas de cagnotte libre comme sur certaines listes multi-boutiques, et une réduction qui ne marche que sur les articles éligibles. Beaucoup de parents combinent une liste Amazon pour le matériel et une cagnotte pour le reste.</p>
 <h2>Astuce : mets les gros articles dans ta liste</h2>
-<p>Même si tu comptes acheter la poussette ou le siège auto toi-même, ajoute-les à ta liste. Si personne ne les offre, tu les achètes avec la réduction. Sur un siège auto à 300 €, 15 % font 45 € d'économie.</p>
+<p>Même si tu comptes acheter la poussette ou le siège auto toi-même, ajoute-les à ta liste. Si personne ne les offre, tu les achètes avec la réduction. Sur un siège auto à 300 €, 15 % font 45 € d'économie. Pour choisir le modèle à ajouter, regarde notre <a href="{R}meilleure-poussette/">top des poussettes bébé</a>.</p>
 """,
   faq=[
     ("La liste de naissance Amazon est-elle gratuite ?", "Oui. La création et le partage sont gratuits, et l'abonnement Prime n'est pas obligatoire pour créer la liste."),
@@ -124,19 +124,19 @@ g("quoi-mettre-dans-une-liste-de-naissance/",
   "Quoi mettre dans une liste de naissance ?",
   "Les indispensables, les articles utiles et ceux dont tu peux te passer : la liste de naissance complète, triée par pièce, avec des conseils de parents.",
   """
-<p>Une bonne liste de naissance contient <strong>40 à 60 articles</strong>, avec des prix variés pour que chacun puisse participer : des bodies à 15 € jusqu'à la poussette pour un cadeau de groupe. Voici l'essentiel, trié par usage.</p>
+<p>Une bonne liste de naissance contient <strong>40 à 60 articles</strong>, avec des prix variés pour que chacun puisse participer : des bodies à 15 € jusqu'à la poussette pour un cadeau de groupe. Ce chiffre varie selon le nombre de proches : on détaille le calcul dans <a href="{R}liste-de-naissance-combien-d-articles/">combien d'articles mettre dans une liste de naissance</a>. Voici l'essentiel, trié par usage.</p>
 {CTA}
 <h2>Les vrais indispensables</h2>
 <p>Ce sont les articles dont tu as besoin dès le retour de la maternité :</p>
 <ul>
-<li><strong>pour dormir</strong> : un lit ou un berceau, un matelas ferme, deux alèses, trois draps housses, deux gigoteuses ;</li>
-<li><strong>pour sortir</strong> : un siège auto i-Size (obligatoire en voiture), une poussette, un sac à langer ;</li>
+<li><strong>pour dormir</strong> : un lit ou un berceau, un matelas ferme, deux alèses, trois draps housses, deux gigoteuses (pour le lit et le matelas, vois <a href="{R}comment-choisir-lit-bebe/">comment choisir un lit bébé</a> et <a href="{R}comment-choisir-matelas-bebe/">comment choisir un matelas bébé</a>) ;</li>
+<li><strong>pour sortir</strong> : un siège auto i-Size (obligatoire en voiture), une poussette, un sac à langer (nos sélections : <a href="{R}meilleur-siege-auto-bebe/">sièges auto bébé</a> et <a href="{R}meilleur-sac-a-langer/">sacs à langer</a>) ;</li>
 <li><strong>pour la toilette</strong> : une baignoire, un thermomètre de bain, un matelas à langer, deux capes de bain, un thermomètre médical et un mouche-bébé ;</li>
 <li><strong>pour manger</strong> : quelques biberons et un goupillon, même si tu allaites ;</li>
 <li><strong>pour s'habiller</strong> : bodies, pyjamas, gilets, un bonnet et des chaussons, surtout en taille 1 mois.</li>
 </ul>
 <h2>Les articles utiles</h2>
-<p>Babyphone, porte-bébé, base Isofix, chauffe-biberon, tapis d'éveil, transat : tu peux vivre sans, mais ils simplifient vraiment les premiers mois. Ce sont de très bons cadeaux à proposer à la famille. Pour comparer les modèles, vois notre <a href="{R}meilleur-porte-bebe/">sélection des meilleurs porte-bébés physiologiques</a>.</p>
+<p>Babyphone, porte-bébé, base Isofix, chauffe-biberon, tapis d'éveil, transat : tu peux vivre sans, mais ils simplifient vraiment les premiers mois. Ce sont de très bons cadeaux à proposer à la famille. Pour comparer les modèles, vois notre <a href="{R}meilleur-porte-bebe/">sélection des meilleurs porte-bébés physiologiques</a>, ainsi que nos tops <a href="{R}meilleur-babyphone/">babyphones</a> et <a href="{R}meilleur-transat-bebe/">transats</a>.</p>
 <h2>Ce que tu peux éviter</h2>
 <ul>
 <li><strong>trop de vêtements taille naissance</strong> : beaucoup de bébés ne les portent que 2 ou 3 semaines ;</li>
@@ -163,7 +163,7 @@ g("liste-de-naissance-petit-budget/",
 <h2>Ce qui doit être neuf</h2>
 <ul>
 <li><strong>le siège auto</strong> : un siège d'occasion a pu subir un choc invisible ;</li>
-<li><strong>le matelas</strong> : pour l'hygiène et la fermeté ;</li>
+<li><strong>le matelas</strong> : pour l'hygiène et la fermeté (voir notre <a href="{R}meilleur-matelas-bebe/">sélection de matelas bébé</a>) ;</li>
 <li><strong>les tétines et biberons</strong>.</li>
 </ul>
 <h2>Ce qui se trouve facilement d'occasion</h2>
@@ -171,7 +171,7 @@ g("liste-de-naissance-petit-budget/",
 <h2>Les 5 astuces qui font vraiment économiser</h2>
 <ol>
 <li><strong>Utilise la réduction de ta liste</strong> sur les articles restants : jusqu'à 15 % sur Amazon (voir <a href="{R}liste-de-naissance-amazon/">notre guide</a>).</li>
-<li><strong>Choisis du matériel évolutif</strong> : un lit 60x120 plutôt qu'un berceau, une chaise haute évolutive.</li>
+<li><strong>Choisis du matériel évolutif</strong> : un lit 60x120 plutôt qu'un berceau, une chaise haute évolutive (voir <a href="{R}meilleur-lit-bebe/">notre top des lits bébé</a>).</li>
 <li><strong>Remplace la table à langer</strong> par un matelas posé sur une commode.</li>
 <li><strong>Loue le tire-lait</strong> en pharmacie : il est souvent remboursé sur prescription.</li>
 <li><strong>Propose des cadeaux de groupe</strong> pour les gros articles : poussette, siège auto.</li>
@@ -258,7 +258,7 @@ g("quand-faire-sa-liste-de-naissance/",
   "Quand faire sa liste de naissance ?",
   "À quel mois de grossesse créer et partager sa liste de naissance, et pourquoi il vaut mieux ne pas attendre le dernier moment pour profiter de la réduction.",
   """
-<p>Le bon moment, c'est <strong>vers le 5e ou 6e mois de grossesse</strong>. Tu connais souvent le sexe du bébé, tu as encore de l'énergie, et tes proches ont le temps d'acheter avant la naissance.</p>
+<p>Le bon moment, c'est <strong>vers le 5e ou 6e mois de grossesse</strong>. Tu connais souvent le sexe du bébé, tu as encore de l'énergie, et tes proches ont le temps d'acheter avant la naissance. C'est aussi souvent là que le prénom se discute : si c'est un garçon, voici des <a href="{R}idees-prenom-garcon/">idées de prénoms de garçon</a>.</p>
 {CTA}
 <h2>Le calendrier idéal</h2>
 <ul>
@@ -348,7 +348,7 @@ g("idees-cadeau-de-naissance/",
 <li>un transat.</li>
 </ul>
 <h2>Cadeau de groupe</h2>
-<p>Entre collègues ou en famille : la poussette, le siège auto et sa base, la chaise haute évolutive. Ce sont les plus gros postes de dépense pour les parents.</p>
+<p>Entre collègues ou en famille : la poussette, le siège auto et sa base, la chaise haute évolutive. Ce sont les plus gros postes de dépense pour les parents. Pour la chaise haute, nos conseils pour <a href="{R}comment-choisir-chaise-haute/">choisir une chaise haute</a> t'évitent les modèles encombrants.</p>
 <h2>Le cadeau qu'on oublie</h2>
 <p>Un repas livré, une séance de ménage, ou garder l'aîné une après-midi. Les jeunes parents adorent.</p>
 <p>Tu veux voir tout le matériel utile ? Regarde notre <a href="{R}checklist/">checklist complète</a>.</p>
@@ -408,7 +408,7 @@ g("liste-de-naissance-bebe-ne-en-hiver/",
   "Bébé né en hiver : la liste de naissance adaptée",
   "Bébé arrive entre novembre et mars ? Les articles à ajouter à ta liste de naissance pour l'hiver : combinaison, chancelière, gigoteuse chaude, humidificateur.",
   """
-<p>Un bébé d'hiver a besoin de la même base que les autres, avec quelques <strong>articles en plus pour le froid</strong>.</p>
+<p>Un bébé d'hiver a besoin de la même base que les autres, avec quelques <strong>articles en plus pour le froid</strong>. Et s'il fête Noël dans ses premiers mois, voici <a href="{R}premier-noel-de-bebe/">quel cadeau offrir pour le premier Noël de bébé</a>.</p>
 {CTA}
 <h2>À ajouter pour l'hiver</h2>
 <ul>
@@ -471,6 +471,7 @@ g("comment-choisir-sa-poussette/",
 <p>La nacelle permet à un nouveau-né d'être allongé à plat pour les longues balades. Certains hamacs s'inclinent complètement dès la naissance et peuvent la remplacer.</p>
 <h2>6. Trio, duo ou seule ?</h2>
 <p>Un trio comprend la poussette, une nacelle et un siège auto. C'est pratique, mais vérifie que le siège auto est bien homologué i-Size et qu'il rentre dans ta voiture.</p>
+<p>Pour passer à des modèles précis, notre <a href="{R}meilleure-poussette/">top 10 des poussettes bébé</a> les classe selon ces critères.</p>
 <h2>Nos raccourcis par profil</h2>
 <ul>
 <li><strong>ville et petit logement</strong> : poussette compacte ultra-pliable (voir <a href="{R}liste-de-naissance-petit-appartement/">petit appartement</a>) ;</li>
@@ -500,7 +501,7 @@ g("comment-choisir-son-siege-auto-bebe/",
 <h2>Neuf ou d'occasion ?</h2>
 <p>Neuf de préférence : un siège qui a subi un accident peut être abîmé sans que ça se voie. Si on te le prête, demande son histoire et vérifie la date de fabrication.</p>
 <h2>Pour aller plus loin</h2>
-<p>Les tests indépendants de sièges auto (crash-tests de l'ADAC, repris par les associations de consommateurs) sont une bonne référence pour comparer les modèles.</p>
+<p>Les tests indépendants de sièges auto (crash-tests de l'ADAC, repris par les associations de consommateurs) sont une bonne référence pour comparer les modèles. Tu trouveras aussi dix modèles détaillés dans notre <a href="{R}meilleur-siege-auto-bebe/">sélection de sièges auto bébé</a>.</p>
 <p><a class="btn" href="{AMZ:siege auto i-size naissance}" rel="sponsored nofollow noopener" target="_blank">Voir les sièges auto i-Size sur Amazon</a></p>
 """,
   short="Choisir son siège auto")
@@ -521,7 +522,7 @@ g("liste-de-naissance-allaitement/",
 <li><strong>une gourde</strong> : l'allaitement donne très soif.</li>
 </ul>
 <h2>Le tire-lait</h2>
-<p>Avant de l'acheter, sache qu'un tire-lait peut être <strong>loué en pharmacie sur prescription</strong>, avec une prise en charge. Achète-le seulement si tu en auras besoin longtemps, par exemple pour la reprise du travail.</p>
+<p>Avant de l'acheter, sache qu'un tire-lait peut être <strong>loué en pharmacie sur prescription</strong>, avec une prise en charge. Achète-le seulement si tu en auras besoin longtemps, par exemple pour la reprise du travail. On compare location et achat dans <a href="{R}comment-choisir-tire-lait/">comment choisir un tire-lait</a>, et les modèles dans notre <a href="{R}meilleur-tire-lait/">top des tire-laits</a>.</p>
 <h2>Pas indispensable</h2>
 <p>Le stérilisateur électrique (une casserole d'eau bouillante suffit pour quelques biberons), le chauffe-biberon et le cache-allaitement.</p>
 <p>Pour toute question sur l'allaitement, une sage-femme ou une consultante en lactation peut t'aider. Le reste du matériel est dans notre <a href="{R}checklist/">checklist</a>.</p>
@@ -541,7 +542,7 @@ g("liste-de-naissance-originale/",
 <li>une boîte à souvenirs pour le bracelet de maternité et les premières chaussures ;</li>
 <li>un kit d'empreintes en argile ;</li>
 <li>une veilleuse projecteur d'étoiles ;</li>
-<li>une bibliothèque de livres pour bébé, à compléter au fil des années.</li>
+<li>une bibliothèque de livres pour bébé, à compléter au fil des années (des idées dans notre <a href="{R}meilleurs-livres-bebe/">top des livres pour bébé</a>).</li>
 </ul>
 <h2>Des cadeaux pour les parents</h2>
 <ul>

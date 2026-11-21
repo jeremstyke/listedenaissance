@@ -116,8 +116,8 @@ g("liste-de-naissance-minimaliste/",
 <h2>Ce qu'on peut attendre de voir</h2>
 <ul>
 <li><strong>la poussette</strong> : si tu portes beaucoup ton bébé, tu peux la choisir après quelques semaines ;</li>
-<li><strong>le babyphone</strong> : inutile dans un petit logement où bébé dort près de toi ;</li>
-<li><strong>le transat, le tapis d'éveil</strong> : utiles, mais un plaid au sol fonctionne aussi au début ;</li>
+<li><strong>le babyphone</strong> : inutile dans un petit logement où bébé dort près de toi (voir <a href="{R}comment-choisir-son-babyphone/">comment choisir son babyphone</a>) ;</li>
+<li><strong>le transat, le tapis d'éveil</strong> : utiles, mais un plaid au sol fonctionne aussi au début (voir <a href="{R}comment-choisir-transat-bebe/">comment choisir un transat bébé</a>) ;</li>
 <li><strong>le stérilisateur, le chauffe-biberon</strong> : à voir selon ton mode d'alimentation ;</li>
 <li><strong>la chaise haute, le parc</strong> : pas avant 6 mois.</li>
 </ul>
@@ -323,14 +323,14 @@ g("cadeau-futur-papa/",
 <h2>Pour s'occuper de bébé</h2>
 <ul>
 <li>un <strong>porte-bébé</strong> réglable, adapté à sa morphologie ;</li>
-<li>un <strong>sac à langer</strong> sobre, type sac à dos ;</li>
+<li>un <strong>sac à langer</strong> sobre, type sac à dos (voir <a href="{R}comment-choisir-sac-a-langer/">comment choisir un sac à langer</a>) ;</li>
 <li>un <strong>matelas à langer nomade</strong> pour les sorties ;</li>
 <li>une <strong>lampe frontale ou veilleuse</strong> pour les biberons de nuit ;</li>
 <li>un <strong>thermos</strong> pour garder le café chaud malgré les interruptions.</li>
 </ul>
 <h2>Pour se préparer</h2>
 <ul>
-<li>un <strong>livre pour futurs pères</strong>, avec humour et conseils concrets ;</li>
+<li>un <strong>livre pour futurs pères</strong>, avec humour et conseils concrets (voir notre <a href="{R}meilleurs-livres-grossesse/">sélection de livres sur la grossesse</a>) ;</li>
 <li>une <strong>séance de préparation à la naissance</strong> à faire en couple ;</li>
 <li>un <strong>atelier de portage</strong> ou de massage bébé.</li>
 </ul>
