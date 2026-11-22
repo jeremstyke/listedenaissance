@@ -2,6 +2,7 @@
 # Format : - [ ] slug/ | requête visée | angle
 # Cocher [x] une fois publié. Prendre toujours le premier sujet non coché.
 
+- [ ] cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
 - [x] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
 - [x] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
 - [x] comment-choisir-matelas-bebe/ | comment choisir un matelas bébé | fermeté, taille exacte, déhoussable, sécurité du sommeil
@@ -70,4 +71,3 @@
 - [x] meilleur-siege-auto-bebe/ | top 10 produits 2026 | publié le 15 nov 2026 (modèles vérifiés)
 - [x] meilleur-babyphone/ | top 10 produits 2026 | publié le 15 nov 2026 (modèles vérifiés)
 - [x] meilleur-lit-bebe/ | top 10 produits 2026 | publié le 15 nov 2026 (modèles vérifiés)
-- [x] (réservé : publication prévue le 25 nov, demande de Jeremy) cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
