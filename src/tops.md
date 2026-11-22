@@ -34,5 +34,5 @@
 - [ ] meilleur-preparateur-biberon/ | meilleur préparateur de biberon | automatique ; suivre les recommandations de préparation
 - [ ] meilleure-barriere-securite/ | meilleure barrière de sécurité bébé | escalier, porte, fixation
 - [ ] meilleur-lit-cododo/ | meilleur lit cododo | côte à côte, sécurité du sommeil
-- [ ] meilleurs-cadeaux-premier-noel-bebe/ | cadeaux premier Noël bébé | jouets et cadeaux réellement vendus, adaptés à l'âge, normes de sécurité
+- [x] (réservé : publication prévue le 24 nov, demande de Jeremy) meilleurs-cadeaux-premier-noel-bebe/ | cadeaux premier Noël bébé | jouets et cadeaux réellement vendus, adaptés à l'âge, normes de sécurité
 - [ ] meilleurs-jouets-1-an/ | meilleurs jouets 1 an | jouets d'éveil réellement vendus pour 12 mois, normes CE
