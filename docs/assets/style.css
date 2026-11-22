@@ -361,6 +361,7 @@ h3{font-size:19px;font-weight:600}
 .note{background:#F3F7F6;border-left:4px solid var(--miel,#E8B04B);border-radius:12px;padding:12px 16px;margin:18px 0;font-size:.95em}
 
 .amz-p{margin:18px 0 30px}
+.amz-p.amz-top{margin:6px 0 20px}
 .prose a.btn-amz,a.btn-amz{display:inline-flex;align-items:center;gap:10px;background:var(--framboise);color:#fff;text-decoration:none;font:700 16px var(--texte);padding:13px 24px;border-radius:999px;border:2px solid var(--framboise);box-shadow:0 3px 0 var(--framboise-f);transition:transform .15s,box-shadow .15s,background .15s}
 .prose a.btn-amz::before,a.btn-amz::before{content:'\1F6D2';font-size:18px}
 .prose a.btn-amz::after,a.btn-amz::after{content:'\2192';font-size:18px}

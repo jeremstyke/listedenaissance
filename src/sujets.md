@@ -10,6 +10,7 @@
 - [x] comment-choisir-transat-bebe/ | comment choisir un transat bébé | manuel ou électrique, inclinaison, durée d'usage
 - [x] comment-choisir-sac-a-langer/ | comment choisir un sac à langer | sac à dos ou cabas, matelas, poches isothermes
 - [x] idees-prenom-garcon/ | prénom garçon | idées de prénoms de garçon classés par style (classiques, courts, rares, tendance, internationaux), conseils pour choisir à deux (sonorité avec le nom, initiales, surnoms), puis idées de cadeaux personnalisés au prénom et lien vers la liste de naissance ; pas de classement officiel inventé, chiffres INSEE seulement si vérifiés
+- [x] cadeau-naissance-utile-noel/ | cadeau de naissance utile Noël | idées par budget pour un bébé né à l'automne, tableau en haut, éviter les doublons avec une liste (publié le 22 nov à la demande de Jeremy)
 - [x] premier-noel-de-bebe/ | premier Noël de bébé cadeau | idées de cadeaux utiles et sûrs selon l'âge, ce qui est inutile, tradition et souvenirs ; liens Amazon ; à publier avant mi-décembre
 - [x] liste-de-naissance-combien-d-articles/ | combien d'articles dans une liste de naissance | nombre idéal, essentiels vs bonus, budget des invités
 - [ ] cadeau-1-an-bebe/ | cadeau 1 an bébé | idées par budget, jouets d'éveil adaptés à 12 mois, normes de sécurité, cadeaux souvenirs

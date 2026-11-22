@@ -120,7 +120,7 @@ def page(path, title, desc, body, schema=None, crumbs=None, extra_head='', cls='
 <meta name="google-site-verification" content="vZRYCBHYca7nlt0R-OhpmTUbDuUdi15H0e80qVRcmIw" />
 <link rel="icon" href="{R}assets/favicon.ico" sizes="32x32"><link rel="icon" href="{R}assets/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{R}assets/apple-touch-icon.png">
 {FONTS.replace('@R@', R)}
-<link rel="stylesheet" href="{R}assets/style.css?v=27">
+<link rel="stylesheet" href="{R}assets/style.css?v=28">
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
 {extra_head}</head>
 <body class="{cls}">
@@ -184,6 +184,22 @@ def slugify(t):
     import unicodedata
     t = unicodedata.normalize('NFD', t).encode('ascii', 'ignore').decode()
     return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:50]
+
+def top_price_buttons(body):
+    # Tops : le bouton Amazon de chaque fiche produit (h2 « 1. Modèle ») passe juste sous le nom du produit,
+    # avec le texte « Voir le prix sur Amazon ». Un seul lien Amazon par fiche.
+    parts = re.split(r'(?=<h2>)', body)
+    for i, p in enumerate(parts):
+        if not re.match(r'<h2>\d+\.\s', p):
+            continue
+        m = re.search(r'\s*<p class="amz-p"><a class="btn-amz" ([^>]*)>[^<]*</a></p>', p)
+        if not m:
+            continue
+        p = p[:m.start()] + p[m.end():]
+        btn = '\n<p class="amz-p amz-top"><a class="btn-amz" %s>Voir le prix sur Amazon</a></p>' % m.group(1)
+        parts[i] = re.sub(r'(<h2>[^<]*(?:<[^/][^>]*>[^<]*</[^>]+>[^<]*)*</h2>)', lambda h: h.group(1) + btn, p, count=1)
+    return ''.join(parts)
+
 
 def add_toc(body):
     heads = []
@@ -370,6 +386,8 @@ def build():
         body = pick_box_guide(pick_box(x['body'] + ex_html), x['slug']).replace('{CTA}', CTA).replace('{PRINTLIST}', PRINTLIST).replace('{MSGS}', messages_html())
         body = re.sub(r'\{AMZ:([^}]+)\}', lambda m: amz(m.group(1)), body)
         body = re.sub(r'<p>\s*<a (href="https://www\.amazon\.fr[^"]*"[^>]*)>([^<]+)</a>\s*</p>', r'<p class="amz-p"><a class="btn-amz" \1>\2</a></p>', body)
+        if x['slug'].startswith('meilleur'):
+            body = top_price_buttons(body)
         body, toc = add_toc(body)
         words = len(re.sub('<[^>]+>', ' ', body).split())
         mins = max(2, round(words / 200))

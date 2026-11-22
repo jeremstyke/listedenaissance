@@ -326,7 +326,7 @@ g("idees-cadeau-de-naissance/",
   "Idées cadeau de naissance",
   "Tu cherches un cadeau de naissance ? Des idées utiles par budget (moins de 20 €, 50 €, 100 €, cadeau de groupe) qui feront vraiment plaisir aux jeunes parents.",
   """
-<p>Le meilleur cadeau de naissance, c'est <strong>celui qui est sur la liste</strong>. Demande-la aux parents ! Si tu ne l'as pas, voici des idées qui servent vraiment.</p>
+<p>Le meilleur cadeau de naissance, c'est <strong>celui qui est sur la liste</strong>. Demande-la aux parents ! Si tu ne l'as pas, voici des idées qui servent vraiment. Tu offres pendant les fêtes ? Vois aussi notre <a href="{R}cadeau-naissance-utile-noel/">cadeau de naissance utile pour Noël</a>.</p>
 <h2>Moins de 20 €</h2>
 <ul>
 <li>des bodies en taille 3 ou 6 mois (on en reçoit trop en taille naissance) ;</li>

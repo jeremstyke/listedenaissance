@@ -1547,7 +1547,7 @@ g("premier-noel-de-bebe/",
 <p>La bonne nouvelle, c'est que tu peux guider la famille. Une petite liste partagée début décembre évite les trois hochets identiques et le jouet bruyant qui finit au placard.</p>
 {CTA}
 <h2>Quel cadeau pour un bébé de quelques mois ?</h2>
-<p>Un nouveau né de novembre ou décembre dort beaucoup, regarde les contrastes et attrape à peine. Ce qui l'intéresse vraiment : ton visage, ta voix, et quelques objets simples à regarder ou à serrer. Inutile de dépenser beaucoup.</p>
+<p>Un nouveau né de novembre ou décembre dort beaucoup, regarde les contrastes et attrape à peine. Ce qui l'intéresse vraiment : ton visage, ta voix, et quelques objets simples à regarder ou à serrer. Inutile de dépenser beaucoup : pour un tout-petit, les cadeaux utiles aux parents passent avant les jouets (voir nos idées de <a href="{R}cadeau-naissance-utile-noel/">cadeau de naissance utile pour Noël</a>).</p>
 <p>Par exemple, si bébé est né en octobre, un <a href="{AMZ:tapis d'eveil bebe arche}" rel="sponsored nofollow noopener" target="_blank">tapis d'éveil avec arche</a> lui servira tous les jours pendant des mois. Un <a href="{AMZ:livre bebe noir et blanc contraste}" rel="sponsored nofollow noopener" target="_blank">livre en noir et blanc à fort contraste</a> ou un <a href="{AMZ:hochet bebe naissance}" rel="sponsored nofollow noopener" target="_blank">hochet léger</a> font aussi plaisir sans encombrer.</p>
 <p>Pour les parents, ce sont souvent les cadeaux pratiques qui comptent le plus à cette période : une gigoteuse chaude pour l'hiver, une écharpe de portage, un lot de bodies en taille 3 ou 6 mois. On en parle en détail dans notre guide de la <a href="{R}liste-de-naissance-bebe-ne-en-hiver/">liste de naissance pour un bébé né en hiver</a>.</p>
 <h2>Les idées de cadeaux selon l'âge</h2>
@@ -1866,3 +1866,50 @@ g("meilleur-porte-bebe/",
        ("Porte-bébé ou écharpe de portage, que choisir ?", "L'écharpe s'adapte très bien au nouveau-né mais demande d'apprendre les nouages. Le préformé à boucles s'installe plus vite et convient mieux quand bébé grandit. Beaucoup de parents commencent en écharpe puis passent au préformé."),
        ("Jusqu'à quel âge utiliser un porte-bébé ?", "Cela dépend du modèle : environ 11 kg ou 1 an pour les porte-bébés nouveau-né comme le BabyBjörn Mini, jusqu'à 20 kg et 3 ou 4 ans pour les préformés évolutifs comme l'Ergobaby Omni Breeze, le Manduca XT ou le Boba X.")],
   short="Top 10 porte-bébés")
+
+AUTO_META['cadeau-naissance-utile-noel/'] = ('🎄', 'peche')
+g("cadeau-naissance-utile-noel/",
+  "Cadeau de naissance utile pour Noël : idées par budget",
+  "Cadeau de naissance utile à offrir pour Noël : idées par budget",
+  "Un bébé né cet automne et Noël qui arrive ? Idées de cadeaux de naissance utiles par budget, tableau comparatif et astuce pour éviter les doublons à Noël.",
+  """
+<p>Un bébé est né cet automne, ou il arrive juste avant les fêtes, et tu cherches un <strong>cadeau de naissance utile à offrir pour Noël</strong>. Bonne piste : à cet âge, bébé ne profite pas encore des jouets, alors que ses parents ont besoin de choses concrètes pour l'hiver. Le tableau ci-dessous classe les idées par budget, puis on détaille chaque tranche.</p>
+<h2>Quel cadeau de naissance offrir à Noël selon ton budget ?</h2>
+<table><thead><tr><th>Budget</th><th>Idées utiles</th><th>Pourquoi ça sert</th><th>À vérifier avant</th></tr></thead><tbody>
+<tr><td>Moins de 30 €</td><td>Lot de bodies manches longues, bonnet et chaussons, livre cartonné, cape de bain</td><td>Usage tous les jours, on n'en a jamais trop</td><td>La taille : vise 3 ou 6 mois</td></tr>
+<tr><td>30 à 80 €</td><td>Gigoteuse d'hiver, chancelière de poussette, tapis d'éveil, babyphone audio</td><td>L'équipement de l'hiver, rarement acheté en avance</td><td>Ce que les parents ont déjà</td></tr>
+<tr><td>80 à 150 €</td><td>Porte-bébé physiologique, transat, babyphone vidéo</td><td>Libère les mains des parents dès les premières semaines</td><td>Le modèle choisi par les parents</td></tr>
+<tr><td>Plus de 150 €, à plusieurs</td><td>Poussette, siège auto, lit</td><td>Les plus grosses dépenses du premier hiver</td><td>La référence exacte, à fixer avec eux</td></tr>
+</tbody></table>
+<p>Ces fourchettes sont des repères : les prix varient selon les marques et les promotions de fin d'année.</p>
+{CTA}
+<h2>Moins de 30 € : les petits cadeaux qui servent tous les jours</h2>
+<p>En hiver, un nouveau-né use vite ses <a href="{AMZ:body bebe manches longues coton lot}" rel="sponsored nofollow noopener" target="_blank">bodies à manches longues</a>. Prends la taille 3 ou 6 mois plutôt que naissance : bébé grandit vite, et les parents ont souvent déjà reçu beaucoup de petites tailles. Un bonnet en coton et des chaussons chauds complètent bien.</p>
+<p>Autre idée qui dure : un <a href="{AMZ:livre bebe noir et blanc contraste}" rel="sponsored nofollow noopener" target="_blank">livre en noir et blanc</a>. Les tout-petits regardent les forts contrastes bien avant de s'intéresser aux couleurs, et le livre sert encore des mois plus tard. Pour d'autres titres, vois notre <a href="{R}meilleurs-livres-bebe/">sélection de livres pour bébé</a>.</p>
+<h2>De 30 à 80 € : l'équipement d'hiver</h2>
+<p>C'est la tranche la plus utile pour un bébé né en automne. La <a href="{AMZ:gigoteuse hiver bebe}" rel="sponsored nofollow noopener" target="_blank">gigoteuse d'hiver</a> remplace la couette et la couverture, qui n'ont pas leur place dans le lit d'un bébé. Choisis la taille selon la longueur de bébé et l'indice de chaleur selon la température de la chambre, indiquée sur l'étiquette.</p>
+<p>Pour les sorties, une <a href="{AMZ:chanceliere poussette hiver}" rel="sponsored nofollow noopener" target="_blank">chancelière de poussette</a> garde bébé au chaud sans manteau épais. Un <a href="{AMZ:tapis d'eveil bebe arche}" rel="sponsored nofollow noopener" target="_blank">tapis d'éveil avec arche</a> sert aussi tout l'hiver, à la maison. Plus d'idées pour la saison dans notre guide <a href="{R}liste-de-naissance-bebe-ne-en-hiver/">liste de naissance pour un bébé né en hiver</a>.</p>
+<h2>De 80 à 150 € : un cadeau qui soulage les parents</h2>
+<p>Le <a href="{AMZ:porte bebe physiologique naissance}" rel="sponsored nofollow noopener" target="_blank">porte-bébé physiologique</a> est souvent le cadeau dont les parents parlent encore des mois après : bébé reste au chaud contre eux, et ils gardent les mains libres. Comme c'est un objet personnel, demande-leur le modèle, ou aide-toi de notre <a href="{R}meilleur-porte-bebe/">comparatif des porte-bébés</a>.</p>
+<p>Si bébé dort dans une autre pièce, un <a href="{AMZ:babyphone video}" rel="sponsored nofollow noopener" target="_blank">babyphone vidéo</a> est aussi apprécié. Les premiers mois, bébé dort en général dans la chambre de ses parents : le babyphone sert surtout ensuite, ce qui n'enlève rien à l'intérêt du cadeau.</p>
+<h2>Plus de 150 € : se mettre à plusieurs</h2>
+<p>Pour la poussette, le siège auto ou le lit, le plus simple est de se regrouper : famille, amis ou collègues. Ces articles sont très personnels, alors ne choisis pas à la place des parents. Propose-leur de les ajouter à leur liste, puis organisez-vous pour financer ensemble la référence exacte.</p>
+<h2>Comment éviter les cadeaux en double à Noël ?</h2>
+<p>À Noël, tout le monde offre en même temps : c'est la meilleure recette pour recevoir trois tapis d'éveil. La solution, c'est une liste partagée. Sur une <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a>, un article acheté par un proche est indiqué comme acheté, ce qui évite les doublons. Les parents peuvent la créer même après la naissance, et la remise de fin de liste s'applique jusqu'à 90 jours après la date d'arrivée prévue, selon les conditions affichées par Amazon.</p>
+<p>Si les parents préfèrent un autre site ou une cagnotte, c'est très bien aussi : on compare les options dans <a href="{R}ou-faire-sa-liste-de-naissance/">où faire sa liste de naissance</a>. L'essentiel, c'est qu'une seule liste circule dans la famille. Les parents peuvent la remplir avec notre <a href="{R}checklist/">checklist</a>.</p>
+<h2>Quels cadeaux éviter pour un nouveau-né à Noël ?</h2>
+<ul>
+<li><strong>Les grosses peluches et les couvertures pour le lit</strong> : pendant le sommeil, le lit de bébé doit rester vide. Une peluche peut décorer la chambre, pas le lit.</li>
+<li><strong>Les jouets prévus pour plus tard</strong> : respecte l'âge indiqué sur l'emballage. Un jouet marqué « ne convient pas aux enfants de moins de 36 mois » peut contenir de petites pièces.</li>
+<li><strong>Les vêtements en taille naissance</strong> : ils deviennent trop petits en quelques semaines.</li>
+<li><strong>La combinaison épaisse pour la voiture</strong> : sous le harnais du siège auto, un vêtement épais empêche de bien serrer les sangles. Mieux vaut une couverture posée par-dessus une fois bébé attaché.</li>
+</ul>
+<p>Si bébé a déjà quelques mois à Noël, nos idées de cadeaux selon l'âge sont dans <a href="{R}premier-noel-de-bebe/">premier Noël de bébé</a>. Et pour un cadeau de naissance hors fêtes, vois nos <a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a>.</p>
+<h2>Et les cadeaux qui ne s'achètent pas ?</h2>
+<p>Un plat fait maison à congeler, une heure de garde pour que les parents dorment, un coup de main pour les courses : en plein hiver, avec un nouveau-né, ces cadeaux comptent autant qu'un objet. Tu peux les glisser dans une jolie carte avec ton cadeau.</p>
+""",
+  faq=[("Quel cadeau de naissance utile offrir à Noël ?", "Pour un bébé de quelques semaines, les cadeaux les plus utiles sont l'équipement d'hiver : gigoteuse chaude, chancelière de poussette, bodies à manches longues en taille 3 ou 6 mois. Avec un budget plus large, un porte-bébé ou un babyphone."),
+       ("Combien dépenser pour un cadeau de naissance à Noël ?", "Il n'y a pas de règle. Un petit cadeau utile à moins de 30 € fait plaisir, et pour un gros article comme une poussette, le mieux est de participer à plusieurs."),
+       ("Comment éviter que bébé reçoive deux fois le même cadeau à Noël ?", "Demande aux parents s'ils ont une liste de naissance et offre un article de cette liste. Sur une liste Amazon, un article acheté est indiqué comme acheté pour les autres proches."),
+       ("Peut-on créer une liste de naissance après la naissance ?", "Oui. Rien n'empêche de créer une liste quand bébé est déjà né. Sur Amazon, la remise de fin de liste reste utilisable jusqu'à 90 jours après la date d'arrivée prévue, selon les conditions affichées.")],
+  short="Cadeau de naissance pour Noël")
