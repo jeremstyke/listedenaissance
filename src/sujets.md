@@ -3,6 +3,7 @@
 # Cocher [x] une fois publié. Prendre toujours le premier sujet non coché.
 
 - [ ] cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
+- [ ] livre-audio-grossesse/ | livre audio grossesse | écouter des livres pendant la grossesse, le repos et les tétées de nuit (mains libres, yeux fermés), idées de genres, matériel simple (casque, enceinte) avec {AMZ}, lien {AUDIBLE} vers l'essai gratuit en bonne place ; idée cadeau pour future maman (relie cadeau-future-maman/)
 - [x] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
 - [x] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
 - [x] comment-choisir-matelas-bebe/ | comment choisir un matelas bébé | fermeté, taille exacte, déhoussable, sécurité du sommeil
