@@ -1913,3 +1913,39 @@ g("cadeau-naissance-utile-noel/",
        ("Comment éviter que bébé reçoive deux fois le même cadeau à Noël ?", "Demande aux parents s'ils ont une liste de naissance et offre un article de cette liste. Sur une liste Amazon, un article acheté est indiqué comme acheté pour les autres proches."),
        ("Peut-on créer une liste de naissance après la naissance ?", "Oui. Rien n'empêche de créer une liste quand bébé est déjà né. Sur Amazon, la remise de fin de liste reste utilisable jusqu'à 90 jours après la date d'arrivée prévue, selon les conditions affichées.")],
   short="Cadeau de naissance pour Noël")
+
+
+AUTO_META['valise-maternite-liste-a-imprimer/'] = ('🧳', 'peche')
+g("valise-maternite-liste-a-imprimer/",
+  "Valise de maternité : la liste à imprimer (PDF gratuit)",
+  "Valise de maternité : la liste à imprimer",
+  "La liste de la valise de maternité à imprimer et à cocher : papiers, salle de naissance, séjour, bébé et retour. PDF gratuit sur une page, sans inscription.",
+  """
+<p>Voici la liste de la valise de maternité à imprimer et à cocher, sur une seule page : les papiers, ce qu'il te faut en salle de naissance, pendant le séjour, pour bébé et pour le retour. Prépare-la vers le 7e mois de grossesse, pour être prête si bébé arrive en avance.</p>
+<p><a class="btn" href="{R}assets/valise-maternite-liste.pdf" download>Télécharger la liste (PDF, 1 page)</a></p>
+<p class="small">Gratuit, sans inscription.</p>
+<h2>Les papiers à ne pas oublier</h2>
+<p>C'est ce qu'on oublie le plus souvent, dans la précipitation du départ. Range-les dans une pochette, dans la poche extérieure de la valise :</p>
+<ul>
+<li>ta carte Vitale mise à jour et l'attestation de ta mutuelle ;</li>
+<li>une pièce d'identité ;</li>
+<li>ton dossier de suivi de grossesse avec les derniers résultats d'examens, et ta carte de groupe sanguin ;</li>
+<li>le livret de famille si vous êtes mariés ou avez déjà un enfant, et la reconnaissance anticipée si vous l'avez faite.</li>
+</ul>
+<h2>Combien de vêtements pour bébé dans la valise ?</h2>
+<p>Compte environ 6 bodies et 6 pyjamas, en taille naissance et 1 mois, car tu ne sais pas encore quelle taille ira. Ajoute 2 gilets chauds, un bonnet, des chaussettes et une gigoteuse. Pour les couches et les produits de toilette, demande à ta maternité : beaucoup les fournissent pendant le séjour.</p>
+<p>Notre conseil : lave les vêtements avant, et range chaque tenue complète dans un petit sac congélation avec le jour noté dessus. Ton ou ta partenaire trouvera tout de suite ce qu'il faut, sans retourner la valise.</p>
+<h2>Les erreurs fréquentes</h2>
+<ul>
+<li><strong>Le siège auto pas installé.</strong> La maternité te laisse rarement partir sans. Installe la coque dans la voiture avant le jour J et entraîne-toi à attacher la ceinture.</li>
+<li><strong>Trop de vêtements pour toi.</strong> Tu vivras surtout en pyjama ou en tenue ample. En revanche, prévois beaucoup de culottes et de serviettes spéciales maternité.</li>
+<li><strong>Ne pas demander la liste de la maternité.</strong> Chaque établissement a ses habitudes. Compare-la avec la nôtre et ajoute ce qui manque.</li>
+</ul>
+<p>Tu prépares aussi le matériel pour la maison ? Notre <a href="{R}liste-de-naissance-a-imprimer/">liste de naissance à imprimer</a> reprend tout l'équipement de bébé, et notre <a href="{R}checklist/">checklist en ligne</a> te permet de cocher au fur et à mesure.</p>
+<h2>Tu as un blog ou un groupe de futurs parents ?</h2>
+<p>Tu peux partager librement cette liste pour un usage non commercial. Merci de mettre un lien vers cette page plutôt que vers le fichier PDF, pour que tout le monde ait la dernière version.</p>
+""",
+  faq=[("Quand préparer sa valise de maternité ?", "Vers le 7e mois de grossesse, pour être prête si bébé arrive plus tôt que prévu. Garde-la ensuite près de la porte ou dans le coffre de la voiture."),
+       ("Quels papiers mettre dans la valise de maternité ?", "Carte Vitale à jour, attestation de mutuelle, pièce d'identité, dossier de suivi de grossesse et résultats d'examens, carte de groupe sanguin, et selon ta situation le livret de famille ou la reconnaissance anticipée."),
+       ("Faut-il emporter des couches à la maternité ?", "Ça dépend de l'établissement : beaucoup de maternités fournissent les couches pendant le séjour. Demande-le lors de ta visite ou de ton inscription.")],
+  short="Valise maternité à imprimer")
