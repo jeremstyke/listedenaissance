@@ -70,5 +70,4 @@
 - [x] meilleur-siege-auto-bebe/ | top 10 produits 2026 | publié le 15 nov 2026 (modèles vérifiés)
 - [x] meilleur-babyphone/ | top 10 produits 2026 | publié le 15 nov 2026 (modèles vérifiés)
 - [x] meilleur-lit-bebe/ | top 10 produits 2026 | publié le 15 nov 2026 (modèles vérifiés)
-- [x] (réservé : publication prévue le 23 nov, demande de Jeremy) black-friday-puericulture/ | black friday puériculture | matériel de puériculture à surveiller, produits de nos tops, sans prix ni remise inventés
 - [x] (réservé : publication prévue le 25 nov, demande de Jeremy) cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
