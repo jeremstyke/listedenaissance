@@ -10,7 +10,16 @@
 - [x] meilleur-transat-bebe/ | meilleur transat bébé | manuel, électrique
 - [x] meilleur-sac-a-langer/ | meilleur sac à langer | sac à dos, cabas
 - [x] meilleur-porte-bebe/ | meilleur porte-bébé physiologique | dès la naissance, ergonomique
+- [ ] meilleurs-jouets-1-an/ | meilleurs jouets 1 an | jouets d'éveil réellement vendus pour 12 mois, normes CE
+- [ ] meilleure-poussette-trio/ | meilleure poussette trio | nacelle, cosy, hamac
+- [ ] meilleur-siege-auto-pivotant/ | meilleur siège auto pivotant | i-Size 360
+- [ ] meilleur-cosy/ | meilleur cosy bébé | i-Size, base Isofix
+- [ ] meilleure-poussette-canne/ | meilleure poussette canne | légère, compacte
+- [ ] meilleure-poussette-double/ | meilleure poussette double | jumeaux, côte à côte, l'une derrière l'autre
+- [ ] meilleur-lit-cododo/ | meilleur lit cododo | côte à côte, sécurité du sommeil
 - [ ] meilleure-echarpe-de-portage/ | meilleure écharpe de portage | tissée, extensible, sling
+- [ ] meilleur-parc-bebe/ | meilleur parc bébé | pliant, bois
+- [ ] meilleur-preparateur-biberon/ | meilleur préparateur de biberon | automatique ; suivre les recommandations de préparation
 - [ ] meilleur-lit-parapluie/ | meilleur lit parapluie | léger, voyage, avec matelas
 - [ ] meilleur-tapis-d-eveil/ | meilleur tapis d'éveil | arches, lavable
 - [ ] meilleur-biberon/ | meilleur biberon anti-colique | verre, plastique, tétines
@@ -23,16 +32,7 @@
 - [ ] meilleure-veilleuse-bebe/ | meilleure veilleuse bébé | lumière douce, nomade
 - [ ] meilleur-coussin-allaitement/ | meilleur coussin d'allaitement | grossesse, allaitement
 - [ ] meilleure-table-a-langer/ | meilleure table à langer | murale, pliante, commode
-- [ ] meilleur-parc-bebe/ | meilleur parc bébé | pliant, bois
-- [ ] meilleur-siege-auto-pivotant/ | meilleur siège auto pivotant | i-Size 360
-- [ ] meilleure-poussette-canne/ | meilleure poussette canne | légère, compacte
-- [ ] meilleure-poussette-trio/ | meilleure poussette trio | nacelle, cosy, hamac
-- [ ] meilleure-poussette-double/ | meilleure poussette double | jumeaux, côte à côte, l'une derrière l'autre
-- [ ] meilleur-cosy/ | meilleur cosy bébé | i-Size, base Isofix
 - [ ] meilleur-mobile-bebe/ | meilleur mobile bébé | musical, lit
 - [ ] meilleur-humidificateur-bebe/ | meilleur humidificateur chambre bébé | ultrasons, entretien
-- [ ] meilleur-preparateur-biberon/ | meilleur préparateur de biberon | automatique ; suivre les recommandations de préparation
 - [ ] meilleure-barriere-securite/ | meilleure barrière de sécurité bébé | escalier, porte, fixation
-- [ ] meilleur-lit-cododo/ | meilleur lit cododo | côte à côte, sécurité du sommeil
 - [x] (réservé : publication prévue le 24 nov, demande de Jeremy) meilleurs-cadeaux-premier-noel-bebe/ | cadeaux premier Noël bébé | jouets et cadeaux réellement vendus, adaptés à l'âge, normes de sécurité
-- [ ] meilleurs-jouets-1-an/ | meilleurs jouets 1 an | jouets d'éveil réellement vendus pour 12 mois, normes CE

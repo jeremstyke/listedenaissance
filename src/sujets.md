@@ -4,6 +4,18 @@
 
 - [x] black-friday-liste-de-naissance-2026/ | black friday liste de naissance | demandé par Jeremy le 23 nov 2026, publié le 23 nov
 - [ ] cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
+- [ ] cadeau-1-an-bebe/ | cadeau 1 an bébé | idées par budget, jouets d'éveil adaptés à 12 mois, normes de sécurité, cadeaux souvenirs
+- [ ] cadeau-maman-apres-accouchement/ | cadeau pour maman après accouchement | idées utiles pour la maman (confort, repos, allaitement), cadeaux à éviter, offrir du temps
+- [ ] cadeau-naissance-grands-parents/ | cadeau de naissance des grands-parents | gros cadeaux utiles, souvenirs, livret d'épargne (info générale)
+- [ ] cadeau-parrain-marraine-naissance/ | cadeau de naissance parrain marraine | idées souvenirs et utiles, budget, cadeau symbolique
+- [ ] cadeau-grand-frere-grande-soeur-naissance/ | cadeau pour le grand frère à la naissance | idées par âge
+- [ ] cadeau-naissance-pas-cher/ | cadeau de naissance pas cher | idées utiles moins de 20 €
+- [ ] cadeau-naissance-collegue/ | cadeau de naissance pour une collègue | cagnotte de bureau, idées collectives, montant habituel, mot à écrire
+- [ ] porte-bebe-ou-echarpe-de-portage/ | porte-bébé ou écharpe de portage | comparatif clair, selon l'âge et l'usage
+- [ ] siege-auto-pivotant-ou-pas/ | siège auto pivotant ou pas | avantages, prix, voitures
+- [ ] comment-choisir-lit-parapluie/ | comment choisir un lit parapluie | poids, pliage, matelas, usage voyage
+- [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
+- [ ] comment-choisir-tapis-d-eveil/ | comment choisir un tapis d'éveil | arches, lavable, taille, évolutif
 - [ ] livre-audio-grossesse/ | livre audio grossesse | écouter des livres pendant la grossesse, le repos et les tétées de nuit (mains libres, yeux fermés), idées de genres, matériel simple (casque, enceinte) avec {AMZ}, lien {AUDIBLE} vers l'essai gratuit en bonne place ; idée cadeau pour future maman (relie cadeau-future-maman/)
 - [x] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
 - [x] comment-choisir-lit-bebe/ | comment choisir un lit bébé | taille 60x120 ou 70x140, évolutif, normes, sommier
@@ -16,21 +28,13 @@
 - [x] cadeau-naissance-utile-noel/ | cadeau de naissance utile Noël | idées par budget pour un bébé né à l'automne, tableau en haut, éviter les doublons avec une liste (publié le 22 nov à la demande de Jeremy)
 - [x] premier-noel-de-bebe/ | premier Noël de bébé cadeau | idées de cadeaux utiles et sûrs selon l'âge, ce qui est inutile, tradition et souvenirs ; liens Amazon ; à publier avant mi-décembre
 - [x] liste-de-naissance-combien-d-articles/ | combien d'articles dans une liste de naissance | nombre idéal, essentiels vs bonus, budget des invités
-- [ ] cadeau-1-an-bebe/ | cadeau 1 an bébé | idées par budget, jouets d'éveil adaptés à 12 mois, normes de sécurité, cadeaux souvenirs
 - [ ] bebe-aux-besoins-intenses/ | bébé aux besoins intenses BABI | reconnaître un bébé qui pleure beaucoup et veut être porté sans culpabiliser, ce qui aide au quotidien (portage, bruit blanc, emmaillotage sûr, relais entre parents), quoi ajouter à la liste de naissance (porte-bébé physiologique, écharpe, transat, veilleuse bruit blanc) ; rester général et renvoyer au pédiatre si inquiétude ; liens internes meilleur-porte-bebe/ et meilleur-transat-bebe/
-- [ ] comment-choisir-biberon/ | comment choisir un biberon | verre ou plastique, tétines, anti-coliques
 - [ ] liste-de-naissance-quand-la-faire/ | quand faire sa liste de naissance | mois idéal, avant ou après la baby shower, délais de livraison
-- [ ] cadeau-maman-apres-accouchement/ | cadeau pour maman après accouchement | idées utiles pour la maman (confort, repos, allaitement), cadeaux à éviter, offrir du temps
-- [ ] comment-choisir-lit-parapluie/ | comment choisir un lit parapluie | poids, pliage, matelas, usage voyage
-- [ ] comment-choisir-tapis-d-eveil/ | comment choisir un tapis d'éveil | arches, lavable, taille, évolutif
 - [ ] cadeau-naissance-combien-mettre/ | combien mettre dans un cadeau de naissance | repères selon le lien (famille, ami, collègue), participer à un gros cadeau, alternative de la liste
 - [ ] liste-de-naissance-que-mettre-en-premier/ | que mettre en premier dans une liste de naissance | priorités par ordre d'usage, gros articles à partager
 - [ ] comment-choisir-coussin-allaitement/ | comment choisir un coussin d'allaitement | rembourrage, housse, grossesse
-- [ ] cadeau-parrain-marraine-naissance/ | cadeau de naissance parrain marraine | idées souvenirs et utiles, budget, cadeau symbolique
 - [ ] comment-choisir-thermometre-bebe/ | comment choisir un thermomètre bébé | rectal, frontal, auriculaire, rester général et renvoyer au médecin
 - [ ] liste-de-naissance-petit-appartement/ | liste de naissance petit appartement | matériel pliable, multifonction, ce qu'on peut éviter
-- [ ] cadeau-naissance-collegue/ | cadeau de naissance pour une collègue | cagnotte de bureau, idées collectives, montant habituel, mot à écrire
-- [ ] porte-bebe-ou-echarpe-de-portage/ | porte-bébé ou écharpe de portage | comparatif clair, selon l'âge et l'usage
 - [ ] gigoteuse-quel-tog/ | gigoteuse quel TOG | tableau température / TOG, saison
 - [ ] remercier-cadeau-naissance/ | remercier pour un cadeau de naissance | modèles de messages courts, délai, carte ou message, remercier un groupe
 - [ ] liste-de-naissance-papa/ | liste de naissance côté papa | idées pratiques pour le papa (porte-bébé, sac à langer neutre, gadgets utiles)
@@ -45,14 +49,12 @@
 - [ ] liste-de-naissance-sans-amazon-ou-avec/ | liste de naissance Amazon avis | avantages (coffret, retours, 15 %), limites, alternatives
 - [ ] ce-quil-ne-faut-pas-acheter-pour-bebe/ | ce qu'il ne faut pas acheter pour bébé | achats inutiles
 - [ ] materiel-bebe-occasion/ | matériel bébé d'occasion | quoi acheter d'occasion ou neuf, sécurité
-- [ ] cadeau-naissance-grands-parents/ | cadeau de naissance des grands-parents | gros cadeaux utiles, souvenirs, livret d'épargne (info générale)
 - [ ] chaise-haute-a-partir-de-quel-age/ | chaise haute à partir de quel âge | repères, types
 - [ ] tapis-deveil-a-partir-de-quand/ | tapis d'éveil à partir de quand | usage dès la naissance
 - [ ] liste-de-naissance-mois-par-mois/ | de quoi bébé a besoin mois par mois | 0-3, 3-6, 6-12 mois, éviter d'acheter trop tôt
 - [ ] transat-bebe-des-la-naissance/ | transat bébé dès la naissance | durée d'usage, sécurité
 - [ ] poussette-canne-a-partir-de-quel-age/ | poussette canne à partir de quel âge | repères
 - [ ] liste-de-naissance-bebe-ne-au-printemps/ | liste de naissance bébé né au printemps | vêtements de mi-saison, poussette légère, ombrelle
-- [ ] siege-auto-pivotant-ou-pas/ | siège auto pivotant ou pas | avantages, prix, voitures
 - [ ] baignoire-bebe-ou-transat-de-bain/ | baignoire bébé ou transat de bain | comparatif
 - [ ] couches-lavables-combien/ | couches lavables combien en prévoir | quantités, budget
 - [ ] tire-lait-location-ou-achat/ | tire-lait location ou achat | location pharmacie, prescription
@@ -61,8 +63,6 @@
 - [ ] veilleuse-bebe-utile/ | veilleuse bébé utile | usages, lumière douce
 - [ ] mouche-bebe-lequel-choisir/ | mouche bébé lequel choisir | types, entretien
 - [ ] preparer-chambre-bebe-petit-budget/ | préparer la chambre de bébé petit budget | astuces
-- [ ] cadeau-naissance-pas-cher/ | cadeau de naissance pas cher | idées utiles moins de 20 €
-- [ ] cadeau-grand-frere-grande-soeur-naissance/ | cadeau pour le grand frère à la naissance | idées par âge
 - [ ] baby-shower-idees/ | baby shower idées | organisation, jeux, liste de naissance
 - [ ] liste-de-naissance-apres-la-naissance/ | liste de naissance après la naissance | tardive, cadeaux de visite
 - [ ] liste-de-naissance-adoption/ | liste de naissance pour une adoption | adapter à l'âge de l'enfant
