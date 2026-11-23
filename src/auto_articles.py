@@ -1881,7 +1881,7 @@ g("cadeau-naissance-utile-noel/",
 <tr><td>80 à 150 €</td><td>Porte-bébé physiologique, transat, babyphone vidéo</td><td>Libère les mains des parents dès les premières semaines</td><td>Le modèle choisi par les parents</td></tr>
 <tr><td>Plus de 150 €, à plusieurs</td><td>Poussette, siège auto, lit</td><td>Les plus grosses dépenses du premier hiver</td><td>La référence exacte, à fixer avec eux</td></tr>
 </tbody></table>
-<p>Ces fourchettes sont des repères : les prix varient selon les marques et les promotions de fin d'année.</p>
+<p>Ces fourchettes sont des repères : les prix varient selon les marques et les promotions de fin d'année. Pour les gros articles, voir aussi <a href="{R}black-friday-liste-de-naissance-2026/">ce qu'il faut surveiller pendant le Black Friday pour une liste de naissance</a>.</p>
 {CTA}
 <h2>Moins de 30 € : les petits cadeaux qui servent tous les jours</h2>
 <p>En hiver, un nouveau-né use vite ses <a href="{AMZ:body bebe manches longues coton lot}" rel="sponsored nofollow noopener" target="_blank">bodies à manches longues</a>. Prends la taille 3 ou 6 mois plutôt que naissance : bébé grandit vite, et les parents ont souvent déjà reçu beaucoup de petites tailles. Un bonnet en coton et des chaussons chauds complètent bien.</p>
@@ -1949,3 +1949,58 @@ g("valise-maternite-liste-a-imprimer/",
        ("Quels papiers mettre dans la valise de maternité ?", "Carte Vitale à jour, attestation de mutuelle, pièce d'identité, dossier de suivi de grossesse et résultats d'examens, carte de groupe sanguin, et selon ta situation le livret de famille ou la reconnaissance anticipée."),
        ("Faut-il emporter des couches à la maternité ?", "Ça dépend de l'établissement : beaucoup de maternités fournissent les couches pendant le séjour. Demande-le lors de ta visite ou de ton inscription.")],
   short="Valise maternité à imprimer")
+
+AUTO_META['black-friday-liste-de-naissance-2026/'] = ('🏷️', 'peche')
+g("black-friday-liste-de-naissance-2026/",
+  "Black Friday 2026 liste de naissance : quoi acheter ou attendre",
+  "Black Friday 2026 et liste de naissance : les produits à surveiller et les pièges",
+  "Black Friday le 27 novembre 2026 : les articles de puériculture de nos comparatifs à surveiller pour ta liste de naissance, et comment repérer une vraie baisse.",
+  """
+<p><strong>En bref</strong> : le Black Friday tombe le vendredi 27 novembre 2026. Pour une liste de naissance, il vaut surtout le coup sur les gros articles qu'on achète une seule fois (poussette, siège auto, lit, chaise haute), à condition d'avoir choisi le modèle avant et de vérifier que la baisse est réelle. Selon service-public.fr, une réduction affichée doit se comparer au prix pratiqué pendant au moins 30 jours avant.</p>
+<p>Si tu attends un bébé pour l'hiver ou le printemps, le Black Friday peut t'aider à boucler les grosses dépenses. Mais une promo sur le mauvais produit reste une mauvaise affaire. Chez Ma liste bébé, on te conseille une règle simple : on ne surveille que des modèles déjà choisis, repris ici de nos comparatifs.</p>
+{CTA}
+<h2>Les produits de nos comparatifs à surveiller</h2>
+<table><thead><tr><th>Produit</th><th>Comparatif</th><th>Pourquoi le guetter</th><th>À vérifier avant de cliquer</th></tr></thead><tbody>
+<tr><td>Stokke YOYO3</td><td>Poussettes</td><td>Grosse dépense, achetée une seule fois</td><td>La version (avec nacelle ou pack nouveau-né)</td></tr>
+<tr><td>Cybex Cloud T i-Size</td><td>Sièges auto</td><td>Indispensable dès la sortie de maternité</td><td>La référence exacte et la compatibilité avec ta voiture</td></tr>
+<tr><td>Philips Avent SCD892/26</td><td>Babyphones</td><td>Souvent offert, facile à mettre sur une liste</td><td>Le numéro de modèle complet</td></tr>
+<tr><td>Childhome lit évolutif 70x140</td><td>Lits bébé</td><td>Un lit qui dure plusieurs années</td><td>La taille, pour acheter le bon matelas</td></tr>
+<tr><td>Babycalin Hygiène Plus</td><td>Matelas bébé</td><td>À acheter neuf, idéal en même temps que le lit</td><td>Les dimensions exactes du lit</td></tr>
+<tr><td>Maxi-Cosi Minla</td><td>Chaises hautes</td><td>Sert dès la diversification, pas avant</td><td>Si tu en as vraiment besoin maintenant</td></tr>
+<tr><td>Medela Swing Maxi</td><td>Tire-laits</td><td>Utile si tu prévois de tirer ton lait souvent</td><td>Les conditions de location en pharmacie</td></tr>
+<tr><td>Ergobaby Omni Breeze</td><td>Porte-bébés</td><td>Un cadeau très apprécié des proches</td><td>La taille et le réglage dès la naissance</td></tr>
+</tbody></table>
+<p>Ces produits sont les premiers de nos comparatifs. Nous ne savons pas à l'avance lesquels seront en promotion : regarde le prix le jour même et compare-le avec celui des semaines précédentes.</p>
+
+<h2>Les gros achats : là où une baisse change vraiment quelque chose</h2>
+<h3>La poussette</h3>
+<p>C'est souvent l'achat le plus cher de la liste, donc celui où quelques pourcents comptent. La <a href="{AMZ:Stokke YOYO3 poussette}" rel="sponsored nofollow noopener" target="_blank">Stokke YOYO3</a> est notre choix global pour la ville. Attention aux packs : la même poussette se vend avec ou sans nacelle, avec ou sans coque, et une « super promo » peut concerner une version qui ne correspond pas à ton besoin. Tous les critères sont dans notre <a href="{R}meilleure-poussette/">comparatif des poussettes</a>.</p>
+<h3>Le siège auto</h3>
+<p>Ici, la règle d'or : jamais de compromis pour un prix. Le <a href="{AMZ:cybex cloud t i-size}" rel="sponsored nofollow noopener" target="_blank">Cybex Cloud T i-Size</a> arrive en tête de notre <a href="{R}meilleur-siege-auto-bebe/">comparatif des sièges auto</a>. Vérifie que la référence en promotion est exactement celle que tu as choisie (homologation i-Size indiquée sur la fiche), et qu'elle se fixe bien dans ta voiture, avec ou sans base.</p>
+<h3>Le lit et son matelas</h3>
+<p>Le <a href="{AMZ:childhome lit evolutif 70x140}" rel="sponsored nofollow noopener" target="_blank">lit évolutif Childhome 70x140</a> suit l'enfant pendant des années. Si tu le prends pendant le Black Friday, commande le matelas en même temps et à la taille exacte du lit : un matelas trop petit laisse un espace dangereux sur les côtés. Le <a href="{AMZ:babycalin matelas hygiene plus dehoussable}" rel="sponsored nofollow noopener" target="_blank">Babycalin Hygiène Plus</a> est notre premier choix ; achète-le neuf. Voir aussi le <a href="{R}meilleur-lit-bebe/">comparatif des lits bébé</a>.</p>
+
+<h2>Les achats qui peuvent attendre</h2>
+<p>La <a href="{AMZ:Maxi-Cosi Minla chaise haute}" rel="sponsored nofollow noopener" target="_blank">chaise haute Maxi-Cosi Minla</a> arrive en tête de notre <a href="{R}meilleure-chaise-haute/">comparatif des chaises hautes</a>, mais bébé ne s'en servira qu'au moment de la diversification. Si ta naissance est prévue au printemps, rien ne presse : il y aura d'autres occasions.</p>
+<p>Même logique pour le tire-lait. Le <a href="{AMZ:Medela Swing Maxi}" rel="sponsored nofollow noopener" target="_blank">Medela Swing Maxi</a> est notre choix pour tirer tous les jours, mais beaucoup de parents commencent par une location en pharmacie, prise en charge sur prescription. Parles-en avec ta sage-femme avant d'acheter. Détails dans notre <a href="{R}meilleur-tire-lait/">comparatif des tire-laits</a>.</p>
+
+<h2>Les cadeaux que la famille peut offrir pendant le Black Friday</h2>
+<p>Le Black Friday est aussi le moment où tes proches commencent leurs achats de Noël. Si ta liste est prête avant le 27 novembre, ils peuvent en profiter pour t'offrir un article qui y figure, sans risque de doublon. Deux bonnes idées de cadeau dans cette période : le babyphone <a href="{AMZ:Philips Avent SCD892/26 babyphone video}" rel="sponsored nofollow noopener" target="_blank">Philips Avent SCD892/26</a> et le porte-bébé <a href="{AMZ:Ergobaby Omni Breeze}" rel="sponsored nofollow noopener" target="_blank">Ergobaby Omni Breeze</a>.</p>
+<p>Si ta liste est sur Amazon, garde en tête la remise de fin de liste : notre guide sur les <a href="{R}code-liste15-amazon/">codes LISTE15 et LISTE10</a> explique comment elle fonctionne. Et pour comparer avec d'autres sites de liste, voir <a href="{R}ou-faire-sa-liste-de-naissance/">où faire sa liste de naissance</a>.</p>
+
+<h2>Comment savoir si c'est une vraie bonne affaire ?</h2>
+<ul>
+<li><strong>Regarde le prix de référence.</strong> Selon service-public.fr, une annonce de réduction doit indiquer le prix pratiqué pendant au moins 30 jours avant la réduction. Si le « prix barré » te paraît très haut, note le prix quelques jours avant et compare.</li>
+<li><strong>Vérifie la référence exacte.</strong> Une couleur, un pack ou une ancienne version peuvent changer beaucoup de choses, surtout pour une poussette ou un siège auto.</li>
+<li><strong>Lis les avis réels sur la fiche</strong>, en particulier ceux qui parlent de la durée dans le temps ou du service après-vente.</li>
+<li><strong>Ne te laisse pas presser.</strong> Les comptes à rebours et les « plus que 2 en stock » poussent à acheter vite. Un article qui n'était pas sur ta liste lundi n'en a pas besoin vendredi.</li>
+<li><strong>Connais ton droit de rétractation.</strong> Pour un achat en ligne, service-public.fr indique un délai minimum de 14 jours, à compter du lendemain de la réception. Certains produits ouverts et non retournables pour des raisons d'hygiène en sont exclus : vérifie avant d'ouvrir un tire-lait ou un article de soin.</li>
+</ul>
+<p>Notre conseil : fais ta liste maintenant, avec les modèles précis, puis ne regarde que ceux-là vendredi. Si tu ne sais pas encore quoi y mettre, commence par notre <a href="{R}checklist/">checklist de naissance</a>.</p>
+<p class="sources"><strong>Sources</strong> : <a href="https://entreprendre.service-public.gouv.fr/vosdroits/F34344" target="_blank" rel="noopener">service-public.fr, Affichage des prix : règles à respecter</a>, <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F10485" target="_blank" rel="noopener">service-public.fr, Achat à distance : droit de rétractation du consommateur</a> (vérifié le 23 novembre 2026)</p>
+""",
+  faq=[("Quelle est la date du Black Friday 2026 ?", "Le Black Friday 2026 a lieu le vendredi 27 novembre. Beaucoup de sites commencent leurs offres quelques jours avant et les prolongent jusqu'au Cyber Monday, le lundi suivant."),
+       ("Faut-il acheter sa poussette pendant le Black Friday ?", "Oui si tu as déjà choisi ton modèle et que la baisse est réelle : c'est l'un des achats les plus chers de la liste de naissance. Vérifie bien la version (nacelle, coque, pack) et compare le prix avec celui des semaines précédentes."),
+       ("Peut-on mettre des articles en promotion sur sa liste de naissance ?", "Oui. Le prix payé par la personne qui offre est celui affiché au moment de l'achat. Si ta liste est prête avant le 27 novembre, tes proches peuvent en profiter pour leurs cadeaux de Noël."),
+       ("Peut-on renvoyer un article acheté pendant le Black Friday ?", "Pour un achat en ligne, le droit de rétractation est d'au moins 14 jours à compter du lendemain de la réception, selon service-public.fr, promotion ou pas. Les produits ouverts et non retournables pour des raisons d'hygiène en sont exclus.")],
+  short="Black Friday liste de naissance")

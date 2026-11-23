@@ -2,6 +2,7 @@
 # Format : - [ ] slug/ | requête visée | angle
 # Cocher [x] une fois publié. Prendre toujours le premier sujet non coché.
 
+- [x] black-friday-liste-de-naissance-2026/ | black friday liste de naissance | demandé par Jeremy le 23 nov 2026, publié le 23 nov
 - [ ] cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
 - [ ] livre-audio-grossesse/ | livre audio grossesse | écouter des livres pendant la grossesse, le repos et les tétées de nuit (mains libres, yeux fermés), idées de genres, matériel simple (casque, enceinte) avec {AMZ}, lien {AUDIBLE} vers l'essai gratuit en bonne place ; idée cadeau pour future maman (relie cadeau-future-maman/)
 - [x] comment-choisir-son-babyphone/ | comment choisir son babyphone | portée, audio ou vidéo, ondes, autonomie
