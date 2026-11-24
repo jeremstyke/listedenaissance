@@ -2004,3 +2004,52 @@ g("black-friday-liste-de-naissance-2026/",
        ("Peut-on mettre des articles en promotion sur sa liste de naissance ?", "Oui. Le prix payé par la personne qui offre est celui affiché au moment de l'achat. Si ta liste est prête avant le 27 novembre, tes proches peuvent en profiter pour leurs cadeaux de Noël."),
        ("Peut-on renvoyer un article acheté pendant le Black Friday ?", "Pour un achat en ligne, le droit de rétractation est d'au moins 14 jours à compter du lendemain de la réception, selon service-public.fr, promotion ou pas. Les produits ouverts et non retournables pour des raisons d'hygiène en sont exclus.")],
   short="Black Friday liste de naissance")
+
+AUTO_META['cadeau-future-maman/'] = ('🎁', 'lilas')
+g("cadeau-future-maman/",
+  "Cadeau pour une future maman : idées utiles par budget",
+  "Cadeau pour une future maman : idées utiles pendant la grossesse",
+  "Quel cadeau offrir à une future maman ? Idées utiles par budget et par trimestre, cadeaux à éviter pendant la grossesse et astuce de la liste de naissance.",
+  """
+<p><strong>En bref</strong> : le meilleur cadeau pour une future maman, c'est ce qui l'aide à mieux dormir, à se reposer ou à préparer l'arrivée de bébé. Un coussin de grossesse, un vêtement ample et doux ou un livre sur la grossesse coûtent souvent entre 20 et 60 €, et servent tout de suite. Évite les huiles essentielles et les soins non adaptés à la grossesse : l'Anses appelle à la prudence pour les femmes enceintes.</p>
+<p>Tu cherches un <strong>cadeau pour une future maman</strong>, pour Noël, son anniversaire ou juste pour lui faire plaisir ? Bonne nouvelle : pendant la grossesse, les besoins sont très concrets. Le corps change, les nuits deviennent plus courtes, et la tête est déjà pleine de listes. Chez Ma liste bébé, on te conseille de viser le confort de la maman d'abord, bébé ensuite.</p>
+{CTA}
+<h2>Les idées de cadeaux classées par budget</h2>
+<table><thead><tr><th>Budget</th><th>Idées</th><th>Pourquoi ça plaît</th><th>Bon moment pour l'offrir</th></tr></thead><tbody>
+<tr><td>Moins de 25 €</td><td>Livre sur la grossesse, carnet de grossesse à remplir, chaussettes chaudes, tisane sans théine</td><td>Petit, personnel, utile tout de suite</td><td>Dès l'annonce</td></tr>
+<tr><td>25 à 60 €</td><td>Coussin de grossesse, pyjama d'allaitement, plaid doux, abonnement de livres audio</td><td>Aide à se reposer et sert encore après la naissance</td><td>2e trimestre</td></tr>
+<tr><td>60 à 150 €</td><td>Sac à langer, bijou de grossesse, séance photo de grossesse</td><td>Un cadeau qui marque le moment</td><td>2e ou 3e trimestre</td></tr>
+<tr><td>À plusieurs</td><td>Un gros article de la liste de naissance (poussette, siège auto)</td><td>Allège la plus grosse dépense des parents</td><td>Quand la liste est prête</td></tr>
+</tbody></table>
+<p>Ces fourchettes sont des repères : les prix changent selon les marques et les promotions. Regarde le prix du jour avant d'acheter.</p>
+<h2>Les cadeaux qui aident vraiment à se reposer</h2>
+<p>À partir du milieu de la grossesse, trouver une position pour dormir devient compliqué pour beaucoup de femmes. Le <a href="{AMZ:coussin de grossesse}" rel="sponsored nofollow noopener" target="_blank">coussin de grossesse</a> se glisse entre les genoux ou sous le ventre, et il sert ensuite pour les tétées, en version <a href="{AMZ:coussin d'allaitement}" rel="sponsored nofollow noopener" target="_blank">coussin d'allaitement</a>. Avant d'acheter, regarde la taille de son lit : certains modèles en forme de U prennent beaucoup de place.</p>
+<p>Le pyjama compte aussi. Un <a href="{AMZ:pyjama grossesse allaitement}" rel="sponsored nofollow noopener" target="_blank">pyjama de grossesse et d'allaitement</a> à ouverture facile se porte pendant la grossesse, à la maternité et les mois suivants. Prends sa taille habituelle si le modèle est prévu pour la grossesse, et choisis une matière douce, comme le coton.</p>
+<p>Pour les soirées sur le canapé, un plaid bien chaud et une paire de chaussettes douces sont des petits cadeaux qui font plaisir, surtout en hiver.</p>
+<h2>Les cadeaux pour occuper l'esprit</h2>
+<p>Un livre est un cadeau simple et apprécié, à condition de choisir un ouvrage récent et sérieux. On en a sélectionné plusieurs dans notre page <a href="{R}meilleurs-livres-grossesse/">meilleurs livres sur la grossesse</a>. Pour un cadeau plus personnel, un <a href="{AMZ:carnet de grossesse a remplir}" rel="sponsored nofollow noopener" target="_blank">carnet de grossesse à remplir</a> permet de garder les échographies, les premières sensations et les petites anecdotes.</p>
+<p>Si elle n'a plus le temps de lire, pense aux livres audio : on les écoute allongée, en marchant ou pendant les nuits sans sommeil. Tu peux lui proposer d'<a href="{AUDIBLE}" rel="sponsored nofollow noopener" target="_blank">essayer Audible gratuitement</a> : l'essai donne droit à un livre audio offert, il se résilie à tout moment, et le livre reste à elle après la résiliation.</p>
+<h2>Les cadeaux qui préparent l'arrivée de bébé</h2>
+<p>Beaucoup de futures mamans préfèrent recevoir quelque chose pour bébé. Dans ce cas, le plus simple est de passer par leur liste de naissance : tu es sûr d'offrir un article voulu, sans doublon. Un <a href="{AMZ:sac a langer}" rel="sponsored nofollow noopener" target="_blank">sac à langer</a> est un bon exemple, car il sert dès la sortie de maternité. Si tu hésites sur le modèle, notre <a href="{R}meilleur-sac-a-langer/">comparatif des sacs à langer</a> peut t'aider.</p>
+<p>Tu peux aussi l'aider à préparer sa valise : notre <a href="{R}valise-maternite-liste-a-imprimer/">liste de la valise de maternité à imprimer</a> se glisse très bien dans une carte, avec quelques produits de la liste dedans.</p>
+<h2>Quels cadeaux éviter pour une femme enceinte ?</h2>
+<ul>
+<li><strong>Les huiles essentielles et diffuseurs</strong> : selon l'Anses, certaines huiles essentielles présentent des risques, et la prudence est demandée pendant la grossesse. Mieux vaut ne pas en offrir sans avis d'un médecin ou d'une sage-femme.</li>
+<li><strong>Le vin, le champagne et les chocolats à la liqueur</strong> : Santé publique France recommande zéro alcool pendant la grossesse.</li>
+<li><strong>Les bons pour un hammam, un sauna ou un spa</strong> : la chaleur forte est souvent déconseillée aux femmes enceintes. Si tu veux offrir un moment de détente, choisis un soin prévu pour la grossesse, et laisse-la en parler avec sa sage-femme.</li>
+<li><strong>Les vêtements de grossesse trop ajustés</strong> : son corps change chaque mois. Préfère des matières extensibles, ou un bon d'achat.</li>
+<li><strong>Les produits de beauté au hasard</strong> : certaines femmes enceintes deviennent sensibles aux odeurs. Si tu offres une crème, choisis-la sans parfum, et laisse-la vérifier la composition.</li>
+</ul>
+<p>Pour toute question de santé, le bon interlocuteur reste son médecin ou sa sage-femme.</p>
+<h2>Et si c'est un cadeau pour le couple ?</h2>
+<p>Si tu veux aussi gâter le futur papa, on a une page dédiée : <a href="{R}cadeau-futur-papa/">idées de cadeaux pour un futur papa</a>. Et pour offrir quelque chose après la naissance, regarde nos <a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a>.</p>
+<h2>Notre conseil : offrir du temps</h2>
+<p>Le cadeau qu'on oublie le plus souvent ne coûte presque rien : du temps. Préparer quelques plats à congeler, l'aider à monter les meubles de la chambre, ou l'accompagner faire les magasins pour la liste de naissance. Écris-le sur une jolie carte, avec une date précise, pour qu'elle ose te le demander.</p>
+<p>Et si elle n'a pas encore commencé sa liste, offre-lui de l'aider à la faire avec notre <a href="{R}checklist/">checklist de naissance</a>. Elle peut ensuite choisir le site qui lui convient : on compare les options dans <a href="{R}ou-faire-sa-liste-de-naissance/">où faire sa liste de naissance</a>.</p>
+<p class="sources"><strong>Sources</strong> : <a href="https://www.anses.fr/fr/content/huiles-essentielles-risques-et-precautions" target="_blank" rel="noopener">Anses, Huiles essentielles : risques et précautions</a>, <a href="https://www.santepubliquefrance.fr/determinants-de-sante/alcool" target="_blank" rel="noopener">Santé publique France, Alcool</a> (vérifié le 24 novembre 2026)</p>
+""",
+  faq=[("Quel cadeau offrir à une future maman ?", "Les cadeaux les plus appréciés aident à se reposer : coussin de grossesse, pyjama d'allaitement, plaid doux ou livre audio. Si elle préfère un cadeau pour bébé, choisis un article de sa liste de naissance pour éviter les doublons."),
+       ("Quel cadeau pour une femme enceinte à moins de 30 € ?", "Un livre sur la grossesse, un carnet de grossesse à remplir, des chaussettes chaudes ou une tisane sans théine. Ce sont de petits cadeaux personnels qui servent tout de suite."),
+       ("Quels cadeaux éviter pour une femme enceinte ?", "Évite l'alcool, les huiles essentielles, les bons pour un sauna ou un hammam et les vêtements trop ajustés. En cas de doute sur un soin ou un produit, elle peut demander l'avis de son médecin ou de sa sage-femme."),
+       ("Quand offrir un cadeau à une future maman ?", "À n'importe quel moment de la grossesse. Un petit cadeau personnel à l'annonce, un cadeau de confort au 2e trimestre, et un article de la liste de naissance quand elle est prête.")],
+  short="Cadeau future maman")

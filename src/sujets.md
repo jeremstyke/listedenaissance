@@ -3,7 +3,7 @@
 # Cocher [x] une fois publié. Prendre toujours le premier sujet non coché.
 
 - [x] black-friday-liste-de-naissance-2026/ | black friday liste de naissance | demandé par Jeremy le 23 nov 2026, publié le 23 nov
-- [ ] cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
+- [x] cadeau-future-maman/ | cadeau pour une future maman | idées utiles pendant la grossesse, par budget, à éviter, lien vers la liste de naissance
 - [ ] cadeau-1-an-bebe/ | cadeau 1 an bébé | idées par budget, jouets d'éveil adaptés à 12 mois, normes de sécurité, cadeaux souvenirs
 - [ ] cadeau-maman-apres-accouchement/ | cadeau pour maman après accouchement | idées utiles pour la maman (confort, repos, allaitement), cadeaux à éviter, offrir du temps
 - [ ] cadeau-naissance-grands-parents/ | cadeau de naissance des grands-parents | gros cadeaux utiles, souvenirs, livret d'épargne (info générale)
