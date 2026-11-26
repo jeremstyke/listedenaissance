@@ -24,7 +24,7 @@ CONTACT = 'contact@cvlibre.com'
 YEAR = 2026
 AMZ_LIST = 'https://www.amazon.fr/baby-reg/homepage?tag=' + TAG
 AMZ_WEDDING = 'https://www.amazon.fr/wedding?tag=' + TAG   # prime liste de mariage
-DISCLOSURE = "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises."
+DISCLOSURE = "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises. Certains liens vers d'autres boutiques sont aussi des liens affiliés."
 
 def amz(q):
     return 'https://www.amazon.fr/s?k=' + quote_plus(q) + '&tag=' + TAG
