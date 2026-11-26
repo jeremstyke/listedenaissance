@@ -1897,6 +1897,7 @@ g("cadeau-naissance-utile-noel/",
 <p>Pour la poussette, le siège auto ou le lit, le plus simple est de se regrouper : famille, amis ou collègues. Ces articles sont très personnels, alors ne choisis pas à la place des parents. Propose-leur de les ajouter à leur liste, puis organisez-vous pour financer ensemble la référence exacte.</p>
 <h2>Comment éviter les cadeaux en double à Noël ?</h2>
 <p>À Noël, tout le monde offre en même temps : c'est la meilleure recette pour recevoir trois tapis d'éveil. La solution, c'est une liste partagée. Sur une <a href="{R}liste-de-naissance-amazon/">liste de naissance Amazon</a>, un article acheté par un proche est indiqué comme acheté, ce qui évite les doublons. Les parents peuvent la créer même après la naissance, et la remise de fin de liste s'applique jusqu'à 90 jours après la date d'arrivée prévue, selon les conditions affichées par Amazon.</p>
+<p>Si la famille fait aussi un <a href="https://qui-offre-a-qui.fr/pere-noel-secret-famille/">Père Noël secret entre adultes</a>, chacun n'a plus qu'un cadeau à trouver : il reste du budget pour bébé.</p>
 <p>Si les parents préfèrent un autre site ou une cagnotte, c'est très bien aussi : on compare les options dans <a href="{R}ou-faire-sa-liste-de-naissance/">où faire sa liste de naissance</a>. L'essentiel, c'est qu'une seule liste circule dans la famille. Les parents peuvent la remplir avec notre <a href="{R}checklist/">checklist</a>.</p>
 <h2>Quels cadeaux éviter pour un nouveau-né à Noël ?</h2>
 <ul>
