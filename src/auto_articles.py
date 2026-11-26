@@ -1589,6 +1589,7 @@ g("premier-noel-de-bebe/",
 <p>Pour d'autres idées, notre page d'<a href="{R}idees-cadeau-de-naissance/">idées de cadeau de naissance</a> marche aussi très bien pour Noël, et notre <a href="{R}liste-de-naissance-originale/">liste de naissance originale</a> propose des pistes moins attendues.</p>
 <h2>Faut-il faire une liste de Noël pour bébé ?</h2>
 <p>Oui, et ce n'est pas impoli. Les proches demandent presque toujours « qu'est-ce qui lui ferait plaisir ? », et une liste leur évite de chercher. Tu peux reprendre ta liste de naissance, retirer ce qui a été offert et ajouter les tailles de vêtements actuelles et deux ou trois jouets adaptés à son âge.</p>
+<p>Et pour les grands ? L'année d'une naissance, beaucoup de familles passent à un Père Noël secret entre adultes : chacun n'offre qu'un cadeau, et le budget reste raisonnable. Le tirage se fait en 2 minutes sur <a href="https://qui-offre-a-qui.fr/">Qui offre à qui</a>, gratuit et sans compte.</p>
 <p>Envoie-la début décembre, avant la course aux cadeaux. Pour faire le point sur ce qu'il te manque encore, coche au fur et à mesure dans notre <a href="{R}checklist/">checklist de naissance</a>.</p>
 <p>Enfin, un dernier point souvent oublié : le premier Noël, c'est aussi beaucoup de monde, de bras qui se passent bébé, de bruit et de veillées tardives. Prévois un coin calme pour la sieste. Si ton bébé est né prématurément ou en plein hiver, et que tu t'inquiètes des rassemblements et des virus de saison, parles-en à ton pédiatre ou à ta sage-femme avant les fêtes.</p>
 """,
