@@ -10,7 +10,7 @@
 - [x] meilleur-transat-bebe/ | meilleur transat bébé | manuel, électrique
 - [x] meilleur-sac-a-langer/ | meilleur sac à langer | sac à dos, cabas
 - [x] meilleur-porte-bebe/ | meilleur porte-bébé physiologique | dès la naissance, ergonomique
-- [ ] meilleurs-cadeaux-premier-noel-bebe/ | cadeaux premier Noël bébé | jouets et cadeaux réellement vendus, adaptés à l'âge, normes de sécurité
+- [x] meilleurs-cadeaux-premier-noel-bebe/ | cadeaux premier Noël bébé | jouets et cadeaux réellement vendus, adaptés à l'âge, normes de sécurité
 - [ ] meilleurs-jouets-1-an/ | meilleurs jouets 1 an | jouets d'éveil réellement vendus pour 12 mois, normes CE
 - [ ] meilleure-poussette-trio/ | meilleure poussette trio | nacelle, cosy, hamac
 - [ ] meilleur-siege-auto-pivotant/ | meilleur siège auto pivotant | i-Size 360
